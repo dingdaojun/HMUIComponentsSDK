@@ -1,0 +1,16 @@
+PODS:
+  - AZQuantity (0.2.11)
+
+DEPENDENCIES:
+  - AZQuantity (= 0.2.11)
+
+SPEC REPOS:
+  ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS:
+    - AZQuantity
+
+SPEC CHECKSUMS:
+  AZQuantity: b1cc33758cbc0d22bc169e4fd999b858ca404a02
+
+PODFILE CHECKSUM: 2ea8a483ad36b9c3a96ac01f9274e16e6a39946c
+
+COCOAPODS: 1.6.0.beta.1

@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'HMCategory_Example' do
+  pod 'HMCategory', :path => '../', :subspecs => ['HMCategoryMifitKit']
+
+  target 'HMCategory_Tests' do
+    inherit! :search_paths
+    
+  end
+end

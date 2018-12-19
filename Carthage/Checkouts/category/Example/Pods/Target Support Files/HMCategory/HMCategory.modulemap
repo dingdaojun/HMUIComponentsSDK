@@ -1,0 +1,6 @@
+framework module HMCategory {
+  umbrella header "HMCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

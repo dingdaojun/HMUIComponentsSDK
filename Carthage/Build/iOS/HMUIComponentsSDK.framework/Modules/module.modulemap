@@ -1,0 +1,6 @@
+framework module HMUIComponentsSDK {
+  umbrella header "HMUIComponentsSDK.h"
+
+  export *
+  module * { export * }
+}

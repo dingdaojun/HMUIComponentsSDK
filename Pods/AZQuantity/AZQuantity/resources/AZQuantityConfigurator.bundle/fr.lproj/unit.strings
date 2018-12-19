@@ -1,0 +1,31 @@
+/* 
+  AZSport.strings
+  HuamiWatch
+  Created by Jackie Chen on 02/08/2017.
+  Copyright © 2017 Huami. All rights reserved.
+*/
+"克" = "g";
+"公斤" = "kg";
+"斤" = "Jin";
+"磅" = "lbs";
+"米" = "m";
+"厘米" = "cm";
+"公里" = "km";
+"英尺" = "pi";
+"英寸" = "pouce";
+"英里" = "mi";
+"卡" = "Cal";
+"千卡" = "kCal";
+"次" = "séances";
+"%" = "%";
+"公里/小时" = "km/h";
+"英里/小时" = "mi/h";
+"米/秒" = "m/s";
+"分/米" = "min/m";
+"分/百米" = "min/100 m";
+"分/公里" = "min/km";
+"分/英里" = "min/mi";
+"码" = "yd";
+"码/小时" = "yd/h";
+"分/百码" = "min/100 yd";
+"分/码" = "min/yd";

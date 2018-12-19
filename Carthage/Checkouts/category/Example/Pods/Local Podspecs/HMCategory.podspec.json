@@ -1,0 +1,182 @@
+{
+  "name": "HMCategory",
+  "version": "0.4.10",
+  "summary": "Huami iOS development based on extension category library.",
+  "description": "1. FoundationKit Category Library for Developer.\n2. UIKit Category Library For Developer.\n3. Default Category library is HMCategoryKit.\n4. We also provide category which connected with bussiness AppCategory, for example: HMCategoryMifitKit, HMCategoryHealthKit.",
+  "homepage": "https://internal.smartdevices.com.cn:8080/#/admin/projects/apps/ios/libs/category",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "congni": "yubiao@huami.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category",
+    "tag": "0.4.10"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "HMCategoryKit",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "HMCategoryKit/HMCategoryDefine.h",
+      "private_header_files": "HMCategoryKit/HMCategoryDefine.h"
+    },
+    {
+      "name": "HMCategoryKit",
+      "source_files": "HMCategoryKit/HMCategoryKit.h",
+      "dependencies": {
+        "HMCategory/Base": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "FoundationKit",
+          "subspecs": [
+            {
+              "name": "NSArray",
+              "source_files": "HMCategoryKit/FoundationKit/NSArray/*"
+            },
+            {
+              "name": "NSDateFormatter",
+              "source_files": "HMCategoryKit/FoundationKit/NSDateFormatter/*"
+            },
+            {
+              "name": "NSData",
+              "source_files": "HMCategoryKit/FoundationKit/NSData/*"
+            },
+            {
+              "name": "NSDate",
+              "dependencies": {
+                "HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter": [
+
+                ]
+              },
+              "source_files": "HMCategoryKit/FoundationKit/NSDate/*"
+            },
+            {
+              "name": "NSDictionary",
+              "dependencies": {
+                "HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter": [
+
+                ]
+              },
+              "source_files": "HMCategoryKit/FoundationKit/NSDictionary/*"
+            },
+            {
+              "name": "NSLocal",
+              "source_files": "HMCategoryKit/FoundationKit/NSLocal/*"
+            },
+            {
+              "name": "NSCalendar",
+              "source_files": "HMCategoryKit/FoundationKit/NSCalendar/*"
+            },
+            {
+              "name": "NSNotificationCenter",
+              "source_files": "HMCategoryKit/FoundationKit/NSNotificationCenter/*"
+            },
+            {
+              "name": "NSObject",
+              "source_files": "HMCategoryKit/FoundationKit/NSObject/*"
+            },
+            {
+              "name": "NSString",
+              "dependencies": {
+                "HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter": [
+
+                ],
+                "HMCategory/HMCategoryKit/FoundationKit/NSDate": [
+
+                ]
+              },
+              "source_files": "HMCategoryKit/FoundationKit/NSString/*"
+            },
+            {
+              "name": "NSTimer",
+              "source_files": "HMCategoryKit/FoundationKit/NSTimer/*"
+            }
+          ]
+        },
+        {
+          "name": "UIKit",
+          "subspecs": [
+            {
+              "name": "UIApplication",
+              "source_files": "HMCategoryKit/UIKit/UIApplication/*"
+            },
+            {
+              "name": "UIButton",
+              "source_files": "HMCategoryKit/UIKit/UIButton/*"
+            },
+            {
+              "name": "UIImageView",
+              "source_files": "HMCategoryKit/UIKit/UIImageView/*"
+            },
+            {
+              "name": "UILabel",
+              "source_files": "HMCategoryKit/UIKit/UILabel/*"
+            },
+            {
+              "name": "UITextField",
+              "source_files": "HMCategoryKit/UIKit/UITextField/*"
+            },
+            {
+              "name": "UIColor",
+              "source_files": "HMCategoryKit/UIKit/UIColor/*"
+            },
+            {
+              "name": "UIDevice",
+              "dependencies": {
+                "HMCategory/HMCategoryKit/UIKit/UIApplication": [
+
+                ]
+              },
+              "source_files": "HMCategoryKit/UIKit/UIDevice/*"
+            },
+            {
+              "name": "UIImage",
+              "source_files": "HMCategoryKit/UIKit/UIImage/*"
+            },
+            {
+              "name": "UIScrollView",
+              "source_files": "HMCategoryKit/UIKit/UIScrollView/*"
+            },
+            {
+              "name": "UITextView",
+              "source_files": "HMCategoryKit/UIKit/UITextView/*"
+            },
+            {
+              "name": "UIView",
+              "source_files": "HMCategoryKit/UIKit/UIView/*"
+            },
+            {
+              "name": "UIWindow",
+              "source_files": "HMCategoryKit/UIKit/UIWindow/*"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMCategoryMifitKit",
+      "dependencies": {
+        "HMCategory/HMCategoryKit": [
+
+        ]
+      },
+      "source_files": "HMCategoryMifitKit"
+    },
+    {
+      "name": "HMCategoryHealthKit",
+      "source_files": "HMCategoryHealthKit"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFC6480F73C531D9A568F59D /* libPods-HMUIComponentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */; };
+		F71BDE9B21CA285700493AB8 /* HMUIComponentsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEC421CA28B300493AB8 /* HMDesignTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA221CA28B300493AB8 /* HMDesignTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEC521CA28B300493AB8 /* HMDesignTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEA321CA28B300493AB8 /* HMDesignTools.m */; };
+		F71BDEC621CA28B300493AB8 /* UIImage+HMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */; };
+		F71BDEC721CA28B300493AB8 /* UIImage+HMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEC821CA28B400493AB8 /* NSDictionary+HMAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEC921CA28B400493AB8 /* NSDictionary+HMAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */; };
+		F71BDECA21CA28B400493AB8 /* UIColor+HMCommonColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDECB21CA28B400493AB8 /* UIColor+HMCommonColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */; };
+		F71BDECC21CA28B400493AB8 /* UIView+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEAF21CA28B300493AB8 /* UIView+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDECD21CA28B400493AB8 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */; };
+		F71BDECE21CA28B400493AB8 /* UIView+DesignStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDECF21CA28B400493AB8 /* UIView+Subviews.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */; };
+		F71BDED021CA28B400493AB8 /* UIView+DesignStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */; };
+		F71BDED121CA28B400493AB8 /* UIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDED221CA28B400493AB8 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB521CA28B300493AB8 /* UIView+Size.m */; };
+		F71BDED321CA28B400493AB8 /* UIView+Subviews.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDED421CA28B400493AB8 /* NSString+AZQuantityStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */; };
+		F71BDED521CA28B400493AB8 /* NSString+HMStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDED621CA28B400493AB8 /* NSString+HMStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */; };
+		F71BDED721CA28B400493AB8 /* NSString+AZQuantityStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDED821CA28B400493AB8 /* UIControl+HMTargetAndAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */; };
+		F71BDEDA21CA28B400493AB8 /* NSAttributedString+HMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71BDEDC21CA28B400493AB8 /* NSAttributedString+HMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */; };
+		F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMUIComponentsSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.release.xcconfig"; path = "Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.debug.xcconfig"; path = "Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMUIComponentsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMUIComponentsSDK.h; sourceTree = "<group>"; };
+		F71BDE9A21CA285700493AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F71BDEA221CA28B300493AB8 /* HMDesignTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDesignTools.h; sourceTree = "<group>"; };
+		F71BDEA321CA28B300493AB8 /* HMDesignTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDesignTools.m; sourceTree = "<group>"; };
+		F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HMGradient.m"; sourceTree = "<group>"; };
+		F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HMGradient.h"; sourceTree = "<group>"; };
+		F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HMAttributes.h"; sourceTree = "<group>"; };
+		F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HMAttributes.m"; sourceTree = "<group>"; };
+		F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMCommonColors.h"; sourceTree = "<group>"; };
+		F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMCommonColors.m"; sourceTree = "<group>"; };
+		F71BDEAF21CA28B300493AB8 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DesignStyle.h"; sourceTree = "<group>"; };
+		F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subviews.m"; sourceTree = "<group>"; };
+		F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DesignStyle.m"; sourceTree = "<group>"; };
+		F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		F71BDEB521CA28B300493AB8 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Subviews.h"; sourceTree = "<group>"; };
+		F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AZQuantityStringBuilder.m"; sourceTree = "<group>"; };
+		F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMStringBuilder.h"; sourceTree = "<group>"; };
+		F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMStringBuilder.m"; sourceTree = "<group>"; };
+		F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AZQuantityStringBuilder.h"; sourceTree = "<group>"; };
+		F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HMTargetAndAction.h"; sourceTree = "<group>"; };
+		F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HMTargetAndAction.m"; sourceTree = "<group>"; };
+		F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMUtility.h"; sourceTree = "<group>"; };
+		F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMAttributedStringBuilder.h"; sourceTree = "<group>"; };
+		F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMUtility.m"; sourceTree = "<group>"; };
+		F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMAttributedStringBuilder.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F71BDE9321CA285700493AB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC6480F73C531D9A568F59D /* libPods-HMUIComponentsSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2504F93E9F3A23DF50214A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		112C6E7D3C842973B46BE6A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */,
+				70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F71BDE8C21CA285700493AB8 = {
+			isa = PBXGroup;
+			children = (
+				F71BDE9821CA285700493AB8 /* HMUIComponentsSDK */,
+				F71BDE9721CA285700493AB8 /* Products */,
+				112C6E7D3C842973B46BE6A3 /* Pods */,
+				0A2504F93E9F3A23DF50214A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F71BDE9721CA285700493AB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F71BDE9821CA285700493AB8 /* HMUIComponentsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEA421CA28B300493AB8 /* Category */,
+				F71BDEA121CA28B300493AB8 /* DesignTools */,
+				F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */,
+				F71BDE9A21CA285700493AB8 /* Info.plist */,
+			);
+			path = HMUIComponentsSDK;
+			sourceTree = "<group>";
+		};
+		F71BDEA121CA28B300493AB8 /* DesignTools */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEA221CA28B300493AB8 /* HMDesignTools.h */,
+				F71BDEA321CA28B300493AB8 /* HMDesignTools.m */,
+			);
+			path = DesignTools;
+			sourceTree = "<group>";
+		};
+		F71BDEA421CA28B300493AB8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEA521CA28B300493AB8 /* UIImage */,
+				F71BDEA821CA28B300493AB8 /* NSDictionary */,
+				F71BDEAB21CA28B300493AB8 /* UIColor */,
+				F71BDEAE21CA28B300493AB8 /* UIView */,
+				F71BDEB721CA28B300493AB8 /* NSString */,
+				F71BDEBC21CA28B300493AB8 /* UIControl */,
+				F71BDEBF21CA28B300493AB8 /* NSAttributedString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F71BDEA521CA28B300493AB8 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */,
+				F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		F71BDEA821CA28B300493AB8 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */,
+				F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		F71BDEAB21CA28B300493AB8 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */,
+				F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		F71BDEAE21CA28B300493AB8 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEAF21CA28B300493AB8 /* UIView+Size.h */,
+				F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */,
+				F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */,
+				F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */,
+				F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */,
+				F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */,
+				F71BDEB521CA28B300493AB8 /* UIView+Size.m */,
+				F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F71BDEB721CA28B300493AB8 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */,
+				F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */,
+				F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */,
+				F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		F71BDEBC21CA28B300493AB8 /* UIControl */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */,
+				F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */,
+			);
+			path = UIControl;
+			sourceTree = "<group>";
+		};
+		F71BDEBF21CA28B300493AB8 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */,
+				F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */,
+				F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */,
+				F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F71BDE9121CA285700493AB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BDECC21CA28B400493AB8 /* UIView+Size.h in Headers */,
+				F71BDE9B21CA285700493AB8 /* HMUIComponentsSDK.h in Headers */,
+				F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */,
+				F71BDECE21CA28B400493AB8 /* UIView+DesignStyle.h in Headers */,
+				F71BDED121CA28B400493AB8 /* UIView+Snapshot.h in Headers */,
+				F71BDEC721CA28B300493AB8 /* UIImage+HMGradient.h in Headers */,
+				F71BDED721CA28B400493AB8 /* NSString+AZQuantityStringBuilder.h in Headers */,
+				F71BDED821CA28B400493AB8 /* UIControl+HMTargetAndAction.h in Headers */,
+				F71BDEC421CA28B300493AB8 /* HMDesignTools.h in Headers */,
+				F71BDED321CA28B400493AB8 /* UIView+Subviews.h in Headers */,
+				F71BDECA21CA28B400493AB8 /* UIColor+HMCommonColors.h in Headers */,
+				F71BDED521CA28B400493AB8 /* NSString+HMStringBuilder.h in Headers */,
+				F71BDEDA21CA28B400493AB8 /* NSAttributedString+HMUtility.h in Headers */,
+				F71BDEC821CA28B400493AB8 /* NSDictionary+HMAttributes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F71BDE9521CA285700493AB8 /* HMUIComponentsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71BDE9E21CA285700493AB8 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */;
+			buildPhases = (
+				1D4EE4CD7CA750D23D6D6FA4 /* [CP] Check Pods Manifest.lock */,
+				F71BDE9121CA285700493AB8 /* Headers */,
+				F71BDE9221CA285700493AB8 /* Sources */,
+				F71BDE9321CA285700493AB8 /* Frameworks */,
+				F71BDE9421CA285700493AB8 /* Resources */,
+				FABBA0CD593DE31A9FC1D9E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMUIComponentsSDK;
+			productName = HMUIComponentsSDK;
+			productReference = F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F71BDE8D21CA285700493AB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "童星";
+				TargetAttributes = {
+					F71BDE9521CA285700493AB8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F71BDE9021CA285700493AB8 /* Build configuration list for PBXProject "HMUIComponentsSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F71BDE8C21CA285700493AB8;
+			productRefGroup = F71BDE9721CA285700493AB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F71BDE9521CA285700493AB8 /* HMUIComponentsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F71BDE9421CA285700493AB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D4EE4CD7CA750D23D6D6FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HMUIComponentsSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABBA0CD593DE31A9FC1D9E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh",
+				"${PODS_ROOT}/AZQuantity/AZQuantity/resources/AZQuantityConfigurator.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AZQuantityConfigurator.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F71BDE9221CA285700493AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F71BDECF21CA28B400493AB8 /* UIView+Subviews.m in Sources */,
+				F71BDEC621CA28B300493AB8 /* UIImage+HMGradient.m in Sources */,
+				F71BDEC521CA28B300493AB8 /* HMDesignTools.m in Sources */,
+				F71BDED621CA28B400493AB8 /* NSString+HMStringBuilder.m in Sources */,
+				F71BDECD21CA28B400493AB8 /* UIView+Snapshot.m in Sources */,
+				F71BDEDC21CA28B400493AB8 /* NSAttributedString+HMUtility.m in Sources */,
+				F71BDEC921CA28B400493AB8 /* NSDictionary+HMAttributes.m in Sources */,
+				F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */,
+				F71BDECB21CA28B400493AB8 /* UIColor+HMCommonColors.m in Sources */,
+				F71BDED021CA28B400493AB8 /* UIView+DesignStyle.m in Sources */,
+				F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */,
+				F71BDED421CA28B400493AB8 /* NSString+AZQuantityStringBuilder.m in Sources */,
+				F71BDED221CA28B400493AB8 /* UIView+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F71BDE9C21CA285700493AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F71BDE9D21CA285700493AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F71BDE9F21CA285700493AB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HMUIComponentsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.HMUIComponentsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		F71BDEA021CA285700493AB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = HMUIComponentsSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.HMUIComponentsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F71BDE9021CA285700493AB8 /* Build configuration list for PBXProject "HMUIComponentsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BDE9C21CA285700493AB8 /* Debug */,
+				F71BDE9D21CA285700493AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71BDE9E21CA285700493AB8 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F71BDE9F21CA285700493AB8 /* Debug */,
+				F71BDEA021CA285700493AB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F71BDE8D21CA285700493AB8 /* Project object */;
+}

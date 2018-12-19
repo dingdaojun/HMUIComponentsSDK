@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.5.2",
+  "iOS" : [
+    {
+      "name" : "HMCategory",
+      "hash" : "40f11bc66a7a3b42913ee0d6865881ad0faee53e7ecadb61d4a3a0b8018c1358"
+    }
+  ]
+}
