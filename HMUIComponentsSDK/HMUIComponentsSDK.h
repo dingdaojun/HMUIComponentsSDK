@@ -26,5 +26,6 @@ FOUNDATION_EXPORT const unsigned char HMUIComponentsSDKVersionString[];
 #import <HMUIComponentsSDK/NSString+AZQuantityStringBuilder.h>
 #import <HMUIComponentsSDK/UIControl+HMTargetAndAction.h>
 #import <HMUIComponentsSDK/NSAttributedString+HMUtility.h>
+#import <HMUIComponentsSDK/NSAttributedString+HMAttributedStringBuilder.h>
 #import <HMUIComponentsSDK/HMDesignTools.h>
 
