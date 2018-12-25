@@ -218,10 +218,10 @@
 		F71BDEBF21CA28B300493AB8 /* NSAttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */,
 				F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */,
-				F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */,
 				F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */,
+				F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */,
+				F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */,
 			);
 			path = NSAttributedString;
 			sourceTree = "<group>";

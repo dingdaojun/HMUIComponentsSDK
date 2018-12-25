@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSUInteger, ColorImagePositionType) {
-    ColorImagePositionTypeInFront,
-    ColorImagePositionTypeInLast
-};
-
 @interface NSAttributedString (HMAttributedStringBuilder)
 
 #pragma mark - Convenient attributed string constructor -
