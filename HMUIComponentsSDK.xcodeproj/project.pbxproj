@@ -32,9 +32,7 @@
 		F71BDED821CA28B400493AB8 /* UIControl+HMTargetAndAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */; };
 		F71BDEDA21CA28B400493AB8 /* NSAttributedString+HMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F71BDEDC21CA28B400493AB8 /* NSAttributedString+HMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */; };
-		F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +65,7 @@
 		F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HMTargetAndAction.h"; sourceTree = "<group>"; };
 		F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HMTargetAndAction.m"; sourceTree = "<group>"; };
 		F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMUtility.h"; sourceTree = "<group>"; };
-		F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMAttributedStringBuilder.h"; sourceTree = "<group>"; };
 		F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMUtility.m"; sourceTree = "<group>"; };
-		F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMAttributedStringBuilder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,9 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */,
-				F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */,
 				F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */,
-				F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */,
 			);
 			path = NSAttributedString;
 			sourceTree = "<group>";
@@ -235,7 +229,6 @@
 			files = (
 				F71BDECC21CA28B400493AB8 /* UIView+Size.h in Headers */,
 				F71BDE9B21CA285700493AB8 /* HMUIComponentsSDK.h in Headers */,
-				F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */,
 				F71BDECE21CA28B400493AB8 /* UIView+DesignStyle.h in Headers */,
 				F71BDED121CA28B400493AB8 /* UIView+Snapshot.h in Headers */,
 				F71BDEC721CA28B300493AB8 /* UIImage+HMGradient.h in Headers */,
@@ -376,7 +369,6 @@
 				F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */,
 				F71BDECB21CA28B400493AB8 /* UIColor+HMCommonColors.m in Sources */,
 				F71BDED021CA28B400493AB8 /* UIView+DesignStyle.m in Sources */,
-				F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */,
 				F71BDED421CA28B400493AB8 /* NSString+AZQuantityStringBuilder.m in Sources */,
 				F71BDED221CA28B400493AB8 /* UIView+Size.m in Sources */,
 			);
