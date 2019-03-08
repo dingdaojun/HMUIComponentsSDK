@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340C57B020FDC61C00EFF68B /* MIAccessControlCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C57AF20FDC61C00EFF68B /* MIAccessControlCloud.swift */; };
+		3425E4ED20C522C9006B55E0 /* PayTransmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4C620C522C9006B55E0 /* PayTransmit.swift */; };
+		3425E4EE20C522C9006B55E0 /* PaySE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4C720C522C9006B55E0 /* PaySE.swift */; };
+		3425E4EF20C522C9006B55E0 /* PaySE+Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4C820C522C9006B55E0 /* PaySE+Deal.swift */; };
+		3425E4F020C522C9006B55E0 /* PaySE+InstallCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4C920C522C9006B55E0 /* PaySE+InstallCity.swift */; };
+		3425E4F220C522C9006B55E0 /* PaySyncValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4CC20C522C9006B55E0 /* PaySyncValue.swift */; };
+		3425E4F320C522C9006B55E0 /* Date+Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4CE20C522C9006B55E0 /* Date+Pay.swift */; };
+		3425E4F420C522C9006B55E0 /* String+SubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4CF20C522C9006B55E0 /* String+SubString.swift */; };
+		3425E4F520C522C9006B55E0 /* Data+Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D020C522C9006B55E0 /* Data+Pay.swift */; };
+		3425E4F620C522C9006B55E0 /* Int+Pay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D120C522C9006B55E0 /* Int+Pay.swift */; };
+		3425E4F920C522C9006B55E0 /* HuamipayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D520C522C9006B55E0 /* HuamipayProtocol.swift */; };
+		3425E4FA20C522C9006B55E0 /* PayCityLingnantong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D720C522C9006B55E0 /* PayCityLingnantong.swift */; };
+		3425E4FB20C522C9006B55E0 /* PayCityGuangxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D820C522C9006B55E0 /* PayCityGuangxi.swift */; };
+		3425E4FC20C522C9006B55E0 /* PayCityZhengzhou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4D920C522C9006B55E0 /* PayCityZhengzhou.swift */; };
+		3425E4FD20C522C9006B55E0 /* PayCityJilin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4DA20C522C9006B55E0 /* PayCityJilin.swift */; };
+		3425E4FE20C522C9006B55E0 /* PayCityBeijin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4DB20C522C9006B55E0 /* PayCityBeijin.swift */; };
+		3425E4FF20C522C9006B55E0 /* CityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4DC20C522C9006B55E0 /* CityProfile.swift */; };
+		3425E50120C522C9006B55E0 /* PayCityShenzhen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4DE20C522C9006B55E0 /* PayCityShenzhen.swift */; };
+		3425E50220C522C9006B55E0 /* PayCitySuzhou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4DF20C522C9006B55E0 /* PayCitySuzhou.swift */; };
+		3425E50320C522C9006B55E0 /* PayCityHefei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E020C522C9006B55E0 /* PayCityHefei.swift */; };
+		3425E50420C522C9006B55E0 /* PayCityWuhan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E120C522C9006B55E0 /* PayCityWuhan.swift */; };
+		3425E50520C522C9006B55E0 /* CityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E220C522C9006B55E0 /* CityProtocol.swift */; };
+		3425E50620C522C9006B55E0 /* PayCityChongqing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E320C522C9006B55E0 /* PayCityChongqing.swift */; };
+		3425E50720C522C9006B55E0 /* PayCityJingjinji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E420C522C9006B55E0 /* PayCityJingjinji.swift */; };
+		3425E50820C522C9006B55E0 /* PayCityBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E520C522C9006B55E0 /* PayCityBase.swift */; };
+		3425E50A20C522C9006B55E0 /* PayCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E820C522C9006B55E0 /* PayCloud.swift */; };
+		3425E50B20C522C9006B55E0 /* PayCloud+Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4E920C522C9006B55E0 /* PayCloud+Deal.swift */; };
+		3425E50D20C522C9006B55E0 /* PayCloud+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4EB20C522C9006B55E0 /* PayCloud+Bind.swift */; };
+		3425E50E20C522C9006B55E0 /* HuamiPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425E4EC20C522C9006B55E0 /* HuamiPay.swift */; };
+		342BE4C520EB2BF20037597A /* PayCloud+Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BE4C420EB2BF20037597A /* PayCloud+Phone.swift */; };
+		342BE4C720EB64DE0037597A /* PayNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BE4C620EB64DE0037597A /* PayNotice.swift */; };
+		342BE4C920EB6B7C0037597A /* PayCloud+Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BE4C820EB6B7C0037597A /* PayCloud+Notice.swift */; };
+		342BE4CB20EC6AC60037597A /* PayCityJiangsu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BE4CA20EC6AC60037597A /* PayCityJiangsu.swift */; };
+		343887A520D8DF4D00178DDF /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343887A020D8DF4D00178DDF /* AFNetworking.framework */; };
+		343887A620D8DF4D00178DDF /* HMService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343887A120D8DF4D00178DDF /* HMService.framework */; };
+		343887A720D8DF4D00178DDF /* TWTagLengthValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343887A220D8DF4D00178DDF /* TWTagLengthValue.framework */; };
+		343887A820D8DF4D00178DDF /* WalletService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343887A320D8DF4D00178DDF /* WalletService.framework */; };
+		343887A920D8DF4D00178DDF /* HMNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343887A420D8DF4D00178DDF /* HMNetworkLayer.framework */; };
+		346835312079B37B00F07EC1 /* huamipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 3468352F2079B37B00F07EC1 /* huamipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34693ED120ECC39400237D0A /* Dictionary+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34693ED020ECC39400237D0A /* Dictionary+JSON.swift */; };
+		34693ED320ECDBAA00237D0A /* PayMICloud+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34693ED220ECDBAA00237D0A /* PayMICloud+Protocol.swift */; };
+		34693ED520ECDC1400237D0A /* PayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34693ED420ECDC1400237D0A /* PayProtocol.swift */; };
+		34693ED720ECE11D00237D0A /* PaySNCloud+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34693ED620ECE11D00237D0A /* PaySNCloud+Protocol.swift */; };
+		348C7F1C20E127190077B0C7 /* String+urlEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F1B20E127190077B0C7 /* String+urlEncode.swift */; };
+		348C7F2A20E1E0780077B0C7 /* HuamipayTSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2420E1E0780077B0C7 /* HuamipayTSM.swift */; };
+		348C7F2B20E1E0780077B0C7 /* PayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2520E1E0780077B0C7 /* PayError.swift */; };
+		348C7F2C20E1E0780077B0C7 /* PayOrder+Fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2620E1E0780077B0C7 /* PayOrder+Fee.swift */; };
+		348C7F2D20E1E0780077B0C7 /* HuamipayProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2720E1E0780077B0C7 /* HuamipayProfile.swift */; };
+		348C7F2E20E1E0780077B0C7 /* PayChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2820E1E0780077B0C7 /* PayChannel.swift */; };
+		348C7F2F20E1E0780077B0C7 /* PayOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F2920E1E0780077B0C7 /* PayOrder.swift */; };
+		348C7F3120E1E1470077B0C7 /* PayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3020E1E1470077B0C7 /* PayCard.swift */; };
+		34CE639F20CE7D8700C04810 /* PaySNCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE639E20CE7D8700C04810 /* PaySNCloud.swift */; };
+		34CE63A120CE7E2F00C04810 /* PaySNSCloud+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63A020CE7E2F00C04810 /* PaySNSCloud+Order.swift */; };
+		34CE63A320CE7F1F00C04810 /* HuamipaySNCloudProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63A220CE7F1F00C04810 /* HuamipaySNCloudProtocol.swift */; };
+		34CE63A520CE81FD00C04810 /* PaySNCloud+CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63A420CE81FD00C04810 /* PaySNCloud+CityList.swift */; };
+		34CE63A720CE868500C04810 /* PayMICloud+CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63A620CE868500C04810 /* PayMICloud+CityList.swift */; };
+		34CE63A920CF75DC00C04810 /* PayCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63A820CF75DC00C04810 /* PayCity.swift */; };
+		34D2EA8420D0C20200B3C5EA /* PaySNCloud+SE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2EA8320D0C20200B3C5EA /* PaySNCloud+SE.swift */; };
+		34D2EA8620D0C23200B3C5EA /* PayMICloud+SE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2EA8520D0C23200B3C5EA /* PayMICloud+SE.swift */; };
+		34D2EA8820D0F56800B3C5EA /* PayMIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2EA8720D0F56800B3C5EA /* PayMIOperation.swift */; };
+		34D2EA8A20D0F57A00B3C5EA /* PaySNOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2EA8920D0F57A00B3C5EA /* PaySNOperation.swift */; };
+		34D2EA8E20D1661E00B3C5EA /* PayCityXiAn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2EA8D20D1661E00B3C5EA /* PayCityXiAn.swift */; };
+		34E3FFAC20FF6D5A000FEB2A /* PayMIAccessControlOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E3FFAB20FF6D5A000FEB2A /* PayMIAccessControlOperation.swift */; };
+		34E3FFAE20FF70E6000FEB2A /* HuamipayMIAccessControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E3FFAD20FF70E6000FEB2A /* HuamipayMIAccessControlProtocol.swift */; };
+		34E3FFB021001C00000FEB2A /* PayAccessControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E3FFAF21001BFF000FEB2A /* PayAccessControlProtocol.swift */; };
+		34E99FED20CE11560047431C /* PayMICloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E99FEC20CE11560047431C /* PayMICloud.swift */; };
+		34E99FEF20CE1B8D0047431C /* PayMICloud+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E99FEE20CE1B8D0047431C /* PayMICloud+Order.swift */; };
+		34E99FF120CE268B0047431C /* HuamipaySEProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E99FF020CE268B0047431C /* HuamipaySEProtocol.swift */; };
+		34E99FF320CE26C70047431C /* HuamipayMICloudProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E99FF220CE26C70047431C /* HuamipayMICloudProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		340C57AF20FDC61C00EFF68B /* MIAccessControlCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIAccessControlCloud.swift; sourceTree = "<group>"; };
+		3425E4C620C522C9006B55E0 /* PayTransmit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTransmit.swift; sourceTree = "<group>"; };
+		3425E4C720C522C9006B55E0 /* PaySE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySE.swift; sourceTree = "<group>"; };
+		3425E4C820C522C9006B55E0 /* PaySE+Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PaySE+Deal.swift"; sourceTree = "<group>"; };
+		3425E4C920C522C9006B55E0 /* PaySE+InstallCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PaySE+InstallCity.swift"; sourceTree = "<group>"; };
+		3425E4CC20C522C9006B55E0 /* PaySyncValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySyncValue.swift; sourceTree = "<group>"; };
+		3425E4CE20C522C9006B55E0 /* Date+Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Pay.swift"; sourceTree = "<group>"; };
+		3425E4CF20C522C9006B55E0 /* String+SubString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SubString.swift"; sourceTree = "<group>"; };
+		3425E4D020C522C9006B55E0 /* Data+Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Pay.swift"; sourceTree = "<group>"; };
+		3425E4D120C522C9006B55E0 /* Int+Pay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Pay.swift"; sourceTree = "<group>"; };
+		3425E4D520C522C9006B55E0 /* HuamipayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuamipayProtocol.swift; sourceTree = "<group>"; };
+		3425E4D720C522C9006B55E0 /* PayCityLingnantong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityLingnantong.swift; sourceTree = "<group>"; };
+		3425E4D820C522C9006B55E0 /* PayCityGuangxi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityGuangxi.swift; sourceTree = "<group>"; };
+		3425E4D920C522C9006B55E0 /* PayCityZhengzhou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityZhengzhou.swift; sourceTree = "<group>"; };
+		3425E4DA20C522C9006B55E0 /* PayCityJilin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityJilin.swift; sourceTree = "<group>"; };
+		3425E4DB20C522C9006B55E0 /* PayCityBeijin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityBeijin.swift; sourceTree = "<group>"; };
+		3425E4DC20C522C9006B55E0 /* CityProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityProfile.swift; sourceTree = "<group>"; };
+		3425E4DE20C522C9006B55E0 /* PayCityShenzhen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityShenzhen.swift; sourceTree = "<group>"; };
+		3425E4DF20C522C9006B55E0 /* PayCitySuzhou.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCitySuzhou.swift; sourceTree = "<group>"; };
+		3425E4E020C522C9006B55E0 /* PayCityHefei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityHefei.swift; sourceTree = "<group>"; };
+		3425E4E120C522C9006B55E0 /* PayCityWuhan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityWuhan.swift; sourceTree = "<group>"; };
+		3425E4E220C522C9006B55E0 /* CityProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityProtocol.swift; sourceTree = "<group>"; };
+		3425E4E320C522C9006B55E0 /* PayCityChongqing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityChongqing.swift; sourceTree = "<group>"; };
+		3425E4E420C522C9006B55E0 /* PayCityJingjinji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityJingjinji.swift; sourceTree = "<group>"; };
+		3425E4E520C522C9006B55E0 /* PayCityBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCityBase.swift; sourceTree = "<group>"; };
+		3425E4E820C522C9006B55E0 /* PayCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCloud.swift; sourceTree = "<group>"; };
+		3425E4E920C522C9006B55E0 /* PayCloud+Deal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PayCloud+Deal.swift"; sourceTree = "<group>"; };
+		3425E4EB20C522C9006B55E0 /* PayCloud+Bind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PayCloud+Bind.swift"; sourceTree = "<group>"; };
+		3425E4EC20C522C9006B55E0 /* HuamiPay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuamiPay.swift; sourceTree = "<group>"; };
+		342BE4C420EB2BF20037597A /* PayCloud+Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayCloud+Phone.swift"; sourceTree = "<group>"; };
+		342BE4C620EB64DE0037597A /* PayNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNotice.swift; sourceTree = "<group>"; };
+		342BE4C820EB6B7C0037597A /* PayCloud+Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayCloud+Notice.swift"; sourceTree = "<group>"; };
+		342BE4CA20EC6AC60037597A /* PayCityJiangsu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCityJiangsu.swift; sourceTree = "<group>"; };
+		343887A020D8DF4D00178DDF /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = HuamiPayExample/Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		343887A120D8DF4D00178DDF /* HMService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMService.framework; path = HuamiPayExample/Carthage/Build/iOS/HMService.framework; sourceTree = "<group>"; };
+		343887A220D8DF4D00178DDF /* TWTagLengthValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TWTagLengthValue.framework; path = HuamiPayExample/Carthage/Build/iOS/TWTagLengthValue.framework; sourceTree = "<group>"; };
+		343887A320D8DF4D00178DDF /* WalletService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WalletService.framework; path = HuamiPayExample/Carthage/Build/iOS/WalletService.framework; sourceTree = "<group>"; };
+		343887A420D8DF4D00178DDF /* HMNetworkLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMNetworkLayer.framework; path = HuamiPayExample/Carthage/Build/iOS/HMNetworkLayer.framework; sourceTree = "<group>"; };
+		3468352C2079B37B00F07EC1 /* huamipay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = huamipay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3468352F2079B37B00F07EC1 /* huamipay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huamipay.h; sourceTree = "<group>"; };
+		34693ED020ECC39400237D0A /* Dictionary+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+JSON.swift"; sourceTree = "<group>"; };
+		34693ED220ECDBAA00237D0A /* PayMICloud+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayMICloud+Protocol.swift"; sourceTree = "<group>"; };
+		34693ED420ECDC1400237D0A /* PayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayProtocol.swift; sourceTree = "<group>"; };
+		34693ED620ECE11D00237D0A /* PaySNCloud+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaySNCloud+Protocol.swift"; sourceTree = "<group>"; };
+		348C7F1B20E127190077B0C7 /* String+urlEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+urlEncode.swift"; sourceTree = "<group>"; };
+		348C7F2420E1E0780077B0C7 /* HuamipayTSM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuamipayTSM.swift; sourceTree = "<group>"; };
+		348C7F2520E1E0780077B0C7 /* PayError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayError.swift; sourceTree = "<group>"; };
+		348C7F2620E1E0780077B0C7 /* PayOrder+Fee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PayOrder+Fee.swift"; sourceTree = "<group>"; };
+		348C7F2720E1E0780077B0C7 /* HuamipayProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuamipayProfile.swift; sourceTree = "<group>"; };
+		348C7F2820E1E0780077B0C7 /* PayChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayChannel.swift; sourceTree = "<group>"; };
+		348C7F2920E1E0780077B0C7 /* PayOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayOrder.swift; sourceTree = "<group>"; };
+		348C7F3020E1E1470077B0C7 /* PayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCard.swift; sourceTree = "<group>"; };
+		34CE639E20CE7D8700C04810 /* PaySNCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySNCloud.swift; sourceTree = "<group>"; };
+		34CE63A020CE7E2F00C04810 /* PaySNSCloud+Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaySNSCloud+Order.swift"; sourceTree = "<group>"; };
+		34CE63A220CE7F1F00C04810 /* HuamipaySNCloudProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuamipaySNCloudProtocol.swift; sourceTree = "<group>"; };
+		34CE63A420CE81FD00C04810 /* PaySNCloud+CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaySNCloud+CityList.swift"; sourceTree = "<group>"; };
+		34CE63A620CE868500C04810 /* PayMICloud+CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayMICloud+CityList.swift"; sourceTree = "<group>"; };
+		34CE63A820CF75DC00C04810 /* PayCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCity.swift; sourceTree = "<group>"; };
+		34D2EA8320D0C20200B3C5EA /* PaySNCloud+SE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PaySNCloud+SE.swift"; sourceTree = "<group>"; };
+		34D2EA8520D0C23200B3C5EA /* PayMICloud+SE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayMICloud+SE.swift"; sourceTree = "<group>"; };
+		34D2EA8720D0F56800B3C5EA /* PayMIOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMIOperation.swift; sourceTree = "<group>"; };
+		34D2EA8920D0F57A00B3C5EA /* PaySNOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySNOperation.swift; sourceTree = "<group>"; };
+		34D2EA8D20D1661E00B3C5EA /* PayCityXiAn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCityXiAn.swift; sourceTree = "<group>"; };
+		34D617282106BE1800FA5CF6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E3FFAB20FF6D5A000FEB2A /* PayMIAccessControlOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMIAccessControlOperation.swift; sourceTree = "<group>"; };
+		34E3FFAD20FF70E6000FEB2A /* HuamipayMIAccessControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuamipayMIAccessControlProtocol.swift; sourceTree = "<group>"; };
+		34E3FFAF21001BFF000FEB2A /* PayAccessControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAccessControlProtocol.swift; sourceTree = "<group>"; };
+		34E99FEC20CE11560047431C /* PayMICloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMICloud.swift; sourceTree = "<group>"; };
+		34E99FEE20CE1B8D0047431C /* PayMICloud+Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PayMICloud+Order.swift"; sourceTree = "<group>"; };
+		34E99FF020CE268B0047431C /* HuamipaySEProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuamipaySEProtocol.swift; sourceTree = "<group>"; };
+		34E99FF220CE26C70047431C /* HuamipayMICloudProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuamipayMICloudProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		346835282079B37B00F07EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343887A520D8DF4D00178DDF /* AFNetworking.framework in Frameworks */,
+				343887A620D8DF4D00178DDF /* HMService.framework in Frameworks */,
+				343887A720D8DF4D00178DDF /* TWTagLengthValue.framework in Frameworks */,
+				343887A820D8DF4D00178DDF /* WalletService.framework in Frameworks */,
+				343887A920D8DF4D00178DDF /* HMNetworkLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340C57AE20FDC5FF00EFF68B /* MIAccessControlCloud */ = {
+			isa = PBXGroup;
+			children = (
+				340C57AF20FDC61C00EFF68B /* MIAccessControlCloud.swift */,
+				34E3FFAB20FF6D5A000FEB2A /* PayMIAccessControlOperation.swift */,
+			);
+			path = MIAccessControlCloud;
+			sourceTree = "<group>";
+		};
+		3425E4C520C522C9006B55E0 /* PaySE */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4C620C522C9006B55E0 /* PayTransmit.swift */,
+				3425E4C720C522C9006B55E0 /* PaySE.swift */,
+				3425E4C820C522C9006B55E0 /* PaySE+Deal.swift */,
+				3425E4C920C522C9006B55E0 /* PaySE+InstallCity.swift */,
+			);
+			path = PaySE;
+			sourceTree = "<group>";
+		};
+		3425E4CB20C522C9006B55E0 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4CC20C522C9006B55E0 /* PaySyncValue.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3425E4CD20C522C9006B55E0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4CE20C522C9006B55E0 /* Date+Pay.swift */,
+				3425E4CF20C522C9006B55E0 /* String+SubString.swift */,
+				3425E4D020C522C9006B55E0 /* Data+Pay.swift */,
+				3425E4D120C522C9006B55E0 /* Int+Pay.swift */,
+				348C7F1B20E127190077B0C7 /* String+urlEncode.swift */,
+				34693ED020ECC39400237D0A /* Dictionary+JSON.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3425E4D220C522C9006B55E0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4D520C522C9006B55E0 /* HuamipayProtocol.swift */,
+				34E99FF020CE268B0047431C /* HuamipaySEProtocol.swift */,
+				34E99FF220CE26C70047431C /* HuamipayMICloudProtocol.swift */,
+				34CE63A220CE7F1F00C04810 /* HuamipaySNCloudProtocol.swift */,
+				34E3FFAD20FF70E6000FEB2A /* HuamipayMIAccessControlProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3425E4D620C522C9006B55E0 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4D720C522C9006B55E0 /* PayCityLingnantong.swift */,
+				3425E4D820C522C9006B55E0 /* PayCityGuangxi.swift */,
+				3425E4D920C522C9006B55E0 /* PayCityZhengzhou.swift */,
+				3425E4DA20C522C9006B55E0 /* PayCityJilin.swift */,
+				3425E4DB20C522C9006B55E0 /* PayCityBeijin.swift */,
+				3425E4DC20C522C9006B55E0 /* CityProfile.swift */,
+				3425E4DE20C522C9006B55E0 /* PayCityShenzhen.swift */,
+				3425E4DF20C522C9006B55E0 /* PayCitySuzhou.swift */,
+				3425E4E020C522C9006B55E0 /* PayCityHefei.swift */,
+				3425E4E120C522C9006B55E0 /* PayCityWuhan.swift */,
+				3425E4E220C522C9006B55E0 /* CityProtocol.swift */,
+				3425E4E320C522C9006B55E0 /* PayCityChongqing.swift */,
+				3425E4E420C522C9006B55E0 /* PayCityJingjinji.swift */,
+				3425E4E520C522C9006B55E0 /* PayCityBase.swift */,
+				34CE63A820CF75DC00C04810 /* PayCity.swift */,
+				34D2EA8D20D1661E00B3C5EA /* PayCityXiAn.swift */,
+				342BE4CA20EC6AC60037597A /* PayCityJiangsu.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		3425E4E620C522C9006B55E0 /* PayCloud */ = {
+			isa = PBXGroup;
+			children = (
+				3425E4E820C522C9006B55E0 /* PayCloud.swift */,
+				3425E4E920C522C9006B55E0 /* PayCloud+Deal.swift */,
+				3425E4EB20C522C9006B55E0 /* PayCloud+Bind.swift */,
+				342BE4C420EB2BF20037597A /* PayCloud+Phone.swift */,
+				342BE4C820EB6B7C0037597A /* PayCloud+Notice.swift */,
+			);
+			path = PayCloud;
+			sourceTree = "<group>";
+		};
+		346835222079B37B00F07EC1 = {
+			isa = PBXGroup;
+			children = (
+				3468352E2079B37B00F07EC1 /* huamipay */,
+				3468352D2079B37B00F07EC1 /* Products */,
+				346835772079B40600F07EC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3468352D2079B37B00F07EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3468352C2079B37B00F07EC1 /* huamipay.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3468352E2079B37B00F07EC1 /* huamipay */ = {
+			isa = PBXGroup;
+			children = (
+				34D617282106BE1800FA5CF6 /* Info.plist */,
+				340C57AE20FDC5FF00EFF68B /* MIAccessControlCloud */,
+				348C7F2320E1E03A0077B0C7 /* Profile */,
+				34CE639D20CE7D7600C04810 /* SNCloud */,
+				34E99FEB20CE11270047431C /* MICloud */,
+				3425E4D620C522C9006B55E0 /* City */,
+				3425E4CD20C522C9006B55E0 /* Extension */,
+				3425E4EC20C522C9006B55E0 /* HuamiPay.swift */,
+				3425E4E620C522C9006B55E0 /* PayCloud */,
+				3425E4C520C522C9006B55E0 /* PaySE */,
+				3425E4D220C522C9006B55E0 /* Protocol */,
+				3425E4CB20C522C9006B55E0 /* Tool */,
+				3468352F2079B37B00F07EC1 /* huamipay.h */,
+			);
+			path = huamipay;
+			sourceTree = "<group>";
+		};
+		346835772079B40600F07EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				343887A020D8DF4D00178DDF /* AFNetworking.framework */,
+				343887A420D8DF4D00178DDF /* HMNetworkLayer.framework */,
+				343887A120D8DF4D00178DDF /* HMService.framework */,
+				343887A220D8DF4D00178DDF /* TWTagLengthValue.framework */,
+				343887A320D8DF4D00178DDF /* WalletService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		348C7F2320E1E03A0077B0C7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				348C7F2720E1E0780077B0C7 /* HuamipayProfile.swift */,
+				348C7F2420E1E0780077B0C7 /* HuamipayTSM.swift */,
+				348C7F2820E1E0780077B0C7 /* PayChannel.swift */,
+				348C7F2520E1E0780077B0C7 /* PayError.swift */,
+				348C7F2920E1E0780077B0C7 /* PayOrder.swift */,
+				348C7F2620E1E0780077B0C7 /* PayOrder+Fee.swift */,
+				348C7F3020E1E1470077B0C7 /* PayCard.swift */,
+				342BE4C620EB64DE0037597A /* PayNotice.swift */,
+				34693ED420ECDC1400237D0A /* PayProtocol.swift */,
+				34E3FFAF21001BFF000FEB2A /* PayAccessControlProtocol.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		34CE639D20CE7D7600C04810 /* SNCloud */ = {
+			isa = PBXGroup;
+			children = (
+				34CE639E20CE7D8700C04810 /* PaySNCloud.swift */,
+				34CE63A020CE7E2F00C04810 /* PaySNSCloud+Order.swift */,
+				34CE63A420CE81FD00C04810 /* PaySNCloud+CityList.swift */,
+				34D2EA8320D0C20200B3C5EA /* PaySNCloud+SE.swift */,
+				34D2EA8920D0F57A00B3C5EA /* PaySNOperation.swift */,
+				34693ED620ECE11D00237D0A /* PaySNCloud+Protocol.swift */,
+			);
+			path = SNCloud;
+			sourceTree = "<group>";
+		};
+		34E99FEB20CE11270047431C /* MICloud */ = {
+			isa = PBXGroup;
+			children = (
+				34E99FEC20CE11560047431C /* PayMICloud.swift */,
+				34E99FEE20CE1B8D0047431C /* PayMICloud+Order.swift */,
+				34CE63A620CE868500C04810 /* PayMICloud+CityList.swift */,
+				34D2EA8520D0C23200B3C5EA /* PayMICloud+SE.swift */,
+				34D2EA8720D0F56800B3C5EA /* PayMIOperation.swift */,
+				34693ED220ECDBAA00237D0A /* PayMICloud+Protocol.swift */,
+			);
+			path = MICloud;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		346835292079B37B00F07EC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346835312079B37B00F07EC1 /* huamipay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3468352B2079B37B00F07EC1 /* huamipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346835342079B37B00F07EC1 /* Build configuration list for PBXNativeTarget "huamipay" */;
+			buildPhases = (
+				346835272079B37B00F07EC1 /* Sources */,
+				346835282079B37B00F07EC1 /* Frameworks */,
+				346835292079B37B00F07EC1 /* Headers */,
+				3468352A2079B37B00F07EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huamipay;
+			productName = huamipay;
+			productReference = 3468352C2079B37B00F07EC1 /* huamipay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		346835232079B37B00F07EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "华米科技";
+				TargetAttributes = {
+					3468352B2079B37B00F07EC1 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 346835262079B37B00F07EC1 /* Build configuration list for PBXProject "huamipay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 346835222079B37B00F07EC1;
+			productRefGroup = 3468352D2079B37B00F07EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3468352B2079B37B00F07EC1 /* huamipay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3468352A2079B37B00F07EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		346835272079B37B00F07EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2EA8620D0C23200B3C5EA /* PayMICloud+SE.swift in Sources */,
+				348C7F2C20E1E0780077B0C7 /* PayOrder+Fee.swift in Sources */,
+				3425E4EE20C522C9006B55E0 /* PaySE.swift in Sources */,
+				34E99FF320CE26C70047431C /* HuamipayMICloudProtocol.swift in Sources */,
+				34CE63A720CE868500C04810 /* PayMICloud+CityList.swift in Sources */,
+				3425E4FA20C522C9006B55E0 /* PayCityLingnantong.swift in Sources */,
+				3425E4ED20C522C9006B55E0 /* PayTransmit.swift in Sources */,
+				34CE639F20CE7D8700C04810 /* PaySNCloud.swift in Sources */,
+				3425E4FD20C522C9006B55E0 /* PayCityJilin.swift in Sources */,
+				348C7F2A20E1E0780077B0C7 /* HuamipayTSM.swift in Sources */,
+				34D2EA8820D0F56800B3C5EA /* PayMIOperation.swift in Sources */,
+				3425E4F920C522C9006B55E0 /* HuamipayProtocol.swift in Sources */,
+				3425E50720C522C9006B55E0 /* PayCityJingjinji.swift in Sources */,
+				34CE63A320CE7F1F00C04810 /* HuamipaySNCloudProtocol.swift in Sources */,
+				34693ED720ECE11D00237D0A /* PaySNCloud+Protocol.swift in Sources */,
+				3425E50320C522C9006B55E0 /* PayCityHefei.swift in Sources */,
+				348C7F2E20E1E0780077B0C7 /* PayChannel.swift in Sources */,
+				342BE4C920EB6B7C0037597A /* PayCloud+Notice.swift in Sources */,
+				348C7F2D20E1E0780077B0C7 /* HuamipayProfile.swift in Sources */,
+				348C7F1C20E127190077B0C7 /* String+urlEncode.swift in Sources */,
+				34CE63A920CF75DC00C04810 /* PayCity.swift in Sources */,
+				3425E4FF20C522C9006B55E0 /* CityProfile.swift in Sources */,
+				3425E50E20C522C9006B55E0 /* HuamiPay.swift in Sources */,
+				34E3FFAE20FF70E6000FEB2A /* HuamipayMIAccessControlProtocol.swift in Sources */,
+				34693ED320ECDBAA00237D0A /* PayMICloud+Protocol.swift in Sources */,
+				3425E4FE20C522C9006B55E0 /* PayCityBeijin.swift in Sources */,
+				340C57B020FDC61C00EFF68B /* MIAccessControlCloud.swift in Sources */,
+				3425E50A20C522C9006B55E0 /* PayCloud.swift in Sources */,
+				3425E4FC20C522C9006B55E0 /* PayCityZhengzhou.swift in Sources */,
+				3425E50420C522C9006B55E0 /* PayCityWuhan.swift in Sources */,
+				342BE4C520EB2BF20037597A /* PayCloud+Phone.swift in Sources */,
+				34693ED120ECC39400237D0A /* Dictionary+JSON.swift in Sources */,
+				34D2EA8E20D1661E00B3C5EA /* PayCityXiAn.swift in Sources */,
+				34CE63A520CE81FD00C04810 /* PaySNCloud+CityList.swift in Sources */,
+				34D2EA8420D0C20200B3C5EA /* PaySNCloud+SE.swift in Sources */,
+				34693ED520ECDC1400237D0A /* PayProtocol.swift in Sources */,
+				3425E4F320C522C9006B55E0 /* Date+Pay.swift in Sources */,
+				3425E50D20C522C9006B55E0 /* PayCloud+Bind.swift in Sources */,
+				3425E4F420C522C9006B55E0 /* String+SubString.swift in Sources */,
+				3425E4F520C522C9006B55E0 /* Data+Pay.swift in Sources */,
+				34E99FF120CE268B0047431C /* HuamipaySEProtocol.swift in Sources */,
+				3425E4F220C522C9006B55E0 /* PaySyncValue.swift in Sources */,
+				34E3FFB021001C00000FEB2A /* PayAccessControlProtocol.swift in Sources */,
+				3425E50B20C522C9006B55E0 /* PayCloud+Deal.swift in Sources */,
+				3425E50120C522C9006B55E0 /* PayCityShenzhen.swift in Sources */,
+				3425E4EF20C522C9006B55E0 /* PaySE+Deal.swift in Sources */,
+				3425E4FB20C522C9006B55E0 /* PayCityGuangxi.swift in Sources */,
+				3425E50820C522C9006B55E0 /* PayCityBase.swift in Sources */,
+				348C7F2F20E1E0780077B0C7 /* PayOrder.swift in Sources */,
+				3425E50220C522C9006B55E0 /* PayCitySuzhou.swift in Sources */,
+				348C7F3120E1E1470077B0C7 /* PayCard.swift in Sources */,
+				3425E4F620C522C9006B55E0 /* Int+Pay.swift in Sources */,
+				34E99FEF20CE1B8D0047431C /* PayMICloud+Order.swift in Sources */,
+				34D2EA8A20D0F57A00B3C5EA /* PaySNOperation.swift in Sources */,
+				3425E50520C522C9006B55E0 /* CityProtocol.swift in Sources */,
+				3425E50620C522C9006B55E0 /* PayCityChongqing.swift in Sources */,
+				34E99FED20CE11560047431C /* PayMICloud.swift in Sources */,
+				342BE4C720EB64DE0037597A /* PayNotice.swift in Sources */,
+				342BE4CB20EC6AC60037597A /* PayCityJiangsu.swift in Sources */,
+				34CE63A120CE7E2F00C04810 /* PaySNSCloud+Order.swift in Sources */,
+				3425E4F020C522C9006B55E0 /* PaySE+InstallCity.swift in Sources */,
+				348C7F2B20E1E0780077B0C7 /* PayError.swift in Sources */,
+				34E3FFAC20FF6D5A000FEB2A /* PayMIAccessControlOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		346835322079B37B00F07EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		346835332079B37B00F07EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		346835352079B37B00F07EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HuamiPayExample/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = huamipay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.huamipay;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		346835362079B37B00F07EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HuamiPayExample/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = huamipay/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.huamipay;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346835262079B37B00F07EC1 /* Build configuration list for PBXProject "huamipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346835322079B37B00F07EC1 /* Debug */,
+				346835332079B37B00F07EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346835342079B37B00F07EC1 /* Build configuration list for PBXNativeTarget "huamipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346835352079B37B00F07EC1 /* Debug */,
+				346835362079B37B00F07EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 346835232079B37B00F07EC1 /* Project object */;
+}

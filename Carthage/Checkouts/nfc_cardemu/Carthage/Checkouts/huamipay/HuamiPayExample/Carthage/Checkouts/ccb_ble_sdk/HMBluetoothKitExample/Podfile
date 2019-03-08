@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+gerritURL = "ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS"
+source 'https://github.com/CocoaPods/Specs.git'
+source gerritURL
+platform :ios, '9.0'
+use_frameworks!
+
+target 'HMBluetoothKitExample' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  pod 'HMBluetoothKit', :path => '../'
+  pod 'Cache'
+  pod 'SwiftDate'
+  pod 'HMLog', '0.3.6'
+end

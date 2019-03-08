@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMStatistics_Example' do
+  pod 'HMStatistics', :path => '../'
+
+  target 'HMStatistics_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

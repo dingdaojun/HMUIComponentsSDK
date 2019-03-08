@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="48447F31-EF90-433F-BCD3-12781A156ABA">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="205.0,816.0" Width="66.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>公交卡</String>
+            <ConnectedNoteIDs>4, 92</ConnectedNoteIDs>
+            <PointsToNoteIDs>4, 92</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="369.0,818.0" Width="65.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询CPLC</String>
+            <ConnectedNoteIDs>0, 6, 92-93, 97</ConnectedNoteIDs>
+            <PointsToNoteIDs>6, 97, 111</PointsToNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="662.0,719.0" Width="128.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询已开通卡列表数据</String>
+            <ConnectedNoteIDs>4, 11-12</ConnectedNoteIDs>
+            <PointsToNoteIDs>11-12</PointsToNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1013.0,694.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>已开通卡列表</String>
+            <ConnectedNoteIDs>6, 13-14, 21, 23-24, 27, 66, 90, 105, 108</ConnectedNoteIDs>
+            <PointsToNoteIDs>21, 23-24, 27, 66, 90, 105</PointsToNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="1025.0,1130.0" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>添加公交卡列表页</String>
+            <ConnectedNoteIDs>6, 73, 75, 100</ConnectedNoteIDs>
+            <PointsToNoteIDs>75, 100</PointsToNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="895.0,551.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询默认卡</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="916.0,495.0" Width="44.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>卡详情</String>
+            <ConnectedNoteIDs>11, 15-16</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="724.0,490.0" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>是否到卡启动日期</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="736.0,452.0" Width="92.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>检查卡是否过期</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1190.0,348.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>可以充值</String>
+            <ConnectedNoteIDs>11, 22</ConnectedNoteIDs>
+            <PointsToNoteIDs>22</PointsToNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="1282.0,346.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值页面</String>
+            <ConnectedNoteIDs>21, 29, 31-32</ConnectedNoteIDs>
+            <PointsToNoteIDs>31-32, 109</PointsToNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="1253.0,593.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>交易记录</String>
+            <ConnectedNoteIDs>11, 68-69</ConnectedNoteIDs>
+            <PointsToNoteIDs>68-69</PointsToNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="1253.0,635.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>用户问答</String>
+            <ConnectedNoteIDs>11, 67</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1253.0,685.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>设置默认卡</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="1286.0,283.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询费用</String>
+            <ConnectedNoteIDs>22</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1458.0,290.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>小米TSM</String>
+            <ConnectedNoteIDs>22, 42</ConnectedNoteIDs>
+            <PointsToNoteIDs>42</PointsToNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1458.0,404.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>雪球TSM</String>
+            <ConnectedNoteIDs>22, 44</ConnectedNoteIDs>
+            <PointsToNoteIDs>44</PointsToNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1689.0,174.0" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>h5支付页面</String>
+            <ConnectedNoteIDs>37, 42</ConnectedNoteIDs>
+            <PointsToNoteIDs>37</PointsToNoteIDs>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="1689.0,253.0" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>h5支付页面</String>
+            <ConnectedNoteIDs>37, 42</ConnectedNoteIDs>
+            <PointsToNoteIDs>37</PointsToNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="1688.0,313.0" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>系统小米钱包支付</String>
+            <ConnectedNoteIDs>37, 42</ConnectedNoteIDs>
+            <PointsToNoteIDs>37</PointsToNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="1854.0,243.0" Width="152.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>支付完成后，查询订单详情</String>
+            <ConnectedNoteIDs>33, 35-36, 38, 40</ConnectedNoteIDs>
+            <PointsToNoteIDs>38, 40</PointsToNoteIDs>
+        </Note>
+        <Note ID="38" FontSize="12.0" Position="2067.0,207.0" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值</String>
+            <ConnectedNoteIDs>37, 40-41</ConnectedNoteIDs>
+            <PointsToNoteIDs>40-41</PointsToNoteIDs>
+        </Note>
+        <Note ID="40" FontSize="12.0" Position="2164.0,239.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值失败</String>
+            <ConnectedNoteIDs>37-38, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="41" FontSize="12.0" Position="2164.0,144.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值成功</String>
+            <ConnectedNoteIDs>38, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="42" FontSize="12.0" Position="1553.0,286.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>生成订单</String>
+            <ConnectedNoteIDs>31, 33, 35-36</ConnectedNoteIDs>
+            <PointsToNoteIDs>33, 35-36</PointsToNoteIDs>
+        </Note>
+        <Note ID="44" FontSize="12.0" Position="1553.0,404.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>生成订单</String>
+            <ConnectedNoteIDs>32, 45</ConnectedNoteIDs>
+            <PointsToNoteIDs>45</PointsToNoteIDs>
+        </Note>
+        <Note ID="45" FontSize="12.0" Position="1689.0,404.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>支付宝支付</String>
+            <ConnectedNoteIDs>44, 46</ConnectedNoteIDs>
+            <PointsToNoteIDs>46</PointsToNoteIDs>
+        </Note>
+        <Note ID="46" FontSize="12.0" Position="2052.0,404.0" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值</String>
+            <ConnectedNoteIDs>45, 47-48</ConnectedNoteIDs>
+            <PointsToNoteIDs>47-48</PointsToNoteIDs>
+        </Note>
+        <Note ID="47" FontSize="12.0" Position="2164.0,350.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值成功</String>
+            <ConnectedNoteIDs>46, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="48" FontSize="12.0" Position="2164.0,438.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值失败</String>
+            <ConnectedNoteIDs>46, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="49" FontSize="12.0" Position="2851.0,621.0" Width="44.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>结果页</String>
+            <ConnectedNoteIDs>40-41, 47-48, 51-52, 55, 68, 82, 86, 88-89, 139</ConnectedNoteIDs>
+        </Note>
+        <Note ID="51" FontSize="12.0" Position="2945.256063,540.203825" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询订单详情</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="52" FontSize="12.0" Position="2945.256063,583.734492" Width="131.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>根据Error进行文案显示</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="55" FontSize="12.0" Position="2945.256063,645.976096" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>按钮</String>
+            <ConnectedNoteIDs>49, 56, 59</ConnectedNoteIDs>
+            <PointsToNoteIDs>56, 59</PointsToNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="3209.0,587.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>小米TSM</String>
+            <ConnectedNoteIDs>55, 57-58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="3419.0,589.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>支持重试</String>
+            <ConnectedNoteIDs>56, 59</ConnectedNoteIDs>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="3419.0,715.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>支持申请退款</String>
+            <ConnectedNoteIDs>56, 59</ConnectedNoteIDs>
+        </Note>
+        <Note ID="59" FontSize="12.0" Position="3209.0,715.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>雪球TSM</String>
+            <ConnectedNoteIDs>55, 57-58</ConnectedNoteIDs>
+        </Note>
+        <Note ID="62" FontSize="10.0" Position="3419.0,620.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.982685 0.282212 0.276811</TextColor>
+                <Border Weight="1" Style="Square">0.798177 0.714184 0.522055</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>重走充值流程</String>
+            <Formatting>
+                <FormatRange Italic="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="63" FontSize="10.0" Position="3419.0,746.0" Width="73.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.798177 0.714184 0.522055</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>调申请退款Api</String>
+        </Note>
+        <Note ID="64" FontSize="10.0" Position="3419.0,774.0" Width="153.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.798177 0.714184 0.522055</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>根据Api结果，再次查询订单详情</String>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="1253.0,730.0" Width="92.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>卡面显示默认卡</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="1361.0,639.0" Width="24.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>H5</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="68" FontSize="12.0" Position="1352.0,548.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>订单列表</String>
+            <ConnectedNoteIDs>23, 49</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="69" FontSize="12.0" Position="1354.0,597.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>交易记录列表</String>
+            <ConnectedNoteIDs>23, 71-72</ConnectedNoteIDs>
+        </Note>
+        <Note ID="71" FontSize="12.0" Position="1457.0,576.0" Width="116.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>从云端获取交易记录</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="72" FontSize="12.0" Position="1456.0,606.0" Width="176.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>从本地读取交易记录并上传云端</String>
+            <ConnectedNoteIDs>69</ConnectedNoteIDs>
+        </Note>
+        <Note ID="73" FontSize="12.0" Position="1042.0,1243.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询手机号</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="74" FontSize="12.0" Position="1335.0,1134.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>开卡页面</String>
+            <ConnectedNoteIDs>75-78, 100-101, 127</ConnectedNoteIDs>
+            <PointsToNoteIDs>78</PointsToNoteIDs>
+        </Note>
+        <Note ID="75" FontSize="12.0" Position="1314.0,1241.0" Width="92.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>绑定手机号页面</String>
+            <ConnectedNoteIDs>12, 74, 77</ConnectedNoteIDs>
+            <PointsToNoteIDs>74</PointsToNoteIDs>
+        </Note>
+        <Note ID="76" FontSize="12.0" Position="1458.0,1068.0" Width="112.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询开卡+充值费用</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="77" FontSize="12.0" Position="1463.0,1209.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>更改手机号</String>
+            <ConnectedNoteIDs>74-75</ConnectedNoteIDs>
+            <PointsToNoteIDs>75</PointsToNoteIDs>
+        </Note>
+        <Note ID="78" FontSize="12.0" Position="1463.0,1133.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>生成订单</String>
+            <ConnectedNoteIDs>74, 79-80, 129</ConnectedNoteIDs>
+            <PointsToNoteIDs>79-80</PointsToNoteIDs>
+        </Note>
+        <Note ID="79" FontSize="12.0" Position="1580.0,1166.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>小米TSM</String>
+            <ConnectedNoteIDs>78, 83-85</ConnectedNoteIDs>
+            <PointsToNoteIDs>83-85</PointsToNoteIDs>
+        </Note>
+        <Note ID="80" FontSize="12.0" Position="1580.0,1077.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>雪球TSM</String>
+            <ConnectedNoteIDs>78, 81</ConnectedNoteIDs>
+            <PointsToNoteIDs>81</PointsToNoteIDs>
+        </Note>
+        <Note ID="81" FontSize="12.0" Position="1731.0,1022.0" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>支付宝支付</String>
+            <ConnectedNoteIDs>80, 82</ConnectedNoteIDs>
+            <PointsToNoteIDs>82</PointsToNoteIDs>
+        </Note>
+        <Note ID="82" FontSize="12.0" Position="1924.0,1011.0" Width="86.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>开卡                </String>
+            <ConnectedNoteIDs>49, 81, 86</ConnectedNoteIDs>
+            <PointsToNoteIDs>49, 86</PointsToNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="1731.0,1104.0" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>h5支付页面</String>
+            <ConnectedNoteIDs>79, 87</ConnectedNoteIDs>
+            <PointsToNoteIDs>87</PointsToNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="1731.0,1182.0" Width="70.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>h5支付页面</String>
+            <ConnectedNoteIDs>79, 87</ConnectedNoteIDs>
+            <PointsToNoteIDs>87</PointsToNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="1731.0,1242.0" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>系统小米钱包支付</String>
+            <ConnectedNoteIDs>79, 87</ConnectedNoteIDs>
+            <PointsToNoteIDs>87</PointsToNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="2233.0,1084.0" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值</String>
+            <ConnectedNoteIDs>49, 82</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="1912.0,1196.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询订单详情</String>
+            <ConnectedNoteIDs>83-85, 88</ConnectedNoteIDs>
+            <PointsToNoteIDs>88</PointsToNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="2178.0,1172.0" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>开卡</String>
+            <ConnectedNoteIDs>49, 87, 89</ConnectedNoteIDs>
+            <PointsToNoteIDs>49, 89</PointsToNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="2323.0,1196.0" Width="32.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>充值</String>
+            <ConnectedNoteIDs>49, 88</ConnectedNoteIDs>
+            <PointsToNoteIDs>49</PointsToNoteIDs>
+        </Note>
+        <Note ID="90" FontSize="12.0" Position="1253.0,780.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询余额</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="92" FontSize="12.0" Position="157.0,673.0" Width="163.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>检查是否有小米Token/userID</String>
+            <ConnectedNoteIDs>0, 4, 93, 135</ConnectedNoteIDs>
+            <PointsToNoteIDs>4, 93, 135</PointsToNoteIDs>
+        </Note>
+        <Note ID="93" FontSize="12.0" Position="437.0,674.0" Width="178.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>登录授权获取小米Token/userID</String>
+            <ConnectedNoteIDs>4, 92, 136-137</ConnectedNoteIDs>
+            <PointsToNoteIDs>4</PointsToNoteIDs>
+        </Note>
+        <Note ID="94" FontSize="10.0" Position="3419.0,648.0" Width="179.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.982685 0.282212 0.276811</TextColor>
+                <Border Weight="1" Style="Square">0.798177 0.714184 0.522055</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>雪球开卡重试，直接调取开卡+充值Api</String>
+        </Note>
+        <Note ID="95" FontSize="10.0" Position="3421.0,678.0" Width="157.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.982685 0.282212 0.276811</TextColor>
+                <Border Weight="1" Style="Square">0.798177 0.714184 0.522055</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>小米根据Token去进行开卡、充值</String>
+        </Note>
+        <Note ID="97" FontSize="12.0" Position="666.0,870.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>公告接口数据</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="98" FontSize="10.0" Position="1193.0,407.0" Width="130.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>2. 没有不能充值的公告数据</String>
+        </Note>
+        <Note ID="99" FontSize="10.0" Position="1194.0,380.0" Width="122.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>1. 在启动日期和有效期内</String>
+        </Note>
+        <Note ID="100" FontSize="12.0" Position="1009.0,1039.0" Width="140.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>没有不能开卡的公告数据</String>
+            <ConnectedNoteIDs>12, 74</ConnectedNoteIDs>
+            <PointsToNoteIDs>74</PointsToNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="1466.0,1006.0" Width="104.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>获取开卡协议数据</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="102" FontSize="10.0" Position="1924.0,1042.0" Width="98.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>带上同意的开卡协议</String>
+        </Note>
+        <Note ID="103" FontSize="10.0" Position="2181.0,1203.0" Width="98.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>带上同意的开卡协议</String>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="1255.0,838.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>同意协议</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="107" FontSize="10.0" Position="1255.0,869.0" Width="148.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>不同意协议，所有功能不能使用</String>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="891.0,612.0" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>协议数据</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="10.0" Position="1925.0,1071.0" Width="58.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.986 0.0 0.091</TextColor>
+                <Border Weight="1" Style="Square">0.561855 0.71062 0.779401</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>带上手机号</String>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="207.210586,1663.983249" Width="36.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>备注:</String>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="206.210586,1704.983249" Width="554.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>1. 小米开卡不需要手机号，本身小米账号带有手机号，如果没有，小米TSM会自动传默认手机号！</String>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="205.210586,1742.983249" Width="274.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>2. 手机号主要给通卡公司，只有开卡的时候需要！</String>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="205.210586,1779.983249" Width="188.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>3. 小米的Token需要带有NFC权限</String>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="206.210586,1817.983249" Width="142.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>4. 雪球目前只支持支付宝</String>
+        </Note>
+        <Note ID="119" FontSize="12.0" Position="204.210586,1859.983249" Width="205.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>5. 小米钱包在staging环境无法测试！</String>
+        </Note>
+        <Note ID="123" FontSize="12.0" Position="204.0,1395.0" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>当前版本:</String>
+        </Note>
+        <Note ID="124" FontSize="12.0" Position="291.0,1432.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>0.0.1</String>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="203.0,1432.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>2018-07-09</String>
+        </Note>
+        <Note ID="126" FontSize="28.0" Position="165.0,63.0" Width="204.0">
+            <Appearance>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>公交支付流程图</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,7</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="127" FontSize="12.0" Position="1473.0,946.0" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>获取定位信息</String>
+            <ConnectedNoteIDs>74</ConnectedNoteIDs>
+        </Note>
+        <Note ID="129" FontSize="12.0" Position="1560.0,1266.0" Width="164.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>有定位信息就传，没有就不传
+其他城市不传</String>
+            <ConnectedNoteIDs>78</ConnectedNoteIDs>
+        </Note>
+        <Note ID="130" FontSize="12.0" Position="292.0,1460.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>0.0.2</String>
+        </Note>
+        <Note ID="131" FontSize="12.0" Position="203.0,1460.0" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>2018-07-11</String>
+        </Note>
+        <Note ID="134" FontSize="10.0" Position="346.0,1459.0" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>加入岭南通开卡定位流程</String>
+        </Note>
+        <Note ID="135" FontSize="12.0" Position="208.358326,501.415112" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>退出重新登录</String>
+            <ConnectedNoteIDs>92</ConnectedNoteIDs>
+        </Note>
+        <Note ID="136" FontSize="12.0" Position="592.729244,542.384562" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>绑定小米账号</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="137" FontSize="12.0" Position="369.890508,590.856693" Width="128.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>校验前后账号是否一致</String>
+            <ConnectedNoteIDs>93</ConnectedNoteIDs>
+        </Note>
+        <Note ID="138" FontSize="7.0" Position="595.660681,569.0" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>如果之前绑定过，校验与之前绑定的账号是否一致</String>
+        </Note>
+        <Note ID="139" FontSize="12.0" Position="2944.948694,725.443214" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>设置默认卡</String>
+            <ConnectedNoteIDs>49</ConnectedNoteIDs>
+        </Note>
+        <Note ID="140" FontSize="12.0" Position="292.0,1489.0" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>0.0.3</String>
+        </Note>
+        <Note ID="141" FontSize="12.0" Position="203.0,1489.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>2018-07-21</String>
+        </Note>
+        <Note ID="142" FontSize="10.0" Position="346.0,1488.0" Width="88.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>完善二次授权流程</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="70" Sticky="Yes" Position="2836.0,483.0" Width="842.0" Height="341.093933">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="120" Sticky="Yes" Position="179.0,1366.0" Width="375.573456" Height="212.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="132" Sticky="Yes" Position="178.210586,1646.983249" Width="606.139465" Height="304.56604">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <Stacks>
+        <Stack>57, 62, 94</Stack>
+        <Stack>58, 63-64</Stack>
+        <Stack>82, 102</Stack>
+        <Stack>105, 107</Stack>
+        <Stack>125, 131, 141</Stack>
+        <Stack>130, 140</Stack>
+        <Stack>134, 142</Stack>
+    </Stacks>
+    <Labels>
+        <Label IDs="35,42">Android 非MIUI</Label>
+        <Label IDs="36,42">Android MIUI</Label>
+        <Label IDs="11,14">一次</Label>
+        <Label IDs="11,21">在启动日期和有效期内，以及没有不能充值的公告数据</Label>
+        <Label IDs="93,137">小米账号登录</Label>
+        <Label IDs="49,89">充值成功/失败</Label>
+        <Label IDs="11,108">一次</Label>
+        <Label IDs="78,129">岭南通</Label>
+        <Label IDs="45,46">App收到成功支付后</Label>
+        <Label IDs="22,32">充值费用+余额&lt;=1000</Label>
+        <Label IDs="79,85">Android MIUI</Label>
+        <Label IDs="6,11">已开过卡</Label>
+        <Label IDs="74,127">岭南通开卡</Label>
+        <Label IDs="11,90">每次展开卡详情</Label>
+        <Label IDs="88,89">充值Token</Label>
+        <Label IDs="49,68">订单详情</Label>
+        <Label IDs="49,82">开卡失败，失败Error</Label>
+        <Label IDs="49,86">充值成功/失败</Label>
+        <Label IDs="4,92">有Token/UserID</Label>
+        <Label IDs="6,12">没有开过卡</Label>
+        <Label IDs="82,86">开卡成功(我们现在只支持开卡+充值)</Label>
+        <Label IDs="46,47">成功</Label>
+        <Label IDs="0,4">雪球TSM直接</Label>
+        <Label IDs="92,93">无Token/UserID</Label>
+        <Label IDs="11,66">是默认卡</Label>
+        <Label IDs="4,93">有Token/UserID</Label>
+        <Label IDs="12,73">雪球TSM</Label>
+        <Label IDs="93,136">微信账号登录</Label>
+        <Label IDs="11,105">如果有协议更新，需同意</Label>
+        <Label IDs="38,40">失败</Label>
+        <Label IDs="37,40">无Token</Label>
+        <Label IDs="92,135">Google/facebook账号登录</Label>
+        <Label IDs="74,100">小米TSM或雪球TSM有手机号</Label>
+        <Label IDs="11,27">不是默认卡</Label>
+        <Label IDs="46,48">失败</Label>
+        <Label IDs="79,83">iOS</Label>
+        <Label IDs="49,55">失败</Label>
+        <Label IDs="55,59">根据订单状态判断是否支持重试和退款</Label>
+        <Label IDs="11,13">一次</Label>
+        <Label IDs="49,88">开卡失败，失败Error</Label>
+        <Label IDs="40,49">失败Error</Label>
+        <Label IDs="38,41">成功</Label>
+        <Label IDs="37,38">有充值token</Label>
+        <Label IDs="74,77">雪球TSM</Label>
+        <Label IDs="0,92">小米TSM</Label>
+        <Label IDs="22,31">充值费用+余额&lt;=1000</Label>
+        <Label IDs="79,84">Android 非MIUI</Label>
+        <Label IDs="48,49">失败Error</Label>
+        <Label IDs="55,56">所有订单状态都支持重试和申请退款</Label>
+        <Label IDs="49,139">开卡成功</Label>
+        <Label IDs="87,88">有开卡Token</Label>
+        <Label IDs="33,42">iOS</Label>
+        <Label IDs="12,75">雪球TSM，没有手机号</Label>
+    </Labels>
+    <AutoFit>4, 6, 11-16, 21-24, 27, 29, 31-33, 35-38, 40-42, 44-49, 51-52, 55-59, 62-64, 66-69, 71-90, 92, 94, 97-98, 100-103, 105, 107-108, 112-113, 115, 117, 119, 123-127, 129-131, 134-137, 139-142</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="3647A085-941D-40A1-B12B-AFBD4EE019B0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="0153E39E-5EA3-4202-871E-2C28F09998D9" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="C472A008-FA9B-4A28-A4A6-88A9DF1BE5E3" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="DF136BC6-F780-41B4-8624-6706B3F84D5C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="25665DE6-B0D1-4DF2-8535-6F3D5F7E36A5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="084B6CCE-11F0-47B8-83D7-7E444220402C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="E6E211F4-4112-4295-84BF-0D21672F0BCF" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

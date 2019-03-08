@@ -1,0 +1,44 @@
+{
+  "name": "HMDBFirmwareUpgrade",
+  "version": "0.7.0",
+  "summary": "A short description of HMDBFirmwareUpgrade.",
+  "description": "用于固件版本升级提醒的类库，基于 SQLite 构建",
+  "homepage": "https://internal.smartdevices.com.cn:8080/#/admin/projects/apps/ios/libs/dfu_db",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BigNerdCoding": "wumingliang@huami.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/dfu_db",
+    "tag": "0.7.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Service",
+  "subspecs": [
+    {
+      "name": "Database",
+      "source_files": "HMDBFirmwareUpgrade/Classes/Database/**/*.{h,m}",
+      "public_header_files": "HMDBFirmwareUpgrade/Classes/Database/HMDBFirmwareUpgradeBaseConfig.h",
+      "dependencies": {
+        "CTPersistance": [
+          "~> 181"
+        ]
+      }
+    },
+    {
+      "name": "Service",
+      "source_files": "HMDBFirmwareUpgrade/Classes/Service/**/*.{h,m}",
+      "private_header_files": "HMDBFirmwareUpgrade/Classes/Service/Model/*.h",
+      "dependencies": {
+        "HMDBFirmwareUpgrade/Database": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/ccb_ble_sdk" "swiftBle"
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/network" == 2.3.4
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category" "0.4.1"
+github "hyperoslo/Cache" "4.2.0"
+github "AFNetworking/AFNetworking" ~> 3.0
+

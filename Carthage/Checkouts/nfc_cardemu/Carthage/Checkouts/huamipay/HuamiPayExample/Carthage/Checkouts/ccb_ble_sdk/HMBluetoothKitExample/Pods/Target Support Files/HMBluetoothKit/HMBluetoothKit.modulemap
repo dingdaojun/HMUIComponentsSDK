@@ -1,0 +1,6 @@
+framework module HMBluetoothKit {
+  umbrella header "HMBluetoothKit.h"
+
+  export *
+  module * { export * }
+}

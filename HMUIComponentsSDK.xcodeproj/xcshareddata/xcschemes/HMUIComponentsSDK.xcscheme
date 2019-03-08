@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F71BDE9521CA285700493AB8"
+               BlueprintIdentifier = "7B4B844421C7C57700D4B850"
                BuildableName = "HMUIComponentsSDK.framework"
                BlueprintName = "HMUIComponentsSDK"
                ReferencedContainer = "container:HMUIComponentsSDK.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71BDE9521CA285700493AB8"
+            BlueprintIdentifier = "7B4B844421C7C57700D4B850"
             BuildableName = "HMUIComponentsSDK.framework"
             BlueprintName = "HMUIComponentsSDK"
             ReferencedContainer = "container:HMUIComponentsSDK.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F71BDE9521CA285700493AB8"
+            BlueprintIdentifier = "7B4B844421C7C57700D4B850"
             BuildableName = "HMUIComponentsSDK.framework"
             BlueprintName = "HMUIComponentsSDK"
             ReferencedContainer = "container:HMUIComponentsSDK.xcodeproj">

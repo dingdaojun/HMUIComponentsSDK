@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HMDBFirmwareUpgrade_Example' do
+  pod 'HMDBFirmwareUpgrade', :path => '../'
+
+  target 'HMDBFirmwareUpgrade_Tests' do
+    inherit! :search_paths
+    pod 'OCMock'
+    
+  end
+end

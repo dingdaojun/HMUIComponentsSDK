@@ -1,0 +1,65 @@
+{
+  "name": "HMBluetoothKit",
+  "version": "0.0.1",
+  "summary": "huami bluetooth kit.",
+  "description": "蓝牙框架脑图: http://naotu.baidu.com/file/f98676f5e02ad0903022caa030070b58?token=030aee8b5119e071",
+  "homepage": "https://internal.smartdevices.com.cn:8080/#/admin/projects/apps/ios/libs/ccb_ble_sdk",
+  "license": "MIT",
+  "authors": {
+    "yubiao": "yubiao@huami.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/ccb_ble_sdk",
+    "branch": "swiftBle"
+  },
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
+  "module_map": "Framework/HMBluetoothKit.modulemap",
+  "source_files": "HMBluetoothKit/HMBluetoothKit.h",
+  "default_subspecs": "LEProfile",
+  "subspecs": [
+    {
+      "name": "LEExtension",
+      "public_header_files": "HMBluetoothKit/LEExtension/*",
+      "source_files": "HMBluetoothKit/LEExtension/*"
+    },
+    {
+      "name": "LECore",
+      "dependencies": {
+        "HMBluetoothKit/LEExtension": [
+
+        ]
+      },
+      "source_files": "HMBluetoothKit/LECore/*",
+      "public_header_files": "HMBluetoothKit/LECore/*"
+    },
+    {
+      "name": "LEService",
+      "dependencies": {
+        "HMBluetoothKit/LECore": [
+
+        ],
+        "CryptoSwift": [
+          "~> 0.10.0"
+        ]
+      },
+      "source_files": "HMBluetoothKit/LEService/*",
+      "public_header_files": "HMBluetoothKit/LEService/*"
+    },
+    {
+      "name": "LEProfile",
+      "dependencies": {
+        "HMBluetoothKit/LEService": [
+
+        ]
+      },
+      "public_header_files": "HMBluetoothKit/LEProfile/*",
+      "source_files": "HMBluetoothKit/LEProfile/*"
+    }
+  ]
+}

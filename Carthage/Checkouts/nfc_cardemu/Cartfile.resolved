@@ -1,0 +1,2 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/huamipay" "347e600f37a1ab713a2cb7ead19e96c22aeedcb5"
+github "rs/SDWebImage" "4.1.0"

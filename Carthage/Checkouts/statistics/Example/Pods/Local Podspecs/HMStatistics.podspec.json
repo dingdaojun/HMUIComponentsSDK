@@ -1,0 +1,67 @@
+{
+  "name": "HMStatistics",
+  "version": "1.4.5",
+  "summary": "A short description of HMStatistics.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BigNerdCoding/HMStatistics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BigNerdCoding": "bignerdcoding@gmail.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/statistics",
+    "tag": "1.4.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Statistics",
+  "frameworks": [
+    "UIKit",
+    "SystemConfiguration",
+    "CoreTelephony"
+  ],
+  "subspecs": [
+    {
+      "name": "AnonymousDataBase",
+      "source_files": "HMStatistics/AnonymousDataBase/**/*",
+      "private_header_files": "HMStatistics/AnonymousDataBase/**/*.h",
+      "dependencies": {
+        "CTPersistance": [
+          "~> 181"
+        ]
+      }
+    },
+    {
+      "name": "NamedDataBase",
+      "source_files": "HMStatistics/NamedDataBase/**/*",
+      "private_header_files": "HMStatistics/NamedDataBase/**/*.h",
+      "dependencies": {
+        "CTPersistance": [
+          "~> 181"
+        ]
+      }
+    },
+    {
+      "name": "Statistics",
+      "source_files": "HMStatistics/Statistics/**/*",
+      "public_header_files": [
+        "HMStatistics/Statistics/HMStatisticsConfig.h",
+        "HMStatistics/Statistics/HMStatisticsLog.h",
+        "HMStatistics/Statistics/HMStatisticsLog+BothChannel.h",
+        "HMStatistics/Statistics/HMStatisticsPageAutoTracker.h"
+      ],
+      "dependencies": {
+        "HMStatistics/NamedDataBase": [
+
+        ],
+        "HMStatistics/AnonymousDataBase": [
+
+        ]
+      }
+    }
+  ]
+}

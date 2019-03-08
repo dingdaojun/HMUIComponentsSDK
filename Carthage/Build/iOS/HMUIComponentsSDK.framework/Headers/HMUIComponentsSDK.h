@@ -1,9 +1,10 @@
+//
 //  HMUIComponentsSDK.h
-//  Created on 12/19/18
-//  Description <#文件描述#>
-
-//  Copyright © 2018 Huami inc. All rights reserved.
-//  @author tongxing(tongxing@huami.com)
+//  HMUIComponentsSDK
+//
+//  Created by dingdaojun on 2018/12/17.
+//  Copyright © 2018 dingdaojun. All rights reserved.
+//
 
 #import <UIKit/UIKit.h>
 
@@ -26,6 +27,5 @@ FOUNDATION_EXPORT const unsigned char HMUIComponentsSDKVersionString[];
 #import <HMUIComponentsSDK/NSString+AZQuantityStringBuilder.h>
 #import <HMUIComponentsSDK/UIControl+HMTargetAndAction.h>
 #import <HMUIComponentsSDK/NSAttributedString+HMUtility.h>
-#import <HMUIComponentsSDK/NSAttributedString+HMAttributedStringBuilder.h>
 #import <HMUIComponentsSDK/HMDesignTools.h>
-
+#import <HMUIComponentsSDK/NSAttributedString+HMAttributedStringBuilder.h>

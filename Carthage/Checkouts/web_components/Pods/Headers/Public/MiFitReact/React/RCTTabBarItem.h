@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Views/RCTTabBarItem.h

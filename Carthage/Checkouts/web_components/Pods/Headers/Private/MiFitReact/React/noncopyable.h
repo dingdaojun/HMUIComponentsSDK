@@ -1,0 +1,1 @@
+../../../../MiFitReact/ReactCommon/jschelpers/noncopyable.h

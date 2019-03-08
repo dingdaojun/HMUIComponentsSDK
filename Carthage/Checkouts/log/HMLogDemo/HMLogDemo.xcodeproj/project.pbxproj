@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48031FAA20B7FA5000717895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031FA920B7FA5000717895 /* AppDelegate.m */; };
+		48031FAC20B7FA5100717895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48031FAB20B7FA5100717895 /* Assets.xcassets */; };
+		48031FAF20B7FA5100717895 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48031FAD20B7FA5100717895 /* MainMenu.xib */; };
+		48031FB220B7FA5100717895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031FB120B7FA5100717895 /* main.m */; };
+		48031FBF20B7FA7700717895 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031FBE20B7FA7700717895 /* AppDelegate.m */; };
+		48031FC220B7FA7700717895 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031FC120B7FA7700717895 /* ViewController.m */; };
+		48031FC520B7FA7700717895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48031FC320B7FA7700717895 /* Main.storyboard */; };
+		48031FC720B7FA7700717895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48031FC620B7FA7700717895 /* Assets.xcassets */; };
+		48031FCA20B7FA7700717895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48031FC820B7FA7700717895 /* LaunchScreen.storyboard */; };
+		48031FCD20B7FA7700717895 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031FCC20B7FA7700717895 /* main.m */; };
+		480320B320B7FC5100717895 /* HMDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803207920B7FC5100717895 /* HMDatabaseLogger.m */; };
+		480320B420B7FC5100717895 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208120B7FC5100717895 /* GCDWebServerResponse.m */; };
+		480320B520B7FC5100717895 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208420B7FC5100717895 /* GCDWebServerRequest.m */; };
+		480320B620B7FC5100717895 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208720B7FC5100717895 /* GCDWebServerFunctions.m */; };
+		480320B720B7FC5100717895 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208820B7FC5100717895 /* GCDWebServer.m */; };
+		480320B820B7FC5100717895 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208920B7FC5100717895 /* GCDWebServerConnection.m */; };
+		480320B920B7FC5100717895 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803208E20B7FC5100717895 /* GCDWebServerErrorResponse.m */; };
+		480320BA20B7FC5100717895 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209020B7FC5100717895 /* GCDWebServerFileResponse.m */; };
+		480320BB20B7FC5100717895 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209120B7FC5100717895 /* GCDWebServerDataResponse.m */; };
+		480320BC20B7FC5100717895 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209320B7FC5100717895 /* GCDWebServerStreamedResponse.m */; };
+		480320BD20B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209820B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.m */; };
+		480320BE20B7FC5100717895 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209920B7FC5100717895 /* GCDWebServerMultiPartFormRequest.m */; };
+		480320BF20B7FC5100717895 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209A20B7FC5100717895 /* GCDWebServerDataRequest.m */; };
+		480320C020B7FC5100717895 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803209B20B7FC5100717895 /* GCDWebServerFileRequest.m */; };
+		480320C120B7FC5100717895 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4803209E20B7FC5100717895 /* GCDWebUploader.bundle */; };
+		480320C220B7FC5100717895 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320A020B7FC5100717895 /* GCDWebUploader.m */; };
+		480320C320B7FC5100717895 /* HMWebLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320A120B7FC5100717895 /* HMWebLogger.m */; };
+		480320C420B7FC5200717895 /* HMWebLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 480320A220B7FC5100717895 /* HMWebLogger.bundle */; };
+		480320C520B7FC5200717895 /* HMConsoleLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320A520B7FC5100717895 /* HMConsoleLogFormatter.m */; };
+		480320C620B7FC5200717895 /* HMConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320A820B7FC5100717895 /* HMConsoleLogger.m */; };
+		480320C720B7FC5200717895 /* HMLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320AC20B7FC5100717895 /* HMLogManager.m */; };
+		480320C820B7FC5200717895 /* HMLogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320AF20B7FC5100717895 /* HMLogItem.m */; };
+		4803210720B7FC6F00717895 /* HMDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320CD20B7FC6F00717895 /* HMDatabaseLogger.m */; };
+		4803210820B7FC6F00717895 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320D520B7FC6F00717895 /* GCDWebServerResponse.m */; };
+		4803210920B7FC6F00717895 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320D820B7FC6F00717895 /* GCDWebServerRequest.m */; };
+		4803210A20B7FC6F00717895 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320DB20B7FC6F00717895 /* GCDWebServerFunctions.m */; };
+		4803210B20B7FC6F00717895 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320DC20B7FC6F00717895 /* GCDWebServer.m */; };
+		4803210C20B7FC6F00717895 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320DD20B7FC6F00717895 /* GCDWebServerConnection.m */; };
+		4803210D20B7FC6F00717895 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320E220B7FC6F00717895 /* GCDWebServerErrorResponse.m */; };
+		4803210E20B7FC6F00717895 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320E420B7FC6F00717895 /* GCDWebServerFileResponse.m */; };
+		4803210F20B7FC6F00717895 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320E520B7FC6F00717895 /* GCDWebServerDataResponse.m */; };
+		4803211020B7FC6F00717895 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320E720B7FC6F00717895 /* GCDWebServerStreamedResponse.m */; };
+		4803211120B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320EC20B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.m */; };
+		4803211220B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320ED20B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.m */; };
+		4803211320B7FC6F00717895 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320EE20B7FC6F00717895 /* GCDWebServerDataRequest.m */; };
+		4803211420B7FC6F00717895 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320EF20B7FC6F00717895 /* GCDWebServerFileRequest.m */; };
+		4803211520B7FC6F00717895 /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 480320F220B7FC6F00717895 /* GCDWebUploader.bundle */; };
+		4803211620B7FC6F00717895 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320F420B7FC6F00717895 /* GCDWebUploader.m */; };
+		4803211720B7FC6F00717895 /* HMWebLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320F520B7FC6F00717895 /* HMWebLogger.m */; };
+		4803211820B7FC6F00717895 /* HMWebLogger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 480320F620B7FC6F00717895 /* HMWebLogger.bundle */; };
+		4803211920B7FC6F00717895 /* HMConsoleLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320F920B7FC6F00717895 /* HMConsoleLogFormatter.m */; };
+		4803211A20B7FC6F00717895 /* HMConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 480320FC20B7FC6F00717895 /* HMConsoleLogger.m */; };
+		4803211B20B7FC6F00717895 /* HMLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803210020B7FC6F00717895 /* HMLogManager.m */; };
+		4803211C20B7FC6F00717895 /* HMLogItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803210320B7FC6F00717895 /* HMLogItem.m */; };
+		4803211F20B8030400717895 /* HMFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803211E20B8030400717895 /* HMFileLogger.m */; };
+		4803212220B80B6F00717895 /* HMFileLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803212120B80B6F00717895 /* HMFileLogFormatter.m */; };
+		4803212720B817C000717895 /* HMFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803212320B817C000717895 /* HMFileLogger.m */; };
+		4803212820B817C000717895 /* HMFileLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4803212520B817C000717895 /* HMFileLogFormatter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48031F8E20B7FA3000717895 /* HMLogDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMLogDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48031FA620B7FA5000717895 /* Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48031FA820B7FA5000717895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48031FA920B7FA5000717895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48031FAB20B7FA5100717895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48031FAE20B7FA5100717895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		48031FB020B7FA5100717895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48031FB120B7FA5100717895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48031FB320B7FA5100717895 /* Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mac.entitlements; sourceTree = "<group>"; };
+		48031FBB20B7FA7700717895 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48031FBD20B7FA7700717895 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48031FBE20B7FA7700717895 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48031FC020B7FA7700717895 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48031FC120B7FA7700717895 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48031FC420B7FA7700717895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48031FC620B7FA7700717895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48031FC920B7FA7700717895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48031FCB20B7FA7700717895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48031FCC20B7FA7700717895 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4803207820B7FC5100717895 /* HMDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDatabaseLogger.h; sourceTree = "<group>"; };
+		4803207920B7FC5100717895 /* HMDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDatabaseLogger.m; sourceTree = "<group>"; };
+		4803207F20B7FC5100717895 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		4803208020B7FC5100717895 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		4803208120B7FC5100717895 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		4803208220B7FC5100717895 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		4803208320B7FC5100717895 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		4803208420B7FC5100717895 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		4803208520B7FC5100717895 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		4803208620B7FC5100717895 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		4803208720B7FC5100717895 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		4803208820B7FC5100717895 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		4803208920B7FC5100717895 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		4803208A20B7FC5100717895 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		4803208C20B7FC5100717895 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		4803208D20B7FC5100717895 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		4803208E20B7FC5100717895 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		4803208F20B7FC5100717895 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		4803209020B7FC5100717895 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		4803209120B7FC5100717895 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		4803209220B7FC5100717895 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		4803209320B7FC5100717895 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		4803209520B7FC5100717895 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		4803209620B7FC5100717895 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		4803209720B7FC5100717895 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		4803209820B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		4803209920B7FC5100717895 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		4803209A20B7FC5100717895 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		4803209B20B7FC5100717895 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		4803209C20B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		4803209E20B7FC5100717895 /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		4803209F20B7FC5100717895 /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		480320A020B7FC5100717895 /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		480320A120B7FC5100717895 /* HMWebLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWebLogger.m; sourceTree = "<group>"; };
+		480320A220B7FC5100717895 /* HMWebLogger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMWebLogger.bundle; sourceTree = "<group>"; };
+		480320A320B7FC5100717895 /* HMWebLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWebLogger.h; sourceTree = "<group>"; };
+		480320A520B7FC5100717895 /* HMConsoleLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMConsoleLogFormatter.m; sourceTree = "<group>"; };
+		480320A620B7FC5100717895 /* HMConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMConsoleLogger.h; sourceTree = "<group>"; };
+		480320A720B7FC5100717895 /* HMConsoleLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMConsoleLogFormatter.h; sourceTree = "<group>"; };
+		480320A820B7FC5100717895 /* HMConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMConsoleLogger.m; sourceTree = "<group>"; };
+		480320A920B7FC5100717895 /* HMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogger.h; sourceTree = "<group>"; };
+		480320AA20B7FC5100717895 /* HMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLog.h; sourceTree = "<group>"; };
+		480320AC20B7FC5100717895 /* HMLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLogManager.m; sourceTree = "<group>"; };
+		480320AD20B7FC5100717895 /* HMLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogManager.h; sourceTree = "<group>"; };
+		480320AF20B7FC5100717895 /* HMLogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLogItem.m; sourceTree = "<group>"; };
+		480320B020B7FC5100717895 /* HMLogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogItem.h; sourceTree = "<group>"; };
+		480320B120B7FC5100717895 /* HMLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogLevel.h; sourceTree = "<group>"; };
+		480320B220B7FC5100717895 /* HMLogDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogDefines.h; sourceTree = "<group>"; };
+		480320CC20B7FC6F00717895 /* HMDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDatabaseLogger.h; sourceTree = "<group>"; };
+		480320CD20B7FC6F00717895 /* HMDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDatabaseLogger.m; sourceTree = "<group>"; };
+		480320D320B7FC6F00717895 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		480320D420B7FC6F00717895 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		480320D520B7FC6F00717895 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		480320D620B7FC6F00717895 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		480320D720B7FC6F00717895 /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		480320D820B7FC6F00717895 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		480320D920B7FC6F00717895 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		480320DA20B7FC6F00717895 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		480320DB20B7FC6F00717895 /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		480320DC20B7FC6F00717895 /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		480320DD20B7FC6F00717895 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		480320DE20B7FC6F00717895 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		480320E020B7FC6F00717895 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		480320E120B7FC6F00717895 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		480320E220B7FC6F00717895 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		480320E320B7FC6F00717895 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		480320E420B7FC6F00717895 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		480320E520B7FC6F00717895 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		480320E620B7FC6F00717895 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		480320E720B7FC6F00717895 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		480320E920B7FC6F00717895 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		480320EA20B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		480320EB20B7FC6F00717895 /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		480320EC20B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		480320ED20B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		480320EE20B7FC6F00717895 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		480320EF20B7FC6F00717895 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		480320F020B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		480320F220B7FC6F00717895 /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		480320F320B7FC6F00717895 /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		480320F420B7FC6F00717895 /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		480320F520B7FC6F00717895 /* HMWebLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWebLogger.m; sourceTree = "<group>"; };
+		480320F620B7FC6F00717895 /* HMWebLogger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMWebLogger.bundle; sourceTree = "<group>"; };
+		480320F720B7FC6F00717895 /* HMWebLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWebLogger.h; sourceTree = "<group>"; };
+		480320F920B7FC6F00717895 /* HMConsoleLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMConsoleLogFormatter.m; sourceTree = "<group>"; };
+		480320FA20B7FC6F00717895 /* HMConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMConsoleLogger.h; sourceTree = "<group>"; };
+		480320FB20B7FC6F00717895 /* HMConsoleLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMConsoleLogFormatter.h; sourceTree = "<group>"; };
+		480320FC20B7FC6F00717895 /* HMConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMConsoleLogger.m; sourceTree = "<group>"; };
+		480320FD20B7FC6F00717895 /* HMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogger.h; sourceTree = "<group>"; };
+		480320FE20B7FC6F00717895 /* HMLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLog.h; sourceTree = "<group>"; };
+		4803210020B7FC6F00717895 /* HMLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLogManager.m; sourceTree = "<group>"; };
+		4803210120B7FC6F00717895 /* HMLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogManager.h; sourceTree = "<group>"; };
+		4803210320B7FC6F00717895 /* HMLogItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMLogItem.m; sourceTree = "<group>"; };
+		4803210420B7FC6F00717895 /* HMLogItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogItem.h; sourceTree = "<group>"; };
+		4803210520B7FC6F00717895 /* HMLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogLevel.h; sourceTree = "<group>"; };
+		4803210620B7FC6F00717895 /* HMLogDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMLogDefines.h; sourceTree = "<group>"; };
+		4803211D20B8030400717895 /* HMFileLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFileLogger.h; sourceTree = "<group>"; };
+		4803211E20B8030400717895 /* HMFileLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMFileLogger.m; sourceTree = "<group>"; };
+		4803212020B80B6F00717895 /* HMFileLogFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFileLogFormatter.h; sourceTree = "<group>"; };
+		4803212120B80B6F00717895 /* HMFileLogFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMFileLogFormatter.m; sourceTree = "<group>"; };
+		4803212320B817C000717895 /* HMFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFileLogger.m; sourceTree = "<group>"; };
+		4803212420B817C000717895 /* HMFileLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFileLogFormatter.h; sourceTree = "<group>"; };
+		4803212520B817C000717895 /* HMFileLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMFileLogFormatter.m; sourceTree = "<group>"; };
+		4803212620B817C000717895 /* HMFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMFileLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48031F8B20B7FA3000717895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FA320B7FA5000717895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FB820B7FA7700717895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48031F8520B7FA3000717895 = {
+			isa = PBXGroup;
+			children = (
+				48031FA720B7FA5000717895 /* Mac */,
+				48031FBC20B7FA7700717895 /* iOS */,
+				48031F8F20B7FA3000717895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48031F8F20B7FA3000717895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48031F8E20B7FA3000717895 /* HMLogDemo.app */,
+				48031FA620B7FA5000717895 /* Mac.app */,
+				48031FBB20B7FA7700717895 /* iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48031FA720B7FA5000717895 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				4803207520B7FC5100717895 /* HMLog */,
+				48031FA820B7FA5000717895 /* AppDelegate.h */,
+				48031FA920B7FA5000717895 /* AppDelegate.m */,
+				48031FAB20B7FA5100717895 /* Assets.xcassets */,
+				48031FAD20B7FA5100717895 /* MainMenu.xib */,
+				48031FB020B7FA5100717895 /* Info.plist */,
+				48031FB120B7FA5100717895 /* main.m */,
+				48031FB320B7FA5100717895 /* Mac.entitlements */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		48031FBC20B7FA7700717895 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				480320C920B7FC6F00717895 /* HMLog */,
+				48031FBD20B7FA7700717895 /* AppDelegate.h */,
+				48031FBE20B7FA7700717895 /* AppDelegate.m */,
+				48031FC020B7FA7700717895 /* ViewController.h */,
+				48031FC120B7FA7700717895 /* ViewController.m */,
+				48031FC320B7FA7700717895 /* Main.storyboard */,
+				48031FC620B7FA7700717895 /* Assets.xcassets */,
+				48031FC820B7FA7700717895 /* LaunchScreen.storyboard */,
+				48031FCB20B7FA7700717895 /* Info.plist */,
+				48031FCC20B7FA7700717895 /* main.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4803207520B7FC5100717895 /* HMLog */ = {
+			isa = PBXGroup;
+			children = (
+				480320AA20B7FC5100717895 /* HMLog.h */,
+				4803207620B7FC5100717895 /* Loggers */,
+				480320AB20B7FC5100717895 /* Manager */,
+				480320AE20B7FC5100717895 /* Item */,
+				480320B120B7FC5100717895 /* HMLogLevel.h */,
+				480320B220B7FC5100717895 /* HMLogDefines.h */,
+			);
+			name = HMLog;
+			path = ../../HMLog;
+			sourceTree = "<group>";
+		};
+		4803207620B7FC5100717895 /* Loggers */ = {
+			isa = PBXGroup;
+			children = (
+				480320A420B7FC5100717895 /* Console */,
+				4803207720B7FC5100717895 /* Database */,
+				4803207A20B7FC5100717895 /* File */,
+				4803207B20B7FC5100717895 /* Web */,
+				480320A920B7FC5100717895 /* HMLogger.h */,
+			);
+			path = Loggers;
+			sourceTree = "<group>";
+		};
+		4803207720B7FC5100717895 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4803207820B7FC5100717895 /* HMDatabaseLogger.h */,
+				4803207920B7FC5100717895 /* HMDatabaseLogger.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4803207A20B7FC5100717895 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				4803211D20B8030400717895 /* HMFileLogger.h */,
+				4803211E20B8030400717895 /* HMFileLogger.m */,
+				4803212020B80B6F00717895 /* HMFileLogFormatter.h */,
+				4803212120B80B6F00717895 /* HMFileLogFormatter.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		4803207B20B7FC5100717895 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				4803207C20B7FC5100717895 /* GCDWebServer */,
+				480320A120B7FC5100717895 /* HMWebLogger.m */,
+				480320A220B7FC5100717895 /* HMWebLogger.bundle */,
+				480320A320B7FC5100717895 /* HMWebLogger.h */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		4803207C20B7FC5100717895 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				4803207D20B7FC5100717895 /* GCDWebServer */,
+				4803209D20B7FC5100717895 /* GCDWebUploader */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		4803207D20B7FC5100717895 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				4803207E20B7FC5100717895 /* Core */,
+				4803208B20B7FC5100717895 /* Responses */,
+				4803209420B7FC5100717895 /* Requests */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		4803207E20B7FC5100717895 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4803207F20B7FC5100717895 /* GCDWebServerFunctions.h */,
+				4803208020B7FC5100717895 /* GCDWebServerPrivate.h */,
+				4803208120B7FC5100717895 /* GCDWebServerResponse.m */,
+				4803208220B7FC5100717895 /* GCDWebServerConnection.h */,
+				4803208320B7FC5100717895 /* GCDWebServer.h */,
+				4803208420B7FC5100717895 /* GCDWebServerRequest.m */,
+				4803208520B7FC5100717895 /* GCDWebServerHTTPStatusCodes.h */,
+				4803208620B7FC5100717895 /* GCDWebServerResponse.h */,
+				4803208720B7FC5100717895 /* GCDWebServerFunctions.m */,
+				4803208820B7FC5100717895 /* GCDWebServer.m */,
+				4803208920B7FC5100717895 /* GCDWebServerConnection.m */,
+				4803208A20B7FC5100717895 /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4803208B20B7FC5100717895 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				4803208C20B7FC5100717895 /* GCDWebServerFileResponse.h */,
+				4803208D20B7FC5100717895 /* GCDWebServerStreamedResponse.h */,
+				4803208E20B7FC5100717895 /* GCDWebServerErrorResponse.m */,
+				4803208F20B7FC5100717895 /* GCDWebServerDataResponse.h */,
+				4803209020B7FC5100717895 /* GCDWebServerFileResponse.m */,
+				4803209120B7FC5100717895 /* GCDWebServerDataResponse.m */,
+				4803209220B7FC5100717895 /* GCDWebServerErrorResponse.h */,
+				4803209320B7FC5100717895 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		4803209420B7FC5100717895 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				4803209520B7FC5100717895 /* GCDWebServerDataRequest.h */,
+				4803209620B7FC5100717895 /* GCDWebServerMultiPartFormRequest.h */,
+				4803209720B7FC5100717895 /* GCDWebServerFileRequest.h */,
+				4803209820B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.m */,
+				4803209920B7FC5100717895 /* GCDWebServerMultiPartFormRequest.m */,
+				4803209A20B7FC5100717895 /* GCDWebServerDataRequest.m */,
+				4803209B20B7FC5100717895 /* GCDWebServerFileRequest.m */,
+				4803209C20B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		4803209D20B7FC5100717895 /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				4803209E20B7FC5100717895 /* GCDWebUploader.bundle */,
+				4803209F20B7FC5100717895 /* GCDWebUploader.h */,
+				480320A020B7FC5100717895 /* GCDWebUploader.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		480320A420B7FC5100717895 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				480320A620B7FC5100717895 /* HMConsoleLogger.h */,
+				480320A820B7FC5100717895 /* HMConsoleLogger.m */,
+				480320A720B7FC5100717895 /* HMConsoleLogFormatter.h */,
+				480320A520B7FC5100717895 /* HMConsoleLogFormatter.m */,
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
+		480320AB20B7FC5100717895 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				480320AD20B7FC5100717895 /* HMLogManager.h */,
+				480320AC20B7FC5100717895 /* HMLogManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		480320AE20B7FC5100717895 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				480320B020B7FC5100717895 /* HMLogItem.h */,
+				480320AF20B7FC5100717895 /* HMLogItem.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		480320C920B7FC6F00717895 /* HMLog */ = {
+			isa = PBXGroup;
+			children = (
+				480320FE20B7FC6F00717895 /* HMLog.h */,
+				480320CA20B7FC6F00717895 /* Loggers */,
+				480320FF20B7FC6F00717895 /* Manager */,
+				4803210220B7FC6F00717895 /* Item */,
+				4803210520B7FC6F00717895 /* HMLogLevel.h */,
+				4803210620B7FC6F00717895 /* HMLogDefines.h */,
+			);
+			name = HMLog;
+			path = ../../HMLog;
+			sourceTree = "<group>";
+		};
+		480320CA20B7FC6F00717895 /* Loggers */ = {
+			isa = PBXGroup;
+			children = (
+				480320FD20B7FC6F00717895 /* HMLogger.h */,
+				480320F820B7FC6F00717895 /* Console */,
+				480320CB20B7FC6F00717895 /* Database */,
+				480320CE20B7FC6F00717895 /* File */,
+				480320CF20B7FC6F00717895 /* Web */,
+			);
+			path = Loggers;
+			sourceTree = "<group>";
+		};
+		480320CB20B7FC6F00717895 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				480320CC20B7FC6F00717895 /* HMDatabaseLogger.h */,
+				480320CD20B7FC6F00717895 /* HMDatabaseLogger.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		480320CE20B7FC6F00717895 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				4803212620B817C000717895 /* HMFileLogger.h */,
+				4803212320B817C000717895 /* HMFileLogger.m */,
+				4803212420B817C000717895 /* HMFileLogFormatter.h */,
+				4803212520B817C000717895 /* HMFileLogFormatter.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		480320CF20B7FC6F00717895 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				480320D020B7FC6F00717895 /* GCDWebServer */,
+				480320F520B7FC6F00717895 /* HMWebLogger.m */,
+				480320F620B7FC6F00717895 /* HMWebLogger.bundle */,
+				480320F720B7FC6F00717895 /* HMWebLogger.h */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		480320D020B7FC6F00717895 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				480320D120B7FC6F00717895 /* GCDWebServer */,
+				480320F120B7FC6F00717895 /* GCDWebUploader */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		480320D120B7FC6F00717895 /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				480320D220B7FC6F00717895 /* Core */,
+				480320DF20B7FC6F00717895 /* Responses */,
+				480320E820B7FC6F00717895 /* Requests */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		480320D220B7FC6F00717895 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				480320D320B7FC6F00717895 /* GCDWebServerFunctions.h */,
+				480320D420B7FC6F00717895 /* GCDWebServerPrivate.h */,
+				480320D520B7FC6F00717895 /* GCDWebServerResponse.m */,
+				480320D620B7FC6F00717895 /* GCDWebServerConnection.h */,
+				480320D720B7FC6F00717895 /* GCDWebServer.h */,
+				480320D820B7FC6F00717895 /* GCDWebServerRequest.m */,
+				480320D920B7FC6F00717895 /* GCDWebServerHTTPStatusCodes.h */,
+				480320DA20B7FC6F00717895 /* GCDWebServerResponse.h */,
+				480320DB20B7FC6F00717895 /* GCDWebServerFunctions.m */,
+				480320DC20B7FC6F00717895 /* GCDWebServer.m */,
+				480320DD20B7FC6F00717895 /* GCDWebServerConnection.m */,
+				480320DE20B7FC6F00717895 /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		480320DF20B7FC6F00717895 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				480320E020B7FC6F00717895 /* GCDWebServerFileResponse.h */,
+				480320E120B7FC6F00717895 /* GCDWebServerStreamedResponse.h */,
+				480320E220B7FC6F00717895 /* GCDWebServerErrorResponse.m */,
+				480320E320B7FC6F00717895 /* GCDWebServerDataResponse.h */,
+				480320E420B7FC6F00717895 /* GCDWebServerFileResponse.m */,
+				480320E520B7FC6F00717895 /* GCDWebServerDataResponse.m */,
+				480320E620B7FC6F00717895 /* GCDWebServerErrorResponse.h */,
+				480320E720B7FC6F00717895 /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		480320E820B7FC6F00717895 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				480320E920B7FC6F00717895 /* GCDWebServerDataRequest.h */,
+				480320EA20B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.h */,
+				480320EB20B7FC6F00717895 /* GCDWebServerFileRequest.h */,
+				480320EC20B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.m */,
+				480320ED20B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.m */,
+				480320EE20B7FC6F00717895 /* GCDWebServerDataRequest.m */,
+				480320EF20B7FC6F00717895 /* GCDWebServerFileRequest.m */,
+				480320F020B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		480320F120B7FC6F00717895 /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				480320F220B7FC6F00717895 /* GCDWebUploader.bundle */,
+				480320F320B7FC6F00717895 /* GCDWebUploader.h */,
+				480320F420B7FC6F00717895 /* GCDWebUploader.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		480320F820B7FC6F00717895 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				480320FA20B7FC6F00717895 /* HMConsoleLogger.h */,
+				480320FC20B7FC6F00717895 /* HMConsoleLogger.m */,
+				480320FB20B7FC6F00717895 /* HMConsoleLogFormatter.h */,
+				480320F920B7FC6F00717895 /* HMConsoleLogFormatter.m */,
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
+		480320FF20B7FC6F00717895 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4803210020B7FC6F00717895 /* HMLogManager.m */,
+				4803210120B7FC6F00717895 /* HMLogManager.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4803210220B7FC6F00717895 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				4803210320B7FC6F00717895 /* HMLogItem.m */,
+				4803210420B7FC6F00717895 /* HMLogItem.h */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48031F8D20B7FA3000717895 /* HMLogDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48031F9F20B7FA3100717895 /* Build configuration list for PBXNativeTarget "HMLogDemo" */;
+			buildPhases = (
+				48031F8A20B7FA3000717895 /* Sources */,
+				48031F8B20B7FA3000717895 /* Frameworks */,
+				48031F8C20B7FA3000717895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMLogDemo;
+			productName = HMLogDemo;
+			productReference = 48031F8E20B7FA3000717895 /* HMLogDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48031FA520B7FA5000717895 /* Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48031FB420B7FA5100717895 /* Build configuration list for PBXNativeTarget "Mac" */;
+			buildPhases = (
+				48031FA220B7FA5000717895 /* Sources */,
+				48031FA320B7FA5000717895 /* Frameworks */,
+				48031FA420B7FA5000717895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mac;
+			productName = Mac;
+			productReference = 48031FA620B7FA5000717895 /* Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48031FBA20B7FA7700717895 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48031FCE20B7FA7700717895 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				48031FB720B7FA7700717895 /* Sources */,
+				48031FB820B7FA7700717895 /* Frameworks */,
+				48031FB920B7FA7700717895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 48031FBB20B7FA7700717895 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48031F8620B7FA3000717895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "lixian@huami.com";
+				TargetAttributes = {
+					48031F8D20B7FA3000717895 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					48031FA520B7FA5000717895 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					48031FBA20B7FA7700717895 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 48031F8920B7FA3000717895 /* Build configuration list for PBXProject "HMLogDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48031F8520B7FA3000717895;
+			productRefGroup = 48031F8F20B7FA3000717895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48031F8D20B7FA3000717895 /* HMLogDemo */,
+				48031FA520B7FA5000717895 /* Mac */,
+				48031FBA20B7FA7700717895 /* iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48031F8C20B7FA3000717895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FA420B7FA5000717895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480320C120B7FC5100717895 /* GCDWebUploader.bundle in Resources */,
+				480320C420B7FC5200717895 /* HMWebLogger.bundle in Resources */,
+				48031FAC20B7FA5100717895 /* Assets.xcassets in Resources */,
+				48031FAF20B7FA5100717895 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FB920B7FA7700717895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48031FCA20B7FA7700717895 /* LaunchScreen.storyboard in Resources */,
+				4803211520B7FC6F00717895 /* GCDWebUploader.bundle in Resources */,
+				4803211820B7FC6F00717895 /* HMWebLogger.bundle in Resources */,
+				48031FC720B7FA7700717895 /* Assets.xcassets in Resources */,
+				48031FC520B7FA7700717895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48031F8A20B7FA3000717895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FA220B7FA5000717895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480320C020B7FC5100717895 /* GCDWebServerFileRequest.m in Sources */,
+				480320BC20B7FC5100717895 /* GCDWebServerStreamedResponse.m in Sources */,
+				480320C820B7FC5200717895 /* HMLogItem.m in Sources */,
+				480320BE20B7FC5100717895 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				480320C320B7FC5100717895 /* HMWebLogger.m in Sources */,
+				480320BF20B7FC5100717895 /* GCDWebServerDataRequest.m in Sources */,
+				480320BB20B7FC5100717895 /* GCDWebServerDataResponse.m in Sources */,
+				480320C720B7FC5200717895 /* HMLogManager.m in Sources */,
+				480320B720B7FC5100717895 /* GCDWebServer.m in Sources */,
+				480320BD20B7FC5100717895 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				480320C620B7FC5200717895 /* HMConsoleLogger.m in Sources */,
+				48031FB220B7FA5100717895 /* main.m in Sources */,
+				480320B320B7FC5100717895 /* HMDatabaseLogger.m in Sources */,
+				480320C520B7FC5200717895 /* HMConsoleLogFormatter.m in Sources */,
+				480320B620B7FC5100717895 /* GCDWebServerFunctions.m in Sources */,
+				480320C220B7FC5100717895 /* GCDWebUploader.m in Sources */,
+				48031FAA20B7FA5000717895 /* AppDelegate.m in Sources */,
+				4803211F20B8030400717895 /* HMFileLogger.m in Sources */,
+				4803212220B80B6F00717895 /* HMFileLogFormatter.m in Sources */,
+				480320B420B7FC5100717895 /* GCDWebServerResponse.m in Sources */,
+				480320B920B7FC5100717895 /* GCDWebServerErrorResponse.m in Sources */,
+				480320B820B7FC5100717895 /* GCDWebServerConnection.m in Sources */,
+				480320B520B7FC5100717895 /* GCDWebServerRequest.m in Sources */,
+				480320BA20B7FC5100717895 /* GCDWebServerFileResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48031FB720B7FA7700717895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48031FC220B7FA7700717895 /* ViewController.m in Sources */,
+				48031FCD20B7FA7700717895 /* main.m in Sources */,
+				4803210820B7FC6F00717895 /* GCDWebServerResponse.m in Sources */,
+				4803211A20B7FC6F00717895 /* HMConsoleLogger.m in Sources */,
+				48031FBF20B7FA7700717895 /* AppDelegate.m in Sources */,
+				4803211420B7FC6F00717895 /* GCDWebServerFileRequest.m in Sources */,
+				4803211220B7FC6F00717895 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				4803210B20B7FC6F00717895 /* GCDWebServer.m in Sources */,
+				4803210E20B7FC6F00717895 /* GCDWebServerFileResponse.m in Sources */,
+				4803211920B7FC6F00717895 /* HMConsoleLogFormatter.m in Sources */,
+				4803210920B7FC6F00717895 /* GCDWebServerRequest.m in Sources */,
+				4803211B20B7FC6F00717895 /* HMLogManager.m in Sources */,
+				4803211120B7FC6F00717895 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				4803212820B817C000717895 /* HMFileLogFormatter.m in Sources */,
+				4803210D20B7FC6F00717895 /* GCDWebServerErrorResponse.m in Sources */,
+				4803212720B817C000717895 /* HMFileLogger.m in Sources */,
+				4803211320B7FC6F00717895 /* GCDWebServerDataRequest.m in Sources */,
+				4803211020B7FC6F00717895 /* GCDWebServerStreamedResponse.m in Sources */,
+				4803210720B7FC6F00717895 /* HMDatabaseLogger.m in Sources */,
+				4803211C20B7FC6F00717895 /* HMLogItem.m in Sources */,
+				4803210F20B7FC6F00717895 /* GCDWebServerDataResponse.m in Sources */,
+				4803210A20B7FC6F00717895 /* GCDWebServerFunctions.m in Sources */,
+				4803210C20B7FC6F00717895 /* GCDWebServerConnection.m in Sources */,
+				4803211720B7FC6F00717895 /* HMWebLogger.m in Sources */,
+				4803211620B7FC6F00717895 /* GCDWebUploader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48031FAD20B7FA5100717895 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48031FAE20B7FA5100717895 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		48031FC320B7FA7700717895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48031FC420B7FA7700717895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48031FC820B7FA7700717895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48031FC920B7FA7700717895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48031F9D20B7FA3100717895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48031F9E20B7FA3100717895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48031FA020B7FA3100717895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HMLogDemo/HMLogDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMLogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.HMLogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48031FA120B7FA3100717895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HMLogDemo/HMLogDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMLogDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.HMLogDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48031FB520B7FA5100717895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mac/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.Mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48031FB620B7FA5100717895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mac/Mac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = Mac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.Mac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48031FCF20B7FA7700717895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48031FD020B7FA7700717895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Huami.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48031F8920B7FA3000717895 /* Build configuration list for PBXProject "HMLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48031F9D20B7FA3100717895 /* Debug */,
+				48031F9E20B7FA3100717895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48031F9F20B7FA3100717895 /* Build configuration list for PBXNativeTarget "HMLogDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48031FA020B7FA3100717895 /* Debug */,
+				48031FA120B7FA3100717895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48031FB420B7FA5100717895 /* Build configuration list for PBXNativeTarget "Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48031FB520B7FA5100717895 /* Debug */,
+				48031FB620B7FA5100717895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48031FCE20B7FA7700717895 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48031FCF20B7FA7700717895 /* Debug */,
+				48031FD020B7FA7700717895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48031F8620B7FA3000717895 /* Project object */;
+}

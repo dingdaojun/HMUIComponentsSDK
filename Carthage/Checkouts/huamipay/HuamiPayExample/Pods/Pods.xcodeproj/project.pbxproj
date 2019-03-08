@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C5D75C42E805682A3FED72A9C93AD1 /* CFNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA59885A0BA5CF14A7D3B654DADFA9A /* CFNetWork.framework */; };
+		0DC1512D821D84DBF408E61F6D497409 /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 97957D0ABC58D5F1D56E457A6E1BBEB0 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D36DB26E9E7CE8E691B8FE23E10F596 /* HMAliPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1613E97AED06FB7AADC1A0EC38D04FD7 /* HMAliPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21FF3FC4395D80A5176FB316AE478B43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9255884401E5BD06171347E2CD756235 /* CoreGraphics.framework */; };
+		220C17E1C8D3D9649E707224EC16ABAA /* HMPay.h in Headers */ = {isa = PBXBuildFile; fileRef = BC84BFC5C8499237A1E3B0644FCE9D3B /* HMPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22672E8B9A3E84CC2B509B33B4A92FCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B41CAC96F7050EC88403973043B9E20 /* QuartzCore.framework */; };
+		283A063AA03E0CA2FC932433670B70CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD658BDCAE909BAA1E4AD18657485927 /* Foundation.framework */; };
+		2BF5218CBF0F7D11C6D15D49A0EB6071 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = B10E5E08476FED23B8C6679372627137 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD7C3EE868AE86014F4DC051FA8462E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64CCC9866661EFAC231AD3D7C9EA40E /* CoreMotion.framework */; };
+		38CB40965A8F61EED1FBC5CB2EE78DD3 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3777617FF65945BF6020854E61BBA4A9 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A95D92A72C221CE79736D7BCA8E923A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DE4E2C84A5DC832F5B9461ED8CFE96 /* SystemConfiguration.framework */; };
+		4FDCE2038C923A34E008161958B79B2A /* HMAliPayResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C35AEA8193A2D999B971485051D24078 /* HMAliPayResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55592000626D99BD669C8702C81A0A9B /* HMPayOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6498DF8587CF9CC8C78211A614D7F062 /* HMPayOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D67DA871FDCC1A57B3A18F0A3F880E /* HMAliPayResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6327963ED49C0BEE9259A24824505 /* HMAliPayResult.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		596ECC19DFB33FAFFB7738B72A04C9E5 /* Pods-HuamiPayExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEDBDF8E982E2DF003A5FB464A77C35C /* Pods-HuamiPayExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6422183E6579441E658FFD5BAAD1F612 /* HMPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 853C5C2A79B071AE319E640953518D37 /* HMPay.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FA00C2A5E05A5485C23D2C8B322965D /* HMAliPayAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 513B1947FBE05D2D9097B755E0417383 /* HMAliPayAuth.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74AD97917F3AF04E4FC1FA7336684EEB /* HMPayMent.m in Sources */ = {isa = PBXBuildFile; fileRef = 905F139D294A358D3E36574082400CF6 /* HMPayMent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80AE0E08FB1A1FDB3258B912C8A47A42 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 29727581E3CA841A3346055C7239780B /* AlipaySDK.bundle */; };
+		87ED184BE0CA5DB1325D373DF7288880 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F79F822DF444072239F305239DFD2B /* MobileCoreServices.framework */; };
+		8BBD03C71D2361FD0B65C8EEA27F0A22 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDED6676878AA7282C781DDDD251E933 /* CoreTelephony.framework */; };
+		9F9C5F64C1D1E193F8AD8574794EC757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95F7E5D450D0479116C4C4B6C6202C /* UIKit.framework */; };
+		B07F0FD4E7CDDC55520E125B368A1F81 /* HMAliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = C80F7A6EB80AE82C93087F40D075CC92 /* HMAliPay.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B743DCF78390C47B9730EF8EC29D5564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD658BDCAE909BAA1E4AD18657485927 /* Foundation.framework */; };
+		BDA317D4720DF67E70BD4D788D683725 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4009C7C0F1C34EDCCEFEDCD275B8F322 /* CoreText.framework */; };
+		C30ED07F90F68F597AA3C5F1405BD347 /* HMPayMent.h in Headers */ = {isa = PBXBuildFile; fileRef = AD07C4CDE4B88A06F9302C1278D6F91A /* HMPayMent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7BB4756BBC3837703FD21296EA066B2 /* HMAliPayAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = BB604BC7930501625D1ED7EE2FCDEF5F /* HMAliPayAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC00FA07BBB81B4980EE0692BACEB92 /* Pods-HuamiPayExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D5624FB06B9CDEA64AE5E913CD04FC /* Pods-HuamiPayExample-dummy.m */; };
+		DD4B2878C2246C1B2D90175A20F2E3C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 211FC4A7119D2A7073296C6901C19C75 /* Security.framework */; };
+		DDF7823C8560213DCB677A2F3AEA276F /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 33BE981F31DA3EBD3EB90A799E028EE9 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E54CABD6D893D092C6DE213BE274C0D7 /* HMPayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2B4DFA3ACCAF709880F6DC82D077F1 /* HMPayKit-dummy.m */; };
+		EA1ECF90FEC81057AE0A3DB380CAE914 /* HMWxPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8B0755C8BF2047A51CF4D03AEC716F /* HMWxPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAFCEB9487F2683761B562F26C130FCD /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A56304F4B31B49313FBAE5D2E72F7C6E /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49DF56B9DD1E053D17FB0205A2AA733 /* HMPayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F0D9BCE4130CC2D57443A6FE092453 /* HMPayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8BC543A128F26C4568531C9B172FF77 /* HMWxPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 477A9036F53F07FEEF947120069C0001 /* HMWxPay.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6AE4802B93C344E102BA82A431E925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60327F02423B7E7D2D130ED88ACE0F8A;
+			remoteInfo = HMPayKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029B35AB7B97525D41F1A8F370A0BE4B /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = HMPayKit/Platforms/aliPay/AlipaySDK.framework; sourceTree = "<group>"; };
+		091077B054FF030A5377527A9A25033B /* Pods-HuamiPayExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuamiPayExample.release.xcconfig"; sourceTree = "<group>"; };
+		0B29F8C70272A081D9C7122682B04DAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B654CEA3B0F4330769521C074C66FFF /* Pods-HuamiPayExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HuamiPayExample.modulemap"; sourceTree = "<group>"; };
+		107394E20112867692F004EFA7A8D810 /* Pods-HuamiPayExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HuamiPayExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1613E97AED06FB7AADC1A0EC38D04FD7 /* HMAliPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMAliPay.h; path = HMPayKit/Services/HMAliPay.h; sourceTree = "<group>"; };
+		211FC4A7119D2A7073296C6901C19C75 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		29727581E3CA841A3346055C7239780B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = HMPayKit/Platforms/aliPay/AlipaySDK.bundle; sourceTree = "<group>"; };
+		33BE981F31DA3EBD3EB90A799E028EE9 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AlipaySDK.h; path = HMPayKit/Platforms/aliPay/AlipaySDK.framework/Headers/AlipaySDK.h; sourceTree = "<group>"; };
+		3777617FF65945BF6020854E61BBA4A9 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = HMPayKit/Platforms/wechat/WXApiObject.h; sourceTree = "<group>"; };
+		3E2B4DFA3ACCAF709880F6DC82D077F1 /* HMPayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMPayKit-dummy.m"; sourceTree = "<group>"; };
+		4009C7C0F1C34EDCCEFEDCD275B8F322 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		458197A63229DB820A1AB464DAABED1B /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = HMPayKit/Platforms/wechat/libWeChatSDK.a; sourceTree = "<group>"; };
+		477A9036F53F07FEEF947120069C0001 /* HMWxPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMWxPay.m; path = HMPayKit/Services/HMWxPay.m; sourceTree = "<group>"; };
+		513B1947FBE05D2D9097B755E0417383 /* HMAliPayAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMAliPayAuth.m; path = HMPayKit/Services/HMAliPayAuth.m; sourceTree = "<group>"; };
+		5741CE91E2FEC2CD55DCB810E03D0585 /* HMPayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMPayKit.framework; path = HMPayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0EAFF4ECCF76C1B3A8470F58F3A49F /* Pods-HuamiPayExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HuamiPayExample.debug.xcconfig"; sourceTree = "<group>"; };
+		62B8070040F8361B474B73DCBFD7DC66 /* HMPayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMPayKit.modulemap; sourceTree = "<group>"; };
+		6498DF8587CF9CC8C78211A614D7F062 /* HMPayOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMPayOrder.h; path = HMPayKit/Core/HMPayOrder.h; sourceTree = "<group>"; };
+		6AD6327963ED49C0BEE9259A24824505 /* HMAliPayResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMAliPayResult.m; path = HMPayKit/Services/HMAliPayResult.m; sourceTree = "<group>"; };
+		7AF4B78868D58005F6304018F6A052D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853C5C2A79B071AE319E640953518D37 /* HMPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMPay.m; path = HMPayKit/Core/HMPay.m; sourceTree = "<group>"; };
+		8B3D8B69CE7F377BB4A3B36A4F5E5375 /* Pods-HuamiPayExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HuamiPayExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D8B0755C8BF2047A51CF4D03AEC716F /* HMWxPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMWxPay.h; path = HMPayKit/Services/HMWxPay.h; sourceTree = "<group>"; };
+		905F139D294A358D3E36574082400CF6 /* HMPayMent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMPayMent.m; path = HMPayKit/Core/HMPayMent.m; sourceTree = "<group>"; };
+		9255884401E5BD06171347E2CD756235 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		92F79F822DF444072239F305239DFD2B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9440EA3E8411CDBBCE8841714218E43B /* Pods_HuamiPayExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HuamiPayExample.framework; path = "Pods-HuamiPayExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97957D0ABC58D5F1D56E457A6E1BBEB0 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APayAuthInfo.h; path = HMPayKit/Platforms/aliPay/AlipaySDK.framework/Headers/APayAuthInfo.h; sourceTree = "<group>"; };
+		9B41CAC96F7050EC88403973043B9E20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A56304F4B31B49313FBAE5D2E72F7C6E /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = HMPayKit/Platforms/wechat/WechatAuthSDK.h; sourceTree = "<group>"; };
+		AD07C4CDE4B88A06F9302C1278D6F91A /* HMPayMent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMPayMent.h; path = HMPayKit/Core/HMPayMent.h; sourceTree = "<group>"; };
+		AD143CC3BE487887EFDCDBD0DAD0C8AB /* Pods-HuamiPayExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuamiPayExample-frameworks.sh"; sourceTree = "<group>"; };
+		B10E5E08476FED23B8C6679372627137 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = HMPayKit/Platforms/wechat/WXApi.h; sourceTree = "<group>"; };
+		B4D5624FB06B9CDEA64AE5E913CD04FC /* Pods-HuamiPayExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HuamiPayExample-dummy.m"; sourceTree = "<group>"; };
+		B76DC5FDFCAD994E2E970788ACD15C17 /* HMPayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMPayKit-prefix.pch"; sourceTree = "<group>"; };
+		B7F0D9BCE4130CC2D57443A6FE092453 /* HMPayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMPayKit-umbrella.h"; sourceTree = "<group>"; };
+		BB604BC7930501625D1ED7EE2FCDEF5F /* HMAliPayAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMAliPayAuth.h; path = HMPayKit/Services/HMAliPayAuth.h; sourceTree = "<group>"; };
+		BC84BFC5C8499237A1E3B0644FCE9D3B /* HMPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMPay.h; path = HMPayKit/Core/HMPay.h; sourceTree = "<group>"; };
+		BEDBDF8E982E2DF003A5FB464A77C35C /* Pods-HuamiPayExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HuamiPayExample-umbrella.h"; sourceTree = "<group>"; };
+		BF95F7E5D450D0479116C4C4B6C6202C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BFA59885A0BA5CF14A7D3B654DADFA9A /* CFNetWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetWork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetWork.framework; sourceTree = DEVELOPER_DIR; };
+		C35AEA8193A2D999B971485051D24078 /* HMAliPayResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMAliPayResult.h; path = HMPayKit/Services/HMAliPayResult.h; sourceTree = "<group>"; };
+		C80F7A6EB80AE82C93087F40D075CC92 /* HMAliPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMAliPay.m; path = HMPayKit/Services/HMAliPay.m; sourceTree = "<group>"; };
+		CAECC7B0CB8A3BA3B680E552A0B3BAC1 /* Pods-HuamiPayExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HuamiPayExample-resources.sh"; sourceTree = "<group>"; };
+		DD658BDCAE909BAA1E4AD18657485927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E5DE4E2C84A5DC832F5B9461ED8CFE96 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EB1B4775806C6224DE19396F8E117B90 /* HMPayKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMPayKit.xcconfig; sourceTree = "<group>"; };
+		EDED6676878AA7282C781DDDD251E933 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F64CCC9866661EFAC231AD3D7C9EA40E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36445BB4EB788D5EE8AC0776314931D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C5D75C42E805682A3FED72A9C93AD1 /* CFNetWork.framework in Frameworks */,
+				21FF3FC4395D80A5176FB316AE478B43 /* CoreGraphics.framework in Frameworks */,
+				2CD7C3EE868AE86014F4DC051FA8462E /* CoreMotion.framework in Frameworks */,
+				8BBD03C71D2361FD0B65C8EEA27F0A22 /* CoreTelephony.framework in Frameworks */,
+				BDA317D4720DF67E70BD4D788D683725 /* CoreText.framework in Frameworks */,
+				283A063AA03E0CA2FC932433670B70CB /* Foundation.framework in Frameworks */,
+				87ED184BE0CA5DB1325D373DF7288880 /* MobileCoreServices.framework in Frameworks */,
+				22672E8B9A3E84CC2B509B33B4A92FCE /* QuartzCore.framework in Frameworks */,
+				DD4B2878C2246C1B2D90175A20F2E3C5 /* Security.framework in Frameworks */,
+				4A95D92A72C221CE79736D7BCA8E923A /* SystemConfiguration.framework in Frameworks */,
+				9F9C5F64C1D1E193F8AD8574794EC757 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A8EBD2616133750E4CFC5659943257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B743DCF78390C47B9730EF8EC29D5564 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438B46D64700D42150FFE6FD009684CC /* HMPayKit */ = {
+			isa = PBXGroup;
+			children = (
+				33BE981F31DA3EBD3EB90A799E028EE9 /* AlipaySDK.h */,
+				97957D0ABC58D5F1D56E457A6E1BBEB0 /* APayAuthInfo.h */,
+				1613E97AED06FB7AADC1A0EC38D04FD7 /* HMAliPay.h */,
+				C80F7A6EB80AE82C93087F40D075CC92 /* HMAliPay.m */,
+				BB604BC7930501625D1ED7EE2FCDEF5F /* HMAliPayAuth.h */,
+				513B1947FBE05D2D9097B755E0417383 /* HMAliPayAuth.m */,
+				C35AEA8193A2D999B971485051D24078 /* HMAliPayResult.h */,
+				6AD6327963ED49C0BEE9259A24824505 /* HMAliPayResult.m */,
+				BC84BFC5C8499237A1E3B0644FCE9D3B /* HMPay.h */,
+				853C5C2A79B071AE319E640953518D37 /* HMPay.m */,
+				AD07C4CDE4B88A06F9302C1278D6F91A /* HMPayMent.h */,
+				905F139D294A358D3E36574082400CF6 /* HMPayMent.m */,
+				6498DF8587CF9CC8C78211A614D7F062 /* HMPayOrder.h */,
+				8D8B0755C8BF2047A51CF4D03AEC716F /* HMWxPay.h */,
+				477A9036F53F07FEEF947120069C0001 /* HMWxPay.m */,
+				A56304F4B31B49313FBAE5D2E72F7C6E /* WechatAuthSDK.h */,
+				B10E5E08476FED23B8C6679372627137 /* WXApi.h */,
+				3777617FF65945BF6020854E61BBA4A9 /* WXApiObject.h */,
+				71C23A5E493BE00113416C76AE5C461E /* Frameworks */,
+				B7C1BD198BEE56DA341E34B0D001C342 /* Resources */,
+				AC036ACE8C987B7010A2BAF5AD3CB8F7 /* Support Files */,
+			);
+			name = HMPayKit;
+			path = HMPayKit;
+			sourceTree = "<group>";
+		};
+		71C23A5E493BE00113416C76AE5C461E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				029B35AB7B97525D41F1A8F370A0BE4B /* AlipaySDK.framework */,
+				458197A63229DB820A1AB464DAABED1B /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
+				FF5A3CCFC9B7B6FDA3A41BFC4D72FC24 /* Pods */,
+				7F3E952A82F4A39CBFB2AC24BAC3BE34 /* Products */,
+				EB3728776EAACB446CF1A8876FF7CD6B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3E952A82F4A39CBFB2AC24BAC3BE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5741CE91E2FEC2CD55DCB810E03D0585 /* HMPayKit.framework */,
+				9440EA3E8411CDBBCE8841714218E43B /* Pods_HuamiPayExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EBA1C6158F00F9655FDF59D190A8A2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFA59885A0BA5CF14A7D3B654DADFA9A /* CFNetWork.framework */,
+				9255884401E5BD06171347E2CD756235 /* CoreGraphics.framework */,
+				F64CCC9866661EFAC231AD3D7C9EA40E /* CoreMotion.framework */,
+				EDED6676878AA7282C781DDDD251E933 /* CoreTelephony.framework */,
+				4009C7C0F1C34EDCCEFEDCD275B8F322 /* CoreText.framework */,
+				DD658BDCAE909BAA1E4AD18657485927 /* Foundation.framework */,
+				92F79F822DF444072239F305239DFD2B /* MobileCoreServices.framework */,
+				9B41CAC96F7050EC88403973043B9E20 /* QuartzCore.framework */,
+				211FC4A7119D2A7073296C6901C19C75 /* Security.framework */,
+				E5DE4E2C84A5DC832F5B9461ED8CFE96 /* SystemConfiguration.framework */,
+				BF95F7E5D450D0479116C4C4B6C6202C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9813363DAF4F415CD64DE4692EDB5379 /* Pods-HuamiPayExample */ = {
+			isa = PBXGroup;
+			children = (
+				0B29F8C70272A081D9C7122682B04DAB /* Info.plist */,
+				0B654CEA3B0F4330769521C074C66FFF /* Pods-HuamiPayExample.modulemap */,
+				107394E20112867692F004EFA7A8D810 /* Pods-HuamiPayExample-acknowledgements.markdown */,
+				8B3D8B69CE7F377BB4A3B36A4F5E5375 /* Pods-HuamiPayExample-acknowledgements.plist */,
+				B4D5624FB06B9CDEA64AE5E913CD04FC /* Pods-HuamiPayExample-dummy.m */,
+				AD143CC3BE487887EFDCDBD0DAD0C8AB /* Pods-HuamiPayExample-frameworks.sh */,
+				CAECC7B0CB8A3BA3B680E552A0B3BAC1 /* Pods-HuamiPayExample-resources.sh */,
+				BEDBDF8E982E2DF003A5FB464A77C35C /* Pods-HuamiPayExample-umbrella.h */,
+				5E0EAFF4ECCF76C1B3A8470F58F3A49F /* Pods-HuamiPayExample.debug.xcconfig */,
+				091077B054FF030A5377527A9A25033B /* Pods-HuamiPayExample.release.xcconfig */,
+			);
+			name = "Pods-HuamiPayExample";
+			path = "Target Support Files/Pods-HuamiPayExample";
+			sourceTree = "<group>";
+		};
+		AC036ACE8C987B7010A2BAF5AD3CB8F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62B8070040F8361B474B73DCBFD7DC66 /* HMPayKit.modulemap */,
+				EB1B4775806C6224DE19396F8E117B90 /* HMPayKit.xcconfig */,
+				3E2B4DFA3ACCAF709880F6DC82D077F1 /* HMPayKit-dummy.m */,
+				B76DC5FDFCAD994E2E970788ACD15C17 /* HMPayKit-prefix.pch */,
+				B7F0D9BCE4130CC2D57443A6FE092453 /* HMPayKit-umbrella.h */,
+				7AF4B78868D58005F6304018F6A052D0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HMPayKit";
+			sourceTree = "<group>";
+		};
+		B7C1BD198BEE56DA341E34B0D001C342 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29727581E3CA841A3346055C7239780B /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB3728776EAACB446CF1A8876FF7CD6B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9813363DAF4F415CD64DE4692EDB5379 /* Pods-HuamiPayExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EBA1C6158F00F9655FDF59D190A8A2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5A3CCFC9B7B6FDA3A41BFC4D72FC24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438B46D64700D42150FFE6FD009684CC /* HMPayKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C47BFDF0F67147AFEE22FE4D7821FA6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF7823C8560213DCB677A2F3AEA276F /* AlipaySDK.h in Headers */,
+				0DC1512D821D84DBF408E61F6D497409 /* APayAuthInfo.h in Headers */,
+				1D36DB26E9E7CE8E691B8FE23E10F596 /* HMAliPay.h in Headers */,
+				C7BB4756BBC3837703FD21296EA066B2 /* HMAliPayAuth.h in Headers */,
+				4FDCE2038C923A34E008161958B79B2A /* HMAliPayResult.h in Headers */,
+				220C17E1C8D3D9649E707224EC16ABAA /* HMPay.h in Headers */,
+				F49DF56B9DD1E053D17FB0205A2AA733 /* HMPayKit-umbrella.h in Headers */,
+				C30ED07F90F68F597AA3C5F1405BD347 /* HMPayMent.h in Headers */,
+				55592000626D99BD669C8702C81A0A9B /* HMPayOrder.h in Headers */,
+				EA1ECF90FEC81057AE0A3DB380CAE914 /* HMWxPay.h in Headers */,
+				EAFCEB9487F2683761B562F26C130FCD /* WechatAuthSDK.h in Headers */,
+				2BF5218CBF0F7D11C6D15D49A0EB6071 /* WXApi.h in Headers */,
+				38CB40965A8F61EED1FBC5CB2EE78DD3 /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F1D8B6902A36AB644A98DE84857529 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596ECC19DFB33FAFFB7738B72A04C9E5 /* Pods-HuamiPayExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60327F02423B7E7D2D130ED88ACE0F8A /* HMPayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F434FF758B082F8958AA2E0249A822E9 /* Build configuration list for PBXNativeTarget "HMPayKit" */;
+			buildPhases = (
+				56050B1BBC095D2610ADAF912FB1D6B0 /* Sources */,
+				36445BB4EB788D5EE8AC0776314931D5 /* Frameworks */,
+				C47BFDF0F67147AFEE22FE4D7821FA6E /* Headers */,
+				52B0415BDFEA989D36E0845F799D2104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMPayKit;
+			productName = HMPayKit;
+			productReference = 5741CE91E2FEC2CD55DCB810E03D0585 /* HMPayKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B894F3DA18EF0305F3D8A7946BD7137B /* Pods-HuamiPayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC2C5140C2E7360D51DD9DD62EB7D91 /* Build configuration list for PBXNativeTarget "Pods-HuamiPayExample" */;
+			buildPhases = (
+				FABADA68DC46755A34910394CC4F3ECD /* Sources */,
+				E9A8EBD2616133750E4CFC5659943257 /* Frameworks */,
+				D2F1D8B6902A36AB644A98DE84857529 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1A76DC3AD06A4AB22B88108428BFCE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-HuamiPayExample";
+			productName = "Pods-HuamiPayExample";
+			productReference = 9440EA3E8411CDBBCE8841714218E43B /* Pods_HuamiPayExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7F3E952A82F4A39CBFB2AC24BAC3BE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60327F02423B7E7D2D130ED88ACE0F8A /* HMPayKit */,
+				B894F3DA18EF0305F3D8A7946BD7137B /* Pods-HuamiPayExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52B0415BDFEA989D36E0845F799D2104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AE0E08FB1A1FDB3258B912C8A47A42 /* AlipaySDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56050B1BBC095D2610ADAF912FB1D6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07F0FD4E7CDDC55520E125B368A1F81 /* HMAliPay.m in Sources */,
+				6FA00C2A5E05A5485C23D2C8B322965D /* HMAliPayAuth.m in Sources */,
+				56D67DA871FDCC1A57B3A18F0A3F880E /* HMAliPayResult.m in Sources */,
+				6422183E6579441E658FFD5BAAD1F612 /* HMPay.m in Sources */,
+				E54CABD6D893D092C6DE213BE274C0D7 /* HMPayKit-dummy.m in Sources */,
+				74AD97917F3AF04E4FC1FA7336684EEB /* HMPayMent.m in Sources */,
+				F8BC543A128F26C4568531C9B172FF77 /* HMWxPay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABADA68DC46755A34910394CC4F3ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC00FA07BBB81B4980EE0692BACEB92 /* Pods-HuamiPayExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1A76DC3AD06A4AB22B88108428BFCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMPayKit;
+			target = 60327F02423B7E7D2D130ED88ACE0F8A /* HMPayKit */;
+			targetProxy = 0E6AE4802B93C344E102BA82A431E925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58AB5E53994A79F49CDFD90307B8939C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1B4775806C6224DE19396F8E117B90 /* HMPayKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMPayKit/HMPayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMPayKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMPayKit/HMPayKit.modulemap";
+				PRODUCT_MODULE_NAME = HMPayKit;
+				PRODUCT_NAME = HMPayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CCF97F589B2D7F1B50A2D55907CCCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091077B054FF030A5377527A9A25033B /* Pods-HuamiPayExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuamiPayExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66C79B68573DEBC236DA51383738AB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0EAFF4ECCF76C1B3A8470F58F3A49F /* Pods-HuamiPayExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HuamiPayExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F17A11AE9378B281C6416339FA865E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB1B4775806C6224DE19396F8E117B90 /* HMPayKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMPayKit/HMPayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMPayKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMPayKit/HMPayKit.modulemap";
+				PRODUCT_MODULE_NAME = HMPayKit;
+				PRODUCT_NAME = HMPayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC2C5140C2E7360D51DD9DD62EB7D91 /* Build configuration list for PBXNativeTarget "Pods-HuamiPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C79B68573DEBC236DA51383738AB74 /* Debug */,
+				5CCF97F589B2D7F1B50A2D55907CCCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F434FF758B082F8958AA2E0249A822E9 /* Build configuration list for PBXNativeTarget "HMPayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17A11AE9378B281C6416339FA865E18 /* Debug */,
+				58AB5E53994A79F49CDFD90307B8939C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

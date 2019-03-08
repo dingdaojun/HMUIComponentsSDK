@@ -1,0 +1,16 @@
+PODS:
+  - HMPayKit (0.1.3)
+
+DEPENDENCIES:
+  - HMPayKit
+
+SPEC REPOS:
+  ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS:
+    - HMPayKit
+
+SPEC CHECKSUMS:
+  HMPayKit: 0e7840627f76ae98141929e113204cb8115f0141
+
+PODFILE CHECKSUM: c419d8621540116f2b8c30a0af851f8c32f1860a
+
+COCOAPODS: 1.5.0

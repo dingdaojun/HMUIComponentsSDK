@@ -1,88 +1,54 @@
 PODS:
-  - HMCategory/Base (0.4.10)
-  - HMCategory/HMCategoryKit (0.4.10):
-    - HMCategory/Base
-    - HMCategory/HMCategoryKit/FoundationKit (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit (= 0.4.10)
-  - HMCategory/HMCategoryKit/FoundationKit (0.4.10):
-    - HMCategory/Base
-    - HMCategory/HMCategoryKit/FoundationKit/NSArray (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSCalendar (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSData (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSDate (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSDictionary (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSLocal (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSNotificationCenter (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSObject (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSString (= 0.4.10)
-    - HMCategory/HMCategoryKit/FoundationKit/NSTimer (= 0.4.10)
-  - HMCategory/HMCategoryKit/FoundationKit/NSArray (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSCalendar (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSData (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSDate (0.4.10):
-    - HMCategory/Base
-    - HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter
-  - HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSDictionary (0.4.10):
-    - HMCategory/Base
-    - HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter
-  - HMCategory/HMCategoryKit/FoundationKit/NSLocal (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSNotificationCenter (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSObject (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/FoundationKit/NSString (0.4.10):
-    - HMCategory/Base
+  - HMCategory/HMCategoryKit (0.4.1):
+    - HMCategory/HMCategoryKit/FoundationKit (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit (= 0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit (0.4.1):
+    - HMCategory/HMCategoryKit/FoundationKit/NSArray (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSData (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSDate (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSDictionary (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSLocal (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSNotificationCenter (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSObject (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSString (= 0.4.1)
+    - HMCategory/HMCategoryKit/FoundationKit/NSTimer (= 0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSArray (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSData (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSDate (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSDictionary (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSLocal (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSNotificationCenter (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSObject (0.4.1)
+  - HMCategory/HMCategoryKit/FoundationKit/NSString (0.4.1):
     - HMCategory/HMCategoryKit/FoundationKit/NSDate
-    - HMCategory/HMCategoryKit/FoundationKit/NSDateFormatter
-  - HMCategory/HMCategoryKit/FoundationKit/NSTimer (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit (0.4.10):
-    - HMCategory/Base
-    - HMCategory/HMCategoryKit/UIKit/UIApplication (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIButton (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIColor (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIDevice (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIImage (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIImageView (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UILabel (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIScrollView (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UITextField (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UITextView (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIView (= 0.4.10)
-    - HMCategory/HMCategoryKit/UIKit/UIWindow (= 0.4.10)
-  - HMCategory/HMCategoryKit/UIKit/UIApplication (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIButton (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIColor (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIDevice (0.4.10):
-    - HMCategory/Base
+  - HMCategory/HMCategoryKit/FoundationKit/NSTimer (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit (0.4.1):
+    - HMCategory/HMCategoryKit/UIKit/UIApplication (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIButton (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIColor (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIDevice (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIImage (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIImageView (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UILabel (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIScrollView (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UITextField (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UITextView (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIView (= 0.4.1)
+    - HMCategory/HMCategoryKit/UIKit/UIWindow (= 0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIApplication (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIButton (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIColor (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIDevice (0.4.1):
     - HMCategory/HMCategoryKit/UIKit/UIApplication
-  - HMCategory/HMCategoryKit/UIKit/UIImage (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIImageView (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UILabel (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIScrollView (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UITextField (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UITextView (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIView (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryKit/UIKit/UIWindow (0.4.10):
-    - HMCategory/Base
-  - HMCategory/HMCategoryMifitKit (0.4.10):
+  - HMCategory/HMCategoryKit/UIKit/UIImage (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIImageView (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UILabel (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIScrollView (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UITextField (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UITextView (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIView (0.4.1)
+  - HMCategory/HMCategoryKit/UIKit/UIWindow (0.4.1)
+  - HMCategory/HMCategoryMifitKit (0.4.1):
     - HMCategory/HMCategoryKit
 
 DEPENDENCIES:
@@ -90,11 +56,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   HMCategory:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  HMCategory: 4988f92c03d237d0d438d7ad17f7c68468a819f0
+  HMCategory: cb62b529c15e452686a3a93c28872eb406c9648f
 
-PODFILE CHECKSUM: ea2c079aa7b1d168efc9aa57ff5d3f6ccc1f6301
+PODFILE CHECKSUM: 57ba7c5bd573c29e74d06179027d74be9dc090b3
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.4.0

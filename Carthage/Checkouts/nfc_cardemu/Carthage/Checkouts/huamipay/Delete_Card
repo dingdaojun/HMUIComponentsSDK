@@ -1,0 +1,1 @@
+curl -i -X DELETE --header 'Authorization:Basic cm9vdDphZG1pbg==' 'http://mifit-staging-admin.private.mi-ae.net/apps/com.xiaomi.hm.health/devices/FA5EB9FFFE6D18C8/busCardBinding'

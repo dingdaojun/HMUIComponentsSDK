@@ -1,0 +1,44 @@
+{
+  "name": "HMDBAdvertisement",
+  "version": "0.3.2",
+  "summary": "A short description of HMDBAdvertisement.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BigNerdCoding/HMDBAdvertisement",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BigNerdCoding": "bignerdcoding@gmail.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/HMDBAdvertisement",
+    "tag": "0.3.2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Services",
+  "subspecs": [
+    {
+      "name": "Persistance",
+      "source_files": "HMDBAdvertisement/Persistance/**/*",
+      "public_header_files": "HMDBAdvertisement/Persistance/HMDBAdvertisementConfig.h",
+      "dependencies": {
+        "CTPersistance": [
+          "~> 181"
+        ]
+      }
+    },
+    {
+      "name": "Services",
+      "source_files": "HMDBAdvertisement/Services/**/*",
+      "private_header_files": "HMDBAdvertisement/Services/ModelCategory/**/*.h",
+      "dependencies": {
+        "HMDBAdvertisement/Persistance": [
+
+        ]
+      }
+    }
+  ]
+}

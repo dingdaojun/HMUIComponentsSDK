@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/LinkingIOS/RCTLinkingManager.h

@@ -1,0 +1,2164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BDAA41951F418C68F0AB94DEA5EA30 /* CTPersistanceTable+Schema.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A00B814D1D2AE6981EB107BD7715D38 /* CTPersistanceTable+Schema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F7D55919C59833456188558FE8D7FA /* OCMExpectationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = C096B19E1FD2DB16F85383833934A0D5 /* OCMExpectationRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0310B1523123778B0E3FB78BE3A14095 /* OCMBlockCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C191FE82F757C678B219E2D6E7C830 /* OCMBlockCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03339F5F5C73017E5B6364CD7074DCB2 /* HMAdSleepDetailRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D946B5C4E1A6AF928088C88E3DAD8F1 /* HMAdSleepDetailRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		043EC34CDB17806C29FE883CE0D11FE6 /* HMAdSleepDetailRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8456747F021127186511EB7740BDFD /* HMAdSleepDetailRecord.m */; };
+		04BE2488DE42D7E0B97548A554173F06 /* CTPersistanceDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C1DAAB90D7A618BC42D37E4B97ED09 /* CTPersistanceDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05685CDF69B741802057C7DC59C56C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		069A906F286CAA61F8AA8F4176AB84A2 /* NSArray+CTPersistanceRecordTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 60349BBDEB01E2E2A725ACDF48B218BF /* NSArray+CTPersistanceRecordTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B12E50FC71B3B1C74F1FC5949E6827 /* CTPersistanceTable+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6EEC45D588D121BD15BF4655C6DEDE /* CTPersistanceTable+Find.m */; };
+		0AEAD2BEB61CCA26BB0798F2E527BF84 /* OCMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD311FAE91216C1AA8B1AC3C1DA5A5D /* OCMRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0CC0772E28B92F54E47BB90E2B1A562F /* CTPersistanceQueryCommand+DataManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = B6435677C7D3A8C1E13CE7CA4AA86F97 /* CTPersistanceQueryCommand+DataManipulations.m */; };
+		0D183650A2D88CB6DAD886030A3A2B62 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A76EE7209005BE149E52CA24B87619 /* OCMBoxedReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0E32A8C1B69250199C8EC0794CF3A3B6 /* OCMStubRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4620F15343AF6DAFE4A367791DEA5 /* OCMStubRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		116FA1BBD719AFAA5593D71332D2A926 /* OCClassMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4033364739BE69D112CBC3D9CBF191 /* OCClassMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1326870095D8E6548D9CEBE57BC61833 /* HMDBAdServices+SleepDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CCB3389EE5C633B18447274B94FF6D /* HMDBAdServices+SleepDetail.m */; };
+		13A1051CA96D84674E588FECAF52DD43 /* OCMExpectationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC75DB78D6CDEC8F6CBC04E9DD0222 /* OCMExpectationRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		13AA024ACA7FE3FAD7E0FFD5AC77370D /* OCMVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D72D5D9EC0B8887DA28F445CFE13F1 /* OCMVerifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		147E00CDCEDB145F0012FA174BA4E545 /* OCObserverMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D94AD7201FBFD0A529AA410A3DC27E73 /* OCObserverMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15081C3A4D626D9631A9594847D2E2A6 /* OCMFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7154C087D03686A9448345D6A474E1 /* OCMFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1583087CE691D66E050A0AE7C07296BD /* OCMNotificationPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = B4AECD7F2A37B1C9D562BABD326F21A1 /* OCMNotificationPoster.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15CB977720E50B1902FFF77FA013BE79 /* NSDictionary+KeyValueBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 315126B3054576891A01077FDC4DD21D /* NSDictionary+KeyValueBind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FEDB8A315321D48BC7E535429ADB48 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D630B921211F35B6267ED225738868 /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		163B06336629F091581900F252FF7B99 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3CC518C4BCA5835133B2A6DC1625F9C /* CTMediator.framework */; };
+		16E007C8B51711130984E735FDC3E770 /* HMDBAdGeneralResourceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13CB6935F45039FAA860868092302B /* HMDBAdGeneralResourceRecord.m */; };
+		1CFCB7F78DDCFC2C70AA4DE102DE37F9 /* CTPersistanceTable+Find.h in Headers */ = {isa = PBXBuildFile; fileRef = F07C9A4F7E848739A941F6CC27CF5972 /* CTPersistanceTable+Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D53147F49F02FC693C33D8526049C90 /* OCMIndirectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EB93A7340299F33C91AD19E05EAE64 /* OCMIndirectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DD2C9A900B7D7B5F3862D15C1A8AD7E /* NSValue+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 472C330B07B9CA08DCE86F7A13641805 /* NSValue+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD916BAE191B1A9782313373615E836 /* CTMediator.m */; };
+		1F681A68313CF4AEB2DF700A836A19EE /* HMDBAdGeneralResourceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CAF9A6EB2C794AFF7F4614E9917AE6A /* HMDBAdGeneralResourceTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FE4F0F4FF93B60F53E39962636BFA7E /* HMDBAdServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 599DB7DF92906AEF28ABF37049F09D6B /* HMDBAdServices.m */; };
+		24394811C369F117D75337F436C81222 /* OCMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB024E3C1484992E6A94950726D5FD5 /* OCMock-dummy.m */; };
+		28B5E9BDDC2F53432C7D7D244837F1B5 /* OCClassMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB4D5E96C1BE4D7913E05FEC671B2A4 /* OCClassMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		297C8E5024263D7F7D1A8B415A02FEEB /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 325CC1140690E0D1EC34FE030F333B09 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D7B585E8660DA0619E90F005CC5F10B /* CTPersistanceTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF39345163FE0F979FC01A0CF2448AF6 /* CTPersistanceTable.m */; };
+		31B34E8B8F5F89E725A96D1785564EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		32A2FEABB7A4D9B95871C60D91E48FC3 /* CTPersistanceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 398F69BDFCC397508D324AC5BD187DFA /* CTPersistanceRecord.m */; };
+		32EC414293D465CA62AD5F4F8969FA64 /* HMDBAdGeneralResourceRecord+Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E19FF71968F3DA9D3C84DF26DD8BB20F /* HMDBAdGeneralResourceRecord+Protocol.m */; };
+		34286B7A417C87CD49B59AE1F20B04D4 /* HMDBAdGeneralProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6CB9847BDA6260BCFFDB120FDB7B /* HMDBAdGeneralProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353759005B92EEC29E4B15765C4D3EEB /* OCPartialMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA5DFC628ABDB787E1A12733013635F /* OCPartialMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3620273881DFA347F104D8E7931B068A /* Pods-HMDBAdvertisement_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAB50E669C5984BEB05061238F17D6F /* Pods-HMDBAdvertisement_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D5085895B3757AF0DCED078EF8B145 /* OCMRealObjectForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = A4491F87235B567D8D36359F96A9AAA9 /* OCMRealObjectForwarder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		399D72D408DF7EA5242757AD4D2313D2 /* CTPersistanceAsyncExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 89BDCBBEFD396CD0BD767CE72B2FC57B /* CTPersistanceAsyncExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1CA906E1851787B45EC0C9C00D574B /* NSDictionary+KeyValueBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1D8119556CC774E0479D2C6AB9ECF7 /* NSDictionary+KeyValueBind.m */; };
+		3A8B0EC31E8EBDB645118A9DAAEDA8E5 /* NSString+Where.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA892FFA705C2ACD1F1A8F91C0B3E50 /* NSString+Where.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD0486E78B7CEB77F8E9AFA239CF8CC /* HMDBAdGeneralVirtualRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8C5ACE9D56584A367580636BB03900 /* HMDBAdGeneralVirtualRecord.m */; };
+		3D1CB7A4AB9B00BC95F06CF858F18BCE /* OCMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC0E72FD8A0C0C2AD88224C4E275B4 /* OCMFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EED038D4F0F53A9B5A5164DCB614494 /* HMDBAdServices+General.h in Headers */ = {isa = PBXBuildFile; fileRef = F6C7C41B7CDE596E0511C71E74CB357A /* HMDBAdServices+General.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E7740F29AC950D9755968E397E88FA /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4362E4C2A239F6F52A3A3E0AC7DE09C6 /* HMDBAdvertisement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A69A09CB6716D5117115D3FC6EE6AD /* HMDBAdvertisement-dummy.m */; };
+		4552366371FE1ACA9600897C31D70E4C /* OCMObserverRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB9C0AC1DA1268A4B50F19FB7C400CC /* OCMObserverRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		459A072C6518855EDC7035248076A1E5 /* CTPersistanceTable+Schema.m in Sources */ = {isa = PBXBuildFile; fileRef = 890B5B7623E801B64749A1AF8EAC9276 /* CTPersistanceTable+Schema.m */; };
+		45E91E6E79D1EEACF0F7A668E3D9A89D /* OCProtocolMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B6973BF446886D567167A00A5FFA3E14 /* OCProtocolMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4716B39B8B987B3786729B544DCC2DDB /* CTPersistanceVersionRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AFB1912D47BFA2C6EFD53C4A06092B /* CTPersistanceVersionRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473971E620F86C8D00014A3B /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4FCC790F3AF5EEFBFC4C9649213224 /* CTMediator.framework */; };
+		473971E720F86C8D00014A3B /* CTPersistance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575A05C98173814ECC22D4706A9C0F42 /* CTPersistance.framework */; };
+		473971E820F86C8D00014A3B /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFE500C3622A4AD3BC6274425AC6180 /* SQLCipher.framework */; };
+		473971EA20F86C8E00014A3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 473971E920F86C8E00014A3B /* Foundation.framework */; };
+		47EFDE9D100FBDBFCF25B8AD351654E1 /* HMDBAdServices+SleepDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = B53A71E5A607A1C86C2CA650021546D1 /* HMDBAdServices+SleepDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495824D36D15EB4950AC648BAAF03252 /* CTPersistanceDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F6FA44CC2AAB1CEF68375FE6D53CB5 /* CTPersistanceDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6C7CC5B3797C302E2AB701ACF69A3F /* CTPersistanceTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 356F052D1BDFF78328DC295D616BDBAE /* CTPersistanceTransaction.m */; };
+		4CA13C628549A874FDF0198B9CF98CAF /* Pods-HMDBAdvertisement_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C451A3810C613CFC21E1B3484E9ACE9 /* Pods-HMDBAdvertisement_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E113F5D4AA21686DCB09A288ACCC200 /* CTPersistanceQueryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AA394461A099F5696C1FF5BFE2479C /* CTPersistanceQueryCommand.m */; };
+		4E8250BDB662F542F9294F6941333373 /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD161533FB9082EBFE5755662F732BF9 /* OCMPassByRefSetter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4F02F5DD4EC7C3AFD1EC38E2F55B0C4A /* OCMBlockArgCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CEAEEB1575B25A069F284052C25468 /* OCMBlockArgCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4F0EB59C43A11AE61E80936A5819A467 /* CTPersistanceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = F617CD4272682E2204B595DA7D547A5F /* CTPersistanceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F4A7459D96FDABBAB640D1D1B1BB42E /* OCMNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = B146CB29D81F43D9F1C4BBB9CD06464A /* OCMNotificationPoster.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5037A042D2012439DEC932F10FC51B95 /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 82877756CB3A8AAC1B13E9AE96864258 /* NSMethodSignature+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51CAB174257235556CE8902084F0E662 /* NSNotificationCenter+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E123B48082D22F457F93FA943BE37A /* NSNotificationCenter+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		543D9D71DD92175A9CC5F0831CF2A028 /* OCPartialMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F1EB44DCE648DEE2DD9DE7D417AF20 /* OCPartialMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		54471D429F63760B736E52506A0B861B /* OCMInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 848102AE020EC731831F9A860670EA2A /* OCMInvocationMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		58E17E1591D2C74447D6598891B4F450 /* HMDBAdGeneralResourceTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1FE1737EFB2B57593C72352C2E61D5 /* HMDBAdGeneralResourceTable.m */; };
+		58FB50DB554239F854ECBEC3C86F3A92 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 744FB5AAC06CFB80B7175FE8A0CEC13A /* OCMRealObjectForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59578DBAB2520015A65B5B160722A370 /* NSValue+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCAF29EA76C105281840FE4637BF5A6 /* NSValue+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5C3A56EEEED6FC3C6A3AB84207B1F618 /* CTPersistanceVersionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC213CA8D61AE5242897BF0971676D /* CTPersistanceVersionTable.m */; };
+		5D201EA8B19E0D58EA62A838F053D3D6 /* HMAdSleepDetailTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B100C1B2679AA34D4552B400EBC349 /* HMAdSleepDetailTable.m */; };
+		5DC2F26AC140DD44C3631E3EDCE4EA5A /* HMDBAdGeneralResourceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A1A6B24F34ADFACCCBDB010C7C4048 /* HMDBAdGeneralResourceRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FBC0CC95F18EC5D4FA6ACDD4CFEBB44 /* HMDBAdvertisementConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA43056E5A9EEAD68507C1EE6F5274D /* HMDBAdvertisementConfig.m */; };
+		62F66E6B669429E87FE06563F2DD159C /* CTPersistanceTable+Insert.h in Headers */ = {isa = PBXBuildFile; fileRef = 2191344D0FD0D3F603434E3B9DBBFA7D /* CTPersistanceTable+Insert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639FC6184DDD71DB22428B89914F05C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		67D9B84569586159B6C98E892E1D8133 /* CTPersistance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 638EE5AB5A1D194910BD89EEAE8F0A7D /* CTPersistance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A37FE9CD6B645306D2DBBB5FF4F1238 /* HMDBAdGeneralResourceRecord+Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BE984B1124E951130099AEC41331AB06 /* HMDBAdGeneralResourceRecord+Protocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6C9109220953C792921260E8A59FB39E /* NSMutableArray+CTPersistanceBindValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E22F7D779940BDFB0421C1B21E19CDA /* NSMutableArray+CTPersistanceBindValue.m */; };
+		6DEAD4CD0FF9467DA3FD3F22816418C6 /* OCMArgAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3731811023631E85E74E0A13C0AF88F3 /* OCMArgAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71213523998EC4038EEF2881118A57A1 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B651D08CD747395019F459A0D05B97 /* NSInvocation+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		72C8CC2855787B9DC1A37DDEB5E24155 /* OCMFunctionsPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3940D7245320DDB988B014A9FF849A69 /* OCMFunctionsPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		745E524AC711FADB483319690E828835 /* HMDBAdSleepDetailProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F0E5C58C5FA18DC036BA5481397A30CE /* HMDBAdSleepDetailProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74BC62D6FEB722F4976016FD4DCA870B /* OCMObserverRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DA835913BD61BCA298F8C9428D7853BF /* OCMObserverRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		760DF30C334FBA9808AFCD5A46D47A30 /* CTPersistanceVersionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F79A11137E68469AD8D0352CE925CD3 /* CTPersistanceVersionRecord.m */; };
+		79A7DE8083CBB474A69B782B00079DC4 /* NSString+Where.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CE78F24E4EF2ED18DBC852BC359E9 /* NSString+Where.m */; };
+		7B006E74668E41702B8881E724728DE9 /* OCMBlockCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F16ECCD3543962C76F0E8C65381C6FD /* OCMBlockCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D94DE66B8B5E3B4A0B5E53A88C3FAEE /* OCMIndirectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E56454144FE848D1F4516394F3AB31A4 /* OCMIndirectReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7F73A82A70D67AC3929BC390BBF2ECBE /* HMAdSleepDetailRecord+Protocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F697E2E5D653772E6A3C9F15AF5B2CE /* HMAdSleepDetailRecord+Protocol.m */; };
+		8134B3F90AB3B95E6A8E328ABCAA5996 /* Pods-HMDBAdvertisement_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7356C053B101AE47D70FF1DAB6049A /* Pods-HMDBAdvertisement_Tests-dummy.m */; };
+		821412FAB986419BAACB26254C7CE940 /* CTPersistanceTable+Update.h in Headers */ = {isa = PBXBuildFile; fileRef = E82E37E18FA481A4BE954E6E4A13D19C /* CTPersistanceTable+Update.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82558AE4441757075270A8A260B34EC9 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A80658C9D7EEB77DEF4860CA1B24E4F2 /* OCObserverMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		86FF90618135B7C9032BC7075343F236 /* OCMBlockArgCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B63EAC6BCB715B9EFA76A385D35EB61 /* OCMBlockArgCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		885B685D5982836F3D277563EAD13D99 /* HMDBAdGeneralTable.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D5710BF23459E1AF343773E2C209B0 /* HMDBAdGeneralTable.m */; };
+		8872A19F1BE9FFBD9AF9B5EE908B0629 /* CTPersistanceRecordProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C31502D79F88BF69168D489281586F5 /* CTPersistanceRecordProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C1DC56721BC09063B65DA288BAD86AB /* CTPersistanceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A02222D57CCF05D909D1CCC4098C75B0 /* CTPersistanceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA8F119546DCF47D9CCA81137FEFDFE /* CTPersistanceDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C4EA1ADB93525D4D87EC89CC5F06 /* CTPersistanceDatabasePool.m */; };
+		8DFC9A74F4C6A30271C73A05674E35FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		8EE2E0824E8AD382EC6553104A60430E /* OCMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5CECF83BBDB61E44DD549881423EB6 /* OCMockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915751C97068AF644D3FE4498633DAB1 /* OCMExceptionReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD64FFD196992FAC8445E5B54429E2 /* OCMExceptionReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		92267CBE20646BBDE230EFE4D8EC0E92 /* HMDBAdvertisement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12813FA7EF358322092FEA3DAAE43B9 /* HMDBAdvertisement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927BFE7D3782606CA47E5DFE9DCFB1A0 /* HMDBAdServices+General.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7DB2747076996D5D731FBF9379F7EF /* HMDBAdServices+General.m */; };
+		92F61FA0ACB1B709FFEBE1D9DC2C68E5 /* OCMPassByRefSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = A21E3F0A7FC38F821636FEC3B2F17D9E /* OCMPassByRefSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		974362D040AC870A5D72E365B21A8CE4 /* OCMExceptionReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB0DC927F1A835752F2626FC8C1F3B4 /* OCMExceptionReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98B98C607233FCD98E4B3720CA1CF0A8 /* HMDBAdServices.h in Headers */ = {isa = PBXBuildFile; fileRef = D73115B7387295A71CE4C5CEB6B9835A /* HMDBAdServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = F72EA02F9269CA4F66B59DB5023FD9C3 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A92686CF21CC8ECAB69A3CFB621FA4B /* OCMock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC752191D36FB3539A7626BEDEB337 /* OCMock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B92E7455DDF475C08FB8A39AF45AC73 /* CTPersistanceVersionTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A84075C9CA531525FB2D97D3C932414 /* CTPersistanceVersionTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BFDE8C41C6A33211D026FEF6C58904D /* HMAdSleepDetailRecord+Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FA4CD35F73E2105BB6F3E9A350E816 /* HMAdSleepDetailRecord+Protocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9D0B3DCC1F4C0312DDFEAADA36CB1C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8A0D4BB25AD591A529B6C1E6512897 /* UIKit.framework */; };
+		9D7B83435464B9686F10AD94EE8743D3 /* CTPersistanceTable+Upsert.m in Sources */ = {isa = PBXBuildFile; fileRef = D75BDA4FE7292049CDA1B130E7F71441 /* CTPersistanceTable+Upsert.m */; };
+		A0C81674AF67A3A817F8B484566789F5 /* CTPersistanceSqlStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF07E28BF2B343231E52471512B820C /* CTPersistanceSqlStatement.m */; };
+		A1268C3E1B318712F159EF222F19BD8B /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F14EDC29D2AC5594F8EA0F77DDDDA8 /* NSNotificationCenter+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C1C5F88C5F0E4D293DF2E192284C4B /* CTPersistanceMigrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 58996CD1AC89B5394CCB68E01A3C3DCD /* CTPersistanceMigrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23315F6D42CF88E78B689B75D90F5DF /* CTPersistanceAsyncExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 441E1BB1543DF59ACC1B17938A13B33A /* CTPersistanceAsyncExecutor.m */; };
+		A4AF7E8EF9BB26F4CE7FD9EA32D4AD4C /* OCMMacroState.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CF80224AB24E0984F38B33BEDC0C06 /* OCMMacroState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4CD01540B9FCF8F26D52856704571D7 /* OCMReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 253B69C6D9B5FF5F8730C72969627671 /* OCMReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4E05DC0E5DA23B990BBC7DFDF6020DA /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB3CEA191EEC6650A5C2DD75BFDBEC3 /* SQLCipher-dummy.m */; };
+		A59AE6011C58D3D2F009DEF7F5AA259B /* OCMInvocationExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8580AD42C0069751DB7010F5FEF175 /* OCMInvocationExpectation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A824CE1EA33E1DFD346452BEFFE7DFAA /* NSArray+CTPersistanceRecordTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73325E63AF62B52B97D22126343C7 /* NSArray+CTPersistanceRecordTransform.m */; };
+		A8F995CAF718971E1FEB01439C38B07B /* HMDBAdGeneralRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD215CDA2A5E4801D276F3CD77351AD /* HMDBAdGeneralRecord.m */; };
+		A9571E56544CD912F0DA62E545DB2419 /* OCMReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DE0204E941B34EF000EE6639E2C08F /* OCMReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B200AEB2373802A1B871987A18D08F75 /* OCMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5860141C023FDE1C412294CCF6287D /* OCMConstraint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B33B6DFAA43992C898AF6D4F1C539A8A /* OCMInvocationStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C757B5C5F45713C787C51174D078C19 /* OCMInvocationStub.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B3E6AA126A971418B57B78A6B4E753E3 /* OCMInvocationExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0441B06C13608D8B758C75B302102D83 /* OCMInvocationExpectation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3F71209DA9D93734CE1517659187DA0 /* HMAdSleepDetailTable.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BFAB3326E656172264F9D6A4C4731D /* HMAdSleepDetailTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B40D8DAB504B721D2BC6A6DDFDD82067 /* OCMConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F115D74788713B20FBF690E941E929AB /* OCMConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42B8EFE65F8B07957190A15F590093A /* OCMInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 76E4ED0276835F64008E7E011A6642D9 /* OCMInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B66FB06824BBED66619F17DB82CC2A64 /* OCMLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D54E86320CAF1DB78BCA9C4B654F640 /* OCMLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75EEFE31F748B26D097BEC566FE52F2 /* CTPersistanceTable+Upsert.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C6E299E8E8C1BFCC6134C7F5C0D661 /* CTPersistanceTable+Upsert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B852DBE3593443215A94EEFD59786402 /* NSObject+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBA194831EA9C9366DBD9FCE1BBDF9 /* NSObject+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B9020EDB4B96CA5BEE92D0908011A5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		B96417D01100570710D2290CE76B91C7 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BAB290FC538E90B17113D88C6CDDD1C /* SQLCipher.framework */; };
+		BD181F7E8C0BB325B051DA9F2FBD71BC /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F106B5174EDC9CB678385F373298D4E /* NSMethodSignature+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BECB4AE5B4513093201A4EE9BBBC0A48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8A0D4BB25AD591A529B6C1E6512897 /* UIKit.framework */; };
+		BF9A8BA5EDE1746DDAE0CFE78BA887E7 /* CTPersistanceMigrator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A60F2A4EDEE6DEC693ABDB85105947 /* CTPersistanceMigrator.m */; };
+		C03139EB1E55D189960CA1A34F211EAC /* CTPersistanceQueryCommand+SchemaManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DC60951E5055009F0C02387C10228F /* CTPersistanceQueryCommand+SchemaManipulations.m */; };
+		C16854E344BB060ADD60AB95394570FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD071A91731EE54E0B9C447640B34A2 /* Security.framework */; };
+		C4E350CFAF9D0F84FD5B376475619621 /* CTPersistanceMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FEBD5C622B04C55F466E004A0F3B70 /* CTPersistanceMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C65A28088F0668711386816290C3880E /* OCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E742351A80ABD8B70CC325753E0721E /* OCMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C679A0B17100266EA0D2B43DEF4E6D28 /* CTPersistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 31003971CCB3B03E0B756B6F453EFDC8 /* CTPersistance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6BAFA59169B941157064489D4366DD2 /* HMDBAdGeneralVirtualRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 574F376619C5832E5E7C4C3A858CB293 /* HMDBAdGeneralVirtualRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CC1C8DE62D755A8098C3AA3BB2199D21 /* CTPersistanceQueryCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBD15756F36158F6E2048980BA7E6CA /* CTPersistanceQueryCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF451EAA94004B370612757B61B46D2D /* OCMArgAction.m in Sources */ = {isa = PBXBuildFile; fileRef = D503A1672AA536592FC32CB7F1BE26A3 /* OCMArgAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D1373FF8577CC12B3916B3A1CDB58C20 /* NSMutableArray+CTPersistanceBindValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CC092555FB0CC308EC6EAB45BB3BAE /* NSMutableArray+CTPersistanceBindValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D743CC1B6CA06196A1D9557589B171DD /* CTPersistanceQueryCommand+Status.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA460722783EB8944A79216DF35F7B6 /* CTPersistanceQueryCommand+Status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83AE38E4A544960A9DD604BA4A04F48 /* CTPersistanceQueryCommand+DataManipulations.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B434B74BB4A52F884BBF67CF0941F4 /* CTPersistanceQueryCommand+DataManipulations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C7A57A574090442C8631BA856B1599 /* OCMMacroState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F44FC2560D170B8812310DD1D6C20 /* OCMMacroState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DAF93ABE632955C742577D544096FC35 /* CTPersistanceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F0EFE15E86D17B898A1A233A6F7BF7 /* CTPersistanceTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC01847BE04807B713F6BCB2B5B3D0D5 /* HMDBAdGeneralRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F74D7F47421816A4B0BCAF2B1A1541 /* HMDBAdGeneralRecord.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF0F6D7E2F0519A418EF917359BDDA16 /* CTPersistance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1884C1E83803A7D0B6ABC7A3072B001 /* CTPersistance-dummy.m */; };
+		E0B9742FCB2F01CA73B7FA4ED6D310FB /* CTPersistanceQueryCommand+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = B22F7BC51F636E92222C920937ABAB1C /* CTPersistanceQueryCommand+Status.m */; };
+		E14A5FC189CD75054825E45DA6D9F293 /* OCMBoxedReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 633D811A4D4490DB90459BFDD431418C /* OCMBoxedReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E291C9852FC63553B17736A2B88B01C9 /* CTPersistanceTable+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C89D32EA968BED90DF32AFC906B21 /* CTPersistanceTable+Delete.m */; };
+		E4070427AD7F08E573CAA22DCEB79FB1 /* OCProtocolMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8196169AF53112B7948E6664ECE27D55 /* OCProtocolMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E47EF4A1649F2FAC487709B2DCE0E534 /* HMDBAdGeneralTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DEF9FFD3E6F3487E39CFDB30BF4AF5 /* HMDBAdGeneralTable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4A87D8BA9BA24EE81DEC41C8BE98F2B /* OCMVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD5A7B464C9D4E691BD1DD772B941B0 /* OCMVerifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E59670872AA15ED25D3CAA3057B59D3B /* CTPersistanceSqlStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D31616298A9415306DA92AE2F1FDB5 /* CTPersistanceSqlStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E04C9B734C0CC02E2204899977702A /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = C86B48BA317AB7F47E73BC440DBBAD6A /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		E61FEAB563814E928FFF2C1EF239058A /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54A5C51900ABA061817D5752D624E19A /* NSObject+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6F1B20197D630B80285B5F6E5FAE80F /* OCMRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBB1F72E53F6FF43895ACA8081C6484 /* OCMRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E712C30E6FE3E43B4C2926EA941EDDD7 /* CTPersistanceDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 102D532D30801DA23A37B7C650DD4F67 /* CTPersistanceDataBase.m */; };
+		E7882F7DC56CC78ED73A49B3BD47865E /* HMDBAdvertisementConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CE30784AF9F4C88E8C7CFFF28DB3E8 /* HMDBAdvertisementConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA34EC6113A0D83B28B9FD51920D0C15 /* CTPersistanceQueryCommand+SchemaManipulations.h in Headers */ = {isa = PBXBuildFile; fileRef = 585D329E0A7999F2D26C5C5769E079C1 /* CTPersistanceQueryCommand+SchemaManipulations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC33739AB54F71355C4FD5AAEF92F4B1 /* OCMStubRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8658680842F20B43DE4421EB125E2C4D /* OCMStubRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3178A8B924EAE3E37ED89133FDF2CE /* HMDBAdGeneralResourceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEEEF67D6CE1FE1DE0A3F78060D25B9 /* HMDBAdGeneralResourceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB819F3D2CA4D9C680879D00D1911BB /* CTPersistanceTable+Insert.m in Sources */ = {isa = PBXBuildFile; fileRef = 468AF0DC16B5498425DADEF54A327786 /* CTPersistanceTable+Insert.m */; };
+		EFC1318446EB79DC091867000F45D61C /* OCMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C675258650514A7B2D12A5DC230ECC /* OCMLocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F02C2CD0A94965FFA8928B316D5825CB /* OCMArg.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F80881460EB175BFAB054C2A02F2F94 /* OCMArg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F10C030D359147E98537D80FF4BAB6A9 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 490BA8246CF425549823F7E6A9BE46FF /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3D3EADC34C484256CBF87A8D7A53909 /* CTPersistanceTable+Delete.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDA269B6B120F233DD5FAA6D914BADA /* CTPersistanceTable+Delete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD11CF328161FEC923E6C83163C6E29E /* CTMediator-dummy.m */; };
+		F98852F58D5FDF0191647087678ABE70 /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A5CAF5360891058E8C3C6D654BA2BC /* OCMArg.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FAB7A1E7E1414DC657BA79D07135E15B /* OCMock.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE12DEF5B3CCD2F8F6885DEA00EBEB2 /* OCMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD596B095C58C7A3AA647CAB7802226 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CED652F8E94B33AF7B044170727F87B /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC8A4A9D81BBB91450215BF22E9454C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719921D784618DB78FD9CAAF3437444B /* Foundation.framework */; };
+		FCEAF28A01051BCA177533A75BF6C9C3 /* Pods-HMDBAdvertisement_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 314502DD2CEBC0AA957819AE9FB253D7 /* Pods-HMDBAdvertisement_Example-dummy.m */; };
+		FFA53197939ABD09422F73308049BB2B /* CTPersistanceTable+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = 487C90531D75231EC7804BEB1C100A87 /* CTPersistanceTable+Update.m */; };
+		FFBF826F8A7B6DDFD700C793DDE0653B /* CTPersistanceTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = D18A9C4C84B3805B211BAE808E16A290 /* CTPersistanceTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		154A394CBC63F9DF9738A61CFFDE1ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242295B81E3FCD25198E7AEDED6542F5;
+			remoteInfo = "Pods-HMDBAdvertisement_Example";
+		};
+		237D43243B63E20EB6E4180190596C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		34AE2A8B97FA1AEC9E441AF4AF8BEB04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+		34D6B354EEB395210D98667B6071B56B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+		3BDE2D7A876417CAC0F0AE65F040A0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC54C98851E54D349520C786701A1845;
+			remoteInfo = OCMock;
+		};
+		46971D0754E19DB0EB48C7A5A697840F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		59697D757AC61D7B17DBDF23D6D92055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		891CCA57B976E7828960E7C2BA737758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F9446EF43E3055DA1301DC9FAAE651E;
+			remoteInfo = HMDBAdvertisement;
+		};
+		92349AC9EE16A437D16D6FA7AAD4F3F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1AAED82C08C27919D9D84D0C6B39BA;
+			remoteInfo = CTPersistance;
+		};
+		DD8AA8B424E2895702710DF9E5370454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+		F2E4B71062B85B7EF51509E6B608FA7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1AAED82C08C27919D9D84D0C6B39BA;
+			remoteInfo = CTPersistance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D630B921211F35B6267ED225738868 /* OCMInvocationStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationStub.h; path = Source/OCMock/OCMInvocationStub.h; sourceTree = "<group>"; };
+		02D31616298A9415306DA92AE2F1FDB5 /* CTPersistanceSqlStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceSqlStatement.h; path = CTPersistance/CTPersistance/QueryCommand/Statement/CTPersistanceSqlStatement.h; sourceTree = "<group>"; };
+		02D72D5D9EC0B8887DA28F445CFE13F1 /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
+		03A76EE7209005BE149E52CA24B87619 /* OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBoxedReturnValueProvider.m; path = Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = "<group>"; };
+		0441B06C13608D8B758C75B302102D83 /* OCMInvocationExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationExpectation.h; path = Source/OCMock/OCMInvocationExpectation.h; sourceTree = "<group>"; };
+		04A4620F15343AF6DAFE4A367791DEA5 /* OCMStubRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMStubRecorder.m; path = Source/OCMock/OCMStubRecorder.m; sourceTree = "<group>"; };
+		04E7740F29AC950D9755968E397E88FA /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		07FEBD5C622B04C55F466E004A0F3B70 /* CTPersistanceMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceMarcos.h; path = CTPersistance/CTPersistance/CTPersistanceMarcos.h; sourceTree = "<group>"; };
+		094CE78F24E4EF2ED18DBC852BC359E9 /* NSString+Where.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Where.m"; path = "CTPersistance/CTPersistance/Categories/NSString/Where/NSString+Where.m"; sourceTree = "<group>"; };
+		0CF07E28BF2B343231E52471512B820C /* CTPersistanceSqlStatement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceSqlStatement.m; path = CTPersistance/CTPersistance/QueryCommand/Statement/CTPersistanceSqlStatement.m; sourceTree = "<group>"; };
+		0DCAF29EA76C105281840FE4637BF5A6 /* NSValue+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+OCMAdditions.m"; path = "Source/OCMock/NSValue+OCMAdditions.m"; sourceTree = "<group>"; };
+		0EEEEF67D6CE1FE1DE0A3F78060D25B9 /* HMDBAdGeneralResourceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralResourceProtocol.h; sourceTree = "<group>"; };
+		102D532D30801DA23A37B7C650DD4F67 /* CTPersistanceDataBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceDataBase.m; path = CTPersistance/CTPersistance/Database/CTPersistanceDataBase.m; sourceTree = "<group>"; };
+		192E94481F6F2E98F187F625E9BB6553 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19673C9559607F4EFED326D607349FA3 /* Pods-HMDBAdvertisement_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMDBAdvertisement_Example.modulemap"; sourceTree = "<group>"; };
+		1A8C5ACE9D56584A367580636BB03900 /* HMDBAdGeneralVirtualRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMDBAdGeneralVirtualRecord.m; sourceTree = "<group>"; };
+		1BD916BAE191B1A9782313373615E836 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		1CAF9A6EB2C794AFF7F4614E9917AE6A /* HMDBAdGeneralResourceTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralResourceTable.h; sourceTree = "<group>"; };
+		1D54E86320CAF1DB78BCA9C4B654F640 /* OCMLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = Source/OCMock/OCMLocation.h; sourceTree = "<group>"; };
+		1FFE500C3622A4AD3BC6274425AC6180 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2191344D0FD0D3F603434E3B9DBBFA7D /* CTPersistanceTable+Insert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Insert.h"; path = "CTPersistance/CTPersistance/Table/Categories/Insert/CTPersistanceTable+Insert.h"; sourceTree = "<group>"; };
+		253B69C6D9B5FF5F8730C72969627671 /* OCMReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMReturnValueProvider.h; path = Source/OCMock/OCMReturnValueProvider.h; sourceTree = "<group>"; };
+		26AA394461A099F5696C1FF5BFE2479C /* CTPersistanceQueryCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceQueryCommand.m; path = CTPersistance/CTPersistance/QueryCommand/CTPersistanceQueryCommand.m; sourceTree = "<group>"; };
+		26EB93A7340299F33C91AD19E05EAE64 /* OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMIndirectReturnValueProvider.h; path = Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = "<group>"; };
+		27CF80224AB24E0984F38B33BEDC0C06 /* OCMMacroState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = Source/OCMock/OCMMacroState.h; sourceTree = "<group>"; };
+		28AA108A1A2A4944A1D90773A7311A89 /* OCMock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCMock.modulemap; sourceTree = "<group>"; };
+		28FD64FFD196992FAC8445E5B54429E2 /* OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExceptionReturnValueProvider.m; path = Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = "<group>"; };
+		29CC092555FB0CC308EC6EAB45BB3BAE /* NSMutableArray+CTPersistanceBindValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+CTPersistanceBindValue.h"; path = "CTPersistance/CTPersistance/Categories/NSMutableArray/CTPersistanceBindValue/NSMutableArray+CTPersistanceBindValue.h"; sourceTree = "<group>"; };
+		2AB73325E63AF62B52B97D22126343C7 /* NSArray+CTPersistanceRecordTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CTPersistanceRecordTransform.m"; path = "CTPersistance/CTPersistance/Categories/NSArray/CTPersistanceRecordTransform/NSArray+CTPersistanceRecordTransform.m"; sourceTree = "<group>"; };
+		2BFC75DB78D6CDEC8F6CBC04E9DD0222 /* OCMExpectationRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExpectationRecorder.m; path = Source/OCMock/OCMExpectationRecorder.m; sourceTree = "<group>"; };
+		2C757B5C5F45713C787C51174D078C19 /* OCMInvocationStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationStub.m; path = Source/OCMock/OCMInvocationStub.m; sourceTree = "<group>"; };
+		2E442991919DC65024E89F190009815A /* HMDBAdvertisement.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HMDBAdvertisement.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E4DD36C437441A8E9F991724652688C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8456747F021127186511EB7740BDFD /* HMAdSleepDetailRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMAdSleepDetailRecord.m; sourceTree = "<group>"; };
+		2EBA9A2240F21A43F9A600CF07060518 /* Pods-HMDBAdvertisement_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMDBAdvertisement_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2EEC4618128A53C2544E5269EE7B1179 /* CTPersistance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPersistance-prefix.pch"; sourceTree = "<group>"; };
+		300BD8C259B1295941D5F9F39D9CE6F2 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		30C675258650514A7B2D12A5DC230ECC /* OCMLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMLocation.m; path = Source/OCMock/OCMLocation.m; sourceTree = "<group>"; };
+		31003971CCB3B03E0B756B6F453EFDC8 /* CTPersistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistance.h; path = CTPersistance/CTPersistance/CTPersistance.h; sourceTree = "<group>"; };
+		314502DD2CEBC0AA957819AE9FB253D7 /* Pods-HMDBAdvertisement_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMDBAdvertisement_Example-dummy.m"; sourceTree = "<group>"; };
+		315126B3054576891A01077FDC4DD21D /* NSDictionary+KeyValueBind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+KeyValueBind.h"; path = "CTPersistance/CTPersistance/Categories/NSDictionary/KeyValueBind/NSDictionary+KeyValueBind.h"; sourceTree = "<group>"; };
+		31DBA194831EA9C9366DBD9FCE1BBDF9 /* NSObject+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+OCMAdditions.m"; path = "Source/OCMock/NSObject+OCMAdditions.m"; sourceTree = "<group>"; };
+		32272F194EE66D30A5A04548A9E5ECD7 /* OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-prefix.pch"; sourceTree = "<group>"; };
+		325CC1140690E0D1EC34FE030F333B09 /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+		32E123B48082D22F457F93FA943BE37A /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+OCMAdditions.m"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
+		339FE486F3F209169940A5469F50CE5C /* Pods-HMDBAdvertisement_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMDBAdvertisement_Tests-resources.sh"; sourceTree = "<group>"; };
+		345C7EFD1AA0ED0409EB2544CDE5FE9C /* Pods-HMDBAdvertisement_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMDBAdvertisement_Example-frameworks.sh"; sourceTree = "<group>"; };
+		34DE0204E941B34EF000EE6639E2C08F /* OCMReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMReturnValueProvider.m; path = Source/OCMock/OCMReturnValueProvider.m; sourceTree = "<group>"; };
+		356F052D1BDFF78328DC295D616BDBAE /* CTPersistanceTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceTransaction.m; path = CTPersistance/CTPersistance/Transaction/CTPersistanceTransaction.m; sourceTree = "<group>"; };
+		35A5E66F2A8A90644FF04A9458C0DE72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3731811023631E85E74E0A13C0AF88F3 /* OCMArgAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArgAction.h; path = Source/OCMock/OCMArgAction.h; sourceTree = "<group>"; };
+		375CCB0E82DE630063BC709E25B32FF3 /* CTPersistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPersistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3940D7245320DDB988B014A9FF849A69 /* OCMFunctionsPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctionsPrivate.h; path = Source/OCMock/OCMFunctionsPrivate.h; sourceTree = "<group>"; };
+		39729EC6C33550D08FB19D12B0BD5EF3 /* CTPersistance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTPersistance.xcconfig; sourceTree = "<group>"; };
+		398F69BDFCC397508D324AC5BD187DFA /* CTPersistanceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceRecord.m; path = CTPersistance/CTPersistance/Record/CTPersistanceRecord.m; sourceTree = "<group>"; };
+		3C13CB6935F45039FAA860868092302B /* HMDBAdGeneralResourceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMDBAdGeneralResourceRecord.m; sourceTree = "<group>"; };
+		3C31502D79F88BF69168D489281586F5 /* CTPersistanceRecordProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceRecordProtocol.h; path = CTPersistance/CTPersistance/Record/CTPersistanceRecordProtocol.h; sourceTree = "<group>"; };
+		3CED652F8E94B33AF7B044170727F87B /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Source/OCMock/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
+		3D7154C087D03686A9448345D6A474E1 /* OCMFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = Source/OCMock/OCMFunctions.h; sourceTree = "<group>"; };
+		3DD215CDA2A5E4801D276F3CD77351AD /* HMDBAdGeneralRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMDBAdGeneralRecord.m; sourceTree = "<group>"; };
+		43F0EFE15E86D17B898A1A233A6F7BF7 /* CTPersistanceTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceTable.h; path = CTPersistance/CTPersistance/Table/CTPersistanceTable.h; sourceTree = "<group>"; };
+		441E1BB1543DF59ACC1B17938A13B33A /* CTPersistanceAsyncExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceAsyncExecutor.m; path = CTPersistance/CTPersistance/Async/CTPersistanceAsyncExecutor.m; sourceTree = "<group>"; };
+		44F6FA44CC2AAB1CEF68375FE6D53CB5 /* CTPersistanceDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceDatabasePool.h; path = CTPersistance/CTPersistance/Database/CTPersistanceDatabasePool.h; sourceTree = "<group>"; };
+		468AF0DC16B5498425DADEF54A327786 /* CTPersistanceTable+Insert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Insert.m"; path = "CTPersistance/CTPersistance/Table/Categories/Insert/CTPersistanceTable+Insert.m"; sourceTree = "<group>"; };
+		472C330B07B9CA08DCE86F7A13641805 /* NSValue+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+OCMAdditions.h"; path = "Source/OCMock/NSValue+OCMAdditions.h"; sourceTree = "<group>"; };
+		473971E920F86C8E00014A3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		487C90531D75231EC7804BEB1C100A87 /* CTPersistanceTable+Update.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Update.m"; path = "CTPersistance/CTPersistance/Table/Categories/Update/CTPersistanceTable+Update.m"; sourceTree = "<group>"; };
+		490BA8246CF425549823F7E6A9BE46FF /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		4AB4D5E96C1BE4D7913E05FEC671B2A4 /* OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCClassMockObject.h; path = Source/OCMock/OCClassMockObject.h; sourceTree = "<group>"; };
+		4B63EAC6BCB715B9EFA76A385D35EB61 /* OCMBlockArgCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockArgCaller.h; path = Source/OCMock/OCMBlockArgCaller.h; sourceTree = "<group>"; };
+		4B8580AD42C0069751DB7010F5FEF175 /* OCMInvocationExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationExpectation.m; path = Source/OCMock/OCMInvocationExpectation.m; sourceTree = "<group>"; };
+		4C4033364739BE69D112CBC3D9CBF191 /* OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCClassMockObject.m; path = Source/OCMock/OCClassMockObject.m; sourceTree = "<group>"; };
+		54A5C51900ABA061817D5752D624E19A /* NSObject+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+OCMAdditions.h"; path = "Source/OCMock/NSObject+OCMAdditions.h"; sourceTree = "<group>"; };
+		574F376619C5832E5E7C4C3A858CB293 /* HMDBAdGeneralVirtualRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralVirtualRecord.h; sourceTree = "<group>"; };
+		575A05C98173814ECC22D4706A9C0F42 /* CTPersistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPersistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		585D329E0A7999F2D26C5C5769E079C1 /* CTPersistanceQueryCommand+SchemaManipulations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+SchemaManipulations.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/SchemaManipulations/CTPersistanceQueryCommand+SchemaManipulations.h"; sourceTree = "<group>"; };
+		58996CD1AC89B5394CCB68E01A3C3DCD /* CTPersistanceMigrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceMigrator.h; path = CTPersistance/CTPersistance/Migration/CTPersistanceMigrator.h; sourceTree = "<group>"; };
+		58A5CAF5360891058E8C3C6D654BA2BC /* OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArg.m; path = Source/OCMock/OCMArg.m; sourceTree = "<group>"; };
+		599DB7DF92906AEF28ABF37049F09D6B /* HMDBAdServices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMDBAdServices.m; path = HMDBAdvertisement/Services/HMDBAdServices.m; sourceTree = "<group>"; };
+		5BAB290FC538E90B17113D88C6CDDD1C /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0BDEBCBBB807AF3F5D7D0A3D0138CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6EEC45D588D121BD15BF4655C6DEDE /* CTPersistanceTable+Find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Find.m"; path = "CTPersistance/CTPersistance/Table/Categories/Find/CTPersistanceTable+Find.m"; sourceTree = "<group>"; };
+		5D946B5C4E1A6AF928088C88E3DAD8F1 /* HMAdSleepDetailRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMAdSleepDetailRecord.h; sourceTree = "<group>"; };
+		5E22F7D779940BDFB0421C1B21E19CDA /* NSMutableArray+CTPersistanceBindValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+CTPersistanceBindValue.m"; path = "CTPersistance/CTPersistance/Categories/NSMutableArray/CTPersistanceBindValue/NSMutableArray+CTPersistanceBindValue.m"; sourceTree = "<group>"; };
+		5E3AF16593CB51D91100D4D370001108 /* Pods-HMDBAdvertisement_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMDBAdvertisement_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E742351A80ABD8B70CC325753E0721E /* OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockObject.m; path = Source/OCMock/OCMockObject.m; sourceTree = "<group>"; };
+		5F8A0D4BB25AD591A529B6C1E6512897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5FA5DFC628ABDB787E1A12733013635F /* OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCPartialMockObject.h; path = Source/OCMock/OCPartialMockObject.h; sourceTree = "<group>"; };
+		5FE1C39B681F50C98D976BF7D371F626 /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		6026A0866B958754A39C1DFBD955FD0D /* Pods-HMDBAdvertisement_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMDBAdvertisement_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60349BBDEB01E2E2A725ACDF48B218BF /* NSArray+CTPersistanceRecordTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+CTPersistanceRecordTransform.h"; path = "CTPersistance/CTPersistance/Categories/NSArray/CTPersistanceRecordTransform/NSArray+CTPersistanceRecordTransform.h"; sourceTree = "<group>"; };
+		61CE30784AF9F4C88E8C7CFFF28DB3E8 /* HMDBAdvertisementConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMDBAdvertisementConfig.h; path = HMDBAdvertisement/Persistance/HMDBAdvertisementConfig.h; sourceTree = "<group>"; };
+		633D811A4D4490DB90459BFDD431418C /* OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBoxedReturnValueProvider.h; path = Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = "<group>"; };
+		638EE5AB5A1D194910BD89EEAE8F0A7D /* CTPersistance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPersistance-umbrella.h"; sourceTree = "<group>"; };
+		69F14EDC29D2AC5594F8EA0F77DDDDA8 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		6A042B23361A18B69FB6E43558A9EDDF /* Pods-HMDBAdvertisement_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMDBAdvertisement_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A1D8119556CC774E0479D2C6AB9ECF7 /* NSDictionary+KeyValueBind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+KeyValueBind.m"; path = "CTPersistance/CTPersistance/Categories/NSDictionary/KeyValueBind/NSDictionary+KeyValueBind.m"; sourceTree = "<group>"; };
+		6A3134200951CC5E1EF7CFC973D258BB /* Pods-HMDBAdvertisement_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMDBAdvertisement_Example-resources.sh"; sourceTree = "<group>"; };
+		6A321C7B52BCB3E17B06FFEFCF54037F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AEC0E72FD8A0C0C2AD88224C4E275B4 /* OCMFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMFunctions.m; path = Source/OCMock/OCMFunctions.m; sourceTree = "<group>"; };
+		6B22058F610017E86F302CD39080CEA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9994B5FC61EA2C39C3CE6CBD469C0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6BD071A91731EE54E0B9C447640B34A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6F80881460EB175BFAB054C2A02F2F94 /* OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = Source/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		70446F61E220EAC9A8507EA0FD5DEE8A /* CTPersistance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTPersistance.modulemap; sourceTree = "<group>"; };
+		719921D784618DB78FD9CAAF3437444B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72EC752191D36FB3539A7626BEDEB337 /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
+		744FB5AAC06CFB80B7175FE8A0CEC13A /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
+		753C89D32EA968BED90DF32AFC906B21 /* CTPersistanceTable+Delete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Delete.m"; path = "CTPersistance/CTPersistance/Table/Categories/Delete/CTPersistanceTable+Delete.m"; sourceTree = "<group>"; };
+		76E4ED0276835F64008E7E011A6642D9 /* OCMInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationMatcher.h; path = Source/OCMock/OCMInvocationMatcher.h; sourceTree = "<group>"; };
+		7A84075C9CA531525FB2D97D3C932414 /* CTPersistanceVersionTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceVersionTable.h; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/CTPersistanceVersionTable.h; sourceTree = "<group>"; };
+		7BE6EF741F27F6BC9C23A184D3B643E3 /* Pods_HMDBAdvertisement_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMDBAdvertisement_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C451A3810C613CFC21E1B3484E9ACE9 /* Pods-HMDBAdvertisement_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMDBAdvertisement_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E7F44FC2560D170B8812310DD1D6C20 /* OCMMacroState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMMacroState.m; path = Source/OCMock/OCMMacroState.m; sourceTree = "<group>"; };
+		7F106B5174EDC9CB678385F373298D4E /* NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+OCMAdditions.m"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = "<group>"; };
+		7FC1C4EA1ADB93525D4D87EC89CC5F06 /* CTPersistanceDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceDatabasePool.m; path = CTPersistance/CTPersistance/Database/CTPersistanceDatabasePool.m; sourceTree = "<group>"; };
+		8196169AF53112B7948E6664ECE27D55 /* OCProtocolMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCProtocolMockObject.m; path = Source/OCMock/OCProtocolMockObject.m; sourceTree = "<group>"; };
+		81CEAEEB1575B25A069F284052C25468 /* OCMBlockArgCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockArgCaller.m; path = Source/OCMock/OCMBlockArgCaller.m; sourceTree = "<group>"; };
+		82877756CB3A8AAC1B13E9AE96864258 /* NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+OCMAdditions.h"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.h"; sourceTree = "<group>"; };
+		848102AE020EC731831F9A860670EA2A /* OCMInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationMatcher.m; path = Source/OCMock/OCMInvocationMatcher.m; sourceTree = "<group>"; };
+		8658680842F20B43DE4421EB125E2C4D /* OCMStubRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMStubRecorder.h; path = Source/OCMock/OCMStubRecorder.h; sourceTree = "<group>"; };
+		88DEF9FFD3E6F3487E39CFDB30BF4AF5 /* HMDBAdGeneralTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralTable.h; sourceTree = "<group>"; };
+		88FBC6B45AFB6CBB5556C63C5D9AC3D1 /* HMDBAdvertisement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMDBAdvertisement.modulemap; sourceTree = "<group>"; };
+		890B5B7623E801B64749A1AF8EAC9276 /* CTPersistanceTable+Schema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Schema.m"; path = "CTPersistance/CTPersistance/Table/Categories/Schema/CTPersistanceTable+Schema.m"; sourceTree = "<group>"; };
+		89BDCBBEFD396CD0BD767CE72B2FC57B /* CTPersistanceAsyncExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceAsyncExecutor.h; path = CTPersistance/CTPersistance/Async/CTPersistanceAsyncExecutor.h; sourceTree = "<group>"; };
+		8A00B814D1D2AE6981EB107BD7715D38 /* CTPersistanceTable+Schema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Schema.h"; path = "CTPersistance/CTPersistance/Table/Categories/Schema/CTPersistanceTable+Schema.h"; sourceTree = "<group>"; };
+		8B5860141C023FDE1C412294CCF6287D /* OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMConstraint.m; path = Source/OCMock/OCMConstraint.m; sourceTree = "<group>"; };
+		8BA892FFA705C2ACD1F1A8F91C0B3E50 /* NSString+Where.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Where.h"; path = "CTPersistance/CTPersistance/Categories/NSString/Where/NSString+Where.h"; sourceTree = "<group>"; };
+		8C4FCC790F3AF5EEFBFC4C9649213224 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F16ECCD3543962C76F0E8C65381C6FD /* OCMBlockCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockCaller.m; path = Source/OCMock/OCMBlockCaller.m; sourceTree = "<group>"; };
+		8F79A11137E68469AD8D0352CE925CD3 /* CTPersistanceVersionRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceVersionRecord.m; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/Record/CTPersistanceVersionRecord.m; sourceTree = "<group>"; };
+		92E529E882305CE6CA4E785A8497D14B /* HMDBAdvertisement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMDBAdvertisement.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F7CEB31A5A66B07155B81F9EC62802 /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FC213CA8D61AE5242897BF0971676D /* CTPersistanceVersionTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceVersionTable.m; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/CTPersistanceVersionTable.m; sourceTree = "<group>"; };
+		98FA4CD35F73E2105BB6F3E9A350E816 /* HMAdSleepDetailRecord+Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMAdSleepDetailRecord+Protocol.h"; sourceTree = "<group>"; };
+		9AA460722783EB8944A79216DF35F7B6 /* CTPersistanceQueryCommand+Status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+Status.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/StatusMethods/CTPersistanceQueryCommand+Status.h"; sourceTree = "<group>"; };
+		9F697E2E5D653772E6A3C9F15AF5B2CE /* HMAdSleepDetailRecord+Protocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMAdSleepDetailRecord+Protocol.m"; sourceTree = "<group>"; };
+		A02222D57CCF05D909D1CCC4098C75B0 /* CTPersistanceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceConfiguration.h; path = CTPersistance/CTPersistance/CTPersistanceConfiguration.h; sourceTree = "<group>"; };
+		A1C6E299E8E8C1BFCC6134C7F5C0D661 /* CTPersistanceTable+Upsert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Upsert.h"; path = "CTPersistance/CTPersistance/Table/Categories/Upsert/CTPersistanceTable+Upsert.h"; sourceTree = "<group>"; };
+		A21E3F0A7FC38F821636FEC3B2F17D9E /* OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMPassByRefSetter.h; path = Source/OCMock/OCMPassByRefSetter.h; sourceTree = "<group>"; };
+		A4491F87235B567D8D36359F96A9AAA9 /* OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRealObjectForwarder.h; path = Source/OCMock/OCMRealObjectForwarder.h; sourceTree = "<group>"; };
+		A7DC60951E5055009F0C02387C10228F /* CTPersistanceQueryCommand+SchemaManipulations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+SchemaManipulations.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/SchemaManipulations/CTPersistanceQueryCommand+SchemaManipulations.m"; sourceTree = "<group>"; };
+		A80658C9D7EEB77DEF4860CA1B24E4F2 /* OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCObserverMockObject.m; path = Source/OCMock/OCObserverMockObject.m; sourceTree = "<group>"; };
+		A9C284A3438BD07C236949766C824400 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		ACDA269B6B120F233DD5FAA6D914BADA /* CTPersistanceTable+Delete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Delete.h"; path = "CTPersistance/CTPersistance/Table/Categories/Delete/CTPersistanceTable+Delete.h"; sourceTree = "<group>"; };
+		AE4B0617B7955DF6E908C7E0C1F80714 /* Pods_HMDBAdvertisement_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMDBAdvertisement_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBB1F72E53F6FF43895ACA8081C6484 /* OCMRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = Source/OCMock/OCMRecorder.h; sourceTree = "<group>"; };
+		AFB3CEA191EEC6650A5C2DD75BFDBEC3 /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		B0B651D08CD747395019F459A0D05B97 /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
+		B146CB29D81F43D9F1C4BBB9CD06464A /* OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMNotificationPoster.m; path = Source/OCMock/OCMNotificationPoster.m; sourceTree = "<group>"; };
+		B1663805C39A1D399722290DABB467A9 /* Pods-HMDBAdvertisement_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMDBAdvertisement_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B22F7BC51F636E92222C920937ABAB1C /* CTPersistanceQueryCommand+Status.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+Status.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/StatusMethods/CTPersistanceQueryCommand+Status.m"; sourceTree = "<group>"; };
+		B4AECD7F2A37B1C9D562BABD326F21A1 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
+		B53A71E5A607A1C86C2CA650021546D1 /* HMDBAdServices+SleepDetail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMDBAdServices+SleepDetail.h"; sourceTree = "<group>"; };
+		B5CCB3389EE5C633B18447274B94FF6D /* HMDBAdServices+SleepDetail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMDBAdServices+SleepDetail.m"; sourceTree = "<group>"; };
+		B6435677C7D3A8C1E13CE7CA4AA86F97 /* CTPersistanceQueryCommand+DataManipulations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+DataManipulations.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/DataManipulations/CTPersistanceQueryCommand+DataManipulations.m"; sourceTree = "<group>"; };
+		B6973BF446886D567167A00A5FFA3E14 /* OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCProtocolMockObject.h; path = Source/OCMock/OCProtocolMockObject.h; sourceTree = "<group>"; };
+		B6B434B74BB4A52F884BBF67CF0941F4 /* CTPersistanceQueryCommand+DataManipulations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+DataManipulations.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/DataManipulations/CTPersistanceQueryCommand+DataManipulations.h"; sourceTree = "<group>"; };
+		B8AFB1912D47BFA2C6EFD53C4A06092B /* CTPersistanceVersionRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceVersionRecord.h; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/Record/CTPersistanceVersionRecord.h; sourceTree = "<group>"; };
+		B8CD48D7EAFD9755836588FD2A22DB86 /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		BB9EF7B36FD572B485CEA8A9D84E337C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7356C053B101AE47D70FF1DAB6049A /* Pods-HMDBAdvertisement_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMDBAdvertisement_Tests-dummy.m"; sourceTree = "<group>"; };
+		BCBD15756F36158F6E2048980BA7E6CA /* CTPersistanceQueryCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceQueryCommand.h; path = CTPersistance/CTPersistance/QueryCommand/CTPersistanceQueryCommand.h; sourceTree = "<group>"; };
+		BE984B1124E951130099AEC41331AB06 /* HMDBAdGeneralResourceRecord+Protocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMDBAdGeneralResourceRecord+Protocol.h"; sourceTree = "<group>"; };
+		BEA41ADA0C7A6CE6072A55C47CB889B0 /* Pods-HMDBAdvertisement_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMDBAdvertisement_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF39345163FE0F979FC01A0CF2448AF6 /* CTPersistanceTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceTable.m; path = CTPersistance/CTPersistance/Table/CTPersistanceTable.m; sourceTree = "<group>"; };
+		C07A01A5AEBC0F376DF55BF72CA28FA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C096B19E1FD2DB16F85383833934A0D5 /* OCMExpectationRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExpectationRecorder.h; path = Source/OCMock/OCMExpectationRecorder.h; sourceTree = "<group>"; };
+		C0C191FE82F757C678B219E2D6E7C830 /* OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockCaller.h; path = Source/OCMock/OCMBlockCaller.h; sourceTree = "<group>"; };
+		C2C21865E20A21B46C2D4168A608F8F0 /* OCMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMock.xcconfig; sourceTree = "<group>"; };
+		C3F75489F63A655F2A0FC29359FAE983 /* Pods-HMDBAdvertisement_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMDBAdvertisement_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C86B48BA317AB7F47E73BC440DBBAD6A /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		C9A1A6B24F34ADFACCCBDB010C7C4048 /* HMDBAdGeneralResourceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralResourceRecord.h; sourceTree = "<group>"; };
+		CD161533FB9082EBFE5755662F732BF9 /* OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMPassByRefSetter.m; path = Source/OCMock/OCMPassByRefSetter.m; sourceTree = "<group>"; };
+		CEAB50E669C5984BEB05061238F17D6F /* Pods-HMDBAdvertisement_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMDBAdvertisement_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CEDF6CB9847BDA6260BCFFDB120FDB7B /* HMDBAdGeneralProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralProtocol.h; sourceTree = "<group>"; };
+		CF7DB2747076996D5D731FBF9379F7EF /* HMDBAdServices+General.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMDBAdServices+General.m"; sourceTree = "<group>"; };
+		D0F74D7F47421816A4B0BCAF2B1A1541 /* HMDBAdGeneralRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdGeneralRecord.h; sourceTree = "<group>"; };
+		D1884C1E83803A7D0B6ABC7A3072B001 /* CTPersistance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTPersistance-dummy.m"; sourceTree = "<group>"; };
+		D18A9C4C84B3805B211BAE808E16A290 /* CTPersistanceTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceTransaction.h; path = CTPersistance/CTPersistance/Transaction/CTPersistanceTransaction.h; sourceTree = "<group>"; };
+		D2C1DAAB90D7A618BC42D37E4B97ED09 /* CTPersistanceDataBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceDataBase.h; path = CTPersistance/CTPersistance/Database/CTPersistanceDataBase.h; sourceTree = "<group>"; };
+		D2F1EB44DCE648DEE2DD9DE7D417AF20 /* OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCPartialMockObject.m; path = Source/OCMock/OCPartialMockObject.m; sourceTree = "<group>"; };
+		D3B100C1B2679AA34D4552B400EBC349 /* HMAdSleepDetailTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMAdSleepDetailTable.m; sourceTree = "<group>"; };
+		D503A1672AA536592FC32CB7F1BE26A3 /* OCMArgAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArgAction.m; path = Source/OCMock/OCMArgAction.m; sourceTree = "<group>"; };
+		D6A69A09CB6716D5117115D3FC6EE6AD /* HMDBAdvertisement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMDBAdvertisement-dummy.m"; sourceTree = "<group>"; };
+		D73115B7387295A71CE4C5CEB6B9835A /* HMDBAdServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMDBAdServices.h; path = HMDBAdvertisement/Services/HMDBAdServices.h; sourceTree = "<group>"; };
+		D75BDA4FE7292049CDA1B130E7F71441 /* CTPersistanceTable+Upsert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Upsert.m"; path = "CTPersistance/CTPersistance/Table/Categories/Upsert/CTPersistanceTable+Upsert.m"; sourceTree = "<group>"; };
+		D94AD7201FBFD0A529AA410A3DC27E73 /* OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCObserverMockObject.h; path = Source/OCMock/OCObserverMockObject.h; sourceTree = "<group>"; };
+		D9529A43FD2B004C8C930C9F080B004D /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		D982B0139F760CC4745DAC129E13E9FB /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
+		D9D942A7BA1F9DDF2965AA1F42EA2659 /* Pods-HMDBAdvertisement_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMDBAdvertisement_Tests.modulemap"; sourceTree = "<group>"; };
+		DA835913BD61BCA298F8C9428D7853BF /* OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObserverRecorder.m; path = Source/OCMock/OCMObserverRecorder.m; sourceTree = "<group>"; };
+		DC5CECF83BBDB61E44DD549881423EB6 /* OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = Source/OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		DDD5A7B464C9D4E691BD1DD772B941B0 /* OCMVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMVerifier.h; path = Source/OCMock/OCMVerifier.h; sourceTree = "<group>"; };
+		E19FF71968F3DA9D3C84DF26DD8BB20F /* HMDBAdGeneralResourceRecord+Protocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMDBAdGeneralResourceRecord+Protocol.m"; sourceTree = "<group>"; };
+		E4D5710BF23459E1AF343773E2C209B0 /* HMDBAdGeneralTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMDBAdGeneralTable.m; sourceTree = "<group>"; };
+		E56454144FE848D1F4516394F3AB31A4 /* OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMIndirectReturnValueProvider.m; path = Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = "<group>"; };
+		E5BFAB3326E656172264F9D6A4C4731D /* HMAdSleepDetailTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMAdSleepDetailTable.h; sourceTree = "<group>"; };
+		E82E37E18FA481A4BE954E6E4A13D19C /* CTPersistanceTable+Update.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Update.h"; path = "CTPersistance/CTPersistance/Table/Categories/Update/CTPersistanceTable+Update.h"; sourceTree = "<group>"; };
+		E87D27B119911C1BF7B2CBBC8E27E825 /* HMDBAdvertisement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMDBAdvertisement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1FE1737EFB2B57593C72352C2E61D5 /* HMDBAdGeneralResourceTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMDBAdGeneralResourceTable.m; sourceTree = "<group>"; };
+		EA3AF5B2A69AB67F1E38DAD0ED78C24B /* HMDBAdvertisement-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMDBAdvertisement-prefix.pch"; sourceTree = "<group>"; };
+		EEB0DC927F1A835752F2626FC8C1F3B4 /* OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExceptionReturnValueProvider.h; path = Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = "<group>"; };
+		EFB9C0AC1DA1268A4B50F19FB7C400CC /* OCMObserverRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMObserverRecorder.h; path = Source/OCMock/OCMObserverRecorder.h; sourceTree = "<group>"; };
+		EFE12DEF5B3CCD2F8F6885DEA00EBEB2 /* OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = Source/OCMock/OCMock.h; sourceTree = "<group>"; };
+		F07C9A4F7E848739A941F6CC27CF5972 /* CTPersistanceTable+Find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Find.h"; path = "CTPersistance/CTPersistance/Table/Categories/Find/CTPersistanceTable+Find.h"; sourceTree = "<group>"; };
+		F0E5C58C5FA18DC036BA5481397A30CE /* HMDBAdSleepDetailProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMDBAdSleepDetailProtocol.h; sourceTree = "<group>"; };
+		F115D74788713B20FBF690E941E929AB /* OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Source/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		F12813FA7EF358322092FEA3DAAE43B9 /* HMDBAdvertisement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMDBAdvertisement-umbrella.h"; sourceTree = "<group>"; };
+		F2A60F2A4EDEE6DEC693ABDB85105947 /* CTPersistanceMigrator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceMigrator.m; path = CTPersistance/CTPersistance/Migration/CTPersistanceMigrator.m; sourceTree = "<group>"; };
+		F3CC518C4BCA5835133B2A6DC1625F9C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617CD4272682E2204B595DA7D547A5F /* CTPersistanceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceRecord.h; path = CTPersistance/CTPersistance/Record/CTPersistanceRecord.h; sourceTree = "<group>"; };
+		F62976E6EEF7115B62E3C9F657078218 /* Pods-HMDBAdvertisement_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMDBAdvertisement_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6C7C41B7CDE596E0511C71E74CB357A /* HMDBAdServices+General.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMDBAdServices+General.h"; sourceTree = "<group>"; };
+		F72EA02F9269CA4F66B59DB5023FD9C3 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		F9680BF8E0F36099D9C8DC145ED408D7 /* Pods-HMDBAdvertisement_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMDBAdvertisement_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FAA43056E5A9EEAD68507C1EE6F5274D /* HMDBAdvertisementConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMDBAdvertisementConfig.m; path = HMDBAdvertisement/Persistance/HMDBAdvertisementConfig.m; sourceTree = "<group>"; };
+		FD11CF328161FEC923E6C83163C6E29E /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		FEB024E3C1484992E6A94950726D5FD5 /* OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock-dummy.m"; sourceTree = "<group>"; };
+		FFD311FAE91216C1AA8B1AC3C1DA5A5D /* OCMRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRecorder.m; path = Source/OCMock/OCMRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00870964B86535E3BE34A31C9F3AC859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9020EDB4B96CA5BEE92D0908011A5AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49184AD1E444CF571A8EC08599DA4CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473971EA20F86C8E00014A3B /* Foundation.framework in Frameworks */,
+				473971E620F86C8D00014A3B /* CTMediator.framework in Frameworks */,
+				473971E720F86C8D00014A3B /* CTPersistance.framework in Frameworks */,
+				473971E820F86C8D00014A3B /* SQLCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D29925DDA06F94E7C818CA2403C1B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFC9A74F4C6A30271C73A05674E35FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973FE0049137FF11E27520930C450EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639FC6184DDD71DB22428B89914F05C1 /* Foundation.framework in Frameworks */,
+				C16854E344BB060ADD60AB95394570FA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D713671672704B39C1F407FC194AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163B06336629F091581900F252FF7B99 /* CTMediator.framework in Frameworks */,
+				05685CDF69B741802057C7DC59C56C32 /* Foundation.framework in Frameworks */,
+				B96417D01100570710D2290CE76B91C7 /* SQLCipher.framework in Frameworks */,
+				BECB4AE5B4513093201A4EE9BBBC0A48 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8A4A9D81BBB91450215BF22E9454C9 /* Foundation.framework in Frameworks */,
+				9D0B3DCC1F4C0312DDFEAADA36CB1C0F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E207FF890CCEBC7F67D0F31939895E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B34E8B8F5F89E725A96D1785564EDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0247935027A94BA5713432B5D315BD3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473971E920F86C8E00014A3B /* Foundation.framework */,
+				F3CC518C4BCA5835133B2A6DC1625F9C /* CTMediator.framework */,
+				375CCB0E82DE630063BC709E25B32FF3 /* CTPersistance.framework */,
+				5BAB290FC538E90B17113D88C6CDDD1C /* SQLCipher.framework */,
+				F0572E831AA466D928D515B601CE6994 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		061A0FA961BC10F75797B8CD47ABA462 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				61CE30784AF9F4C88E8C7CFFF28DB3E8 /* HMDBAdvertisementConfig.h */,
+				FAA43056E5A9EEAD68507C1EE6F5274D /* HMDBAdvertisementConfig.m */,
+				C64C44F847BE8CDFCAE58BE91C1AE220 /* Record */,
+				35BADE337BE42304C8B6BD532173EBD2 /* Table */,
+			);
+			name = Persistance;
+			sourceTree = "<group>";
+		};
+		115C65459B5069D9F66D27991F8558EA /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				97D46BF40788C6357D94C7B07215A878 /* common */,
+				249B6F49644879223EFF8ED93453DB90 /* Support Files */,
+			);
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		249B6F49644879223EFF8ED93453DB90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				192E94481F6F2E98F187F625E9BB6553 /* Info.plist */,
+				D982B0139F760CC4745DAC129E13E9FB /* SQLCipher.modulemap */,
+				5FE1C39B681F50C98D976BF7D371F626 /* SQLCipher.xcconfig */,
+				AFB3CEA191EEC6650A5C2DD75BFDBEC3 /* SQLCipher-dummy.m */,
+				B8CD48D7EAFD9755836588FD2A22DB86 /* SQLCipher-prefix.pch */,
+				325CC1140690E0D1EC34FE030F333B09 /* SQLCipher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		358717B3BC1DD03C99E497BC53C70EAE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C284A3438BD07C236949766C824400 /* CTMediator.modulemap */,
+				300BD8C259B1295941D5F9F39D9CE6F2 /* CTMediator.xcconfig */,
+				FD11CF328161FEC923E6C83163C6E29E /* CTMediator-dummy.m */,
+				D9529A43FD2B004C8C930C9F080B004D /* CTMediator-prefix.pch */,
+				04E7740F29AC950D9755968E397E88FA /* CTMediator-umbrella.h */,
+				6B22058F610017E86F302CD39080CEA6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		35BADE337BE42304C8B6BD532173EBD2 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				E5BFAB3326E656172264F9D6A4C4731D /* HMAdSleepDetailTable.h */,
+				D3B100C1B2679AA34D4552B400EBC349 /* HMAdSleepDetailTable.m */,
+				1CAF9A6EB2C794AFF7F4614E9917AE6A /* HMDBAdGeneralResourceTable.h */,
+				EA1FE1737EFB2B57593C72352C2E61D5 /* HMDBAdGeneralResourceTable.m */,
+				88DEF9FFD3E6F3487E39CFDB30BF4AF5 /* HMDBAdGeneralTable.h */,
+				E4D5710BF23459E1AF343773E2C209B0 /* HMDBAdGeneralTable.m */,
+			);
+			name = Table;
+			path = HMDBAdvertisement/Persistance/Table;
+			sourceTree = "<group>";
+		};
+		37F15A253C5C8EF17DB01EFCCCF5F48A /* Pods-HMDBAdvertisement_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C0BDEBCBBB807AF3F5D7D0A3D0138CF /* Info.plist */,
+				D9D942A7BA1F9DDF2965AA1F42EA2659 /* Pods-HMDBAdvertisement_Tests.modulemap */,
+				BEA41ADA0C7A6CE6072A55C47CB889B0 /* Pods-HMDBAdvertisement_Tests-acknowledgements.markdown */,
+				6A042B23361A18B69FB6E43558A9EDDF /* Pods-HMDBAdvertisement_Tests-acknowledgements.plist */,
+				BC7356C053B101AE47D70FF1DAB6049A /* Pods-HMDBAdvertisement_Tests-dummy.m */,
+				5E3AF16593CB51D91100D4D370001108 /* Pods-HMDBAdvertisement_Tests-frameworks.sh */,
+				339FE486F3F209169940A5469F50CE5C /* Pods-HMDBAdvertisement_Tests-resources.sh */,
+				CEAB50E669C5984BEB05061238F17D6F /* Pods-HMDBAdvertisement_Tests-umbrella.h */,
+				C3F75489F63A655F2A0FC29359FAE983 /* Pods-HMDBAdvertisement_Tests.debug.xcconfig */,
+				2EBA9A2240F21A43F9A600CF07060518 /* Pods-HMDBAdvertisement_Tests.release.xcconfig */,
+			);
+			name = "Pods-HMDBAdvertisement_Tests";
+			path = "Target Support Files/Pods-HMDBAdvertisement_Tests";
+			sourceTree = "<group>";
+		};
+		3A0CE9B699DFA0EB26CBBB9D9F350978 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88FBC6B45AFB6CBB5556C63C5D9AC3D1 /* HMDBAdvertisement.modulemap */,
+				92E529E882305CE6CA4E785A8497D14B /* HMDBAdvertisement.xcconfig */,
+				D6A69A09CB6716D5117115D3FC6EE6AD /* HMDBAdvertisement-dummy.m */,
+				EA3AF5B2A69AB67F1E38DAD0ED78C24B /* HMDBAdvertisement-prefix.pch */,
+				F12813FA7EF358322092FEA3DAAE43B9 /* HMDBAdvertisement-umbrella.h */,
+				2E4DD36C437441A8E9F991724652688C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HMDBAdvertisement";
+			sourceTree = "<group>";
+		};
+		466261D1911B4D7754465130DCEE350E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D01F6DFB2BD3E21EC2C9DC3337F34F2 /* HMDBAdvertisement */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		476CDE117A3AE58F57428F20CE5B2DE1 /* ServicesCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F6C7C41B7CDE596E0511C71E74CB357A /* HMDBAdServices+General.h */,
+				CF7DB2747076996D5D731FBF9379F7EF /* HMDBAdServices+General.m */,
+				B53A71E5A607A1C86C2CA650021546D1 /* HMDBAdServices+SleepDetail.h */,
+				B5CCB3389EE5C633B18447274B94FF6D /* HMDBAdServices+SleepDetail.m */,
+			);
+			name = ServicesCategory;
+			path = HMDBAdvertisement/Services/ServicesCategory;
+			sourceTree = "<group>";
+		};
+		5099B1BFE04C50D058E3CDE043CC047F /* Pods-HMDBAdvertisement_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BB9EF7B36FD572B485CEA8A9D84E337C /* Info.plist */,
+				19673C9559607F4EFED326D607349FA3 /* Pods-HMDBAdvertisement_Example.modulemap */,
+				6026A0866B958754A39C1DFBD955FD0D /* Pods-HMDBAdvertisement_Example-acknowledgements.markdown */,
+				F62976E6EEF7115B62E3C9F657078218 /* Pods-HMDBAdvertisement_Example-acknowledgements.plist */,
+				314502DD2CEBC0AA957819AE9FB253D7 /* Pods-HMDBAdvertisement_Example-dummy.m */,
+				345C7EFD1AA0ED0409EB2544CDE5FE9C /* Pods-HMDBAdvertisement_Example-frameworks.sh */,
+				6A3134200951CC5E1EF7CFC973D258BB /* Pods-HMDBAdvertisement_Example-resources.sh */,
+				7C451A3810C613CFC21E1B3484E9ACE9 /* Pods-HMDBAdvertisement_Example-umbrella.h */,
+				B1663805C39A1D399722290DABB467A9 /* Pods-HMDBAdvertisement_Example.debug.xcconfig */,
+				F9680BF8E0F36099D9C8DC145ED408D7 /* Pods-HMDBAdvertisement_Example.release.xcconfig */,
+			);
+			name = "Pods-HMDBAdvertisement_Example";
+			path = "Target Support Files/Pods-HMDBAdvertisement_Example";
+			sourceTree = "<group>";
+		};
+		54874236F33AFC6B0A2EA1B055A7FCF5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D73115B7387295A71CE4C5CEB6B9835A /* HMDBAdServices.h */,
+				599DB7DF92906AEF28ABF37049F09D6B /* HMDBAdServices.m */,
+				889D660E7B6FA1301BE5B008D1081577 /* ModelCategory */,
+				F895885749A8DBF3EE4783A0D50373BD /* Protocol */,
+				476CDE117A3AE58F57428F20CE5B2DE1 /* ServicesCategory */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5D01F6DFB2BD3E21EC2C9DC3337F34F2 /* HMDBAdvertisement */ = {
+			isa = PBXGroup;
+			children = (
+				061A0FA961BC10F75797B8CD47ABA462 /* Persistance */,
+				609E45713D059128EBECF3CCD15C483B /* Pod */,
+				54874236F33AFC6B0A2EA1B055A7FCF5 /* Services */,
+				3A0CE9B699DFA0EB26CBBB9D9F350978 /* Support Files */,
+			);
+			name = HMDBAdvertisement;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		609E45713D059128EBECF3CCD15C483B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E442991919DC65024E89F190009815A /* HMDBAdvertisement.podspec */,
+				6B9994B5FC61EA2C39C3CE6CBD469C0D /* LICENSE */,
+				C07A01A5AEBC0F376DF55BF72CA28FA6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				466261D1911B4D7754465130DCEE350E /* Development Pods */,
+				0247935027A94BA5713432B5D315BD3A /* Frameworks */,
+				9F3CAF7D720568DF06799556930CB0B1 /* Pods */,
+				EAA9F867FEFF63748609859FFEAADD10 /* Products */,
+				F75E5F74664726A8B9305DDBD343541D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889D660E7B6FA1301BE5B008D1081577 /* ModelCategory */ = {
+			isa = PBXGroup;
+			children = (
+				98FA4CD35F73E2105BB6F3E9A350E816 /* HMAdSleepDetailRecord+Protocol.h */,
+				9F697E2E5D653772E6A3C9F15AF5B2CE /* HMAdSleepDetailRecord+Protocol.m */,
+				BE984B1124E951130099AEC41331AB06 /* HMDBAdGeneralResourceRecord+Protocol.h */,
+				E19FF71968F3DA9D3C84DF26DD8BB20F /* HMDBAdGeneralResourceRecord+Protocol.m */,
+				574F376619C5832E5E7C4C3A858CB293 /* HMDBAdGeneralVirtualRecord.h */,
+				1A8C5ACE9D56584A367580636BB03900 /* HMDBAdGeneralVirtualRecord.m */,
+			);
+			name = ModelCategory;
+			path = HMDBAdvertisement/Services/ModelCategory;
+			sourceTree = "<group>";
+		};
+		92D29C0E98DB339220434DC374D993B0 /* CTPersistance */ = {
+			isa = PBXGroup;
+			children = (
+				31003971CCB3B03E0B756B6F453EFDC8 /* CTPersistance.h */,
+				89BDCBBEFD396CD0BD767CE72B2FC57B /* CTPersistanceAsyncExecutor.h */,
+				441E1BB1543DF59ACC1B17938A13B33A /* CTPersistanceAsyncExecutor.m */,
+				A02222D57CCF05D909D1CCC4098C75B0 /* CTPersistanceConfiguration.h */,
+				D2C1DAAB90D7A618BC42D37E4B97ED09 /* CTPersistanceDataBase.h */,
+				102D532D30801DA23A37B7C650DD4F67 /* CTPersistanceDataBase.m */,
+				44F6FA44CC2AAB1CEF68375FE6D53CB5 /* CTPersistanceDatabasePool.h */,
+				7FC1C4EA1ADB93525D4D87EC89CC5F06 /* CTPersistanceDatabasePool.m */,
+				07FEBD5C622B04C55F466E004A0F3B70 /* CTPersistanceMarcos.h */,
+				58996CD1AC89B5394CCB68E01A3C3DCD /* CTPersistanceMigrator.h */,
+				F2A60F2A4EDEE6DEC693ABDB85105947 /* CTPersistanceMigrator.m */,
+				BCBD15756F36158F6E2048980BA7E6CA /* CTPersistanceQueryCommand.h */,
+				26AA394461A099F5696C1FF5BFE2479C /* CTPersistanceQueryCommand.m */,
+				B6B434B74BB4A52F884BBF67CF0941F4 /* CTPersistanceQueryCommand+DataManipulations.h */,
+				B6435677C7D3A8C1E13CE7CA4AA86F97 /* CTPersistanceQueryCommand+DataManipulations.m */,
+				585D329E0A7999F2D26C5C5769E079C1 /* CTPersistanceQueryCommand+SchemaManipulations.h */,
+				A7DC60951E5055009F0C02387C10228F /* CTPersistanceQueryCommand+SchemaManipulations.m */,
+				9AA460722783EB8944A79216DF35F7B6 /* CTPersistanceQueryCommand+Status.h */,
+				B22F7BC51F636E92222C920937ABAB1C /* CTPersistanceQueryCommand+Status.m */,
+				F617CD4272682E2204B595DA7D547A5F /* CTPersistanceRecord.h */,
+				398F69BDFCC397508D324AC5BD187DFA /* CTPersistanceRecord.m */,
+				3C31502D79F88BF69168D489281586F5 /* CTPersistanceRecordProtocol.h */,
+				02D31616298A9415306DA92AE2F1FDB5 /* CTPersistanceSqlStatement.h */,
+				0CF07E28BF2B343231E52471512B820C /* CTPersistanceSqlStatement.m */,
+				43F0EFE15E86D17B898A1A233A6F7BF7 /* CTPersistanceTable.h */,
+				BF39345163FE0F979FC01A0CF2448AF6 /* CTPersistanceTable.m */,
+				ACDA269B6B120F233DD5FAA6D914BADA /* CTPersistanceTable+Delete.h */,
+				753C89D32EA968BED90DF32AFC906B21 /* CTPersistanceTable+Delete.m */,
+				F07C9A4F7E848739A941F6CC27CF5972 /* CTPersistanceTable+Find.h */,
+				5D6EEC45D588D121BD15BF4655C6DEDE /* CTPersistanceTable+Find.m */,
+				2191344D0FD0D3F603434E3B9DBBFA7D /* CTPersistanceTable+Insert.h */,
+				468AF0DC16B5498425DADEF54A327786 /* CTPersistanceTable+Insert.m */,
+				8A00B814D1D2AE6981EB107BD7715D38 /* CTPersistanceTable+Schema.h */,
+				890B5B7623E801B64749A1AF8EAC9276 /* CTPersistanceTable+Schema.m */,
+				E82E37E18FA481A4BE954E6E4A13D19C /* CTPersistanceTable+Update.h */,
+				487C90531D75231EC7804BEB1C100A87 /* CTPersistanceTable+Update.m */,
+				A1C6E299E8E8C1BFCC6134C7F5C0D661 /* CTPersistanceTable+Upsert.h */,
+				D75BDA4FE7292049CDA1B130E7F71441 /* CTPersistanceTable+Upsert.m */,
+				D18A9C4C84B3805B211BAE808E16A290 /* CTPersistanceTransaction.h */,
+				356F052D1BDFF78328DC295D616BDBAE /* CTPersistanceTransaction.m */,
+				B8AFB1912D47BFA2C6EFD53C4A06092B /* CTPersistanceVersionRecord.h */,
+				8F79A11137E68469AD8D0352CE925CD3 /* CTPersistanceVersionRecord.m */,
+				7A84075C9CA531525FB2D97D3C932414 /* CTPersistanceVersionTable.h */,
+				95FC213CA8D61AE5242897BF0971676D /* CTPersistanceVersionTable.m */,
+				60349BBDEB01E2E2A725ACDF48B218BF /* NSArray+CTPersistanceRecordTransform.h */,
+				2AB73325E63AF62B52B97D22126343C7 /* NSArray+CTPersistanceRecordTransform.m */,
+				315126B3054576891A01077FDC4DD21D /* NSDictionary+KeyValueBind.h */,
+				6A1D8119556CC774E0479D2C6AB9ECF7 /* NSDictionary+KeyValueBind.m */,
+				29CC092555FB0CC308EC6EAB45BB3BAE /* NSMutableArray+CTPersistanceBindValue.h */,
+				5E22F7D779940BDFB0421C1B21E19CDA /* NSMutableArray+CTPersistanceBindValue.m */,
+				8BA892FFA705C2ACD1F1A8F91C0B3E50 /* NSString+Where.h */,
+				094CE78F24E4EF2ED18DBC852BC359E9 /* NSString+Where.m */,
+				D8D812AD8D3EB33E9B0DBA303B243766 /* Support Files */,
+			);
+			path = CTPersistance;
+			sourceTree = "<group>";
+		};
+		97D46BF40788C6357D94C7B07215A878 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C86B48BA317AB7F47E73BC440DBBAD6A /* sqlite3.c */,
+				490BA8246CF425549823F7E6A9BE46FF /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		9F3CAF7D720568DF06799556930CB0B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA157BF8153C52663503D688CF53BF81 /* CTMediator */,
+				92D29C0E98DB339220434DC374D993B0 /* CTPersistance */,
+				B716332A5FD347752AA4522D93E96573 /* OCMock */,
+				115C65459B5069D9F66D27991F8558EA /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B716332A5FD347752AA4522D93E96573 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				3CED652F8E94B33AF7B044170727F87B /* NSInvocation+OCMAdditions.h */,
+				B0B651D08CD747395019F459A0D05B97 /* NSInvocation+OCMAdditions.m */,
+				82877756CB3A8AAC1B13E9AE96864258 /* NSMethodSignature+OCMAdditions.h */,
+				7F106B5174EDC9CB678385F373298D4E /* NSMethodSignature+OCMAdditions.m */,
+				69F14EDC29D2AC5594F8EA0F77DDDDA8 /* NSNotificationCenter+OCMAdditions.h */,
+				32E123B48082D22F457F93FA943BE37A /* NSNotificationCenter+OCMAdditions.m */,
+				54A5C51900ABA061817D5752D624E19A /* NSObject+OCMAdditions.h */,
+				31DBA194831EA9C9366DBD9FCE1BBDF9 /* NSObject+OCMAdditions.m */,
+				472C330B07B9CA08DCE86F7A13641805 /* NSValue+OCMAdditions.h */,
+				0DCAF29EA76C105281840FE4637BF5A6 /* NSValue+OCMAdditions.m */,
+				4AB4D5E96C1BE4D7913E05FEC671B2A4 /* OCClassMockObject.h */,
+				4C4033364739BE69D112CBC3D9CBF191 /* OCClassMockObject.m */,
+				6F80881460EB175BFAB054C2A02F2F94 /* OCMArg.h */,
+				58A5CAF5360891058E8C3C6D654BA2BC /* OCMArg.m */,
+				3731811023631E85E74E0A13C0AF88F3 /* OCMArgAction.h */,
+				D503A1672AA536592FC32CB7F1BE26A3 /* OCMArgAction.m */,
+				4B63EAC6BCB715B9EFA76A385D35EB61 /* OCMBlockArgCaller.h */,
+				81CEAEEB1575B25A069F284052C25468 /* OCMBlockArgCaller.m */,
+				C0C191FE82F757C678B219E2D6E7C830 /* OCMBlockCaller.h */,
+				8F16ECCD3543962C76F0E8C65381C6FD /* OCMBlockCaller.m */,
+				633D811A4D4490DB90459BFDD431418C /* OCMBoxedReturnValueProvider.h */,
+				03A76EE7209005BE149E52CA24B87619 /* OCMBoxedReturnValueProvider.m */,
+				F115D74788713B20FBF690E941E929AB /* OCMConstraint.h */,
+				8B5860141C023FDE1C412294CCF6287D /* OCMConstraint.m */,
+				EEB0DC927F1A835752F2626FC8C1F3B4 /* OCMExceptionReturnValueProvider.h */,
+				28FD64FFD196992FAC8445E5B54429E2 /* OCMExceptionReturnValueProvider.m */,
+				C096B19E1FD2DB16F85383833934A0D5 /* OCMExpectationRecorder.h */,
+				2BFC75DB78D6CDEC8F6CBC04E9DD0222 /* OCMExpectationRecorder.m */,
+				3D7154C087D03686A9448345D6A474E1 /* OCMFunctions.h */,
+				6AEC0E72FD8A0C0C2AD88224C4E275B4 /* OCMFunctions.m */,
+				3940D7245320DDB988B014A9FF849A69 /* OCMFunctionsPrivate.h */,
+				26EB93A7340299F33C91AD19E05EAE64 /* OCMIndirectReturnValueProvider.h */,
+				E56454144FE848D1F4516394F3AB31A4 /* OCMIndirectReturnValueProvider.m */,
+				0441B06C13608D8B758C75B302102D83 /* OCMInvocationExpectation.h */,
+				4B8580AD42C0069751DB7010F5FEF175 /* OCMInvocationExpectation.m */,
+				76E4ED0276835F64008E7E011A6642D9 /* OCMInvocationMatcher.h */,
+				848102AE020EC731831F9A860670EA2A /* OCMInvocationMatcher.m */,
+				00D630B921211F35B6267ED225738868 /* OCMInvocationStub.h */,
+				2C757B5C5F45713C787C51174D078C19 /* OCMInvocationStub.m */,
+				1D54E86320CAF1DB78BCA9C4B654F640 /* OCMLocation.h */,
+				30C675258650514A7B2D12A5DC230ECC /* OCMLocation.m */,
+				27CF80224AB24E0984F38B33BEDC0C06 /* OCMMacroState.h */,
+				7E7F44FC2560D170B8812310DD1D6C20 /* OCMMacroState.m */,
+				B4AECD7F2A37B1C9D562BABD326F21A1 /* OCMNotificationPoster.h */,
+				B146CB29D81F43D9F1C4BBB9CD06464A /* OCMNotificationPoster.m */,
+				EFB9C0AC1DA1268A4B50F19FB7C400CC /* OCMObserverRecorder.h */,
+				DA835913BD61BCA298F8C9428D7853BF /* OCMObserverRecorder.m */,
+				EFE12DEF5B3CCD2F8F6885DEA00EBEB2 /* OCMock.h */,
+				DC5CECF83BBDB61E44DD549881423EB6 /* OCMockObject.h */,
+				5E742351A80ABD8B70CC325753E0721E /* OCMockObject.m */,
+				A21E3F0A7FC38F821636FEC3B2F17D9E /* OCMPassByRefSetter.h */,
+				CD161533FB9082EBFE5755662F732BF9 /* OCMPassByRefSetter.m */,
+				A4491F87235B567D8D36359F96A9AAA9 /* OCMRealObjectForwarder.h */,
+				744FB5AAC06CFB80B7175FE8A0CEC13A /* OCMRealObjectForwarder.m */,
+				AEBB1F72E53F6FF43895ACA8081C6484 /* OCMRecorder.h */,
+				FFD311FAE91216C1AA8B1AC3C1DA5A5D /* OCMRecorder.m */,
+				253B69C6D9B5FF5F8730C72969627671 /* OCMReturnValueProvider.h */,
+				34DE0204E941B34EF000EE6639E2C08F /* OCMReturnValueProvider.m */,
+				8658680842F20B43DE4421EB125E2C4D /* OCMStubRecorder.h */,
+				04A4620F15343AF6DAFE4A367791DEA5 /* OCMStubRecorder.m */,
+				DDD5A7B464C9D4E691BD1DD772B941B0 /* OCMVerifier.h */,
+				02D72D5D9EC0B8887DA28F445CFE13F1 /* OCMVerifier.m */,
+				D94AD7201FBFD0A529AA410A3DC27E73 /* OCObserverMockObject.h */,
+				A80658C9D7EEB77DEF4860CA1B24E4F2 /* OCObserverMockObject.m */,
+				5FA5DFC628ABDB787E1A12733013635F /* OCPartialMockObject.h */,
+				D2F1EB44DCE648DEE2DD9DE7D417AF20 /* OCPartialMockObject.m */,
+				B6973BF446886D567167A00A5FFA3E14 /* OCProtocolMockObject.h */,
+				8196169AF53112B7948E6664ECE27D55 /* OCProtocolMockObject.m */,
+				E0422A164AB991D80E44417D15FBB114 /* Support Files */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		C64C44F847BE8CDFCAE58BE91C1AE220 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				5D946B5C4E1A6AF928088C88E3DAD8F1 /* HMAdSleepDetailRecord.h */,
+				2E8456747F021127186511EB7740BDFD /* HMAdSleepDetailRecord.m */,
+				D0F74D7F47421816A4B0BCAF2B1A1541 /* HMDBAdGeneralRecord.h */,
+				3DD215CDA2A5E4801D276F3CD77351AD /* HMDBAdGeneralRecord.m */,
+				C9A1A6B24F34ADFACCCBDB010C7C4048 /* HMDBAdGeneralResourceRecord.h */,
+				3C13CB6935F45039FAA860868092302B /* HMDBAdGeneralResourceRecord.m */,
+			);
+			name = Record;
+			path = HMDBAdvertisement/Persistance/Record;
+			sourceTree = "<group>";
+		};
+		D8D812AD8D3EB33E9B0DBA303B243766 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70446F61E220EAC9A8507EA0FD5DEE8A /* CTPersistance.modulemap */,
+				39729EC6C33550D08FB19D12B0BD5EF3 /* CTPersistance.xcconfig */,
+				D1884C1E83803A7D0B6ABC7A3072B001 /* CTPersistance-dummy.m */,
+				2EEC4618128A53C2544E5269EE7B1179 /* CTPersistance-prefix.pch */,
+				638EE5AB5A1D194910BD89EEAE8F0A7D /* CTPersistance-umbrella.h */,
+				6A321C7B52BCB3E17B06FFEFCF54037F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTPersistance";
+			sourceTree = "<group>";
+		};
+		E0422A164AB991D80E44417D15FBB114 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35A5E66F2A8A90644FF04A9458C0DE72 /* Info.plist */,
+				28AA108A1A2A4944A1D90773A7311A89 /* OCMock.modulemap */,
+				C2C21865E20A21B46C2D4168A608F8F0 /* OCMock.xcconfig */,
+				FEB024E3C1484992E6A94950726D5FD5 /* OCMock-dummy.m */,
+				32272F194EE66D30A5A04548A9E5ECD7 /* OCMock-prefix.pch */,
+				72EC752191D36FB3539A7626BEDEB337 /* OCMock-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCMock";
+			sourceTree = "<group>";
+		};
+		EA157BF8153C52663503D688CF53BF81 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				F72EA02F9269CA4F66B59DB5023FD9C3 /* CTMediator.h */,
+				1BD916BAE191B1A9782313373615E836 /* CTMediator.m */,
+				358717B3BC1DD03C99E497BC53C70EAE /* Support Files */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		EAA9F867FEFF63748609859FFEAADD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4FCC790F3AF5EEFBFC4C9649213224 /* CTMediator.framework */,
+				575A05C98173814ECC22D4706A9C0F42 /* CTPersistance.framework */,
+				E87D27B119911C1BF7B2CBBC8E27E825 /* HMDBAdvertisement.framework */,
+				95F7CEB31A5A66B07155B81F9EC62802 /* OCMock.framework */,
+				AE4B0617B7955DF6E908C7E0C1F80714 /* Pods_HMDBAdvertisement_Example.framework */,
+				7BE6EF741F27F6BC9C23A184D3B643E3 /* Pods_HMDBAdvertisement_Tests.framework */,
+				1FFE500C3622A4AD3BC6274425AC6180 /* SQLCipher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0572E831AA466D928D515B601CE6994 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				719921D784618DB78FD9CAAF3437444B /* Foundation.framework */,
+				6BD071A91731EE54E0B9C447640B34A2 /* Security.framework */,
+				5F8A0D4BB25AD591A529B6C1E6512897 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F75E5F74664726A8B9305DDBD343541D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5099B1BFE04C50D058E3CDE043CC047F /* Pods-HMDBAdvertisement_Example */,
+				37F15A253C5C8EF17DB01EFCCCF5F48A /* Pods-HMDBAdvertisement_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F895885749A8DBF3EE4783A0D50373BD /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF6CB9847BDA6260BCFFDB120FDB7B /* HMDBAdGeneralProtocol.h */,
+				0EEEEF67D6CE1FE1DE0A3F78060D25B9 /* HMDBAdGeneralResourceProtocol.h */,
+				F0E5C58C5FA18DC036BA5481397A30CE /* HMDBAdSleepDetailProtocol.h */,
+			);
+			name = Protocol;
+			path = HMDBAdvertisement/Services/Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3A800644B3BAE464946F1B2CF3BF6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D9B84569586159B6C98E892E1D8133 /* CTPersistance-umbrella.h in Headers */,
+				C679A0B17100266EA0D2B43DEF4E6D28 /* CTPersistance.h in Headers */,
+				399D72D408DF7EA5242757AD4D2313D2 /* CTPersistanceAsyncExecutor.h in Headers */,
+				8C1DC56721BC09063B65DA288BAD86AB /* CTPersistanceConfiguration.h in Headers */,
+				04BE2488DE42D7E0B97548A554173F06 /* CTPersistanceDataBase.h in Headers */,
+				495824D36D15EB4950AC648BAAF03252 /* CTPersistanceDatabasePool.h in Headers */,
+				C4E350CFAF9D0F84FD5B376475619621 /* CTPersistanceMarcos.h in Headers */,
+				A1C1C5F88C5F0E4D293DF2E192284C4B /* CTPersistanceMigrator.h in Headers */,
+				D83AE38E4A544960A9DD604BA4A04F48 /* CTPersistanceQueryCommand+DataManipulations.h in Headers */,
+				EA34EC6113A0D83B28B9FD51920D0C15 /* CTPersistanceQueryCommand+SchemaManipulations.h in Headers */,
+				D743CC1B6CA06196A1D9557589B171DD /* CTPersistanceQueryCommand+Status.h in Headers */,
+				CC1C8DE62D755A8098C3AA3BB2199D21 /* CTPersistanceQueryCommand.h in Headers */,
+				4F0EB59C43A11AE61E80936A5819A467 /* CTPersistanceRecord.h in Headers */,
+				8872A19F1BE9FFBD9AF9B5EE908B0629 /* CTPersistanceRecordProtocol.h in Headers */,
+				E59670872AA15ED25D3CAA3057B59D3B /* CTPersistanceSqlStatement.h in Headers */,
+				F3D3EADC34C484256CBF87A8D7A53909 /* CTPersistanceTable+Delete.h in Headers */,
+				1CFCB7F78DDCFC2C70AA4DE102DE37F9 /* CTPersistanceTable+Find.h in Headers */,
+				62F66E6B669429E87FE06563F2DD159C /* CTPersistanceTable+Insert.h in Headers */,
+				00BDAA41951F418C68F0AB94DEA5EA30 /* CTPersistanceTable+Schema.h in Headers */,
+				821412FAB986419BAACB26254C7CE940 /* CTPersistanceTable+Update.h in Headers */,
+				B75EEFE31F748B26D097BEC566FE52F2 /* CTPersistanceTable+Upsert.h in Headers */,
+				DAF93ABE632955C742577D544096FC35 /* CTPersistanceTable.h in Headers */,
+				FFBF826F8A7B6DDFD700C793DDE0653B /* CTPersistanceTransaction.h in Headers */,
+				4716B39B8B987B3786729B544DCC2DDB /* CTPersistanceVersionRecord.h in Headers */,
+				9B92E7455DDF475C08FB8A39AF45AC73 /* CTPersistanceVersionTable.h in Headers */,
+				069A906F286CAA61F8AA8F4176AB84A2 /* NSArray+CTPersistanceRecordTransform.h in Headers */,
+				15CB977720E50B1902FFF77FA013BE79 /* NSDictionary+KeyValueBind.h in Headers */,
+				D1373FF8577CC12B3916B3A1CDB58C20 /* NSMutableArray+CTPersistanceBindValue.h in Headers */,
+				3A8B0EC31E8EBDB645118A9DAAEDA8E5 /* NSString+Where.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1E71A10B34DA99C332A0E10801C7B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297C8E5024263D7F7D1A8B415A02FEEB /* SQLCipher-umbrella.h in Headers */,
+				F10C030D359147E98537D80FF4BAB6A9 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808E9C27E7118677651A7526B0945512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD596B095C58C7A3AA647CAB7802226 /* NSInvocation+OCMAdditions.h in Headers */,
+				5037A042D2012439DEC932F10FC51B95 /* NSMethodSignature+OCMAdditions.h in Headers */,
+				A1268C3E1B318712F159EF222F19BD8B /* NSNotificationCenter+OCMAdditions.h in Headers */,
+				E61FEAB563814E928FFF2C1EF239058A /* NSObject+OCMAdditions.h in Headers */,
+				1DD2C9A900B7D7B5F3862D15C1A8AD7E /* NSValue+OCMAdditions.h in Headers */,
+				28B5E9BDDC2F53432C7D7D244837F1B5 /* OCClassMockObject.h in Headers */,
+				F02C2CD0A94965FFA8928B316D5825CB /* OCMArg.h in Headers */,
+				6DEAD4CD0FF9467DA3FD3F22816418C6 /* OCMArgAction.h in Headers */,
+				86FF90618135B7C9032BC7075343F236 /* OCMBlockArgCaller.h in Headers */,
+				0310B1523123778B0E3FB78BE3A14095 /* OCMBlockCaller.h in Headers */,
+				E14A5FC189CD75054825E45DA6D9F293 /* OCMBoxedReturnValueProvider.h in Headers */,
+				B40D8DAB504B721D2BC6A6DDFDD82067 /* OCMConstraint.h in Headers */,
+				974362D040AC870A5D72E365B21A8CE4 /* OCMExceptionReturnValueProvider.h in Headers */,
+				01F7D55919C59833456188558FE8D7FA /* OCMExpectationRecorder.h in Headers */,
+				15081C3A4D626D9631A9594847D2E2A6 /* OCMFunctions.h in Headers */,
+				72C8CC2855787B9DC1A37DDEB5E24155 /* OCMFunctionsPrivate.h in Headers */,
+				1D53147F49F02FC693C33D8526049C90 /* OCMIndirectReturnValueProvider.h in Headers */,
+				B3E6AA126A971418B57B78A6B4E753E3 /* OCMInvocationExpectation.h in Headers */,
+				B42B8EFE65F8B07957190A15F590093A /* OCMInvocationMatcher.h in Headers */,
+				15FEDB8A315321D48BC7E535429ADB48 /* OCMInvocationStub.h in Headers */,
+				B66FB06824BBED66619F17DB82CC2A64 /* OCMLocation.h in Headers */,
+				A4AF7E8EF9BB26F4CE7FD9EA32D4AD4C /* OCMMacroState.h in Headers */,
+				1583087CE691D66E050A0AE7C07296BD /* OCMNotificationPoster.h in Headers */,
+				4552366371FE1ACA9600897C31D70E4C /* OCMObserverRecorder.h in Headers */,
+				9A92686CF21CC8ECAB69A3CFB621FA4B /* OCMock-umbrella.h in Headers */,
+				FAB7A1E7E1414DC657BA79D07135E15B /* OCMock.h in Headers */,
+				8EE2E0824E8AD382EC6553104A60430E /* OCMockObject.h in Headers */,
+				92F61FA0ACB1B709FFEBE1D9DC2C68E5 /* OCMPassByRefSetter.h in Headers */,
+				38D5085895B3757AF0DCED078EF8B145 /* OCMRealObjectForwarder.h in Headers */,
+				E6F1B20197D630B80285B5F6E5FAE80F /* OCMRecorder.h in Headers */,
+				A4CD01540B9FCF8F26D52856704571D7 /* OCMReturnValueProvider.h in Headers */,
+				EC33739AB54F71355C4FD5AAEF92F4B1 /* OCMStubRecorder.h in Headers */,
+				E4A87D8BA9BA24EE81DEC41C8BE98F2B /* OCMVerifier.h in Headers */,
+				147E00CDCEDB145F0012FA174BA4E545 /* OCObserverMockObject.h in Headers */,
+				353759005B92EEC29E4B15765C4D3EEB /* OCPartialMockObject.h in Headers */,
+				45E91E6E79D1EEACF0F7A668E3D9A89D /* OCProtocolMockObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CEB6729AF7BE11B6C3B5D522E41A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA13C628549A874FDF0198B9CF98CAF /* Pods-HMDBAdvertisement_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D349CE383C1C1E1FA4D1D561604C54B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFDE8C41C6A33211D026FEF6C58904D /* HMAdSleepDetailRecord+Protocol.h in Headers */,
+				03339F5F5C73017E5B6364CD7074DCB2 /* HMAdSleepDetailRecord.h in Headers */,
+				B3F71209DA9D93734CE1517659187DA0 /* HMAdSleepDetailTable.h in Headers */,
+				34286B7A417C87CD49B59AE1F20B04D4 /* HMDBAdGeneralProtocol.h in Headers */,
+				DC01847BE04807B713F6BCB2B5B3D0D5 /* HMDBAdGeneralRecord.h in Headers */,
+				EE3178A8B924EAE3E37ED89133FDF2CE /* HMDBAdGeneralResourceProtocol.h in Headers */,
+				6A37FE9CD6B645306D2DBBB5FF4F1238 /* HMDBAdGeneralResourceRecord+Protocol.h in Headers */,
+				5DC2F26AC140DD44C3631E3EDCE4EA5A /* HMDBAdGeneralResourceRecord.h in Headers */,
+				1F681A68313CF4AEB2DF700A836A19EE /* HMDBAdGeneralResourceTable.h in Headers */,
+				E47EF4A1649F2FAC487709B2DCE0E534 /* HMDBAdGeneralTable.h in Headers */,
+				C6BAFA59169B941157064489D4366DD2 /* HMDBAdGeneralVirtualRecord.h in Headers */,
+				3EED038D4F0F53A9B5A5164DCB614494 /* HMDBAdServices+General.h in Headers */,
+				47EFDE9D100FBDBFCF25B8AD351654E1 /* HMDBAdServices+SleepDetail.h in Headers */,
+				98B98C607233FCD98E4B3720CA1CF0A8 /* HMDBAdServices.h in Headers */,
+				745E524AC711FADB483319690E828835 /* HMDBAdSleepDetailProtocol.h in Headers */,
+				92267CBE20646BBDE230EFE4D8EC0E92 /* HMDBAdvertisement-umbrella.h in Headers */,
+				E7882F7DC56CC78ED73A49B3BD47865E /* HMDBAdvertisementConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB75C26706EB0641489DD697D0D4B03D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3620273881DFA347F104D8E7931B068A /* Pods-HMDBAdvertisement_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1240AC29198E8D28BEB68F28B468521C /* Build configuration list for PBXNativeTarget "CTPersistance" */;
+			buildPhases = (
+				2BC158B25372F2E04D7448288834ADD4 /* Sources */,
+				AC0D713671672704B39C1F407FC194AC /* Frameworks */,
+				5D3A800644B3BAE464946F1B2CF3BF6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B0F9278D69B3C303FEDD6B4018174E /* PBXTargetDependency */,
+				14063ADEA5333EC493654C51798FA529 /* PBXTargetDependency */,
+			);
+			name = CTPersistance;
+			productName = CTPersistance;
+			productReference = 575A05C98173814ECC22D4706A9C0F42 /* CTPersistance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		242295B81E3FCD25198E7AEDED6542F5 /* Pods-HMDBAdvertisement_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B85DACD1B2643AD39AD39784E6EC99 /* Build configuration list for PBXNativeTarget "Pods-HMDBAdvertisement_Example" */;
+			buildPhases = (
+				466846D83D2B00CA928D8226B568D6C0 /* Sources */,
+				E207FF890CCEBC7F67D0F31939895E17 /* Frameworks */,
+				95CEB6729AF7BE11B6C3B5D522E41A9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CB23F1153FD560F3C403A254893136 /* PBXTargetDependency */,
+				18187FF7F6DA19435FC146602E26A914 /* PBXTargetDependency */,
+				C5B4ED19C6399CAC7F273E7B22381F2D /* PBXTargetDependency */,
+				F20D95EFA353FA2D436D81E86A779AB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-HMDBAdvertisement_Example";
+			productName = "Pods-HMDBAdvertisement_Example";
+			productReference = AE4B0617B7955DF6E908C7E0C1F80714 /* Pods_HMDBAdvertisement_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6DF1B02C267E2A6F76D003F38D5967 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				86DAF69AE90FAE255293B89C7A512499 /* Sources */,
+				973FE0049137FF11E27520930C450EF9 /* Frameworks */,
+				6B1E71A10B34DA99C332A0E10801C7B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = 1FFE500C3622A4AD3BC6274425AC6180 /* SQLCipher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 8C4FCC790F3AF5EEFBFC4C9649213224 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F9446EF43E3055DA1301DC9FAAE651E /* HMDBAdvertisement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E028F3E96BD66E139CD5D10D9118753F /* Build configuration list for PBXNativeTarget "HMDBAdvertisement" */;
+			buildPhases = (
+				4E4E163434D88102BC30B94C426FCC9F /* Sources */,
+				49184AD1E444CF571A8EC08599DA4CC0 /* Frameworks */,
+				D349CE383C1C1E1FA4D1D561604C54B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0A8BE3E0CC60DD34C317BEE8646B17 /* PBXTargetDependency */,
+				80CACCD5F205B60849F7A044E0CA6DF8 /* PBXTargetDependency */,
+				59FFDDDE7D78509F1A8A2D99A5279741 /* PBXTargetDependency */,
+			);
+			name = HMDBAdvertisement;
+			productName = HMDBAdvertisement;
+			productReference = E87D27B119911C1BF7B2CBBC8E27E825 /* HMDBAdvertisement.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC54C98851E54D349520C786701A1845 /* OCMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8BA48E64C0BE4DC719C4BAE69F06A8 /* Build configuration list for PBXNativeTarget "OCMock" */;
+			buildPhases = (
+				BE952139340A1F69DCCDE76D81E60234 /* Sources */,
+				7D29925DDA06F94E7C818CA2403C1B0B /* Frameworks */,
+				808E9C27E7118677651A7526B0945512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMock;
+			productName = OCMock;
+			productReference = 95F7CEB31A5A66B07155B81F9EC62802 /* OCMock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5AE66594234B879FB52F4C2EE0D2E07 /* Pods-HMDBAdvertisement_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243F102DB70BD54A26EC907D5D00231E /* Build configuration list for PBXNativeTarget "Pods-HMDBAdvertisement_Tests" */;
+			buildPhases = (
+				05F1374FB092618C5E0953E7D967EBDC /* Sources */,
+				00870964B86535E3BE34A31C9F3AC859 /* Frameworks */,
+				DB75C26706EB0641489DD697D0D4B03D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA515B8ED2D8EFA27B9E15FB0E9010F9 /* PBXTargetDependency */,
+				642F6F2A4E779CE0DFC6B3E6C5A755CE /* PBXTargetDependency */,
+			);
+			name = "Pods-HMDBAdvertisement_Tests";
+			productName = "Pods-HMDBAdvertisement_Tests";
+			productReference = 7BE6EF741F27F6BC9C23A184D3B643E3 /* Pods_HMDBAdvertisement_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EAA9F867FEFF63748609859FFEAADD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */,
+				9F9446EF43E3055DA1301DC9FAAE651E /* HMDBAdvertisement */,
+				DC54C98851E54D349520C786701A1845 /* OCMock */,
+				242295B81E3FCD25198E7AEDED6542F5 /* Pods-HMDBAdvertisement_Example */,
+				F5AE66594234B879FB52F4C2EE0D2E07 /* Pods-HMDBAdvertisement_Tests */,
+				57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F1374FB092618C5E0953E7D967EBDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8134B3F90AB3B95E6A8E328ABCAA5996 /* Pods-HMDBAdvertisement_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC158B25372F2E04D7448288834ADD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F6D7E2F0519A418EF917359BDDA16 /* CTPersistance-dummy.m in Sources */,
+				A23315F6D42CF88E78B689B75D90F5DF /* CTPersistanceAsyncExecutor.m in Sources */,
+				E712C30E6FE3E43B4C2926EA941EDDD7 /* CTPersistanceDataBase.m in Sources */,
+				8CA8F119546DCF47D9CCA81137FEFDFE /* CTPersistanceDatabasePool.m in Sources */,
+				BF9A8BA5EDE1746DDAE0CFE78BA887E7 /* CTPersistanceMigrator.m in Sources */,
+				0CC0772E28B92F54E47BB90E2B1A562F /* CTPersistanceQueryCommand+DataManipulations.m in Sources */,
+				C03139EB1E55D189960CA1A34F211EAC /* CTPersistanceQueryCommand+SchemaManipulations.m in Sources */,
+				E0B9742FCB2F01CA73B7FA4ED6D310FB /* CTPersistanceQueryCommand+Status.m in Sources */,
+				4E113F5D4AA21686DCB09A288ACCC200 /* CTPersistanceQueryCommand.m in Sources */,
+				32A2FEABB7A4D9B95871C60D91E48FC3 /* CTPersistanceRecord.m in Sources */,
+				A0C81674AF67A3A817F8B484566789F5 /* CTPersistanceSqlStatement.m in Sources */,
+				E291C9852FC63553B17736A2B88B01C9 /* CTPersistanceTable+Delete.m in Sources */,
+				09B12E50FC71B3B1C74F1FC5949E6827 /* CTPersistanceTable+Find.m in Sources */,
+				EEB819F3D2CA4D9C680879D00D1911BB /* CTPersistanceTable+Insert.m in Sources */,
+				459A072C6518855EDC7035248076A1E5 /* CTPersistanceTable+Schema.m in Sources */,
+				FFA53197939ABD09422F73308049BB2B /* CTPersistanceTable+Update.m in Sources */,
+				9D7B83435464B9686F10AD94EE8743D3 /* CTPersistanceTable+Upsert.m in Sources */,
+				2D7B585E8660DA0619E90F005CC5F10B /* CTPersistanceTable.m in Sources */,
+				4B6C7CC5B3797C302E2AB701ACF69A3F /* CTPersistanceTransaction.m in Sources */,
+				760DF30C334FBA9808AFCD5A46D47A30 /* CTPersistanceVersionRecord.m in Sources */,
+				5C3A56EEEED6FC3C6A3AB84207B1F618 /* CTPersistanceVersionTable.m in Sources */,
+				A824CE1EA33E1DFD346452BEFFE7DFAA /* NSArray+CTPersistanceRecordTransform.m in Sources */,
+				3A1CA906E1851787B45EC0C9C00D574B /* NSDictionary+KeyValueBind.m in Sources */,
+				6C9109220953C792921260E8A59FB39E /* NSMutableArray+CTPersistanceBindValue.m in Sources */,
+				79A7DE8083CBB474A69B782B00079DC4 /* NSString+Where.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466846D83D2B00CA928D8226B568D6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEAF28A01051BCA177533A75BF6C9C3 /* Pods-HMDBAdvertisement_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E4E163434D88102BC30B94C426FCC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73A82A70D67AC3929BC390BBF2ECBE /* HMAdSleepDetailRecord+Protocol.m in Sources */,
+				043EC34CDB17806C29FE883CE0D11FE6 /* HMAdSleepDetailRecord.m in Sources */,
+				5D201EA8B19E0D58EA62A838F053D3D6 /* HMAdSleepDetailTable.m in Sources */,
+				A8F995CAF718971E1FEB01439C38B07B /* HMDBAdGeneralRecord.m in Sources */,
+				32EC414293D465CA62AD5F4F8969FA64 /* HMDBAdGeneralResourceRecord+Protocol.m in Sources */,
+				16E007C8B51711130984E735FDC3E770 /* HMDBAdGeneralResourceRecord.m in Sources */,
+				58E17E1591D2C74447D6598891B4F450 /* HMDBAdGeneralResourceTable.m in Sources */,
+				885B685D5982836F3D277563EAD13D99 /* HMDBAdGeneralTable.m in Sources */,
+				3AD0486E78B7CEB77F8E9AFA239CF8CC /* HMDBAdGeneralVirtualRecord.m in Sources */,
+				927BFE7D3782606CA47E5DFE9DCFB1A0 /* HMDBAdServices+General.m in Sources */,
+				1326870095D8E6548D9CEBE57BC61833 /* HMDBAdServices+SleepDetail.m in Sources */,
+				1FE4F0F4FF93B60F53E39962636BFA7E /* HMDBAdServices.m in Sources */,
+				4362E4C2A239F6F52A3A3E0AC7DE09C6 /* HMDBAdvertisement-dummy.m in Sources */,
+				5FBC0CC95F18EC5D4FA6ACDD4CFEBB44 /* HMDBAdvertisementConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DAF69AE90FAE255293B89C7A512499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E05DC0E5DA23B990BBC7DFDF6020DA /* SQLCipher-dummy.m in Sources */,
+				E5E04C9B734C0CC02E2204899977702A /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
+				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE952139340A1F69DCCDE76D81E60234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71213523998EC4038EEF2881118A57A1 /* NSInvocation+OCMAdditions.m in Sources */,
+				BD181F7E8C0BB325B051DA9F2FBD71BC /* NSMethodSignature+OCMAdditions.m in Sources */,
+				51CAB174257235556CE8902084F0E662 /* NSNotificationCenter+OCMAdditions.m in Sources */,
+				B852DBE3593443215A94EEFD59786402 /* NSObject+OCMAdditions.m in Sources */,
+				59578DBAB2520015A65B5B160722A370 /* NSValue+OCMAdditions.m in Sources */,
+				116FA1BBD719AFAA5593D71332D2A926 /* OCClassMockObject.m in Sources */,
+				F98852F58D5FDF0191647087678ABE70 /* OCMArg.m in Sources */,
+				CF451EAA94004B370612757B61B46D2D /* OCMArgAction.m in Sources */,
+				4F02F5DD4EC7C3AFD1EC38E2F55B0C4A /* OCMBlockArgCaller.m in Sources */,
+				7B006E74668E41702B8881E724728DE9 /* OCMBlockCaller.m in Sources */,
+				0D183650A2D88CB6DAD886030A3A2B62 /* OCMBoxedReturnValueProvider.m in Sources */,
+				B200AEB2373802A1B871987A18D08F75 /* OCMConstraint.m in Sources */,
+				915751C97068AF644D3FE4498633DAB1 /* OCMExceptionReturnValueProvider.m in Sources */,
+				13A1051CA96D84674E588FECAF52DD43 /* OCMExpectationRecorder.m in Sources */,
+				3D1CB7A4AB9B00BC95F06CF858F18BCE /* OCMFunctions.m in Sources */,
+				7D94DE66B8B5E3B4A0B5E53A88C3FAEE /* OCMIndirectReturnValueProvider.m in Sources */,
+				A59AE6011C58D3D2F009DEF7F5AA259B /* OCMInvocationExpectation.m in Sources */,
+				54471D429F63760B736E52506A0B861B /* OCMInvocationMatcher.m in Sources */,
+				B33B6DFAA43992C898AF6D4F1C539A8A /* OCMInvocationStub.m in Sources */,
+				EFC1318446EB79DC091867000F45D61C /* OCMLocation.m in Sources */,
+				D9C7A57A574090442C8631BA856B1599 /* OCMMacroState.m in Sources */,
+				4F4A7459D96FDABBAB640D1D1B1BB42E /* OCMNotificationPoster.m in Sources */,
+				74BC62D6FEB722F4976016FD4DCA870B /* OCMObserverRecorder.m in Sources */,
+				24394811C369F117D75337F436C81222 /* OCMock-dummy.m in Sources */,
+				C65A28088F0668711386816290C3880E /* OCMockObject.m in Sources */,
+				4E8250BDB662F542F9294F6941333373 /* OCMPassByRefSetter.m in Sources */,
+				58FB50DB554239F854ECBEC3C86F3A92 /* OCMRealObjectForwarder.m in Sources */,
+				0AEAD2BEB61CCA26BB0798F2E527BF84 /* OCMRecorder.m in Sources */,
+				A9571E56544CD912F0DA62E545DB2419 /* OCMReturnValueProvider.m in Sources */,
+				0E32A8C1B69250199C8EC0794CF3A3B6 /* OCMStubRecorder.m in Sources */,
+				13AA024ACA7FE3FAD7E0FFD5AC77370D /* OCMVerifier.m in Sources */,
+				82558AE4441757075270A8A260B34EC9 /* OCObserverMockObject.m in Sources */,
+				543D9D71DD92175A9CC5F0831CF2A028 /* OCPartialMockObject.m in Sources */,
+				E4070427AD7F08E573CAA22DCEB79FB1 /* OCProtocolMockObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0A8BE3E0CC60DD34C317BEE8646B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 59697D757AC61D7B17DBDF23D6D92055 /* PBXContainerItemProxy */;
+		};
+		14063ADEA5333EC493654C51798FA529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = DD8AA8B424E2895702710DF9E5370454 /* PBXContainerItemProxy */;
+		};
+		18187FF7F6DA19435FC146602E26A914 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTPersistance;
+			target = 0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */;
+			targetProxy = F2E4B71062B85B7EF51509E6B608FA7B /* PBXContainerItemProxy */;
+		};
+		27CB23F1153FD560F3C403A254893136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 46971D0754E19DB0EB48C7A5A697840F /* PBXContainerItemProxy */;
+		};
+		59FFDDDE7D78509F1A8A2D99A5279741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = 34D6B354EEB395210D98667B6071B56B /* PBXContainerItemProxy */;
+		};
+		642F6F2A4E779CE0DFC6B3E6C5A755CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HMDBAdvertisement_Example";
+			target = 242295B81E3FCD25198E7AEDED6542F5 /* Pods-HMDBAdvertisement_Example */;
+			targetProxy = 154A394CBC63F9DF9738A61CFFDE1ACF /* PBXContainerItemProxy */;
+		};
+		80CACCD5F205B60849F7A044E0CA6DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTPersistance;
+			target = 0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */;
+			targetProxy = 92349AC9EE16A437D16D6FA7AAD4F3F5 /* PBXContainerItemProxy */;
+		};
+		B7B0F9278D69B3C303FEDD6B4018174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 237D43243B63E20EB6E4180190596C14 /* PBXContainerItemProxy */;
+		};
+		C5B4ED19C6399CAC7F273E7B22381F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMDBAdvertisement;
+			target = 9F9446EF43E3055DA1301DC9FAAE651E /* HMDBAdvertisement */;
+			targetProxy = 891CCA57B976E7828960E7C2BA737758 /* PBXContainerItemProxy */;
+		};
+		F20D95EFA353FA2D436D81E86A779AB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = 34AE2A8B97FA1AEC9E441AF4AF8BEB04 /* PBXContainerItemProxy */;
+		};
+		FA515B8ED2D8EFA27B9E15FB0E9010F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMock;
+			target = DC54C98851E54D349520C786701A1845 /* OCMock */;
+			targetProxy = 3BDE2D7A876417CAC0F0AE65F040A0ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032413CB849CB1DF6329994BACAA6698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300BD8C259B1295941D5F9F39D9CE6F2 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B4AD2445ED40C3B5C6B75672253782B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EBA9A2240F21A43F9A600CF07060518 /* Pods-HMDBAdvertisement_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMDBAdvertisement_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMDBAdvertisement_Tests/Pods-HMDBAdvertisement_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		169331676AAF487B5CF89AB9BD1D80D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C21865E20A21B46C2D4168A608F8F0 /* OCMock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
+				PRODUCT_MODULE_NAME = OCMock;
+				PRODUCT_NAME = OCMock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		1E21E850457745BE131EF6993186548D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE1C39B681F50C98D976BF7D371F626 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27525432AC8609DCB8E941C8394D38E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F75489F63A655F2A0FC29359FAE983 /* Pods-HMDBAdvertisement_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMDBAdvertisement_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMDBAdvertisement_Tests/Pods-HMDBAdvertisement_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		374B10FF87ACB8DB0289D3BF3A967BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E529E882305CE6CA4E785A8497D14B /* HMDBAdvertisement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMDBAdvertisement/HMDBAdvertisement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMDBAdvertisement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMDBAdvertisement/HMDBAdvertisement.modulemap";
+				PRODUCT_MODULE_NAME = HMDBAdvertisement;
+				PRODUCT_NAME = HMDBAdvertisement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6981FE98F603CB5911A589C73081973F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9680BF8E0F36099D9C8DC145ED408D7 /* Pods-HMDBAdvertisement_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMDBAdvertisement_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMDBAdvertisement_Example/Pods-HMDBAdvertisement_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		769B5E0E051423D8FB88E7D8E879A356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300BD8C259B1295941D5F9F39D9CE6F2 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80CF8B8574B6430DEE8FF0A943CE9235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C21865E20A21B46C2D4168A608F8F0 /* OCMock.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
+				PRODUCT_MODULE_NAME = OCMock;
+				PRODUCT_NAME = OCMock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95C18BAE7FB5BE801ACBFF4CE7F8E77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39729EC6C33550D08FB19D12B0BD5EF3 /* CTPersistance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPersistance/CTPersistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPersistance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPersistance/CTPersistance.modulemap";
+				PRODUCT_MODULE_NAME = CTPersistance;
+				PRODUCT_NAME = CTPersistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A708AD7F0D16128264E1AE218FB2EB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E529E882305CE6CA4E785A8497D14B /* HMDBAdvertisement.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMDBAdvertisement/HMDBAdvertisement-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMDBAdvertisement/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMDBAdvertisement/HMDBAdvertisement.modulemap";
+				PRODUCT_MODULE_NAME = HMDBAdvertisement;
+				PRODUCT_NAME = HMDBAdvertisement;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B1F0CCE441C83B914C76DD1EE4CCF80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1663805C39A1D399722290DABB467A9 /* Pods-HMDBAdvertisement_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMDBAdvertisement_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMDBAdvertisement_Example/Pods-HMDBAdvertisement_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1670DCB9F1F545A6C62759B4D413F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE1C39B681F50C98D976BF7D371F626 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3875860F688A81EE76A23919D2553E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39729EC6C33550D08FB19D12B0BD5EF3 /* CTPersistance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPersistance/CTPersistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPersistance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPersistance/CTPersistance.modulemap";
+				PRODUCT_MODULE_NAME = CTPersistance;
+				PRODUCT_NAME = CTPersistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1240AC29198E8D28BEB68F28B468521C /* Build configuration list for PBXNativeTarget "CTPersistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3875860F688A81EE76A23919D2553E7 /* Debug */,
+				95C18BAE7FB5BE801ACBFF4CE7F8E77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243F102DB70BD54A26EC907D5D00231E /* Build configuration list for PBXNativeTarget "Pods-HMDBAdvertisement_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27525432AC8609DCB8E941C8394D38E7 /* Debug */,
+				0B4AD2445ED40C3B5C6B75672253782B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B85DACD1B2643AD39AD39784E6EC99 /* Build configuration list for PBXNativeTarget "Pods-HMDBAdvertisement_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F0CCE441C83B914C76DD1EE4CCF80D /* Debug */,
+				6981FE98F603CB5911A589C73081973F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032413CB849CB1DF6329994BACAA6698 /* Debug */,
+				769B5E0E051423D8FB88E7D8E879A356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8BA48E64C0BE4DC719C4BAE69F06A8 /* Build configuration list for PBXNativeTarget "OCMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169331676AAF487B5CF89AB9BD1D80D5 /* Debug */,
+				80CF8B8574B6430DEE8FF0A943CE9235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6DF1B02C267E2A6F76D003F38D5967 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E21E850457745BE131EF6993186548D /* Debug */,
+				C1670DCB9F1F545A6C62759B4D413F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E028F3E96BD66E139CD5D10D9118753F /* Build configuration list for PBXNativeTarget "HMDBAdvertisement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A708AD7F0D16128264E1AE218FB2EB28 /* Debug */,
+				374B10FF87ACB8DB0289D3BF3A967BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

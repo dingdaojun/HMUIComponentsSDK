@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/Image/RCTLocalAssetImageLoader.h

@@ -1,0 +1,6 @@
+framework module Pods_HMStatistics_Example {
+  umbrella header "Pods-HMStatistics_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

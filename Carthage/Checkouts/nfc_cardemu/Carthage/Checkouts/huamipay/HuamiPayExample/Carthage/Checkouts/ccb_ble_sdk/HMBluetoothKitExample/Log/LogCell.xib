@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" restorationIdentifier="LogCellIdentifier" id="iN0-l3-epB" customClass="LogCell" customModule="HMBluetoothKitExample">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="logType" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q5k-E6-X4u">
+                    <rect key="frame" x="16" y="11" width="51.5" height="21"/>
+                    <color key="backgroundColor" red="1" green="0.83921568629999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="qcd-Pw-G2Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="logTag" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msc-2E-zju">
+                    <rect key="frame" x="83.5" y="11" width="275.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Error" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAb-fk-936">
+                    <rect key="frame" x="11" y="42" width="348" height="64"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTL-fH-BgD">
+                    <rect key="frame" x="16" y="34" width="343" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="Dtb-rG-bvf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="msc-2E-zju" firstAttribute="centerY" secondItem="q5k-E6-X4u" secondAttribute="centerY" id="1cw-lF-rSD"/>
+                <constraint firstItem="q5k-E6-X4u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="24N-1e-F9f"/>
+                <constraint firstItem="msc-2E-zju" firstAttribute="leading" secondItem="q5k-E6-X4u" secondAttribute="trailing" constant="16" id="8bk-ID-v3T"/>
+                <constraint firstItem="q5k-E6-X4u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="ACC-E7-Db0"/>
+                <constraint firstItem="msc-2E-zju" firstAttribute="height" secondItem="q5k-E6-X4u" secondAttribute="height" id="CdW-KJ-Wvg"/>
+                <constraint firstAttribute="trailing" secondItem="xAb-fk-936" secondAttribute="trailing" constant="16" id="EUz-1c-jUR"/>
+                <constraint firstAttribute="bottom" secondItem="xAb-fk-936" secondAttribute="bottom" constant="8" id="Mn2-eR-V0Y"/>
+                <constraint firstItem="nTL-fH-BgD" firstAttribute="top" secondItem="q5k-E6-X4u" secondAttribute="bottom" constant="2" id="NLj-GW-7EE"/>
+                <constraint firstItem="xAb-fk-936" firstAttribute="top" secondItem="nTL-fH-BgD" secondAttribute="bottom" constant="-8" id="P0z-CO-NkK"/>
+                <constraint firstAttribute="trailing" secondItem="msc-2E-zju" secondAttribute="trailing" constant="16" id="ca3-FN-BhT"/>
+                <constraint firstItem="nTL-fH-BgD" firstAttribute="leading" secondItem="q5k-E6-X4u" secondAttribute="leading" id="dmI-4u-VGo"/>
+                <constraint firstAttribute="trailing" secondItem="nTL-fH-BgD" secondAttribute="trailing" constant="16" id="dn1-e7-C42"/>
+                <constraint firstItem="xAb-fk-936" firstAttribute="leading" secondItem="nTL-fH-BgD" secondAttribute="leading" constant="-5" id="tUV-iw-Zdy"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="logContentTextView" destination="xAb-fk-936" id="djB-Pu-2qA"/>
+                <outlet property="logTagLabel" destination="msc-2E-zju" id="RAW-qL-gGW"/>
+                <outlet property="logTimeLabel" destination="nTL-fH-BgD" id="tFi-ny-iDr"/>
+                <outlet property="logTypeLabel" destination="q5k-E6-X4u" id="YqP-m9-e2U"/>
+            </connections>
+            <point key="canvasLocation" x="146" y="-481"/>
+        </view>
+    </objects>
+</document>

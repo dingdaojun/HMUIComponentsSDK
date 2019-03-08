@@ -1,0 +1,43 @@
+PODS:
+  - CTMediator (18)
+  - CTPersistance (181):
+    - CTMediator
+    - SQLCipher
+  - HMDBAdvertisement (0.3.2):
+    - HMDBAdvertisement/Services (= 0.3.2)
+  - HMDBAdvertisement/Persistance (0.3.2):
+    - CTPersistance (~> 181)
+  - HMDBAdvertisement/Services (0.3.2):
+    - HMDBAdvertisement/Persistance
+  - OCMock (3.4.2)
+  - SQLCipher (3.4.2):
+    - SQLCipher/standard (= 3.4.2)
+  - SQLCipher/common (3.4.2)
+  - SQLCipher/standard (3.4.2):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - HMDBAdvertisement (from `../`)
+  - OCMock
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - CTPersistance
+    - OCMock
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  HMDBAdvertisement:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
+  CTPersistance: f566fe7cdab679bf3ae9aa67c82907c9a867011e
+  HMDBAdvertisement: 25a7e7aad9a04b997d575b9b64e70b7a637c35b1
+  OCMock: ebe9ee1dca7fbed0ff9193ac0b3e2d8862ea56f6
+  SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
+
+PODFILE CHECKSUM: 73073576beaeb97cde404b7cbed1e36bccd82e00
+
+COCOAPODS: 1.5.3

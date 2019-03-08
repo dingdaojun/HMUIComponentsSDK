@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/CxxBridge/RCTMessageThread.h

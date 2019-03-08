@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/CxxBridge/NSDataBigString.h

@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3403FB36205F558500AE0F69 /* AppDelegate+HMServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403FB34205F558400AE0F69 /* AppDelegate+HMServiceAPI.swift */; };
+		3403FB37205F558500AE0F69 /* AppDelegate+NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3403FB35205F558500AE0F69 /* AppDelegate+NetWork.swift */; };
+		3423D0B9205BB56F0044DC21 /* BatteryInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0A8205BB56F0044DC21 /* BatteryInfomation.swift */; };
+		3423D0BA205BB56F0044DC21 /* HMPeripheralInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0A9205BB56F0044DC21 /* HMPeripheralInfomation.swift */; };
+		3423D0BB205BB56F0044DC21 /* LEProfileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0AA205BB56F0044DC21 /* LEProfileHelper.swift */; };
+		3423D0BC205BB56F0044DC21 /* OperationQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0AB205BB56F0044DC21 /* OperationQueueManager.swift */; };
+		3423D0BD205BB56F0044DC21 /* OperationQueueProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0AC205BB56F0044DC21 /* OperationQueueProfile.swift */; };
+		3423D0BE205BB56F0044DC21 /* RealSensorInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0AD205BB56F0044DC21 /* RealSensorInfomation.swift */; };
+		3423D0BF205BB56F0044DC21 /* RealStepInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0AE205BB56F0044DC21 /* RealStepInfomation.swift */; };
+		3423D0C1205BB56F0044DC21 /* ScanHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B0205BB56F0044DC21 /* ScanHelper.swift */; };
+		3423D0C2205BB56F0044DC21 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B1205BB56F0044DC21 /* ScanResult.swift */; };
+		3423D0C3205BB56F0044DC21 /* String+MacaddressFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B2205BB56F0044DC21 /* String+MacaddressFormat.swift */; };
+		3423D0C4205BB56F0044DC21 /* BLEConnectManager+Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B4205BB56F0044DC21 /* BLEConnectManager+Observer.swift */; };
+		3423D0C5205BB56F0044DC21 /* BLEConnectManager+ReConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B5205BB56F0044DC21 /* BLEConnectManager+ReConnect.swift */; };
+		3423D0C6205BB56F0044DC21 /* BLEConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B6205BB56F0044DC21 /* BLEConnectManager.swift */; };
+		3423D0C7205BB56F0044DC21 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0B8205BB56F0044DC21 /* DeviceManager.swift */; };
+		3423D0CC205BB5EF0044DC21 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D0C9205BB5EE0044DC21 /* ProfileManager.swift */; };
+		342BEC792061F144000AB67B /* HMPayOrderTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342BEC782061F144000AB67B /* HMPayOrderTester.swift */; };
+		342DF331202408FF007360ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DF330202408FF007360ED /* AppDelegate.swift */; };
+		342DF333202408FF007360ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DF332202408FF007360ED /* ViewController.swift */; };
+		342DF336202408FF007360ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342DF334202408FF007360ED /* Main.storyboard */; };
+		342DF338202408FF007360ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342DF337202408FF007360ED /* Assets.xcassets */; };
+		342DF33B202408FF007360ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342DF339202408FF007360ED /* LaunchScreen.storyboard */; };
+		3438879E20D8B9D500178DDF /* huamipay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3438879D20D8B9D500178DDF /* huamipay.framework */; };
+		3438879F20D8B9D500178DDF /* huamipay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3438879D20D8B9D500178DDF /* huamipay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3452EF9720E7273600DA27FB /* SNExecApdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452EF9620E7273600DA27FB /* SNExecApdu.swift */; };
+		3452EF9920E72AB100DA27FB /* MIExecApdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452EF9820E72AB100DA27FB /* MIExecApdu.swift */; };
+		3452EF9B20E7383100DA27FB /* DealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3452EF9A20E7383100DA27FB /* DealListViewController.swift */; };
+		3459E2A0205E596D00B616A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459E29F205E596D00B616A5 /* UIKit.framework */; };
+		3459E2A2205E597500B616A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3459E2A1205E597500B616A5 /* Foundation.framework */; };
+		3460E39C202AA53F00AA6597 /* RetriveLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460E39A202AA53F00AA6597 /* RetriveLEPeripheral.swift */; };
+		3460E39E202AD21600AA6597 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3460E39D202AD21600AA6597 /* Data+Extension.swift */; };
+		346757232068DBDB000CA855 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346757212068DBDB000CA855 /* SCLAlertView.swift */; };
+		346757242068DBDB000CA855 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346757222068DBDB000CA855 /* SCLExtensions.swift */; };
+		348C7F3320E1F1280077B0C7 /* BandListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3220E1F1280077B0C7 /* BandListViewController.swift */; };
+		348C7F3520E226980077B0C7 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3420E226980077B0C7 /* OrderListViewController.swift */; };
+		348C7F3720E24E500077B0C7 /* SwitchCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3620E24E500077B0C7 /* SwitchCityViewController.swift */; };
+		348C7F3920E272E60077B0C7 /* SupportCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3820E272E60077B0C7 /* SupportCitiesViewController.swift */; };
+		348C7F3B20E27CC70077B0C7 /* OpenedCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348C7F3A20E27CC70077B0C7 /* OpenedCitiesViewController.swift */; };
+		3496CCF020BBF71200BBA5BD /* HMServiceApi+NFCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3496CCEF20BBF71200BBA5BD /* HMServiceApi+NFCService.swift */; };
+		34AE0FD3206F7FC100EB1B86 /* ViewControll+NFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FD2206F7FC100EB1B86 /* ViewControll+NFC.swift */; };
+		34AE0FD5206F802B00EB1B86 /* ViewController+Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FD4206F802B00EB1B86 /* ViewController+Connect.swift */; };
+		34AE0FD7206F806300EB1B86 /* ViewController+Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FD6206F806300EB1B86 /* ViewController+Tips.swift */; };
+		34AE0FD9206F818A00EB1B86 /* ViewController+CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FD8206F818A00EB1B86 /* ViewController+CustomButton.swift */; };
+		34AE0FDB206F99EF00EB1B86 /* Button+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FDA206F99EF00EB1B86 /* Button+Closure.swift */; };
+		34AE0FDD2071B6A900EB1B86 /* ViewController+UpdateCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FDC2071B6A900EB1B86 /* ViewController+UpdateCity.swift */; };
+		34AE0FE42071BAD700EB1B86 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AE0FE32071BAD600EB1B86 /* ScanTableViewController.swift */; };
+		34C97A5820D271C8001AC09D /* PayWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C97A5720D271C8001AC09D /* PayWebViewController.swift */; };
+		34CE63AB20CFCACE00C04810 /* ViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63AA20CFCACE00C04810 /* ViewController+TableView.swift */; };
+		34CE63AD20CFEF1400C04810 /* ViewController+cardOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63AC20CFEF1400C04810 /* ViewController+cardOperation.swift */; };
+		34CE63B120D00E1000C04810 /* ViewController+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63B020D00E1000C04810 /* ViewController+Network.swift */; };
+		34CE63B320D00F9000C04810 /* ViewController+BandInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE63B220D00F9000C04810 /* ViewController+BandInfo.swift */; };
+		34E395E620E31D6D003B7A93 /* FeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E395E520E31D6D003B7A93 /* FeeListViewController.swift */; };
+		34E395E820E33CCB003B7A93 /* LocalOpenedCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E395E720E33CCB003B7A93 /* LocalOpenedCitiesViewController.swift */; };
+		34E3FFB221016A10000FEB2A /* ViewController+AccessCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E3FFB121016A10000FEB2A /* ViewController+AccessCard.swift */; };
+		34E3FFB421017999000FEB2A /* AccessCardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E3FFB321017999000FEB2A /* AccessCardListViewController.swift */; };
+		34EAF77720CAB63C00397C61 /* TWTagLengthValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EAF77620CAB63C00397C61 /* TWTagLengthValue.framework */; };
+		34EAF77820CAB63C00397C61 /* TWTagLengthValue.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34EAF77620CAB63C00397C61 /* TWTagLengthValue.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F21465207B4F5E00D0E9A2 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145D207B4F5D00D0E9A2 /* AFNetworking.framework */; };
+		34F21466207B4F5E00D0E9A2 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145D207B4F5D00D0E9A2 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F21467207B4F5E00D0E9A2 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145E207B4F5D00D0E9A2 /* CryptoSwift.framework */; };
+		34F21468207B4F5E00D0E9A2 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145E207B4F5D00D0E9A2 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F21469207B4F5E00D0E9A2 /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145F207B4F5D00D0E9A2 /* Cache.framework */; };
+		34F2146A207B4F5E00D0E9A2 /* Cache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2145F207B4F5D00D0E9A2 /* Cache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F2146B207B4F5E00D0E9A2 /* HMService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21460207B4F5D00D0E9A2 /* HMService.framework */; };
+		34F2146C207B4F5E00D0E9A2 /* HMService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21460207B4F5D00D0E9A2 /* HMService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F2146D207B4F5E00D0E9A2 /* HMNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21461207B4F5E00D0E9A2 /* HMNetworkLayer.framework */; };
+		34F2146E207B4F5E00D0E9A2 /* HMNetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21461207B4F5E00D0E9A2 /* HMNetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F2146F207B4F5E00D0E9A2 /* HMBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21462207B4F5E00D0E9A2 /* HMBluetoothKit.framework */; };
+		34F21470207B4F5E00D0E9A2 /* HMBluetoothKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21462207B4F5E00D0E9A2 /* HMBluetoothKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F21471207B4F5E00D0E9A2 /* HMCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21463207B4F5E00D0E9A2 /* HMCategory.framework */; };
+		34F21472207B4F5E00D0E9A2 /* HMCategory.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21463207B4F5E00D0E9A2 /* HMCategory.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F21473207B4F5E00D0E9A2 /* WalletService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21464207B4F5E00D0E9A2 /* WalletService.framework */; };
+		34F21474207B4F5E00D0E9A2 /* WalletService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34F21464207B4F5E00D0E9A2 /* WalletService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34F2149C2080AC3D00D0E9A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2149B2080AC3D00D0E9A2 /* libz.tbd */; };
+		34F2149E2080AC5700D0E9A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2149D2080AC5700D0E9A2 /* libsqlite3.tbd */; };
+		34F214A02080AC6100D0E9A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F2149F2080AC6100D0E9A2 /* Security.framework */; };
+		DDDE8F362A70C3D4F92CEEAD /* Pods_HuamiPayExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127062C5399C57C4D3D0C43F /* Pods_HuamiPayExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34F21475207B4F5E00D0E9A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34F21466207B4F5E00D0E9A2 /* AFNetworking.framework in Embed Frameworks */,
+				34F2146C207B4F5E00D0E9A2 /* HMService.framework in Embed Frameworks */,
+				34F21468207B4F5E00D0E9A2 /* CryptoSwift.framework in Embed Frameworks */,
+				34F2146E207B4F5E00D0E9A2 /* HMNetworkLayer.framework in Embed Frameworks */,
+				34F2146A207B4F5E00D0E9A2 /* Cache.framework in Embed Frameworks */,
+				34F21474207B4F5E00D0E9A2 /* WalletService.framework in Embed Frameworks */,
+				3438879F20D8B9D500178DDF /* huamipay.framework in Embed Frameworks */,
+				34F21470207B4F5E00D0E9A2 /* HMBluetoothKit.framework in Embed Frameworks */,
+				34EAF77820CAB63C00397C61 /* TWTagLengthValue.framework in Embed Frameworks */,
+				34F21472207B4F5E00D0E9A2 /* HMCategory.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1136F1DB94EE45C047C87DD2 /* Pods-HuamiPayExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuamiPayExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample.debug.xcconfig"; sourceTree = "<group>"; };
+		127062C5399C57C4D3D0C43F /* Pods_HuamiPayExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuamiPayExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3403FB34205F558400AE0F69 /* AppDelegate+HMServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+HMServiceAPI.swift"; sourceTree = "<group>"; };
+		3403FB35205F558500AE0F69 /* AppDelegate+NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+NetWork.swift"; sourceTree = "<group>"; };
+		3423D0A8205BB56F0044DC21 /* BatteryInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryInfomation.swift; sourceTree = "<group>"; };
+		3423D0A9205BB56F0044DC21 /* HMPeripheralInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPeripheralInfomation.swift; sourceTree = "<group>"; };
+		3423D0AA205BB56F0044DC21 /* LEProfileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEProfileHelper.swift; sourceTree = "<group>"; };
+		3423D0AB205BB56F0044DC21 /* OperationQueueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationQueueManager.swift; sourceTree = "<group>"; };
+		3423D0AC205BB56F0044DC21 /* OperationQueueProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationQueueProfile.swift; sourceTree = "<group>"; };
+		3423D0AD205BB56F0044DC21 /* RealSensorInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealSensorInfomation.swift; sourceTree = "<group>"; };
+		3423D0AE205BB56F0044DC21 /* RealStepInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealStepInfomation.swift; sourceTree = "<group>"; };
+		3423D0B0205BB56F0044DC21 /* ScanHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanHelper.swift; sourceTree = "<group>"; };
+		3423D0B1205BB56F0044DC21 /* ScanResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		3423D0B2205BB56F0044DC21 /* String+MacaddressFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MacaddressFormat.swift"; sourceTree = "<group>"; };
+		3423D0B4205BB56F0044DC21 /* BLEConnectManager+Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConnectManager+Observer.swift"; sourceTree = "<group>"; };
+		3423D0B5205BB56F0044DC21 /* BLEConnectManager+ReConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConnectManager+ReConnect.swift"; sourceTree = "<group>"; };
+		3423D0B6205BB56F0044DC21 /* BLEConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEConnectManager.swift; sourceTree = "<group>"; };
+		3423D0B8205BB56F0044DC21 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		3423D0C9205BB5EE0044DC21 /* ProfileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		342BEC782061F144000AB67B /* HMPayOrderTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPayOrderTester.swift; sourceTree = "<group>"; };
+		342DF32D202408FF007360ED /* HuamiPayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuamiPayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342DF330202408FF007360ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		342DF332202408FF007360ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		342DF335202408FF007360ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		342DF337202408FF007360ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		342DF33A202408FF007360ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		342DF33C202408FF007360ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3438879D20D8B9D500178DDF /* huamipay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = huamipay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3452EF9620E7273600DA27FB /* SNExecApdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNExecApdu.swift; sourceTree = "<group>"; };
+		3452EF9820E72AB100DA27FB /* MIExecApdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIExecApdu.swift; sourceTree = "<group>"; };
+		3452EF9A20E7383100DA27FB /* DealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListViewController.swift; sourceTree = "<group>"; };
+		3459E29F205E596D00B616A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3459E2A1205E597500B616A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3459E2A3205E5A7C00B616A5 /* HuamiPayExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuamiPayExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		3460E39A202AA53F00AA6597 /* RetriveLEPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetriveLEPeripheral.swift; sourceTree = "<group>"; };
+		3460E39D202AD21600AA6597 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		346757212068DBDB000CA855 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		346757222068DBDB000CA855 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		348C7F3220E1F1280077B0C7 /* BandListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandListViewController.swift; sourceTree = "<group>"; };
+		348C7F3420E226980077B0C7 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		348C7F3620E24E500077B0C7 /* SwitchCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCityViewController.swift; sourceTree = "<group>"; };
+		348C7F3820E272E60077B0C7 /* SupportCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportCitiesViewController.swift; sourceTree = "<group>"; };
+		348C7F3A20E27CC70077B0C7 /* OpenedCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenedCitiesViewController.swift; sourceTree = "<group>"; };
+		3496CCEF20BBF71200BBA5BD /* HMServiceApi+NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMServiceApi+NFCService.swift"; sourceTree = "<group>"; };
+		34AE0FD2206F7FC100EB1B86 /* ViewControll+NFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControll+NFC.swift"; sourceTree = "<group>"; };
+		34AE0FD4206F802B00EB1B86 /* ViewController+Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Connect.swift"; sourceTree = "<group>"; };
+		34AE0FD6206F806300EB1B86 /* ViewController+Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Tips.swift"; sourceTree = "<group>"; };
+		34AE0FD8206F818A00EB1B86 /* ViewController+CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CustomButton.swift"; sourceTree = "<group>"; };
+		34AE0FDA206F99EF00EB1B86 /* Button+Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Closure.swift"; sourceTree = "<group>"; };
+		34AE0FDC2071B6A900EB1B86 /* ViewController+UpdateCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UpdateCity.swift"; sourceTree = "<group>"; };
+		34AE0FE32071BAD600EB1B86 /* ScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		34C97A5720D271C8001AC09D /* PayWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayWebViewController.swift; sourceTree = "<group>"; };
+		34CE63AA20CFCACE00C04810 /* ViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+TableView.swift"; sourceTree = "<group>"; };
+		34CE63AC20CFEF1400C04810 /* ViewController+cardOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+cardOperation.swift"; sourceTree = "<group>"; };
+		34CE63B020D00E1000C04810 /* ViewController+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Network.swift"; sourceTree = "<group>"; };
+		34CE63B220D00F9000C04810 /* ViewController+BandInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+BandInfo.swift"; sourceTree = "<group>"; };
+		34E395E520E31D6D003B7A93 /* FeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeListViewController.swift; sourceTree = "<group>"; };
+		34E395E720E33CCB003B7A93 /* LocalOpenedCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalOpenedCitiesViewController.swift; sourceTree = "<group>"; };
+		34E3FFB121016A10000FEB2A /* ViewController+AccessCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+AccessCard.swift"; sourceTree = "<group>"; };
+		34E3FFB321017999000FEB2A /* AccessCardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessCardListViewController.swift; sourceTree = "<group>"; };
+		34EAF77620CAB63C00397C61 /* TWTagLengthValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TWTagLengthValue.framework; path = Carthage/Build/iOS/TWTagLengthValue.framework; sourceTree = "<group>"; };
+		34F2145D207B4F5D00D0E9A2 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		34F2145E207B4F5D00D0E9A2 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		34F2145F207B4F5D00D0E9A2 /* Cache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cache.framework; path = Carthage/Build/iOS/Cache.framework; sourceTree = "<group>"; };
+		34F21460207B4F5D00D0E9A2 /* HMService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMService.framework; path = Carthage/Build/iOS/HMService.framework; sourceTree = "<group>"; };
+		34F21461207B4F5E00D0E9A2 /* HMNetworkLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMNetworkLayer.framework; path = Carthage/Build/iOS/HMNetworkLayer.framework; sourceTree = "<group>"; };
+		34F21462207B4F5E00D0E9A2 /* HMBluetoothKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMBluetoothKit.framework; path = Carthage/Build/iOS/HMBluetoothKit.framework; sourceTree = "<group>"; };
+		34F21463207B4F5E00D0E9A2 /* HMCategory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMCategory.framework; path = Carthage/Build/iOS/HMCategory.framework; sourceTree = "<group>"; };
+		34F21464207B4F5E00D0E9A2 /* WalletService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WalletService.framework; path = Carthage/Build/iOS/WalletService.framework; sourceTree = "<group>"; };
+		34F2149B2080AC3D00D0E9A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		34F2149D2080AC5700D0E9A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		34F2149F2080AC6100D0E9A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8617CD61385445B228C4B25E /* Pods-HuamiPayExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuamiPayExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		342DF32A202408FF007360ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F214A02080AC6100D0E9A2 /* Security.framework in Frameworks */,
+				34F2149E2080AC5700D0E9A2 /* libsqlite3.tbd in Frameworks */,
+				34F2149C2080AC3D00D0E9A2 /* libz.tbd in Frameworks */,
+				34F2146D207B4F5E00D0E9A2 /* HMNetworkLayer.framework in Frameworks */,
+				3459E2A2205E597500B616A5 /* Foundation.framework in Frameworks */,
+				34F21465207B4F5E00D0E9A2 /* AFNetworking.framework in Frameworks */,
+				34F21473207B4F5E00D0E9A2 /* WalletService.framework in Frameworks */,
+				3459E2A0205E596D00B616A5 /* UIKit.framework in Frameworks */,
+				34F2146B207B4F5E00D0E9A2 /* HMService.framework in Frameworks */,
+				34F2146F207B4F5E00D0E9A2 /* HMBluetoothKit.framework in Frameworks */,
+				34F21467207B4F5E00D0E9A2 /* CryptoSwift.framework in Frameworks */,
+				34EAF77720CAB63C00397C61 /* TWTagLengthValue.framework in Frameworks */,
+				3438879E20D8B9D500178DDF /* huamipay.framework in Frameworks */,
+				DDDE8F362A70C3D4F92CEEAD /* Pods_HuamiPayExample.framework in Frameworks */,
+				34F21469207B4F5E00D0E9A2 /* Cache.framework in Frameworks */,
+				34F21471207B4F5E00D0E9A2 /* HMCategory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3423D0A7205BB56F0044DC21 /* HMBluetoothExt */ = {
+			isa = PBXGroup;
+			children = (
+				3423D0A8205BB56F0044DC21 /* BatteryInfomation.swift */,
+				3423D0A9205BB56F0044DC21 /* HMPeripheralInfomation.swift */,
+				3423D0AA205BB56F0044DC21 /* LEProfileHelper.swift */,
+				3423D0AB205BB56F0044DC21 /* OperationQueueManager.swift */,
+				3423D0AC205BB56F0044DC21 /* OperationQueueProfile.swift */,
+				3423D0AD205BB56F0044DC21 /* RealSensorInfomation.swift */,
+				3423D0AE205BB56F0044DC21 /* RealStepInfomation.swift */,
+				3423D0B0205BB56F0044DC21 /* ScanHelper.swift */,
+				3423D0B1205BB56F0044DC21 /* ScanResult.swift */,
+				3423D0B2205BB56F0044DC21 /* String+MacaddressFormat.swift */,
+			);
+			path = HMBluetoothExt;
+			sourceTree = "<group>";
+		};
+		3423D0B3205BB56F0044DC21 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				3423D0B4205BB56F0044DC21 /* BLEConnectManager+Observer.swift */,
+				3423D0B5205BB56F0044DC21 /* BLEConnectManager+ReConnect.swift */,
+				3423D0B6205BB56F0044DC21 /* BLEConnectManager.swift */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		3423D0B7205BB56F0044DC21 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				3423D0B8205BB56F0044DC21 /* DeviceManager.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		3423D0C8205BB5EE0044DC21 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3423D0C9205BB5EE0044DC21 /* ProfileManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		342DF324202408FF007360ED = {
+			isa = PBXGroup;
+			children = (
+				3438879D20D8B9D500178DDF /* huamipay.framework */,
+				34EAF77620CAB63C00397C61 /* TWTagLengthValue.framework */,
+				34F2145D207B4F5D00D0E9A2 /* AFNetworking.framework */,
+				34F2145F207B4F5D00D0E9A2 /* Cache.framework */,
+				34F2145E207B4F5D00D0E9A2 /* CryptoSwift.framework */,
+				34F21462207B4F5E00D0E9A2 /* HMBluetoothKit.framework */,
+				34F21463207B4F5E00D0E9A2 /* HMCategory.framework */,
+				34F21461207B4F5E00D0E9A2 /* HMNetworkLayer.framework */,
+				34F21460207B4F5D00D0E9A2 /* HMService.framework */,
+				34F21464207B4F5E00D0E9A2 /* WalletService.framework */,
+				34AE0FE22071BAD600EB1B86 /* Scan */,
+				346757202068DBDB000CA855 /* SCLAlertView */,
+				3423D0C8205BB5EE0044DC21 /* Profile */,
+				3423D0B3205BB56F0044DC21 /* Connect */,
+				3423D0B7205BB56F0044DC21 /* Device */,
+				3423D0A7205BB56F0044DC21 /* HMBluetoothExt */,
+				342DF32F202408FF007360ED /* HuamiPayExample */,
+				342DF32E202408FF007360ED /* Products */,
+				342DF34220240E15007360ED /* Frameworks */,
+				D4924BD5B59B522E82EEC29F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		342DF32E202408FF007360ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				342DF32D202408FF007360ED /* HuamiPayExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		342DF32F202408FF007360ED /* HuamiPayExample */ = {
+			isa = PBXGroup;
+			children = (
+				34C97A5720D271C8001AC09D /* PayWebViewController.swift */,
+				342BEC782061F144000AB67B /* HMPayOrderTester.swift */,
+				3403FB34205F558400AE0F69 /* AppDelegate+HMServiceAPI.swift */,
+				3403FB35205F558500AE0F69 /* AppDelegate+NetWork.swift */,
+				3460E39A202AA53F00AA6597 /* RetriveLEPeripheral.swift */,
+				342DF330202408FF007360ED /* AppDelegate.swift */,
+				342DF332202408FF007360ED /* ViewController.swift */,
+				342DF334202408FF007360ED /* Main.storyboard */,
+				342DF337202408FF007360ED /* Assets.xcassets */,
+				342DF339202408FF007360ED /* LaunchScreen.storyboard */,
+				342DF33C202408FF007360ED /* Info.plist */,
+				3460E39D202AD21600AA6597 /* Data+Extension.swift */,
+				3459E2A3205E5A7C00B616A5 /* HuamiPayExample-Bridging-Header.h */,
+				34AE0FD2206F7FC100EB1B86 /* ViewControll+NFC.swift */,
+				34AE0FD4206F802B00EB1B86 /* ViewController+Connect.swift */,
+				34AE0FD6206F806300EB1B86 /* ViewController+Tips.swift */,
+				34AE0FD8206F818A00EB1B86 /* ViewController+CustomButton.swift */,
+				34AE0FDA206F99EF00EB1B86 /* Button+Closure.swift */,
+				34AE0FDC2071B6A900EB1B86 /* ViewController+UpdateCity.swift */,
+				3496CCEF20BBF71200BBA5BD /* HMServiceApi+NFCService.swift */,
+				34CE63AA20CFCACE00C04810 /* ViewController+TableView.swift */,
+				34CE63AC20CFEF1400C04810 /* ViewController+cardOperation.swift */,
+				34CE63B020D00E1000C04810 /* ViewController+Network.swift */,
+				34CE63B220D00F9000C04810 /* ViewController+BandInfo.swift */,
+				348C7F3220E1F1280077B0C7 /* BandListViewController.swift */,
+				348C7F3420E226980077B0C7 /* OrderListViewController.swift */,
+				348C7F3620E24E500077B0C7 /* SwitchCityViewController.swift */,
+				348C7F3820E272E60077B0C7 /* SupportCitiesViewController.swift */,
+				348C7F3A20E27CC70077B0C7 /* OpenedCitiesViewController.swift */,
+				34E395E520E31D6D003B7A93 /* FeeListViewController.swift */,
+				34E395E720E33CCB003B7A93 /* LocalOpenedCitiesViewController.swift */,
+				3452EF9620E7273600DA27FB /* SNExecApdu.swift */,
+				3452EF9820E72AB100DA27FB /* MIExecApdu.swift */,
+				3452EF9A20E7383100DA27FB /* DealListViewController.swift */,
+				34E3FFB121016A10000FEB2A /* ViewController+AccessCard.swift */,
+				34E3FFB321017999000FEB2A /* AccessCardListViewController.swift */,
+			);
+			path = HuamiPayExample;
+			sourceTree = "<group>";
+		};
+		342DF34220240E15007360ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34F2149F2080AC6100D0E9A2 /* Security.framework */,
+				34F2149D2080AC5700D0E9A2 /* libsqlite3.tbd */,
+				34F2149B2080AC3D00D0E9A2 /* libz.tbd */,
+				3459E2A1205E597500B616A5 /* Foundation.framework */,
+				3459E29F205E596D00B616A5 /* UIKit.framework */,
+				127062C5399C57C4D3D0C43F /* Pods_HuamiPayExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		346757202068DBDB000CA855 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				346757212068DBDB000CA855 /* SCLAlertView.swift */,
+				346757222068DBDB000CA855 /* SCLExtensions.swift */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		34AE0FE22071BAD600EB1B86 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				34AE0FE32071BAD600EB1B86 /* ScanTableViewController.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		D4924BD5B59B522E82EEC29F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1136F1DB94EE45C047C87DD2 /* Pods-HuamiPayExample.debug.xcconfig */,
+				8617CD61385445B228C4B25E /* Pods-HuamiPayExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		342DF32C202408FF007360ED /* HuamiPayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 342DF33F202408FF007360ED /* Build configuration list for PBXNativeTarget "HuamiPayExample" */;
+			buildPhases = (
+				CF7CF33DEA3D103969C6BAAD /* [CP] Check Pods Manifest.lock */,
+				342DF329202408FF007360ED /* Sources */,
+				342DF32A202408FF007360ED /* Frameworks */,
+				342DF32B202408FF007360ED /* Resources */,
+				6E5863908AF0BD5E755ABB79 /* [CP] Embed Pods Frameworks */,
+				34034F832029515900BA8687 /* ShellScript */,
+				34F21475207B4F5E00D0E9A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuamiPayExample;
+			productName = HuamiPayExample;
+			productReference = 342DF32D202408FF007360ED /* HuamiPayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		342DF325202408FF007360ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "华米科技";
+				TargetAttributes = {
+					342DF32C202408FF007360ED = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 342DF328202408FF007360ED /* Build configuration list for PBXProject "HuamiPayExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 342DF324202408FF007360ED;
+			productRefGroup = 342DF32E202408FF007360ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				342DF32C202408FF007360ED /* HuamiPayExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		342DF32B202408FF007360ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342DF33B202408FF007360ED /* LaunchScreen.storyboard in Resources */,
+				342DF338202408FF007360ED /* Assets.xcassets in Resources */,
+				342DF336202408FF007360ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34034F832029515900BA8687 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HMBluetoothKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HMNetworkLayer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HMService.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WalletService.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		6E5863908AF0BD5E755ABB79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HMPayKit/HMPayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMPayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuamiPayExample/Pods-HuamiPayExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7CF33DEA3D103969C6BAAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuamiPayExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		342DF329202408FF007360ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E3FFB221016A10000FEB2A /* ViewController+AccessCard.swift in Sources */,
+				348C7F3B20E27CC70077B0C7 /* OpenedCitiesViewController.swift in Sources */,
+				34E395E620E31D6D003B7A93 /* FeeListViewController.swift in Sources */,
+				346757242068DBDB000CA855 /* SCLExtensions.swift in Sources */,
+				3423D0C4205BB56F0044DC21 /* BLEConnectManager+Observer.swift in Sources */,
+				348C7F3920E272E60077B0C7 /* SupportCitiesViewController.swift in Sources */,
+				348C7F3520E226980077B0C7 /* OrderListViewController.swift in Sources */,
+				3423D0C1205BB56F0044DC21 /* ScanHelper.swift in Sources */,
+				3452EF9B20E7383100DA27FB /* DealListViewController.swift in Sources */,
+				34AE0FD9206F818A00EB1B86 /* ViewController+CustomButton.swift in Sources */,
+				3423D0BA205BB56F0044DC21 /* HMPeripheralInfomation.swift in Sources */,
+				348C7F3720E24E500077B0C7 /* SwitchCityViewController.swift in Sources */,
+				342BEC792061F144000AB67B /* HMPayOrderTester.swift in Sources */,
+				342DF333202408FF007360ED /* ViewController.swift in Sources */,
+				34CE63AD20CFEF1400C04810 /* ViewController+cardOperation.swift in Sources */,
+				3496CCF020BBF71200BBA5BD /* HMServiceApi+NFCService.swift in Sources */,
+				34C97A5820D271C8001AC09D /* PayWebViewController.swift in Sources */,
+				3452EF9920E72AB100DA27FB /* MIExecApdu.swift in Sources */,
+				34AE0FDB206F99EF00EB1B86 /* Button+Closure.swift in Sources */,
+				3423D0C5205BB56F0044DC21 /* BLEConnectManager+ReConnect.swift in Sources */,
+				3423D0C6205BB56F0044DC21 /* BLEConnectManager.swift in Sources */,
+				3423D0BE205BB56F0044DC21 /* RealSensorInfomation.swift in Sources */,
+				3423D0BF205BB56F0044DC21 /* RealStepInfomation.swift in Sources */,
+				34AE0FD3206F7FC100EB1B86 /* ViewControll+NFC.swift in Sources */,
+				34E395E820E33CCB003B7A93 /* LocalOpenedCitiesViewController.swift in Sources */,
+				3403FB36205F558500AE0F69 /* AppDelegate+HMServiceAPI.swift in Sources */,
+				34AE0FD5206F802B00EB1B86 /* ViewController+Connect.swift in Sources */,
+				3423D0C2205BB56F0044DC21 /* ScanResult.swift in Sources */,
+				3423D0BB205BB56F0044DC21 /* LEProfileHelper.swift in Sources */,
+				3403FB37205F558500AE0F69 /* AppDelegate+NetWork.swift in Sources */,
+				3423D0CC205BB5EF0044DC21 /* ProfileManager.swift in Sources */,
+				346757232068DBDB000CA855 /* SCLAlertView.swift in Sources */,
+				34CE63B320D00F9000C04810 /* ViewController+BandInfo.swift in Sources */,
+				3423D0BD205BB56F0044DC21 /* OperationQueueProfile.swift in Sources */,
+				34CE63B120D00E1000C04810 /* ViewController+Network.swift in Sources */,
+				34AE0FDD2071B6A900EB1B86 /* ViewController+UpdateCity.swift in Sources */,
+				3423D0B9205BB56F0044DC21 /* BatteryInfomation.swift in Sources */,
+				3452EF9720E7273600DA27FB /* SNExecApdu.swift in Sources */,
+				342DF331202408FF007360ED /* AppDelegate.swift in Sources */,
+				34AE0FE42071BAD700EB1B86 /* ScanTableViewController.swift in Sources */,
+				3423D0C7205BB56F0044DC21 /* DeviceManager.swift in Sources */,
+				34AE0FD7206F806300EB1B86 /* ViewController+Tips.swift in Sources */,
+				3423D0C3205BB56F0044DC21 /* String+MacaddressFormat.swift in Sources */,
+				34CE63AB20CFCACE00C04810 /* ViewController+TableView.swift in Sources */,
+				348C7F3320E1F1280077B0C7 /* BandListViewController.swift in Sources */,
+				3423D0BC205BB56F0044DC21 /* OperationQueueManager.swift in Sources */,
+				3460E39E202AD21600AA6597 /* Data+Extension.swift in Sources */,
+				3460E39C202AA53F00AA6597 /* RetriveLEPeripheral.swift in Sources */,
+				34E3FFB421017999000FEB2A /* AccessCardListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		342DF334202408FF007360ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342DF335202408FF007360ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		342DF339202408FF007360ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				342DF33A202408FF007360ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		342DF33D202408FF007360ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		342DF33E202408FF007360ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		342DF340202408FF007360ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1136F1DB94EE45C047C87DD2 /* Pods-HuamiPayExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Alipay",
+				);
+				INFOPLIST_FILE = HuamiPayExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HuamiPayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HuamiPayExample/HuamiPayExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		342DF341202408FF007360ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8617CD61385445B228C4B25E /* Pods-HuamiPayExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Alipay",
+				);
+				INFOPLIST_FILE = HuamiPayExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HuamiPayExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HuamiPayExample/HuamiPayExample-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		342DF328202408FF007360ED /* Build configuration list for PBXProject "HuamiPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342DF33D202408FF007360ED /* Debug */,
+				342DF33E202408FF007360ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		342DF33F202408FF007360ED /* Build configuration list for PBXNativeTarget "HuamiPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				342DF340202408FF007360ED /* Debug */,
+				342DF341202408FF007360ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 342DF325202408FF007360ED /* Project object */;
+}

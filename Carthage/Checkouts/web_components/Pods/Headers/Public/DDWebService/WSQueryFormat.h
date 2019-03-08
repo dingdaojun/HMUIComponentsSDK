@@ -1,0 +1,1 @@
+../../../DDWebService/DDWebService/Auxfun/WSQueryFormat.h

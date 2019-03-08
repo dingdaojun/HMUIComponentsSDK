@@ -1,0 +1,6 @@
+framework module Pods_ThreePartyService {
+  umbrella header "Pods-ThreePartyService-umbrella.h"
+
+  export *
+  module * { export * }
+}

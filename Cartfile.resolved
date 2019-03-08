@@ -1,1 +1,1 @@
-git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category" "release-0.5.2"
+binary "https://cart.athuami.com/release/HMCategory.json" "0.5.2"

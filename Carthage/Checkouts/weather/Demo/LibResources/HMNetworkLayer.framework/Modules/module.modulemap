@@ -1,0 +1,6 @@
+framework module HMNetworkLayer {
+  umbrella header "HMNetworkLayer.h"
+
+  export *
+  module * { export * }
+}

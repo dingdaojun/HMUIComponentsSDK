@@ -1,0 +1,20 @@
+language: swift
+osx_image: xcode9.3
+xcode_project: huamipay
+xcode_scheme: huamipay
+
+env:
+  global:
+    - FRAMEWORK_NAME=huamipay
+    - WORKSPACE=HuamiPayExample/HuamiPayExample.xcworkspace
+before_install:
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+before_script:
+  - carthage TWTagLengthValue
+  - carthage AFNetworking
+  - carthage network
+  - carthage CryptoSwift
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME

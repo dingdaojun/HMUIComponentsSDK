@@ -1,0 +1,33 @@
+PODS:
+  - Expecta (1.0.5)
+  - HMExtensionKit (0.3.2):
+    - HMExtensionKit/3DTouch (= 0.3.2)
+    - HMExtensionKit/Siri (= 0.3.2)
+    - HMExtensionKit/Today (= 0.3.2)
+  - HMExtensionKit/3DTouch (0.3.2)
+  - HMExtensionKit/Siri (0.3.2)
+  - HMExtensionKit/Today (0.3.2)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - Expecta
+  - HMExtensionKit (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  HMExtensionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  HMExtensionKit: d02c1fa2987fbf902ade09f4420595bf96eb5287
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: a412bc081057cccc3f8b672ae03a2d3d7eed6fe9
+
+COCOAPODS: 1.5.3

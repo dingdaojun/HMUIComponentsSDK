@@ -1,0 +1,3 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/tlv" "master"
+github "krzyzanowskim/CryptoSwift" "0.10.0"
+

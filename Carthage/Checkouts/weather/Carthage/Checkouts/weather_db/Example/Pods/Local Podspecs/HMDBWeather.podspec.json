@@ -1,0 +1,43 @@
+{
+  "name": "HMDBWeather",
+  "version": "0.5.6",
+  "summary": "A short description of HMDBWeather.",
+  "description": "用于天气预报的持久化类库，基于 SQLite 构建",
+  "homepage": "https://github.com/BigNerdCoding/HMDBWeather",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BigNerdCoding": "wumingliang@gmail.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/weather_db",
+    "tag": "0.5.6"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Database",
+      "source_files": "HMDBWeather/Classes/Database/**/*.{h,m}",
+      "public_header_files": "HMDBWeather/Classes/Database/HMDBWeatherBaseConfig.h",
+      "dependencies": {
+        "CTPersistance": [
+          "~> 181"
+        ]
+      }
+    },
+    {
+      "name": "Service",
+      "source_files": "HMDBWeather/Classes/Service/**/*.{h,m}",
+      "private_header_files": "HMDBWeather/Classes/Service/Model/**/*.h",
+      "dependencies": {
+        "HMDBWeather/Database": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Modules/RCTUIManagerObserverCoordinator.h

@@ -1,0 +1,6 @@
+framework module Pods_HMNetworkLayerDemoTests {
+  umbrella header "Pods-HMNetworkLayerDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

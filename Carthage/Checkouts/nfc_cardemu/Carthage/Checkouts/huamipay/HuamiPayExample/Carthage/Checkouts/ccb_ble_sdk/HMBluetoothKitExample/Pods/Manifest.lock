@@ -1,0 +1,44 @@
+PODS:
+  - Cache (4.1.2)
+  - CryptoSwift (0.10.0)
+  - HMBluetoothKit (0.0.1):
+    - HMBluetoothKit/LEProfile (= 0.0.1)
+  - HMBluetoothKit/LECore (0.0.1):
+    - HMBluetoothKit/LEExtension
+  - HMBluetoothKit/LEExtension (0.0.1)
+  - HMBluetoothKit/LEProfile (0.0.1):
+    - HMBluetoothKit/LEService
+  - HMBluetoothKit/LEService (0.0.1):
+    - CryptoSwift (~> 0.10.0)
+    - HMBluetoothKit/LECore
+  - HMLog (0.3.6)
+  - SwiftDate (4.5.1)
+
+DEPENDENCIES:
+  - Cache
+  - HMBluetoothKit (from `../`)
+  - HMLog (= 0.3.6)
+  - SwiftDate
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Cache
+    - CryptoSwift
+    - SwiftDate
+  ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS:
+    - HMLog
+
+EXTERNAL SOURCES:
+  HMBluetoothKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cache: bd0233fc688b5e83a27bcd87807db7e6f23adcc5
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
+  HMBluetoothKit: 80b1af1c16add4e579eadf7ff923a88c9cebfba3
+  HMLog: 3438d527459af3c709991dfe22891b8fe85459ce
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+
+PODFILE CHECKSUM: 99e7be3072342cc27e3a0a554c0a1df145a06f7e
+
+COCOAPODS: 1.5.3

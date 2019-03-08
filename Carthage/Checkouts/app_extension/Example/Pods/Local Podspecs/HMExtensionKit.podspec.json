@@ -1,0 +1,41 @@
+{
+  "name": "HMExtensionKit",
+  "version": "0.3.2",
+  "summary": "iOS Extensions Kit.",
+  "description": "This pod include SiriKit, Today Extesion, and 3DTouch. You can select what you need. \nAll of them are separated sub-modules, independent with each other.",
+  "homepage": "https://internal.smartdevices.com.cn:8080/#/admin/projects/apps/ios/libs/app_extension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiangyang": "jiangyang@huami.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/app_extension",
+    "tag": "0.3.2"
+  },
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Siri",
+      "frameworks": "Intents",
+      "source_files": "HMExtensionKit/Classes/Siri/**/*"
+    },
+    {
+      "name": "Today",
+      "frameworks": "NotificationCenter",
+      "source_files": "HMExtensionKit/Classes/Today/**/*"
+    },
+    {
+      "name": "3DTouch",
+      "source_files": "HMExtensionKit/Classes/3DTouch/**/*"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "commitish" : "release-0.5.2",
-  "iOS" : [
-    {
-      "name" : "HMCategory",
-      "hash" : "a733c5a04b14df2959b25520861b09bbffc7bc22dd0c16da3e7c3d70dee0154c"
-    }
-  ]
-}

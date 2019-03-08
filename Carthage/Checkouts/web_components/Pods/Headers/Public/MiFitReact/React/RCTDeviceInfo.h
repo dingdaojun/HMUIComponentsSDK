@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Modules/RCTDeviceInfo.h

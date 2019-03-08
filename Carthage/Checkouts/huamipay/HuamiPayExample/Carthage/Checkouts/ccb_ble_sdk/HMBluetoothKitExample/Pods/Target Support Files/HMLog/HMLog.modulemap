@@ -1,0 +1,6 @@
+framework module HMLog {
+  umbrella header "HMLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

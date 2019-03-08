@@ -1,0 +1,11 @@
+gerritURL = "ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS"
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+source gerritURL
+
+target 'HuamiPayExample' do
+    use_frameworks!
+    pod 'HMPayKit'
+end

@@ -7,34 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10245EFBA65534ADD9361F70FFB0AE7D /* AZQuantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6674B8854D1546AE4A9C5B6F036D1CF2 /* AZQuantity.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		34D88760A6DA1B2EBA592AF06F9178D5 /* AZScalarQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5991A84EDE898A08E6CD879E93A9A /* AZScalarQuantity.m */; };
-		3E6AEB235CDD0D2990B652BCAF5C26FC /* AZEnergyQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D338D78E912FD0E1E3382B3A1A42F3F /* AZEnergyQuantity.m */; };
-		87E4F93FA94CF720166E97739BB5656F /* AZQuantityConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1A2AF159A644CB06EAC6E897FE68A7 /* AZQuantityConfigurator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A8AFBE92A92565FFA14725990E5D4BD /* AZSpeedQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 61046B7D3FBF0454047D53F59DEA578A /* AZSpeedQuantity.m */; };
-		932B0D0D2EC99A2170C56B549A421261 /* AZQuantityConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629BA3C4A5824091A3137B8D9C53E58 /* AZQuantityConfigurator.m */; };
-		966AD28355E61D85432FFCB833B55A19 /* AZLengthQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = B4761E55BA7155F5F5C3171E15F02C5D /* AZLengthQuantity.m */; };
-		9FD6C0B21A6F0672D0413944D2FD0940 /* AZQuantity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3DF7526CF24A7F292B9E5BAC99421 /* AZQuantity-dummy.m */; };
-		A2A45D9F5EEECF001445B104684DFB39 /* AZPaceQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 610746C32A633B32605A3EABAD37CC0B /* AZPaceQuantity.m */; };
-		B993E2D480C489185EA58AF4F9F112DD /* AZTimeQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = E76B300CF2C05ED14E8BD7669039E899 /* AZTimeQuantity.m */; };
-		BF3D9BE427524CC4674A1790A739114C /* AZQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = A36495AC80F7CA6F841234277B77F80C /* AZQuantity.m */; };
-		C081E099A6E4E13E84267D15EF6D8DBA /* AZTemperatureQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABBD0310A3B9AAAAC957E3123ECED1 /* AZTemperatureQuantity.m */; };
-		CCB4ADE4BD0EF862AC0777E0E75FD5FD /* Pods-HMUIComponentsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7CFB32B1849D9C2F9FC252EB0988D9 /* Pods-HMUIComponentsSDK-dummy.m */; };
-		D972BBD476EBBD4751BE34F0771517EB /* AZMassQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBC9A26E80243769C900453E20F9B2 /* AZMassQuantity.m */; };
+		007A891904DF74A647EA11D62FF38EAF /* AZLengthQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = B4761E55BA7155F5F5C3171E15F02C5D /* AZLengthQuantity.m */; };
+		133C4EC2C9570947AB27BF9D35DEE9F1 /* AZQuantity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C3DF7526CF24A7F292B9E5BAC99421 /* AZQuantity-dummy.m */; };
+		19FCD655C96216235E0D7DF8D1D2EE87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8C8FC1CB71AA4926928D907271AA5C /* UIKit.framework */; };
+		1E99021A756E00CB4C7E8176E28B8B9A /* AZTimeQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = E76B300CF2C05ED14E8BD7669039E899 /* AZTimeQuantity.m */; };
+		1FA867DF6C14B75CD9C36F236835F1CF /* AZMassQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFBC9A26E80243769C900453E20F9B2 /* AZMassQuantity.m */; };
+		49B8161D553DF0C259FA47F300FA1DD5 /* AZPaceQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 610746C32A633B32605A3EABAD37CC0B /* AZPaceQuantity.m */; };
+		4B28497DF4B3ACA3E64FDFEA9B33AF5D /* AZQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = A36495AC80F7CA6F841234277B77F80C /* AZQuantity.m */; };
+		78F021DA06409E9A6B6185550835E135 /* AZScalarQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5991A84EDE898A08E6CD879E93A9A /* AZScalarQuantity.m */; };
+		92F140CA1852B9ED8663564156A047E9 /* AZTemperatureQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CABBD0310A3B9AAAAC957E3123ECED1 /* AZTemperatureQuantity.m */; };
+		99EBB3750003DB54F085C42A733193D2 /* AZQuantity.h in Headers */ = {isa = PBXBuildFile; fileRef = 6674B8854D1546AE4A9C5B6F036D1CF2 /* AZQuantity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9B5B52840D9C3239D6692DA401D02DA /* AZQuantityConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9629BA3C4A5824091A3137B8D9C53E58 /* AZQuantityConfigurator.m */; };
+		CAEF35DD902D9DD6959FE04514EBAB26 /* AZEnergyQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D338D78E912FD0E1E3382B3A1A42F3F /* AZEnergyQuantity.m */; };
+		CFCEB59A1461F72433C0B0202E54C531 /* Pods-HMUIComponentsSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7CFB32B1849D9C2F9FC252EB0988D9 /* Pods-HMUIComponentsSDK-dummy.m */; };
+		E656D743F46E082509B2FB03B776D668 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921FE179F53ABA31FEE36C0AB548544F /* HealthKit.framework */; };
+		F96E9298986DF625B41D967870E2EF51 /* AZQuantityConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1A2AF159A644CB06EAC6E897FE68A7 /* AZQuantityConfigurator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCDEE66C0BF786D4F35F0BD7E686D256 /* AZSpeedQuantity.m in Sources */ = {isa = PBXBuildFile; fileRef = 61046B7D3FBF0454047D53F59DEA578A /* AZSpeedQuantity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F534492B25E69C44E911683E4D2E927D /* PBXContainerItemProxy */ = {
+		DA8CE943AF147308DF73A9867FA88524 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63FA157CC0AA125555C4F7082E9C09E4;
+			remoteGlobalIDString = 23D0DCF501DE4519298BCDD92CDF5683;
 			remoteInfo = AZQuantity;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		10A24F9DABD7B75356B58ECD181BC7BD /* Pods-HMUIComponentsSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMUIComponentsSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B8C8FC1CB71AA4926928D907271AA5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1D338D78E912FD0E1E3382B3A1A42F3F /* AZEnergyQuantity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZEnergyQuantity.m; path = AZQuantity/quantities/AZEnergyQuantity.m; sourceTree = "<group>"; };
 		25B96D2B3D723E8F79CD1BFD409710DE /* AZQuantity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZQuantity-prefix.pch"; sourceTree = "<group>"; };
 		2CABBD0310A3B9AAAAC957E3123ECED1 /* AZTemperatureQuantity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZTemperatureQuantity.m; path = AZQuantity/quantities/AZTemperatureQuantity.m; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		6674B8854D1546AE4A9C5B6F036D1CF2 /* AZQuantity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AZQuantity.h; path = AZQuantity/AZQuantity.h; sourceTree = "<group>"; };
 		71CA24D1F5DE9B7D53D0E2A08EF08812 /* Pods-HMUIComponentsSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMUIComponentsSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8FABF83E8E3BA6E36DAC53EA17E811AE /* Pods-HMUIComponentsSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMUIComponentsSDK-resources.sh"; sourceTree = "<group>"; };
+		921FE179F53ABA31FEE36C0AB548544F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9629BA3C4A5824091A3137B8D9C53E58 /* AZQuantityConfigurator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZQuantityConfigurator.m; path = AZQuantity/configuration/AZQuantityConfigurator.m; sourceTree = "<group>"; };
 		9867DAA98417DEDA9D70B4ECB7FE4A40 /* Pods-HMUIComponentsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMUIComponentsSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,14 +66,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A104D7943D301D45D07EC1C4AF5E59A9 /* Frameworks */ = {
+		0ADBC58D48FFF116C0BC95C6FC327F42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E656D743F46E082509B2FB03B776D668 /* HealthKit.framework in Frameworks */,
+				19FCD655C96216235E0D7DF8D1D2EE87 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1B65834BE8B1D6C4724E4994931063D /* Frameworks */ = {
+		AB49DC0C22BB9A401D6A782EA8B585F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,13 +85,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		31B2C2EB8FBC7E1FECB33776BEA5AAE2 /* Pods-HMUIComponentsSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +97,15 @@
 			);
 			name = "Pods-HMUIComponentsSDK";
 			path = "Target Support Files/Pods-HMUIComponentsSDK";
+			sourceTree = "<group>";
+		};
+		3A1DC2A6B932B99C86010459EF2B9E9A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				921FE179F53ABA31FEE36C0AB548544F /* HealthKit.framework */,
+				1B8C8FC1CB71AA4926928D907271AA5C /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		3FB79AF566AF2D30236A84639FA99D69 /* AZQuantity */ = {
@@ -122,6 +130,14 @@
 			path = AZQuantity;
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1DC2A6B932B99C86010459EF2B9E9A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D23EBDF695802330D4C89597F8D6058 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				5D23EBDF695802330D4C89597F8D6058 /* Pods */,
 				B7AF9DAA70447B84E5FC12D9C77B3FFE /* Products */,
 				A566B7DE649742B80D6E04AF942C87EE /* Targets Support Files */,
@@ -180,32 +196,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AEA7FE3A9225DA9A9583CFA5029D32C1 /* Headers */ = {
+		2485F45D13D84AEAE4D6D19D602257F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10245EFBA65534ADD9361F70FFB0AE7D /* AZQuantity.h in Headers */,
-				87E4F93FA94CF720166E97739BB5656F /* AZQuantityConfigurator.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC9CB7D682CAF6F079C6B761B96B4F21 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				99EBB3750003DB54F085C42A733193D2 /* AZQuantity.h in Headers */,
+				F96E9298986DF625B41D967870E2EF51 /* AZQuantityConfigurator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		63FA157CC0AA125555C4F7082E9C09E4 /* AZQuantity */ = {
+		23D0DCF501DE4519298BCDD92CDF5683 /* AZQuantity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DA7DB77B6674827821AFE4BD910BB8D /* Build configuration list for PBXNativeTarget "AZQuantity" */;
+			buildConfigurationList = 379218722D8D4643771DAE8E4213427C /* Build configuration list for PBXNativeTarget "AZQuantity" */;
 			buildPhases = (
-				AEA7FE3A9225DA9A9583CFA5029D32C1 /* Headers */,
-				1D9FA0CA708C7C9E5CC269B048B7FC0B /* Sources */,
-				C1B65834BE8B1D6C4724E4994931063D /* Frameworks */,
+				1F6BCB6436D61DFED0BE45C05B411489 /* Sources */,
+				0ADBC58D48FFF116C0BC95C6FC327F42 /* Frameworks */,
+				2485F45D13D84AEAE4D6D19D602257F6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -216,18 +225,17 @@
 			productReference = D6EF4E3F4B38329930D9FA364EC9C73A /* libAZQuantity.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9D05DB45343516F9B2C9F15FE4BAC324 /* Pods-HMUIComponentsSDK */ = {
+		639D61C85363DF4220A7F2FDFF5EB88C /* Pods-HMUIComponentsSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 252D3D0B40899A0D5A302B73A43C3B26 /* Build configuration list for PBXNativeTarget "Pods-HMUIComponentsSDK" */;
+			buildConfigurationList = 4ACE9CC3D281D97945411E748F834A03 /* Build configuration list for PBXNativeTarget "Pods-HMUIComponentsSDK" */;
 			buildPhases = (
-				CC9CB7D682CAF6F079C6B761B96B4F21 /* Headers */,
-				7F068FC123C5A2FF9E9A764BB4112790 /* Sources */,
-				A104D7943D301D45D07EC1C4AF5E59A9 /* Frameworks */,
+				C15A08CD6A64F8579614E330FB917A44 /* Sources */,
+				AB49DC0C22BB9A401D6A782EA8B585F4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAD854A61C1B2900BAABB5B820C7F8F5 /* PBXTargetDependency */,
+				CA726AEB4A733A2FE9AEC5F2290883D4 /* PBXTargetDependency */,
 			);
 			name = "Pods-HMUIComponentsSDK";
 			productName = "Pods-HMUIComponentsSDK";
@@ -255,120 +263,52 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63FA157CC0AA125555C4F7082E9C09E4 /* AZQuantity */,
-				9D05DB45343516F9B2C9F15FE4BAC324 /* Pods-HMUIComponentsSDK */,
+				23D0DCF501DE4519298BCDD92CDF5683 /* AZQuantity */,
+				639D61C85363DF4220A7F2FDFF5EB88C /* Pods-HMUIComponentsSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D9FA0CA708C7C9E5CC269B048B7FC0B /* Sources */ = {
+		1F6BCB6436D61DFED0BE45C05B411489 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E6AEB235CDD0D2990B652BCAF5C26FC /* AZEnergyQuantity.m in Sources */,
-				966AD28355E61D85432FFCB833B55A19 /* AZLengthQuantity.m in Sources */,
-				D972BBD476EBBD4751BE34F0771517EB /* AZMassQuantity.m in Sources */,
-				A2A45D9F5EEECF001445B104684DFB39 /* AZPaceQuantity.m in Sources */,
-				9FD6C0B21A6F0672D0413944D2FD0940 /* AZQuantity-dummy.m in Sources */,
-				BF3D9BE427524CC4674A1790A739114C /* AZQuantity.m in Sources */,
-				932B0D0D2EC99A2170C56B549A421261 /* AZQuantityConfigurator.m in Sources */,
-				34D88760A6DA1B2EBA592AF06F9178D5 /* AZScalarQuantity.m in Sources */,
-				8A8AFBE92A92565FFA14725990E5D4BD /* AZSpeedQuantity.m in Sources */,
-				C081E099A6E4E13E84267D15EF6D8DBA /* AZTemperatureQuantity.m in Sources */,
-				B993E2D480C489185EA58AF4F9F112DD /* AZTimeQuantity.m in Sources */,
+				CAEF35DD902D9DD6959FE04514EBAB26 /* AZEnergyQuantity.m in Sources */,
+				007A891904DF74A647EA11D62FF38EAF /* AZLengthQuantity.m in Sources */,
+				1FA867DF6C14B75CD9C36F236835F1CF /* AZMassQuantity.m in Sources */,
+				49B8161D553DF0C259FA47F300FA1DD5 /* AZPaceQuantity.m in Sources */,
+				133C4EC2C9570947AB27BF9D35DEE9F1 /* AZQuantity-dummy.m in Sources */,
+				4B28497DF4B3ACA3E64FDFEA9B33AF5D /* AZQuantity.m in Sources */,
+				C9B5B52840D9C3239D6692DA401D02DA /* AZQuantityConfigurator.m in Sources */,
+				78F021DA06409E9A6B6185550835E135 /* AZScalarQuantity.m in Sources */,
+				FCDEE66C0BF786D4F35F0BD7E686D256 /* AZSpeedQuantity.m in Sources */,
+				92F140CA1852B9ED8663564156A047E9 /* AZTemperatureQuantity.m in Sources */,
+				1E99021A756E00CB4C7E8176E28B8B9A /* AZTimeQuantity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F068FC123C5A2FF9E9A764BB4112790 /* Sources */ = {
+		C15A08CD6A64F8579614E330FB917A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB4ADE4BD0EF862AC0777E0E75FD5FD /* Pods-HMUIComponentsSDK-dummy.m in Sources */,
+				CFCEB59A1461F72433C0B0202E54C531 /* Pods-HMUIComponentsSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EAD854A61C1B2900BAABB5B820C7F8F5 /* PBXTargetDependency */ = {
+		CA726AEB4A733A2FE9AEC5F2290883D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AZQuantity;
-			target = 63FA157CC0AA125555C4F7082E9C09E4 /* AZQuantity */;
-			targetProxy = F534492B25E69C44E911683E4D2E927D /* PBXContainerItemProxy */;
+			target = 23D0DCF501DE4519298BCDD92CDF5683 /* AZQuantity */;
+			targetProxy = DA8CE943AF147308DF73A9867FA88524 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00C2374E1C22CBA23014CACBEE0833EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C4D549A80DF6326E2C981E39C79FC3B /* AZQuantity.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AZQuantity/AZQuantity-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AZQuantity;
-				PRODUCT_NAME = AZQuantity;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		057314903C6F9B4DE7CEE40AE5DE7BD0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F03A84DAA3C5C527CEEC0113A34E71CA /* Pods-HMUIComponentsSDK.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5AAF09A09B7FFA0439145E8441C0508F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C4D549A80DF6326E2C981E39C79FC3B /* AZQuantity.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/AZQuantity/AZQuantity-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = AZQuantity;
-				PRODUCT_NAME = AZQuantity;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,8 +362,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -432,7 +371,97 @@
 			};
 			name = Debug;
 		};
-		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+		28926E222DE2847E944C07249273EDF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4D549A80DF6326E2C981E39C79FC3B /* AZQuantity.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AZQuantity/AZQuantity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AZQuantity;
+				PRODUCT_NAME = AZQuantity;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56AE7B85FB55FFDCB8094C58C4F73D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4D549A80DF6326E2C981E39C79FC3B /* AZQuantity.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AZQuantity/AZQuantity-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AZQuantity;
+				PRODUCT_NAME = AZQuantity;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B4DEC80C135207F3E8CEA61C785A617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9867DAA98417DEDA9D70B4ECB7FE4A40 /* Pods-HMUIComponentsSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FAA91C6CEECCF87F997C704FC4C3A4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03A84DAA3C5C527CEEC0113A34E71CA /* Pods-HMUIComponentsSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -484,61 +513,38 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		F329DAD32D5D913A9AA45A43BBFCE3AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9867DAA98417DEDA9D70B4ECB7FE4A40 /* Pods-HMUIComponentsSDK.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		252D3D0B40899A0D5A302B73A43C3B26 /* Build configuration list for PBXNativeTarget "Pods-HMUIComponentsSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				057314903C6F9B4DE7CEE40AE5DE7BD0 /* Debug */,
-				F329DAD32D5D913A9AA45A43BBFCE3AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
-				C4EAA84F44D044E108500A81C635F21E /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DA7DB77B6674827821AFE4BD910BB8D /* Build configuration list for PBXNativeTarget "AZQuantity" */ = {
+		379218722D8D4643771DAE8E4213427C /* Build configuration list for PBXNativeTarget "AZQuantity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AAF09A09B7FFA0439145E8441C0508F /* Debug */,
-				00C2374E1C22CBA23014CACBEE0833EF /* Release */,
+				28926E222DE2847E944C07249273EDF8 /* Debug */,
+				56AE7B85FB55FFDCB8094C58C4F73D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACE9CC3D281D97945411E748F834A03 /* Build configuration list for PBXNativeTarget "Pods-HMUIComponentsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FAA91C6CEECCF87F997C704FC4C3A4F /* Debug */,
+				9B4DEC80C135207F3E8CEA61C785A617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

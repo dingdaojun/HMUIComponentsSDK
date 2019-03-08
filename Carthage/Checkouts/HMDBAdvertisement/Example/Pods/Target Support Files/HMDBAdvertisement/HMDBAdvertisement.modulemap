@@ -1,0 +1,6 @@
+framework module HMDBAdvertisement {
+  umbrella header "HMDBAdvertisement-umbrella.h"
+
+  export *
+  module * { export * }
+}

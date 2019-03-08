@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/WebSocket/RCTWebSocketModule.h

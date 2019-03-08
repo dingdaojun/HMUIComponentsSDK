@@ -1,0 +1,6 @@
+framework module HMExtensionKit {
+  umbrella header "HMExtensionKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

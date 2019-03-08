@@ -1,0 +1,6 @@
+framework module WeatherService {
+  umbrella header "WeatherService.h"
+
+  export *
+  module * { export * }
+}

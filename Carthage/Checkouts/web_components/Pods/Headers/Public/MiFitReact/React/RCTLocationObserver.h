@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/Geolocation/RCTLocationObserver.h

@@ -1,0 +1,5 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/weather_db" == 0.5.6
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/network" ~> 2.0.9
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category" == 0.4.1
+github "ReactiveCocoa/ReactiveObjC" ~> 3.1.0
+github "AFNetworking/AFNetworking" ~> 3.2.1

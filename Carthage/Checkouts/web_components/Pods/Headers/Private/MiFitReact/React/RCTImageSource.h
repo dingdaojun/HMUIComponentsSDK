@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Base/RCTImageSource.h

@@ -1,0 +1,6 @@
+framework module Pods_RunService {
+  umbrella header "Pods-RunService-umbrella.h"
+
+  export *
+  module * { export * }
+}

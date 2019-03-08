@@ -1,0 +1,3 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category" "0.4.1"
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/weather_db" "0.5.6"
+github "ReactiveCocoa/ReactiveObjC" "3.1.0"

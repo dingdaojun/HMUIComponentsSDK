@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="B35F8B3C-9BC8-48DB-B11C-0D856E5689F5">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="152.0,433.0" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>小米门禁卡</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="345.679688,459.546875" Width="65.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询CPLC</String>
+            <ConnectedNoteIDs>2-4, 28</ConnectedNoteIDs>
+            <PointsToNoteIDs>2, 28</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="620.0,397.0" Width="128.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询已开通卡列表数据</String>
+            <ConnectedNoteIDs>1, 9</ConnectedNoteIDs>
+            <PointsToNoteIDs>9</PointsToNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="133.679688,314.546875" Width="163.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>检查是否有小米Token/userID</String>
+            <ConnectedNoteIDs>0-1, 4-5</ConnectedNoteIDs>
+            <PointsToNoteIDs>1, 4-5</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="413.679688,315.546875" Width="178.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>登录授权获取小米Token/userID</String>
+            <ConnectedNoteIDs>1, 3, 6-7</ConnectedNoteIDs>
+            <PointsToNoteIDs>1</PointsToNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="185.038013,142.961987" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>退出重新登录</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="569.408932,183.931437" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>绑定小米账号</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="346.570196,232.403568" Width="128.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>校验前后账号是否一致</String>
+            <ConnectedNoteIDs>4</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="7.0" Position="572.340368,210.546875" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>如果之前绑定过，校验与之前绑定的账号是否一致</String>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="809.964844,390.863281" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>已开通卡列表</String>
+            <ConnectedNoteIDs>2, 11-13, 21, 25, 30-31</ConnectedNoteIDs>
+            <PointsToNoteIDs>11-13, 25, 30</PointsToNoteIDs>
+        </Note>
+        <Note ID="11" FontSize="12.0" Position="1039.3125,264.617188" Width="56.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>用户问答</String>
+            <ConnectedNoteIDs>9, 14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="1039.3125,314.617188" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>设置默认卡</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="1039.3125,359.617188" Width="92.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>卡面显示默认卡</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="1135.535156,265.07666" Width="24.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>H5</String>
+            <ConnectedNoteIDs>11</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="822.214844,327.84375" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>查询默认卡</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1041.460938,401.5" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>删除门禁卡</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+            <PointsToNoteIDs>26</PointsToNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1042.347656,430.441406" Width="200.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>删除卡后，调回小米运动设备详情页</String>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="622.351562,572.453125" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>检测卡数据</String>
+            <ConnectedNoteIDs>1, 29, 37</ConnectedNoteIDs>
+            <PointsToNoteIDs>29, 37</PointsToNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="825.464844,571.535156" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>开通门禁卡</String>
+            <ConnectedNoteIDs>28, 31, 36</ConnectedNoteIDs>
+            <PointsToNoteIDs>31, 36</PointsToNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="1043.285156,480.453125" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>修改卡名称</String>
+            <ConnectedNoteIDs>9</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="1040.957031,577.634766" Width="80.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>开卡成功页面</String>
+            <ConnectedNoteIDs>9, 29, 32-34</ConnectedNoteIDs>
+            <PointsToNoteIDs>9</PointsToNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="1175.212402,532.119629" Width="148.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>根据SeesionID获取卡信息</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="1180.439453,576.724121" Width="170.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>根据卡信息的Aid，设置默认卡</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="34" FontSize="12.0" Position="1183.447266,617.354004" Width="68.0" Shadow="Yes">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>修改卡名称</String>
+            <ConnectedNoteIDs>31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="1043.714799,670.648527" Width="68.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>失败页面？</String>
+            <ConnectedNoteIDs>29</ConnectedNoteIDs>
+        </Note>
+        <Note ID="37" FontSize="12.0" Position="826.582256,671.0" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>检测失败页面？</String>
+            <ConnectedNoteIDs>28</ConnectedNoteIDs>
+        </Note>
+        <Note ID="56" FontSize="12.0" Position="144.971983,860.177263" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>当前版本:</String>
+        </Note>
+        <Note ID="57" FontSize="12.0" Position="231.971983,897.177263" Width="35.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>0.0.1</String>
+        </Note>
+        <Note ID="58" FontSize="12.0" Position="144.0,897.0" Width="70.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.715855 0.948712 0.697692</Fill>
+            </Appearance>
+            <String>2018-07-21</String>
+        </Note>
+        <Note ID="66" FontSize="12.0" Position="148.465158,1100.837464" Width="36.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.561855 0.71062 0.779401</Border>
+                <Fill>0.702319 0.888276 0.974252</Fill>
+            </Appearance>
+            <String>备注:</String>
+        </Note>
+        <Note ID="67" FontSize="12.0" Position="147.0,1142.0" Width="130.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+                <Border Weight="1">0.794796 0.560965 0.58607</Border>
+                <Fill>0.993495 0.701207 0.732587</Fill>
+            </Appearance>
+            <String>1. ？表示当前缺失页面</String>
+        </Note>
+        <Note ID="72" FontSize="28.0" Position="99.644756,10.728987" Width="237.0">
+            <Appearance>
+                <TextColor>0.985948 0.0 0.026951</TextColor>
+                <Border Weight="1">0.572684 0.758969 0.558154</Border>
+                <Fill>0.997722 0.89273 0.652569</Fill>
+            </Appearance>
+            <String>小米门禁卡流程图</String>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="55" Sticky="Yes" Position="119.971983,831.177263" Width="375.573456" Height="212.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="65" Sticky="Yes" Position="119.465158,1083.837464" Width="606.139465" Height="222.162536">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <Labels>
+        <Label IDs="3,5">Google/facebook账号登录</Label>
+        <Label IDs="28,29">检测数据成功</Label>
+        <Label IDs="9,31">完成</Label>
+        <Label IDs="4,7">小米账号登录</Label>
+        <Label IDs="29,31">开卡成功</Label>
+        <Label IDs="1,4">有Token/UserID</Label>
+        <Label IDs="29,36">开卡失败</Label>
+        <Label IDs="3,4">无Token/UserID</Label>
+        <Label IDs="9,13">是默认卡</Label>
+        <Label IDs="1,3">有Token/UserID</Label>
+        <Label IDs="4,6">微信账号登录</Label>
+        <Label IDs="9,12">不是默认卡</Label>
+        <Label IDs="28,37">检测失败</Label>
+    </Labels>
+    <AutoFit>0-3, 5-7, 9, 11-14, 21, 25, 27-34, 36-37, 56-58, 66-67</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="9EC01597-DD5F-44EF-9B5C-B280CCC756ED" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="BE1D8A00-C0A3-470C-8FD8-86FE1A5D8888" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="747D1987-4DB1-4ED2-BBB2-C5E1486CC69D" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="F98D596B-ADDC-4D64-B86C-75810B0A6EB8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="E58E85C2-316D-4216-A6BA-3258FAF02AFE" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="851CFC1F-BF5D-48C5-A081-63E7CC3F9BB6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="93D55BD7-FAA6-4681-B256-DD5C0D2449FD" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>

@@ -1,0 +1,1986 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00971F50B3EC7AA5880AE258B6347972 /* HMStatisticsNamedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 37E2CBD4BB6B98847FE0F910E073AAE0 /* HMStatisticsNamedTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00BDAA41951F418C68F0AB94DEA5EA30 /* CTPersistanceTable+Schema.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA0B0E77B9507E6AA167645072CB0F1 /* CTPersistanceTable+Schema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04BE2488DE42D7E0B97548A554173F06 /* CTPersistanceDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 291F55E788D06659C414237CD4BDD7EB /* CTPersistanceDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05685CDF69B741802057C7DC59C56C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */; };
+		05AA71FEC7AB0ACDF74F3AA004714CAF /* HMStatisticsAnonymousTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B157AE7B7230E8961A4F2CD7AFF113 /* HMStatisticsAnonymousTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		069A906F286CAA61F8AA8F4176AB84A2 /* NSArray+CTPersistanceRecordTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 848E24A7F79F7C49A38FB6E9C7253E6F /* NSArray+CTPersistanceRecordTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090B4FF893E24372956AF3FDD02FD7E9 /* HMStatisticsAnonymousManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DB47297F9C20CC8B0F965564779665 /* HMStatisticsAnonymousManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		09B12E50FC71B3B1C74F1FC5949E6827 /* CTPersistanceTable+Find.m in Sources */ = {isa = PBXBuildFile; fileRef = F501525FEB883B024AD5D6E21D3F9BD3 /* CTPersistanceTable+Find.m */; };
+		0CC0772E28B92F54E47BB90E2B1A562F /* CTPersistanceQueryCommand+DataManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C365A11978931B612F78E19C3CD0B /* CTPersistanceQueryCommand+DataManipulations.m */; };
+		109A62EED20E7CFA86C343D325BCCB30 /* HMStatisticsAnonymousRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 89258558783663E8B97F5DBAB3DB31ED /* HMStatisticsAnonymousRecord.m */; };
+		13E71F2DA170F3753BC0AAC3E6D62A08 /* HMStatisticsLog+BothChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B3B1A4B777D122EAC64FE1CE69975F /* HMStatisticsLog+BothChannel.m */; };
+		15CB977720E50B1902FFF77FA013BE79 /* NSDictionary+KeyValueBind.h in Headers */ = {isa = PBXBuildFile; fileRef = E57A8E1660C16AB7A45E908022088D64 /* NSDictionary+KeyValueBind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		163B06336629F091581900F252FF7B99 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382F82F7F38C3EF3A3CDA84D30929F49 /* CTMediator.framework */; };
+		17EF5FED4EBC409D5FC866B724144AA7 /* HMStatisticsAnonymousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B4F8B9133EDAB151942C8656AF7D /* HMStatisticsAnonymousTask.m */; };
+		188E7DB587E6968478F15AD7A09082FF /* HMStatisticsAnonymousContextRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = E1380F713F9B7C506850A35C64BC4349 /* HMStatisticsAnonymousContextRecord.m */; };
+		1C2D7F6E5C7C497CF70C256ED1ED2E19 /* Pods-HMStatistics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A84C5E67E6E7FD75F4321C6D72B11BC4 /* Pods-HMStatistics_Example-dummy.m */; };
+		1CFCB7F78DDCFC2C70AA4DE102DE37F9 /* CTPersistanceTable+Find.h in Headers */ = {isa = PBXBuildFile; fileRef = 0337B9F29002403EE43DE6D9BF0C5850 /* CTPersistanceTable+Find.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D7A97B4468E5F8EE5E73469D1A79C6C /* HMStatisticsNamedContextTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2FE1C82BDAD2E9681CB4CFCE676273 /* HMStatisticsNamedContextTable.m */; };
+		1E6EA912198FD93F5D580E1011F2436A /* HMStatisticsTools+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E23A900EF7239BCCE4CE8CD889E810A /* HMStatisticsTools+Encrypt.m */; };
+		1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A90CE557C1168B6D5276B97D1714D3 /* CTMediator.m */; };
+		289A47310B212AC036586FA294A6972D /* HMStatisticsSafeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F2922EB9A5E80EB19B57126F590D59 /* HMStatisticsSafeCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		297C8E5024263D7F7D1A8B415A02FEEB /* SQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CBA141E05253B588353FDB36D3A755 /* SQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9B39E8B47D43D382246CBA20326755 /* HMStatisticsTools+DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1593D6896AF646677230FFC3BB46D4 /* HMStatisticsTools+DeviceInfo.m */; };
+		2AE0EECBDECCD9A08052343A96A30784 /* Pods-HMStatistics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B98EDEEF7A680823E7E87F1E0ECC99F1 /* Pods-HMStatistics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD12FD8AF22045019FF9B0BCDB7344C /* HMStatisticsAnonymousContextRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 543497266E4261E26E4C696DED83E7B1 /* HMStatisticsAnonymousContextRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2D7B585E8660DA0619E90F005CC5F10B /* CTPersistanceTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C872CDC363579EB6C6C8D84690434 /* CTPersistanceTable.m */; };
+		2EB40A126D2900991DB876330D74490D /* HMStatisticsNamedConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3B532FD85931B7F10A853BE63C5E49 /* HMStatisticsNamedConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		32A2FEABB7A4D9B95871C60D91E48FC3 /* CTPersistanceRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F86769F91D8C68703A0553DC1E6E6 /* CTPersistanceRecord.m */; };
+		3966942C1E97B2B48EC8C558EA517CF6 /* HMStatisticsLog+LogPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C9827E35C8695482665127BEC34E6A /* HMStatisticsLog+LogPersistence.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		399D72D408DF7EA5242757AD4D2313D2 /* CTPersistanceAsyncExecutor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE5AA266024F91E7A7FB31D55244E70 /* CTPersistanceAsyncExecutor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1CA906E1851787B45EC0C9C00D574B /* NSDictionary+KeyValueBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 860729262DC3CA448959CA651C00253B /* NSDictionary+KeyValueBind.m */; };
+		3A62FE7364D6C844756DE6F6720AC87C /* HMStatisticsAnonymousContextTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 700402AFB0BD65649DACB9DE282DDDC7 /* HMStatisticsAnonymousContextTable.m */; };
+		3A8B0EC31E8EBDB645118A9DAAEDA8E5 /* NSString+Where.h in Headers */ = {isa = PBXBuildFile; fileRef = E11E1CC812E7CD1DD08B507E57ECE348 /* NSString+Where.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B4F2416636980273C4E9CE17676AA43 /* HMStatisticsConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1FBDE8F98735916BA7E6B856535E00 /* HMStatisticsConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423FBAF70018EEC9908A10A29D8181F6 /* HMStatisticsLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2550AD864D763A58EB31AA73E27E2A /* HMStatisticsLog.m */; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9E4E4A152B43C60A97916BAE0D416E /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449FF54F286819BCA2A0CEF2F7529E9C /* HMStatisticsAnonymousAutoCal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5178CE8E5EC065F88F7C18BD54E81C5C /* HMStatisticsAnonymousAutoCal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		457622354F55426F254635CC92013CF7 /* HMStatisticsNamedContextTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A22457120F710F92C2FEFC00BCC19CE /* HMStatisticsNamedContextTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		459A072C6518855EDC7035248076A1E5 /* CTPersistanceTable+Schema.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A667A1DECF15FD5D212DCC6479F80 /* CTPersistanceTable+Schema.m */; };
+		46FC40E875AFA970A4C674A97A82EC0D /* HMStatisticsNamedContextRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 3210454080FB62490F877672B643A213 /* HMStatisticsNamedContextRecord.m */; };
+		4716B39B8B987B3786729B544DCC2DDB /* CTPersistanceVersionRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB9154AB7C59464ABDC77CB2CEEDB70 /* CTPersistanceVersionRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472FDBCAC9F38E887E3CE0C97B2595ED /* HMStatisticsSafeCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C36100BF7347D0FBC27B0DA734C949FC /* HMStatisticsSafeCache.m */; };
+		47CC233E2541AED2AE714B3BD0537BC4 /* UIViewController+HMStatisticsSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8D1E0983FE0AFF33D68D3B9C387FFF /* UIViewController+HMStatisticsSwizzling.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47EDA1BB210AB08D00AC29B4 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8526CBD79131730A3B574F60EBE6F46E /* CTMediator.framework */; };
+		47EDA1BC210AB08D00AC29B4 /* CTPersistance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B52C430C70EB1CB338EB72F21860778 /* CTPersistance.framework */; };
+		47EDA1BD210AB08D00AC29B4 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6F208DD1A8575D334CD028D560C2C0 /* SQLCipher.framework */; };
+		47EDA1C2210AB08E00AC29B4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDA1BE210AB08D00AC29B4 /* CoreTelephony.framework */; };
+		47EDA1C3210AB08E00AC29B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDA1BF210AB08D00AC29B4 /* Foundation.framework */; };
+		47EDA1C4210AB08E00AC29B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDA1C0210AB08E00AC29B4 /* UIKit.framework */; };
+		47EDA1C5210AB08E00AC29B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EDA1C1210AB08E00AC29B4 /* SystemConfiguration.framework */; };
+		495824D36D15EB4950AC648BAAF03252 /* CTPersistanceDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F680CBBDD6CC002560A1828201FB4E /* CTPersistanceDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B6C7CC5B3797C302E2AB701ACF69A3F /* CTPersistanceTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F940A90CE3CD0733BF97C7B15D3D45F /* CTPersistanceTransaction.m */; };
+		4E113F5D4AA21686DCB09A288ACCC200 /* CTPersistanceQueryCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDB9D513BB0BDCBF4187CCC156256A /* CTPersistanceQueryCommand.m */; };
+		4F0EB59C43A11AE61E80936A5819A467 /* CTPersistanceRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B3F782840EC9D869232F6CB936AE8A /* CTPersistanceRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531E47553DCF7024D2863E746C85039B /* HMStatisticsNamedConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E6BBC41D46DE01AB7BE8B8A62ECFF3 /* HMStatisticsNamedConfig.m */; };
+		533362468B22C42B241080930CC1EF3F /* HMStatisticsNamedTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4856581D087886BC069AE9E9DB37BB /* HMStatisticsNamedTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		54CE8BCFBD771795F9291B5166F8AFFC /* HMStatisticAnonymousMigratior.h in Headers */ = {isa = PBXBuildFile; fileRef = D669FB900F7D17E05B834A4D8E935CB1 /* HMStatisticAnonymousMigratior.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		55F3759A1A681DB0398B693FD968B04F /* Pods-HMStatistics_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C52957B551A5665D14099E546088C1 /* Pods-HMStatistics_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57646E1F2FCE3F760C3CCC512A467183 /* HMStatisticsAnonymousContextTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC7ADF94D179B8D91D72A60FFDCE153 /* HMStatisticsAnonymousContextTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		59E8A3D96E3564F06447F1C87C8DD85D /* HMStatisticsTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5279BC3EF8C807F116C534686ED909 /* HMStatisticsTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B5B3F29B521CF2F0289E951210B5A40 /* HMStatisticsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1015E013E54BE175F5853D613DDDC1 /* HMStatisticsTools.m */; };
+		5C3A56EEEED6FC3C6A3AB84207B1F618 /* CTPersistanceVersionTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 24768322E33C1D4B4011249C3ED0B6C7 /* CTPersistanceVersionTable.m */; };
+		5C6F31CA8593762570949F347C369018 /* HMStatisticAnonymousMigrationStep_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2940A281B33C07114F25349BE3E81DD3 /* HMStatisticAnonymousMigrationStep_2.m */; };
+		5EB37B45ABD284C6504DBBA06CE6B7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */; };
+		5F689F823D3F0C77973EE2A975F49B32 /* HMStatisticNamedMigratior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE951C870CD3E64B831126392763B25 /* HMStatisticNamedMigratior.m */; };
+		60B7A56BF05BFA275D3BEB3AE84D7C3D /* HMStatisticsTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D1E7575533374CC1D73644A248A2E0 /* HMStatisticsTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62F66E6B669429E87FE06563F2DD159C /* CTPersistanceTable+Insert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1DB0F16E64B55F3AC8EE0F5EB58FDF /* CTPersistanceTable+Insert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639FC6184DDD71DB22428B89914F05C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */; };
+		67D9B84569586159B6C98E892E1D8133 /* CTPersistance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4DFAA751010040B2E613DF5CB363C1 /* CTPersistance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B1BE48A2221A2D6731C92E3C02FEC20 /* HMStatisticsAnonymousConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C221B35287F76676F51F9C5003EF206 /* HMStatisticsAnonymousConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6BABFC70BB4A73EC300B4DD43AFEA7B8 /* HMStatisticsLog+Inner.m in Sources */ = {isa = PBXBuildFile; fileRef = 74176D8086FE531B2F0F54B824CE54A1 /* HMStatisticsLog+Inner.m */; };
+		6BDEFBAEBDFD97949272A71E5E2790D5 /* HMStatisticsLog+Inner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6773C13B0ECDB705D0806EEBF17AD66D /* HMStatisticsLog+Inner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C9109220953C792921260E8A59FB39E /* NSMutableArray+CTPersistanceBindValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB9A6A1144814A0498F16B376C5086 /* NSMutableArray+CTPersistanceBindValue.m */; };
+		6CC3E9965A9AC5A818E669DDB4E9E353 /* HMStatistics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D6FC102C732ED47E7588E0F5747A353 /* HMStatistics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E01C8830331BDD243A62AB5821F7013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */; };
+		6E9AE14AA765CCCE4A734951399E06EC /* HMStatisticsAnonymousManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD4D8619EB63179E901D4D1DAD2A597 /* HMStatisticsAnonymousManager.m */; };
+		6F58BB730F7771BE32F00F89D60C1C84 /* HMStatisticsAnonymousTable.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB4B49E21D6A881AC53FC42EB2FD525 /* HMStatisticsAnonymousTable.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		757BB4384182C728D552789A6FDB20E0 /* HMStatisticsPageAutoTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF0D0203C79DE9D997CB63497E35D67 /* HMStatisticsPageAutoTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760DF30C334FBA9808AFCD5A46D47A30 /* CTPersistanceVersionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CD17FF3BB16799CC3830C89D0C404C /* CTPersistanceVersionRecord.m */; };
+		78E6E6FCB86B93FBEABDABA78CC95B3C /* HMStatisticsReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8804FC368DFBDA40A3A768A17F033 /* HMStatisticsReachability.m */; };
+		79A7DE8083CBB474A69B782B00079DC4 /* NSString+Where.m in Sources */ = {isa = PBXBuildFile; fileRef = 739F004F154BE626A083E78B9B065024 /* NSString+Where.m */; };
+		7B3B8378C07EFCA534A974B429878C17 /* HMStatisticsTools+DeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B98079ED6A59158B641EF1404009F6 /* HMStatisticsTools+DeviceInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D1041B64D4239C41598B5CA855450CA /* Target_HMStatisticsNamedDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7E669D60905E52D40775D6212E5A89 /* Target_HMStatisticsNamedDB.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		810E6152DD22B22327C85E92EAE1D8E2 /* HMStatisticNamedMigrationStep_2.h in Headers */ = {isa = PBXBuildFile; fileRef = E67AE536398819F8B12A2AB5CA99A298 /* HMStatisticNamedMigrationStep_2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		81DDC03C9947E95A72BA7639E356AD96 /* HMStatisticsAnonymousConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8231D6B6C27D3954CF417A9E9E3BD697 /* HMStatisticsAnonymousConfig.m */; };
+		821412FAB986419BAACB26254C7CE940 /* CTPersistanceTable+Update.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F249DAE264EA6C6827B24E57B30598C /* CTPersistanceTable+Update.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E3AB2A5937D4BFF23543FCB766356D /* Target_HMStatisticsAnonymousDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F20D172938B22E8EE3E030831FAB7C1A /* Target_HMStatisticsAnonymousDB.m */; };
+		84F82AAD0C699AF0BE072154B022023E /* Pods-HMStatistics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEFF58D3D6464729B11337D96E40394 /* Pods-HMStatistics_Tests-dummy.m */; };
+		8872A19F1BE9FFBD9AF9B5EE908B0629 /* CTPersistanceRecordProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0F34B38917961ABFF7DC79811F7552 /* CTPersistanceRecordProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C1DC56721BC09063B65DA288BAD86AB /* CTPersistanceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EC272AA5FC60DCB3648A5EC3C89569 /* CTPersistanceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA8F119546DCF47D9CCA81137FEFDFE /* CTPersistanceDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A2BF49E4EBE05EDEEF32D39CEE4F4 /* CTPersistanceDatabasePool.m */; };
+		923A7B9666525A1A2C968EDEDC5AADCD /* HMStatisticNamedMigratior.h in Headers */ = {isa = PBXBuildFile; fileRef = 64214712FA6BCDA2CC32AF976BB49FD1 /* HMStatisticNamedMigratior.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		97FCF0B6C1880F7179DBA1F6A1E7BC3A /* HMStatistics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 188B1662DA19A6313BDB8FB8919C697E /* HMStatistics-dummy.m */; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D47947BB368755C1BB772EEDCF175B /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB72BF40952735E07130243C268C771 /* HMStatisticsConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DD5330D9C9A1DB875D12D0D5E118FD /* HMStatisticsConfig.m */; };
+		9AFD0641E1CD68BC1D4D9B7808CE4E42 /* HMStatisticsAnonymousTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1325859BA58297F5E427090E1C9F97 /* HMStatisticsAnonymousTable.m */; };
+		9B92E7455DDF475C08FB8A39AF45AC73 /* CTPersistanceVersionTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C02D4574F8ED284EA433C88C978D7B5F /* CTPersistanceVersionTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0B3DCC1F4C0312DDFEAADA36CB1C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D2DC545CA96B394D927E9C20D8A1C /* UIKit.framework */; };
+		9D7B83435464B9686F10AD94EE8743D3 /* CTPersistanceTable+Upsert.m in Sources */ = {isa = PBXBuildFile; fileRef = 830D0D9D85D91E773D508FE46E500E96 /* CTPersistanceTable+Upsert.m */; };
+		A0C81674AF67A3A817F8B484566789F5 /* CTPersistanceSqlStatement.m in Sources */ = {isa = PBXBuildFile; fileRef = D3355F4485B9B4EF21007C71DC2C3409 /* CTPersistanceSqlStatement.m */; };
+		A1C1C5F88C5F0E4D293DF2E192284C4B /* CTPersistanceMigrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 45BB1AC9F43F51C77FD91A48EE8BDF9F /* CTPersistanceMigrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A23315F6D42CF88E78B689B75D90F5DF /* CTPersistanceAsyncExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A769B943428D0D10C5987BBB13BC1D /* CTPersistanceAsyncExecutor.m */; };
+		A4E05DC0E5DA23B990BBC7DFDF6020DA /* SQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C552304B71B2F50956A88623F2D903C /* SQLCipher-dummy.m */; };
+		A824CE1EA33E1DFD346452BEFFE7DFAA /* NSArray+CTPersistanceRecordTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E0FE3CFF9CC42EFA0B7DB8ECCB8EC4 /* NSArray+CTPersistanceRecordTransform.m */; };
+		B17D3A8C452F96C2316C954BBB45CB5B /* HMStatisticsTools+Encrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 6601C103D54BE97893DC5D4E2EC8A301 /* HMStatisticsTools+Encrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B24FB290B99598C936F1ECA77F6AE15C /* HMStatisticsNamedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0064E3751C049C538B01D839F6F9D206 /* HMStatisticsNamedManager.m */; };
+		B2B2172B9727F865184C03238E0EC1F0 /* HMStatisticNamedMigrationStep_2.m in Sources */ = {isa = PBXBuildFile; fileRef = 997406EB7470EBCAF18AA1791CDBFB37 /* HMStatisticNamedMigrationStep_2.m */; };
+		B731440B27A767AF733D72F02D920CE9 /* HMStatisticsLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F2306F763FFF01757DECFF7771296F18 /* HMStatisticsLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75EEFE31F748B26D097BEC566FE52F2 /* CTPersistanceTable+Upsert.h in Headers */ = {isa = PBXBuildFile; fileRef = 39D3CCA152C1A8E59A9BE4A3D872CEFB /* CTPersistanceTable+Upsert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B77D4A6A92DF01D0239AEBB34E19BDE4 /* HMStatisticsNamedContextRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F1AE760C61CC935CE4706CC180234E /* HMStatisticsNamedContextRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B96417D01100570710D2290CE76B91C7 /* SQLCipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD94A00CAC1E07F1F4BEEB165E82F65F /* SQLCipher.framework */; };
+		BB50E6AFE030DCA6AA8442A9513840E6 /* HMStatisticsLog+BothChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0CE05CEBD3182B6CE3A23F22427A5F /* HMStatisticsLog+BothChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BECB4AE5B4513093201A4EE9BBBC0A48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A85D2DC545CA96B394D927E9C20D8A1C /* UIKit.framework */; };
+		BF9A8BA5EDE1746DDAE0CFE78BA887E7 /* CTPersistanceMigrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 036DE21C803EEE137A8CD89F28ADD696 /* CTPersistanceMigrator.m */; };
+		C03139EB1E55D189960CA1A34F211EAC /* CTPersistanceQueryCommand+SchemaManipulations.m in Sources */ = {isa = PBXBuildFile; fileRef = 28316AA1D02316B3B75F7EEFBE66C0EF /* CTPersistanceQueryCommand+SchemaManipulations.m */; };
+		C119A98762C13D5EE917137BB029BBE4 /* Target_HMStatisticsNamedDB.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DE80550E89C13929FDAD0F22F43C7F /* Target_HMStatisticsNamedDB.m */; };
+		C16854E344BB060ADD60AB95394570FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7AF9EC01A2DBA187D144C80FE21CBB /* Security.framework */; };
+		C4E350CFAF9D0F84FD5B376475619621 /* CTPersistanceMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CDC5723935D5602E0AAA94D7C1557F /* CTPersistanceMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5213B00F7D5A2055FF300F2D0D2D675 /* UIViewController+HMStatisticsSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 7447A8249F47F15F61C39264EB38B12E /* UIViewController+HMStatisticsSwizzling.m */; };
+		C679A0B17100266EA0D2B43DEF4E6D28 /* CTPersistance.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C36C5EF21AAA3B4BE7102D59CF595B8 /* CTPersistance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7A98E1C162B7348D2E689A76E89BF87 /* HMStatisticsNamedRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = EB21B50683E761C7B9C9BC5B3D52AF9E /* HMStatisticsNamedRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C8008496267E56EDA6DD2175D14C00EC /* HMStatisticsReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E1EF62E9F7111214D133B079BD56C3 /* HMStatisticsReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC1C8DE62D755A8098C3AA3BB2199D21 /* CTPersistanceQueryCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4BA7BEAF92FFD6CE3B44D5C5D86AAB /* CTPersistanceQueryCommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE255BD8FE0E30F2A03C54F9A7234479 /* HMStatisticAnonymousMigrationStep_2.h in Headers */ = {isa = PBXBuildFile; fileRef = FDFEADE01AA07AB1E8FC2F8F522880E0 /* HMStatisticAnonymousMigrationStep_2.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CE564F837EC5AEA2C089D9FA2D051B07 /* HMStatisticsLog+LogPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7A0F5FBF035B753EA97423A1C4400E /* HMStatisticsLog+LogPersistence.m */; };
+		CEE1F794F2D07F327A12B3A50D705275 /* HMStatisticsNamedRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = D3939D88641E74F0E0140B65FA93DE66 /* HMStatisticsNamedRecord.m */; };
+		D1373FF8577CC12B3916B3A1CDB58C20 /* NSMutableArray+CTPersistanceBindValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBC7863A3FECE272F6BC9F44308E317 /* NSMutableArray+CTPersistanceBindValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D197B51EB85E86A247C81DB7686EE9AE /* Target_HMStatisticsAnonymousDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFC79DFC8D91F3B99B5E1063E5AC5F7 /* Target_HMStatisticsAnonymousDB.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D202B18374B76D045144ED55F21834C4 /* HMStatisticsAnonymousRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 704E775B33AF6F456669BB3A91320F84 /* HMStatisticsAnonymousRecord.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D743CC1B6CA06196A1D9557589B171DD /* CTPersistanceQueryCommand+Status.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD5C1AB853608072FB977F5531C0BA0 /* CTPersistanceQueryCommand+Status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D748C264D67109FF2BC8E130D5FAABFE /* HMStatisticsNamedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD64905EBAE0B19DF740E7D47B14A8 /* HMStatisticsNamedTask.m */; };
+		D83AE38E4A544960A9DD604BA4A04F48 /* CTPersistanceQueryCommand+DataManipulations.h in Headers */ = {isa = PBXBuildFile; fileRef = 8933A65A36C7ADD749E330DA212DE84D /* CTPersistanceQueryCommand+DataManipulations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89A67FD1EC9763F140848A4F827E400 /* HMStatisticsAnonymousAutoCal.m in Sources */ = {isa = PBXBuildFile; fileRef = E1511740E66F2CEFA3C412300175A5B5 /* HMStatisticsAnonymousAutoCal.m */; };
+		D8B01CDFE7D91289A48D290157F9EB72 /* HMStatisticsNamedTable.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD25C4C04725BB93960BE55806002A /* HMStatisticsNamedTable.m */; };
+		DAF93ABE632955C742577D544096FC35 /* CTPersistanceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB084EE1C3B329F34401E641056810E /* CTPersistanceTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0F6D7E2F0519A418EF917359BDDA16 /* CTPersistance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1306F116A4B53D8CEA29186223FA4E3C /* CTPersistance-dummy.m */; };
+		DF2217D003F89C360CB84E0A71D368B8 /* HMStatisticsNamedManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C5533B0A5A5A048D359A718988C475 /* HMStatisticsNamedManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E0B9742FCB2F01CA73B7FA4ED6D310FB /* CTPersistanceQueryCommand+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 168F1EB3B9C3F393B7B44107092B9D71 /* CTPersistanceQueryCommand+Status.m */; };
+		E291C9852FC63553B17736A2B88B01C9 /* CTPersistanceTable+Delete.m in Sources */ = {isa = PBXBuildFile; fileRef = B36C69B25C37B0EBF9F00FD72AC08F82 /* CTPersistanceTable+Delete.m */; };
+		E50E760A191A1801DAC70345C553AAE5 /* HMStatisticsTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EAEFD86C99B1718F4A33D1771B766A /* HMStatisticsTimer.m */; };
+		E59670872AA15ED25D3CAA3057B59D3B /* CTPersistanceSqlStatement.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5EB95751E1648AA52A84B4707F8D6D /* CTPersistanceSqlStatement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E04C9B734C0CC02E2204899977702A /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D52E9C82AC492832CDEC131F7066934 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DNDEBUG -DSQLITE_HAS_CODEC -DSQLITE_TEMP_STORE=2 -DSQLITE_SOUNDEX -DSQLITE_THREADSAFE -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_STAT3 -DSQLITE_ENABLE_STAT4 -DSQLITE_ENABLE_COLUMN_METADATA -DSQLITE_ENABLE_MEMORY_MANAGEMENT -DSQLITE_ENABLE_LOAD_EXTENSION -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS4_UNICODE61 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_UNLOCK_NOTIFY -DSQLITE_ENABLE_JSON1 -DSQLITE_ENABLE_FTS5 -DSQLCIPHER_CRYPTO_CC -DHAVE_USLEEP=1 -DSQLITE_MAX_VARIABLE_NUMBER=99999 -fno-objc-arc"; }; };
+		E712C30E6FE3E43B4C2926EA941EDDD7 /* CTPersistanceDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F913D3A005892181C820BD71687565CD /* CTPersistanceDataBase.m */; };
+		EA34EC6113A0D83B28B9FD51920D0C15 /* CTPersistanceQueryCommand+SchemaManipulations.h in Headers */ = {isa = PBXBuildFile; fileRef = 100D1EB80A01E8993EFA8613C801D5CF /* CTPersistanceQueryCommand+SchemaManipulations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB819F3D2CA4D9C680879D00D1911BB /* CTPersistanceTable+Insert.m in Sources */ = {isa = PBXBuildFile; fileRef = DB076582090108D1B382BE7E3894A27F /* CTPersistanceTable+Insert.m */; };
+		EF5AC77DA2A709573FED47833A7E5F94 /* HMStatisticsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 84089D5A1FA04B52D14CFDA97E60FB4D /* HMStatisticsDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F10C030D359147E98537D80FF4BAB6A9 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE3EB45D1B8A447229D861DA51552A7 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3CCFE669913C8A14375CD476C131251 /* HMStatisticAnonymousMigratior.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F531F161E2ABAE4BF6F4AD629306CF /* HMStatisticAnonymousMigratior.m */; };
+		F3D3EADC34C484256CBF87A8D7A53909 /* CTPersistanceTable+Delete.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FAB1AE6234A04E17901B5150579505 /* CTPersistanceTable+Delete.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D491BC61A4CCB0D4CED5DD4A87B3061 /* CTMediator-dummy.m */; };
+		FC8A4A9D81BBB91450215BF22E9454C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */; };
+		FFA53197939ABD09422F73308049BB2B /* CTPersistanceTable+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = AED23482B659772AF8DB185EEBF06FE3 /* CTPersistanceTable+Update.m */; };
+		FFBF826F8A7B6DDFD700C793DDE0653B /* CTPersistanceTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B82C279EFEAE2AB5FC41AA8BCF42E8 /* CTPersistanceTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		237D43243B63E20EB6E4180190596C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		2A60FAE4242ED668686EF63F1A6A3060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3D80DD416AF6CED16286B25788AA7D4;
+			remoteInfo = "Pods-HMStatistics_Example";
+		};
+		4547EB7EC4806E0ED222B38E5DBE3CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1AAED82C08C27919D9D84D0C6B39BA;
+			remoteInfo = CTPersistance;
+		};
+		469971E1652059384B1DCCC2C42973E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D1AAED82C08C27919D9D84D0C6B39BA;
+			remoteInfo = CTPersistance;
+		};
+		565163A0A389B5B9F9AB1B2D6DB0AB68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		80AF1C808CA1B6EE2C5B61D680FDE6AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		93EF3252ECC03071B8E868E67C6E8298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+		94DAB1549D58505B6E7D91959FBB8087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+		BB15529A39755F6118CA0D04180EDC04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D4619F8A68C1EDF77020620402FCCF;
+			remoteInfo = HMStatistics;
+		};
+		DD8AA8B424E2895702710DF9E5370454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B0FC647D536A778E1EC92BEA985755;
+			remoteInfo = SQLCipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0064E3751C049C538B01D839F6F9D206 /* HMStatisticsNamedManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsNamedManager.m; path = HMStatistics/NamedDataBase/HMStatisticsNamedManager.m; sourceTree = "<group>"; };
+		02C9827E35C8695482665127BEC34E6A /* HMStatisticsLog+LogPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatisticsLog+LogPersistence.h"; sourceTree = "<group>"; };
+		0337B9F29002403EE43DE6D9BF0C5850 /* CTPersistanceTable+Find.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Find.h"; path = "CTPersistance/CTPersistance/Table/Categories/Find/CTPersistanceTable+Find.h"; sourceTree = "<group>"; };
+		036DE21C803EEE137A8CD89F28ADD696 /* CTPersistanceMigrator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceMigrator.m; path = CTPersistance/CTPersistance/Migration/CTPersistanceMigrator.m; sourceTree = "<group>"; };
+		07B9E5BBDF3C83413BC10DD3B285BFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDB9A6A1144814A0498F16B376C5086 /* NSMutableArray+CTPersistanceBindValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+CTPersistanceBindValue.m"; path = "CTPersistance/CTPersistance/Categories/NSMutableArray/CTPersistanceBindValue/NSMutableArray+CTPersistanceBindValue.m"; sourceTree = "<group>"; };
+		0CE951C870CD3E64B831126392763B25 /* HMStatisticNamedMigratior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticNamedMigratior.m; sourceTree = "<group>"; };
+		0DF0D0203C79DE9D997CB63497E35D67 /* HMStatisticsPageAutoTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsPageAutoTracker.h; path = HMStatistics/Statistics/HMStatisticsPageAutoTracker.h; sourceTree = "<group>"; };
+		100D1EB80A01E8993EFA8613C801D5CF /* CTPersistanceQueryCommand+SchemaManipulations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+SchemaManipulations.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/SchemaManipulations/CTPersistanceQueryCommand+SchemaManipulations.h"; sourceTree = "<group>"; };
+		1258A4A24202A4CC9C5FAC0D288CE43B /* CTPersistance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTPersistance.modulemap; sourceTree = "<group>"; };
+		1306F116A4B53D8CEA29186223FA4E3C /* CTPersistance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTPersistance-dummy.m"; sourceTree = "<group>"; };
+		168F1EB3B9C3F393B7B44107092B9D71 /* CTPersistanceQueryCommand+Status.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+Status.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/StatusMethods/CTPersistanceQueryCommand+Status.m"; sourceTree = "<group>"; };
+		16DB47297F9C20CC8B0F965564779665 /* HMStatisticsAnonymousManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsAnonymousManager.h; path = HMStatistics/AnonymousDataBase/HMStatisticsAnonymousManager.h; sourceTree = "<group>"; };
+		188B1662DA19A6313BDB8FB8919C697E /* HMStatistics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMStatistics-dummy.m"; sourceTree = "<group>"; };
+		1D0CE05CEBD3182B6CE3A23F22427A5F /* HMStatisticsLog+BothChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HMStatisticsLog+BothChannel.h"; path = "HMStatistics/Statistics/HMStatisticsLog+BothChannel.h"; sourceTree = "<group>"; };
+		1D0F34B38917961ABFF7DC79811F7552 /* CTPersistanceRecordProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceRecordProtocol.h; path = CTPersistance/CTPersistance/Record/CTPersistanceRecordProtocol.h; sourceTree = "<group>"; };
+		1D7A0F5FBF035B753EA97423A1C4400E /* HMStatisticsLog+LogPersistence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMStatisticsLog+LogPersistence.m"; sourceTree = "<group>"; };
+		1F1593D6896AF646677230FFC3BB46D4 /* HMStatisticsTools+DeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMStatisticsTools+DeviceInfo.m"; sourceTree = "<group>"; };
+		1F4BA7BEAF92FFD6CE3B44D5C5D86AAB /* CTPersistanceQueryCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceQueryCommand.h; path = CTPersistance/CTPersistance/QueryCommand/CTPersistanceQueryCommand.h; sourceTree = "<group>"; };
+		227D67B77B2698D443AB2BF24DAC1863 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24768322E33C1D4B4011249C3ED0B6C7 /* CTPersistanceVersionTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceVersionTable.m; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/CTPersistanceVersionTable.m; sourceTree = "<group>"; };
+		28316AA1D02316B3B75F7EEFBE66C0EF /* CTPersistanceQueryCommand+SchemaManipulations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+SchemaManipulations.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/SchemaManipulations/CTPersistanceQueryCommand+SchemaManipulations.m"; sourceTree = "<group>"; };
+		28CBA141E05253B588353FDB36D3A755 /* SQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-umbrella.h"; sourceTree = "<group>"; };
+		291F55E788D06659C414237CD4BDD7EB /* CTPersistanceDataBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceDataBase.h; path = CTPersistance/CTPersistance/Database/CTPersistanceDataBase.h; sourceTree = "<group>"; };
+		2940A281B33C07114F25349BE3E81DD3 /* HMStatisticAnonymousMigrationStep_2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticAnonymousMigrationStep_2.m; sourceTree = "<group>"; };
+		29D1E7575533374CC1D73644A248A2E0 /* HMStatisticsTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsTools.h; sourceTree = "<group>"; };
+		2A22457120F710F92C2FEFC00BCC19CE /* HMStatisticsNamedContextTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsNamedContextTable.h; sourceTree = "<group>"; };
+		2D3B532FD85931B7F10A853BE63C5E49 /* HMStatisticsNamedConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsNamedConfig.h; path = HMStatistics/NamedDataBase/HMStatisticsNamedConfig.h; sourceTree = "<group>"; };
+		316DD11D068DA7BFE63EFD6FF5BF0DFB /* CTPersistance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTPersistance.xcconfig; sourceTree = "<group>"; };
+		3210454080FB62490F877672B643A213 /* HMStatisticsNamedContextRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsNamedContextRecord.m; sourceTree = "<group>"; };
+		32B98079ED6A59158B641EF1404009F6 /* HMStatisticsTools+DeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatisticsTools+DeviceInfo.h"; sourceTree = "<group>"; };
+		37CD17FF3BB16799CC3830C89D0C404C /* CTPersistanceVersionRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceVersionRecord.m; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/Record/CTPersistanceVersionRecord.m; sourceTree = "<group>"; };
+		37E2CBD4BB6B98847FE0F910E073AAE0 /* HMStatisticsNamedTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsNamedTask.h; sourceTree = "<group>"; };
+		382F82F7F38C3EF3A3CDA84D30929F49 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D3CCA152C1A8E59A9BE4A3D872CEFB /* CTPersistanceTable+Upsert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Upsert.h"; path = "CTPersistance/CTPersistance/Table/Categories/Upsert/CTPersistanceTable+Upsert.h"; sourceTree = "<group>"; };
+		3AEAE2E8F247D10CB748775FC418672F /* Pods-HMStatistics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMStatistics_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0A2BF49E4EBE05EDEEF32D39CEE4F4 /* CTPersistanceDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceDatabasePool.m; path = CTPersistance/CTPersistance/Database/CTPersistanceDatabasePool.m; sourceTree = "<group>"; };
+		3C552304B71B2F50956A88623F2D903C /* SQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLCipher-dummy.m"; sourceTree = "<group>"; };
+		3DFC79DFC8D91F3B99B5E1063E5AC5F7 /* Target_HMStatisticsAnonymousDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_HMStatisticsAnonymousDB.h; sourceTree = "<group>"; };
+		3E23A900EF7239BCCE4CE8CD889E810A /* HMStatisticsTools+Encrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMStatisticsTools+Encrypt.m"; sourceTree = "<group>"; };
+		40FAB1AE6234A04E17901B5150579505 /* CTPersistanceTable+Delete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Delete.h"; path = "CTPersistance/CTPersistance/Table/Categories/Delete/CTPersistanceTable+Delete.h"; sourceTree = "<group>"; };
+		41F1AE760C61CC935CE4706CC180234E /* HMStatisticsNamedContextRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsNamedContextRecord.h; sourceTree = "<group>"; };
+		449145B94158AAC7151E394EA097B9B9 /* HMStatistics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMStatistics.modulemap; sourceTree = "<group>"; };
+		45BB1AC9F43F51C77FD91A48EE8BDF9F /* CTPersistanceMigrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceMigrator.h; path = CTPersistance/CTPersistance/Migration/CTPersistanceMigrator.h; sourceTree = "<group>"; };
+		47C52957B551A5665D14099E546088C1 /* Pods-HMStatistics_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMStatistics_Example-umbrella.h"; sourceTree = "<group>"; };
+		47EDA1BE210AB08D00AC29B4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		47EDA1BF210AB08D00AC29B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47EDA1C0210AB08E00AC29B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		47EDA1C1210AB08E00AC29B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		47EDA1C6210AB0AB00AC29B4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		48B3B1A4B777D122EAC64FE1CE69975F /* HMStatisticsLog+BothChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HMStatisticsLog+BothChannel.m"; path = "HMStatistics/Statistics/HMStatisticsLog+BothChannel.m"; sourceTree = "<group>"; };
+		4AD5C1AB853608072FB977F5531C0BA0 /* CTPersistanceQueryCommand+Status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+Status.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/StatusMethods/CTPersistanceQueryCommand+Status.h"; sourceTree = "<group>"; };
+		4BE5AA266024F91E7A7FB31D55244E70 /* CTPersistanceAsyncExecutor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceAsyncExecutor.h; path = CTPersistance/CTPersistance/Async/CTPersistanceAsyncExecutor.h; sourceTree = "<group>"; };
+		4C36C5EF21AAA3B4BE7102D59CF595B8 /* CTPersistance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistance.h; path = CTPersistance/CTPersistance/CTPersistance.h; sourceTree = "<group>"; };
+		4CFF72789EB6C70F084AC6D743BC5D61 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		4D491BC61A4CCB0D4CED5DD4A87B3061 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		5178CE8E5EC065F88F7C18BD54E81C5C /* HMStatisticsAnonymousAutoCal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousAutoCal.h; sourceTree = "<group>"; };
+		543497266E4261E26E4C696DED83E7B1 /* HMStatisticsAnonymousContextRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousContextRecord.h; sourceTree = "<group>"; };
+		54B157AE7B7230E8961A4F2CD7AFF113 /* HMStatisticsAnonymousTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousTask.h; sourceTree = "<group>"; };
+		58CA69B16A5CF5D9590A71916B60D49D /* Pods_HMStatistics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMStatistics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B82C279EFEAE2AB5FC41AA8BCF42E8 /* CTPersistanceTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceTransaction.h; path = CTPersistance/CTPersistance/Transaction/CTPersistanceTransaction.h; sourceTree = "<group>"; };
+		5B2550AD864D763A58EB31AA73E27E2A /* HMStatisticsLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsLog.m; path = HMStatistics/Statistics/HMStatisticsLog.m; sourceTree = "<group>"; };
+		5BF8804FC368DFBDA40A3A768A17F033 /* HMStatisticsReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsReachability.m; sourceTree = "<group>"; };
+		5D4DFAA751010040B2E613DF5CB363C1 /* CTPersistance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPersistance-umbrella.h"; sourceTree = "<group>"; };
+		5F940A90CE3CD0733BF97C7B15D3D45F /* CTPersistanceTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceTransaction.m; path = CTPersistance/CTPersistance/Transaction/CTPersistanceTransaction.m; sourceTree = "<group>"; };
+		64214712FA6BCDA2CC32AF976BB49FD1 /* HMStatisticNamedMigratior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticNamedMigratior.h; sourceTree = "<group>"; };
+		6487207C1F20CA5DD4ACEFB69031ADBB /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		659C73BFE63CE1E31C7B17F8646B7222 /* SQLCipher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLCipher.xcconfig; sourceTree = "<group>"; };
+		65A90CE557C1168B6D5276B97D1714D3 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		6601C103D54BE97893DC5D4E2EC8A301 /* HMStatisticsTools+Encrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatisticsTools+Encrypt.h"; sourceTree = "<group>"; };
+		665A2941747D4BF50AFBA8850490BBD1 /* Pods-HMStatistics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMStatistics_Example.modulemap"; sourceTree = "<group>"; };
+		6773C13B0ECDB705D0806EEBF17AD66D /* HMStatisticsLog+Inner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatisticsLog+Inner.h"; sourceTree = "<group>"; };
+		68E0FE3CFF9CC42EFA0B7DB8ECCB8EC4 /* NSArray+CTPersistanceRecordTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CTPersistanceRecordTransform.m"; path = "CTPersistance/CTPersistance/Categories/NSArray/CTPersistanceRecordTransform/NSArray+CTPersistanceRecordTransform.m"; sourceTree = "<group>"; };
+		69CDC5723935D5602E0AAA94D7C1557F /* CTPersistanceMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceMarcos.h; path = CTPersistance/CTPersistance/CTPersistanceMarcos.h; sourceTree = "<group>"; };
+		69D5B4F8B9133EDAB151942C8656AF7D /* HMStatisticsAnonymousTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousTask.m; sourceTree = "<group>"; };
+		6B7AF9EC01A2DBA187D144C80FE21CBB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6C1E73D33B0116C8661220DDD05340FC /* SQLCipher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLCipher.modulemap; sourceTree = "<group>"; };
+		6C221B35287F76676F51F9C5003EF206 /* HMStatisticsAnonymousConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsAnonymousConfig.h; path = HMStatistics/AnonymousDataBase/HMStatisticsAnonymousConfig.h; sourceTree = "<group>"; };
+		6DBC7863A3FECE272F6BC9F44308E317 /* NSMutableArray+CTPersistanceBindValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+CTPersistanceBindValue.h"; path = "CTPersistance/CTPersistance/Categories/NSMutableArray/CTPersistanceBindValue/NSMutableArray+CTPersistanceBindValue.h"; sourceTree = "<group>"; };
+		6F1F86769F91D8C68703A0553DC1E6E6 /* CTPersistanceRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceRecord.m; path = CTPersistance/CTPersistance/Record/CTPersistanceRecord.m; sourceTree = "<group>"; };
+		6F4856581D087886BC069AE9E9DB37BB /* HMStatisticsNamedTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsNamedTable.h; sourceTree = "<group>"; };
+		700402AFB0BD65649DACB9DE282DDDC7 /* HMStatisticsAnonymousContextTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousContextTable.m; sourceTree = "<group>"; };
+		704E775B33AF6F456669BB3A91320F84 /* HMStatisticsAnonymousRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousRecord.h; sourceTree = "<group>"; };
+		70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		739F004F154BE626A083E78B9B065024 /* NSString+Where.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Where.m"; path = "CTPersistance/CTPersistance/Categories/NSString/Where/NSString+Where.m"; sourceTree = "<group>"; };
+		73D47947BB368755C1BB772EEDCF175B /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		74176D8086FE531B2F0F54B824CE54A1 /* HMStatisticsLog+Inner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMStatisticsLog+Inner.m"; sourceTree = "<group>"; };
+		7447A8249F47F15F61C39264EB38B12E /* UIViewController+HMStatisticsSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HMStatisticsSwizzling.m"; sourceTree = "<group>"; };
+		78E1EF62E9F7111214D133B079BD56C3 /* HMStatisticsReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsReachability.h; sourceTree = "<group>"; };
+		78F94263BF10F9B615585F139AC5A28A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A1DB0F16E64B55F3AC8EE0F5EB58FDF /* CTPersistanceTable+Insert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Insert.h"; path = "CTPersistance/CTPersistance/Table/Categories/Insert/CTPersistanceTable+Insert.h"; sourceTree = "<group>"; };
+		7B9E4E4A152B43C60A97916BAE0D416E /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		7D52E9C82AC492832CDEC131F7066934 /* sqlite3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		7F249DAE264EA6C6827B24E57B30598C /* CTPersistanceTable+Update.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Update.h"; path = "CTPersistance/CTPersistance/Table/Categories/Update/CTPersistanceTable+Update.h"; sourceTree = "<group>"; };
+		80B3F782840EC9D869232F6CB936AE8A /* CTPersistanceRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceRecord.h; path = CTPersistance/CTPersistance/Record/CTPersistanceRecord.h; sourceTree = "<group>"; };
+		8231D6B6C27D3954CF417A9E9E3BD697 /* HMStatisticsAnonymousConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsAnonymousConfig.m; path = HMStatistics/AnonymousDataBase/HMStatisticsAnonymousConfig.m; sourceTree = "<group>"; };
+		830D0D9D85D91E773D508FE46E500E96 /* CTPersistanceTable+Upsert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Upsert.m"; path = "CTPersistance/CTPersistance/Table/Categories/Upsert/CTPersistanceTable+Upsert.m"; sourceTree = "<group>"; };
+		83EAEFD86C99B1718F4A33D1771B766A /* HMStatisticsTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsTimer.m; sourceTree = "<group>"; };
+		84089D5A1FA04B52D14CFDA97E60FB4D /* HMStatisticsDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsDefine.h; path = HMStatistics/Statistics/HMStatisticsDefine.h; sourceTree = "<group>"; };
+		844A667A1DECF15FD5D212DCC6479F80 /* CTPersistanceTable+Schema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Schema.m"; path = "CTPersistance/CTPersistance/Table/Categories/Schema/CTPersistanceTable+Schema.m"; sourceTree = "<group>"; };
+		848E24A7F79F7C49A38FB6E9C7253E6F /* NSArray+CTPersistanceRecordTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+CTPersistanceRecordTransform.h"; path = "CTPersistance/CTPersistance/Categories/NSArray/CTPersistanceRecordTransform/NSArray+CTPersistanceRecordTransform.h"; sourceTree = "<group>"; };
+		8526CBD79131730A3B574F60EBE6F46E /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860729262DC3CA448959CA651C00253B /* NSDictionary+KeyValueBind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+KeyValueBind.m"; path = "CTPersistance/CTPersistance/Categories/NSDictionary/KeyValueBind/NSDictionary+KeyValueBind.m"; sourceTree = "<group>"; };
+		880C872CDC363579EB6C6C8D84690434 /* CTPersistanceTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceTable.m; path = CTPersistance/CTPersistance/Table/CTPersistanceTable.m; sourceTree = "<group>"; };
+		881BE2C803FFCBE2EE7D9681D2F58F1E /* CTPersistance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTPersistance-prefix.pch"; sourceTree = "<group>"; };
+		89258558783663E8B97F5DBAB3DB31ED /* HMStatisticsAnonymousRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousRecord.m; sourceTree = "<group>"; };
+		8933A65A36C7ADD749E330DA212DE84D /* CTPersistanceQueryCommand+DataManipulations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceQueryCommand+DataManipulations.h"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/DataManipulations/CTPersistanceQueryCommand+DataManipulations.h"; sourceTree = "<group>"; };
+		89F2922EB9A5E80EB19B57126F590D59 /* HMStatisticsSafeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsSafeCache.h; sourceTree = "<group>"; };
+		8B52C430C70EB1CB338EB72F21860778 /* CTPersistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPersistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C3D34C007050C90C8804C9FB04B8F3E /* Pods-HMStatistics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMStatistics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D6FC102C732ED47E7588E0F5747A353 /* HMStatistics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatistics-umbrella.h"; sourceTree = "<group>"; };
+		8EBDB9D513BB0BDCBF4187CCC156256A /* CTPersistanceQueryCommand.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceQueryCommand.m; path = CTPersistance/CTPersistance/QueryCommand/CTPersistanceQueryCommand.m; sourceTree = "<group>"; };
+		8F5EB95751E1648AA52A84B4707F8D6D /* CTPersistanceSqlStatement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceSqlStatement.h; path = CTPersistance/CTPersistance/QueryCommand/Statement/CTPersistanceSqlStatement.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946498AB9FDC692EB1C97AAA85213706 /* Pods-HMStatistics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMStatistics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9541044C5BCB3B9E676E2680161A3593 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B2CE387A0A14B6B1F38C33C1CF381D /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		997406EB7470EBCAF18AA1791CDBFB37 /* HMStatisticNamedMigrationStep_2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticNamedMigrationStep_2.m; sourceTree = "<group>"; };
+		9A8F7CE8CDD30BB23112214A9E352CAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7E669D60905E52D40775D6212E5A89 /* Target_HMStatisticsNamedDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_HMStatisticsNamedDB.h; sourceTree = "<group>"; };
+		9F1325859BA58297F5E427090E1C9F97 /* HMStatisticsAnonymousTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousTable.m; sourceTree = "<group>"; };
+		A0CCF810795FD10800085804D9F81456 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A157EA48537D7A13DBF22D0C4C43F63A /* Pods-HMStatistics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMStatistics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1C4AD0ED11E068D6F1C432789E86874 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		A2B5AF95E3C597E9F43CAF9263C1290D /* HMStatistics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HMStatistics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CD64905EBAE0B19DF740E7D47B14A8 /* HMStatisticsNamedTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsNamedTask.m; sourceTree = "<group>"; };
+		A84C5E67E6E7FD75F4321C6D72B11BC4 /* Pods-HMStatistics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMStatistics_Example-dummy.m"; sourceTree = "<group>"; };
+		A85D2DC545CA96B394D927E9C20D8A1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABD4D8619EB63179E901D4D1DAD2A597 /* HMStatisticsAnonymousManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsAnonymousManager.m; path = HMStatistics/AnonymousDataBase/HMStatisticsAnonymousManager.m; sourceTree = "<group>"; };
+		AD2EABC545CF0B1EE39FCAC78CCAA3FA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		AED23482B659772AF8DB185EEBF06FE3 /* CTPersistanceTable+Update.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Update.m"; path = "CTPersistance/CTPersistance/Table/Categories/Update/CTPersistanceTable+Update.m"; sourceTree = "<group>"; };
+		AFB084EE1C3B329F34401E641056810E /* CTPersistanceTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceTable.h; path = CTPersistance/CTPersistance/Table/CTPersistanceTable.h; sourceTree = "<group>"; };
+		B36C69B25C37B0EBF9F00FD72AC08F82 /* CTPersistanceTable+Delete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Delete.m"; path = "CTPersistance/CTPersistance/Table/Categories/Delete/CTPersistanceTable+Delete.m"; sourceTree = "<group>"; };
+		B4847EF4AEFAF42608A8E2D1915AABF0 /* HMStatistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMStatistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F6E40D48E5D73DCD763AB9034F6129 /* Pods-HMStatistics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMStatistics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6DE80550E89C13929FDAD0F22F43C7F /* Target_HMStatisticsNamedDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_HMStatisticsNamedDB.m; sourceTree = "<group>"; };
+		B7084ED5A870793EAF027E4F57DC4E67 /* HMStatistics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMStatistics.xcconfig; sourceTree = "<group>"; };
+		B98EDEEF7A680823E7E87F1E0ECC99F1 /* Pods-HMStatistics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMStatistics_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BB35BA7F8269952EA30CEEAF0B087463 /* Pods-HMStatistics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMStatistics_Tests.modulemap"; sourceTree = "<group>"; };
+		BB4D7520993076D040E56A4B30835663 /* Pods_HMStatistics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMStatistics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1015E013E54BE175F5853D613DDDC1 /* HMStatisticsTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsTools.m; sourceTree = "<group>"; };
+		BD94A00CAC1E07F1F4BEEB165E82F65F /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02D4574F8ED284EA433C88C978D7B5F /* CTPersistanceVersionTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceVersionTable.h; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/CTPersistanceVersionTable.h; sourceTree = "<group>"; };
+		C36100BF7347D0FBC27B0DA734C949FC /* HMStatisticsSafeCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsSafeCache.m; sourceTree = "<group>"; };
+		C3EC272AA5FC60DCB3648A5EC3C89569 /* CTPersistanceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceConfiguration.h; path = CTPersistance/CTPersistance/CTPersistanceConfiguration.h; sourceTree = "<group>"; };
+		C57EE0D3F73444B091ADE17AFBC9881F /* Pods-HMStatistics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMStatistics_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C7A769B943428D0D10C5987BBB13BC1D /* CTPersistanceAsyncExecutor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceAsyncExecutor.m; path = CTPersistance/CTPersistance/Async/CTPersistanceAsyncExecutor.m; sourceTree = "<group>"; };
+		C7E6BBC41D46DE01AB7BE8B8A62ECFF3 /* HMStatisticsNamedConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsNamedConfig.m; path = HMStatistics/NamedDataBase/HMStatisticsNamedConfig.m; sourceTree = "<group>"; };
+		CBA0B0E77B9507E6AA167645072CB0F1 /* CTPersistanceTable+Schema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTPersistanceTable+Schema.h"; path = "CTPersistance/CTPersistance/Table/Categories/Schema/CTPersistanceTable+Schema.h"; sourceTree = "<group>"; };
+		CDC7ADF94D179B8D91D72A60FFDCE153 /* HMStatisticsAnonymousContextTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousContextTable.h; sourceTree = "<group>"; };
+		CE1FBDE8F98735916BA7E6B856535E00 /* HMStatisticsConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsConfig.h; path = HMStatistics/Statistics/HMStatisticsConfig.h; sourceTree = "<group>"; };
+		CFB4B49E21D6A881AC53FC42EB2FD525 /* HMStatisticsAnonymousTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsAnonymousTable.h; sourceTree = "<group>"; };
+		D3355F4485B9B4EF21007C71DC2C3409 /* CTPersistanceSqlStatement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceSqlStatement.m; path = CTPersistance/CTPersistance/QueryCommand/Statement/CTPersistanceSqlStatement.m; sourceTree = "<group>"; };
+		D3939D88641E74F0E0140B65FA93DE66 /* HMStatisticsNamedRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsNamedRecord.m; sourceTree = "<group>"; };
+		D669FB900F7D17E05B834A4D8E935CB1 /* HMStatisticAnonymousMigratior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticAnonymousMigratior.h; sourceTree = "<group>"; };
+		D692D26538A1D546D1C643A5DD3DC1F4 /* Pods-HMStatistics_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMStatistics_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8A2461190D52708C43CD309C0C9BCB4 /* Pods-HMStatistics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMStatistics_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D8C5533B0A5A5A048D359A718988C475 /* HMStatisticsNamedManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsNamedManager.h; path = HMStatistics/NamedDataBase/HMStatisticsNamedManager.h; sourceTree = "<group>"; };
+		DB076582090108D1B382BE7E3894A27F /* CTPersistanceTable+Insert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Insert.m"; path = "CTPersistance/CTPersistance/Table/Categories/Insert/CTPersistanceTable+Insert.m"; sourceTree = "<group>"; };
+		DB8D1E0983FE0AFF33D68D3B9C387FFF /* UIViewController+HMStatisticsSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HMStatisticsSwizzling.h"; sourceTree = "<group>"; };
+		DC6C365A11978931B612F78E19C3CD0B /* CTPersistanceQueryCommand+DataManipulations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceQueryCommand+DataManipulations.m"; path = "CTPersistance/CTPersistance/QueryCommand/Categories/DataManipulations/CTPersistanceQueryCommand+DataManipulations.m"; sourceTree = "<group>"; };
+		DE46B63049ECBBDDE40DCA6DE9073CA6 /* Pods-HMStatistics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMStatistics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DEEFF58D3D6464729B11337D96E40394 /* Pods-HMStatistics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMStatistics_Tests-dummy.m"; sourceTree = "<group>"; };
+		DFB9154AB7C59464ABDC77CB2CEEDB70 /* CTPersistanceVersionRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceVersionRecord.h; path = CTPersistance/CTPersistance/Migration/MigrationVersionTable/Record/CTPersistanceVersionRecord.h; sourceTree = "<group>"; };
+		DFE3EB45D1B8A447229D861DA51552A7 /* sqlite3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		E11E1CC812E7CD1DD08B507E57ECE348 /* NSString+Where.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Where.h"; path = "CTPersistance/CTPersistance/Categories/NSString/Where/NSString+Where.h"; sourceTree = "<group>"; };
+		E1380F713F9B7C506850A35C64BC4349 /* HMStatisticsAnonymousContextRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousContextRecord.m; sourceTree = "<group>"; };
+		E1511740E66F2CEFA3C412300175A5B5 /* HMStatisticsAnonymousAutoCal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsAnonymousAutoCal.m; sourceTree = "<group>"; };
+		E2E60BA5B5F5F5ADE03C9190C81F4481 /* Pods-HMStatistics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMStatistics_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E57A8E1660C16AB7A45E908022088D64 /* NSDictionary+KeyValueBind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+KeyValueBind.h"; path = "CTPersistance/CTPersistance/Categories/NSDictionary/KeyValueBind/NSDictionary+KeyValueBind.h"; sourceTree = "<group>"; };
+		E67AE536398819F8B12A2AB5CA99A298 /* HMStatisticNamedMigrationStep_2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticNamedMigrationStep_2.h; sourceTree = "<group>"; };
+		E6F531F161E2ABAE4BF6F4AD629306CF /* HMStatisticAnonymousMigratior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticAnonymousMigratior.m; sourceTree = "<group>"; };
+		EA696FBE626B8FA6F7FA0D1BAC823D2D /* Pods-HMStatistics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMStatistics_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EA6F208DD1A8575D334CD028D560C2C0 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB21B50683E761C7B9C9BC5B3D52AF9E /* HMStatisticsNamedRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsNamedRecord.h; sourceTree = "<group>"; };
+		ED3531CA39DB531FC59D4CFB51F1B51F /* SQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLCipher-prefix.pch"; sourceTree = "<group>"; };
+		EF2FE1C82BDAD2E9681CB4CFCE676273 /* HMStatisticsNamedContextTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsNamedContextTable.m; sourceTree = "<group>"; };
+		EFD97A1FFC7EEC27B2AD2E21C29C0D77 /* HMStatistics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMStatistics-prefix.pch"; sourceTree = "<group>"; };
+		F20D172938B22E8EE3E030831FAB7C1A /* Target_HMStatisticsAnonymousDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_HMStatisticsAnonymousDB.m; sourceTree = "<group>"; };
+		F2306F763FFF01757DECFF7771296F18 /* HMStatisticsLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMStatisticsLog.h; path = HMStatistics/Statistics/HMStatisticsLog.h; sourceTree = "<group>"; };
+		F2F9D653B37C7C6A940225939F635C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F3CB451D39CF5B91BBC1529661FC7210 /* Pods-HMStatistics_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMStatistics_Example-resources.sh"; sourceTree = "<group>"; };
+		F3DD5330D9C9A1DB875D12D0D5E118FD /* HMStatisticsConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMStatisticsConfig.m; path = HMStatistics/Statistics/HMStatisticsConfig.m; sourceTree = "<group>"; };
+		F3F680CBBDD6CC002560A1828201FB4E /* CTPersistanceDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTPersistanceDatabasePool.h; path = CTPersistance/CTPersistance/Database/CTPersistanceDatabasePool.h; sourceTree = "<group>"; };
+		F501525FEB883B024AD5D6E21D3F9BD3 /* CTPersistanceTable+Find.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTPersistanceTable+Find.m"; path = "CTPersistance/CTPersistance/Table/Categories/Find/CTPersistanceTable+Find.m"; sourceTree = "<group>"; };
+		F913D3A005892181C820BD71687565CD /* CTPersistanceDataBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTPersistanceDataBase.m; path = CTPersistance/CTPersistance/Database/CTPersistanceDataBase.m; sourceTree = "<group>"; };
+		FAFD25C4C04725BB93960BE55806002A /* HMStatisticsNamedTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HMStatisticsNamedTable.m; sourceTree = "<group>"; };
+		FC5279BC3EF8C807F116C534686ED909 /* HMStatisticsTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticsTimer.h; sourceTree = "<group>"; };
+		FDBE1D23B5596B7DFD1EF2DD9B8A0023 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFEADE01AA07AB1E8FC2F8F522880E0 /* HMStatisticAnonymousMigrationStep_2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HMStatisticAnonymousMigrationStep_2.h; sourceTree = "<group>"; };
+		FF93899A6D1AC0BB531566A88999FE10 /* CTPersistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTPersistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82116CDC12E291D99F405D4F40CD06E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E01C8830331BDD243A62AB5821F7013 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8225D5317D42CC77916D6EF141052A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDA1C2210AB08E00AC29B4 /* CoreTelephony.framework in Frameworks */,
+				47EDA1C3210AB08E00AC29B4 /* Foundation.framework in Frameworks */,
+				47EDA1C4210AB08E00AC29B4 /* UIKit.framework in Frameworks */,
+				47EDA1C5210AB08E00AC29B4 /* SystemConfiguration.framework in Frameworks */,
+				47EDA1BB210AB08D00AC29B4 /* CTMediator.framework in Frameworks */,
+				47EDA1BC210AB08D00AC29B4 /* CTPersistance.framework in Frameworks */,
+				47EDA1BD210AB08D00AC29B4 /* SQLCipher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F6AAD80BB1FE0483B19209B695C039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB37B45ABD284C6504DBBA06CE6B7B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973FE0049137FF11E27520930C450EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639FC6184DDD71DB22428B89914F05C1 /* Foundation.framework in Frameworks */,
+				C16854E344BB060ADD60AB95394570FA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0D713671672704B39C1F407FC194AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163B06336629F091581900F252FF7B99 /* CTMediator.framework in Frameworks */,
+				05685CDF69B741802057C7DC59C56C32 /* Foundation.framework in Frameworks */,
+				B96417D01100570710D2290CE76B91C7 /* SQLCipher.framework in Frameworks */,
+				BECB4AE5B4513093201A4EE9BBBC0A48 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8A4A9D81BBB91450215BF22E9454C9 /* Foundation.framework in Frameworks */,
+				9D0B3DCC1F4C0312DDFEAADA36CB1C0F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE416C733C80033CBA7296C982C9059 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				2A22457120F710F92C2FEFC00BCC19CE /* HMStatisticsNamedContextTable.h */,
+				EF2FE1C82BDAD2E9681CB4CFCE676273 /* HMStatisticsNamedContextTable.m */,
+				6F4856581D087886BC069AE9E9DB37BB /* HMStatisticsNamedTable.h */,
+				FAFD25C4C04725BB93960BE55806002A /* HMStatisticsNamedTable.m */,
+			);
+			name = Table;
+			path = HMStatistics/NamedDataBase/Table;
+			sourceTree = "<group>";
+		};
+		0E65D6297FF8C78F1716C18E0BADC903 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				41F1AE760C61CC935CE4706CC180234E /* HMStatisticsNamedContextRecord.h */,
+				3210454080FB62490F877672B643A213 /* HMStatisticsNamedContextRecord.m */,
+				EB21B50683E761C7B9C9BC5B3D52AF9E /* HMStatisticsNamedRecord.h */,
+				D3939D88641E74F0E0140B65FA93DE66 /* HMStatisticsNamedRecord.m */,
+			);
+			name = Record;
+			path = HMStatistics/NamedDataBase/Record;
+			sourceTree = "<group>";
+		};
+		0F8D73BF8282131CD618BF332CA02733 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				CDC7ADF94D179B8D91D72A60FFDCE153 /* HMStatisticsAnonymousContextTable.h */,
+				700402AFB0BD65649DACB9DE282DDDC7 /* HMStatisticsAnonymousContextTable.m */,
+				CFB4B49E21D6A881AC53FC42EB2FD525 /* HMStatisticsAnonymousTable.h */,
+				9F1325859BA58297F5E427090E1C9F97 /* HMStatisticsAnonymousTable.m */,
+			);
+			name = Table;
+			path = HMStatistics/AnonymousDataBase/Table;
+			sourceTree = "<group>";
+		};
+		123052EDC5433599F79F2446CDA3254A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BBE4DAB921312718C7B60BE2E4AA628 /* Pods-HMStatistics_Example */,
+				B998C8FB33F35DD183593057A69A95CF /* Pods-HMStatistics_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1439D4851BDF42A3E2138009880A9EC9 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				54B157AE7B7230E8961A4F2CD7AFF113 /* HMStatisticsAnonymousTask.h */,
+				69D5B4F8B9133EDAB151942C8656AF7D /* HMStatisticsAnonymousTask.m */,
+				37E2CBD4BB6B98847FE0F910E073AAE0 /* HMStatisticsNamedTask.h */,
+				A3CD64905EBAE0B19DF740E7D47B14A8 /* HMStatisticsNamedTask.m */,
+			);
+			name = Tasks;
+			path = HMStatistics/Statistics/Tasks;
+			sourceTree = "<group>";
+		};
+		18619DC711F8A3E90CEC769CBF36738B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2B5AF95E3C597E9F43CAF9263C1290D /* HMStatistics.podspec */,
+				F2F9D653B37C7C6A940225939F635C36 /* LICENSE */,
+				227D67B77B2698D443AB2BF24DAC1863 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1C6EE347AF47964ECEC39979A41FC8F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				449145B94158AAC7151E394EA097B9B9 /* HMStatistics.modulemap */,
+				B7084ED5A870793EAF027E4F57DC4E67 /* HMStatistics.xcconfig */,
+				188B1662DA19A6313BDB8FB8919C697E /* HMStatistics-dummy.m */,
+				EFD97A1FFC7EEC27B2AD2E21C29C0D77 /* HMStatistics-prefix.pch */,
+				8D6FC102C732ED47E7588E0F5747A353 /* HMStatistics-umbrella.h */,
+				07B9E5BBDF3C83413BC10DD3B285BFF5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HMStatistics";
+			sourceTree = "<group>";
+		};
+		2BBE4DAB921312718C7B60BE2E4AA628 /* Pods-HMStatistics_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9541044C5BCB3B9E676E2680161A3593 /* Info.plist */,
+				665A2941747D4BF50AFBA8850490BBD1 /* Pods-HMStatistics_Example.modulemap */,
+				DE46B63049ECBBDDE40DCA6DE9073CA6 /* Pods-HMStatistics_Example-acknowledgements.markdown */,
+				946498AB9FDC692EB1C97AAA85213706 /* Pods-HMStatistics_Example-acknowledgements.plist */,
+				A84C5E67E6E7FD75F4321C6D72B11BC4 /* Pods-HMStatistics_Example-dummy.m */,
+				E2E60BA5B5F5F5ADE03C9190C81F4481 /* Pods-HMStatistics_Example-frameworks.sh */,
+				F3CB451D39CF5B91BBC1529661FC7210 /* Pods-HMStatistics_Example-resources.sh */,
+				47C52957B551A5665D14099E546088C1 /* Pods-HMStatistics_Example-umbrella.h */,
+				3AEAE2E8F247D10CB748775FC418672F /* Pods-HMStatistics_Example.debug.xcconfig */,
+				D8A2461190D52708C43CD309C0C9BCB4 /* Pods-HMStatistics_Example.release.xcconfig */,
+			);
+			name = "Pods-HMStatistics_Example";
+			path = "Target Support Files/Pods-HMStatistics_Example";
+			sourceTree = "<group>";
+		};
+		455D1A10D6089F9F62FEB1E5712B4B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8526CBD79131730A3B574F60EBE6F46E /* CTMediator.framework */,
+				8B52C430C70EB1CB338EB72F21860778 /* CTPersistance.framework */,
+				B4847EF4AEFAF42608A8E2D1915AABF0 /* HMStatistics.framework */,
+				BB4D7520993076D040E56A4B30835663 /* Pods_HMStatistics_Example.framework */,
+				58CA69B16A5CF5D9590A71916B60D49D /* Pods_HMStatistics_Tests.framework */,
+				EA6F208DD1A8575D334CD028D560C2C0 /* SQLCipher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEE1D76040BC90CC3D5534535DFD3FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A8F7CE8CDD30BB23112214A9E352CAA /* Info.plist */,
+				6C1E73D33B0116C8661220DDD05340FC /* SQLCipher.modulemap */,
+				659C73BFE63CE1E31C7B17F8646B7222 /* SQLCipher.xcconfig */,
+				3C552304B71B2F50956A88623F2D903C /* SQLCipher-dummy.m */,
+				ED3531CA39DB531FC59D4CFB51F1B51F /* SQLCipher-prefix.pch */,
+				28CBA141E05253B588353FDB36D3A755 /* SQLCipher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLCipher";
+			sourceTree = "<group>";
+		};
+		5B1A9895701D494D974CDF5304412905 /* ConfigurationTarget */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC79DFC8D91F3B99B5E1063E5AC5F7 /* Target_HMStatisticsAnonymousDB.h */,
+				F20D172938B22E8EE3E030831FAB7C1A /* Target_HMStatisticsAnonymousDB.m */,
+			);
+			name = ConfigurationTarget;
+			path = HMStatistics/AnonymousDataBase/ConfigurationTarget;
+			sourceTree = "<group>";
+		};
+		5BA213D43754ECCD79C56BD2A26B8019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68AEA63D2CB8A273A6B9C4FA67AD7DCC /* CTMediator */,
+				EF8B4D760F9E3AD7C2942FDAC7687055 /* CTPersistance */,
+				8BEAB318C2F2522EDB8C9AB4201E3B59 /* SQLCipher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FA5C247C7B218B20804599BDE90009E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5178CE8E5EC065F88F7C18BD54E81C5C /* HMStatisticsAnonymousAutoCal.h */,
+				E1511740E66F2CEFA3C412300175A5B5 /* HMStatisticsAnonymousAutoCal.m */,
+			);
+			name = Helper;
+			path = HMStatistics/Statistics/Helper;
+			sourceTree = "<group>";
+		};
+		6355D8C971B91C2505AF7B07955BDD58 /* ConfigurationTarget */ = {
+			isa = PBXGroup;
+			children = (
+				9D7E669D60905E52D40775D6212E5A89 /* Target_HMStatisticsNamedDB.h */,
+				B6DE80550E89C13929FDAD0F22F43C7F /* Target_HMStatisticsNamedDB.m */,
+			);
+			name = ConfigurationTarget;
+			path = HMStatistics/NamedDataBase/ConfigurationTarget;
+			sourceTree = "<group>";
+		};
+		68AEA63D2CB8A273A6B9C4FA67AD7DCC /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				73D47947BB368755C1BB772EEDCF175B /* CTMediator.h */,
+				65A90CE557C1168B6D5276B97D1714D3 /* CTMediator.m */,
+				CDD677C7882BDE984E676B70C99B9E40 /* Support Files */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		6A6C91CB195058AB9022A9D24F159404 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				E67AE536398819F8B12A2AB5CA99A298 /* HMStatisticNamedMigrationStep_2.h */,
+				997406EB7470EBCAF18AA1791CDBFB37 /* HMStatisticNamedMigrationStep_2.m */,
+				64214712FA6BCDA2CC32AF976BB49FD1 /* HMStatisticNamedMigratior.h */,
+				0CE951C870CD3E64B831126392763B25 /* HMStatisticNamedMigratior.m */,
+			);
+			name = Migration;
+			path = HMStatistics/NamedDataBase/Migration;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D5A19A3237E06937D92F582BD2A9D67A /* Development Pods */,
+				E6F79F072987E2E1BBC0E1F480659C13 /* Frameworks */,
+				5BA213D43754ECCD79C56BD2A26B8019 /* Pods */,
+				455D1A10D6089F9F62FEB1E5712B4B1C /* Products */,
+				123052EDC5433599F79F2446CDA3254A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		817F6A08F4EB04A77D4BD9F5E373FAF5 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D1E0983FE0AFF33D68D3B9C387FFF /* UIViewController+HMStatisticsSwizzling.h */,
+				7447A8249F47F15F61C39264EB38B12E /* UIViewController+HMStatisticsSwizzling.m */,
+			);
+			name = Runtime;
+			path = HMStatistics/Statistics/Runtime;
+			sourceTree = "<group>";
+		};
+		8BEAB318C2F2522EDB8C9AB4201E3B59 /* SQLCipher */ = {
+			isa = PBXGroup;
+			children = (
+				E2E35E59BB353725663559D76672AEA9 /* common */,
+				5AEE1D76040BC90CC3D5534535DFD3FC /* Support Files */,
+			);
+			path = SQLCipher;
+			sourceTree = "<group>";
+		};
+		905A823FD7F58C5089DA3F4EADFE6980 /* HMStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				93766780706F364E926673C2CF714275 /* AnonymousDataBase */,
+				E94784F0ABA46423DECB7708B7F6A9B6 /* NamedDataBase */,
+				18619DC711F8A3E90CEC769CBF36738B /* Pod */,
+				94D58B6432817AB1707E912A959C633A /* Statistics */,
+				1C6EE347AF47964ECEC39979A41FC8F3 /* Support Files */,
+			);
+			name = HMStatistics;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93766780706F364E926673C2CF714275 /* AnonymousDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				6C221B35287F76676F51F9C5003EF206 /* HMStatisticsAnonymousConfig.h */,
+				8231D6B6C27D3954CF417A9E9E3BD697 /* HMStatisticsAnonymousConfig.m */,
+				16DB47297F9C20CC8B0F965564779665 /* HMStatisticsAnonymousManager.h */,
+				ABD4D8619EB63179E901D4D1DAD2A597 /* HMStatisticsAnonymousManager.m */,
+				5B1A9895701D494D974CDF5304412905 /* ConfigurationTarget */,
+				C08E33DED16E38319B4EF98AAED19713 /* Migration */,
+				96A8ECD3636518BE9907CD193C001407 /* Record */,
+				0F8D73BF8282131CD618BF332CA02733 /* Table */,
+			);
+			name = AnonymousDataBase;
+			sourceTree = "<group>";
+		};
+		94D58B6432817AB1707E912A959C633A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				CE1FBDE8F98735916BA7E6B856535E00 /* HMStatisticsConfig.h */,
+				F3DD5330D9C9A1DB875D12D0D5E118FD /* HMStatisticsConfig.m */,
+				84089D5A1FA04B52D14CFDA97E60FB4D /* HMStatisticsDefine.h */,
+				F2306F763FFF01757DECFF7771296F18 /* HMStatisticsLog.h */,
+				5B2550AD864D763A58EB31AA73E27E2A /* HMStatisticsLog.m */,
+				1D0CE05CEBD3182B6CE3A23F22427A5F /* HMStatisticsLog+BothChannel.h */,
+				48B3B1A4B777D122EAC64FE1CE69975F /* HMStatisticsLog+BothChannel.m */,
+				0DF0D0203C79DE9D997CB63497E35D67 /* HMStatisticsPageAutoTracker.h */,
+				CEFA9C87CD3B4D8F3287DCFBD47F208F /* Category */,
+				5FA5C247C7B218B20804599BDE90009E /* Helper */,
+				817F6A08F4EB04A77D4BD9F5E373FAF5 /* Runtime */,
+				1439D4851BDF42A3E2138009880A9EC9 /* Tasks */,
+				E1395BA9FC21B34E6FA8FA8BF9EA69C0 /* Tools */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		96A8ECD3636518BE9907CD193C001407 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				543497266E4261E26E4C696DED83E7B1 /* HMStatisticsAnonymousContextRecord.h */,
+				E1380F713F9B7C506850A35C64BC4349 /* HMStatisticsAnonymousContextRecord.m */,
+				704E775B33AF6F456669BB3A91320F84 /* HMStatisticsAnonymousRecord.h */,
+				89258558783663E8B97F5DBAB3DB31ED /* HMStatisticsAnonymousRecord.m */,
+			);
+			name = Record;
+			path = HMStatistics/AnonymousDataBase/Record;
+			sourceTree = "<group>";
+		};
+		B144F0D6194215E49DD8049457C2EE64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1258A4A24202A4CC9C5FAC0D288CE43B /* CTPersistance.modulemap */,
+				316DD11D068DA7BFE63EFD6FF5BF0DFB /* CTPersistance.xcconfig */,
+				1306F116A4B53D8CEA29186223FA4E3C /* CTPersistance-dummy.m */,
+				881BE2C803FFCBE2EE7D9681D2F58F1E /* CTPersistance-prefix.pch */,
+				5D4DFAA751010040B2E613DF5CB363C1 /* CTPersistance-umbrella.h */,
+				FDBE1D23B5596B7DFD1EF2DD9B8A0023 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTPersistance";
+			sourceTree = "<group>";
+		};
+		B998C8FB33F35DD183593057A69A95CF /* Pods-HMStatistics_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78F94263BF10F9B615585F139AC5A28A /* Info.plist */,
+				BB35BA7F8269952EA30CEEAF0B087463 /* Pods-HMStatistics_Tests.modulemap */,
+				A157EA48537D7A13DBF22D0C4C43F63A /* Pods-HMStatistics_Tests-acknowledgements.markdown */,
+				B4F6E40D48E5D73DCD763AB9034F6129 /* Pods-HMStatistics_Tests-acknowledgements.plist */,
+				DEEFF58D3D6464729B11337D96E40394 /* Pods-HMStatistics_Tests-dummy.m */,
+				C57EE0D3F73444B091ADE17AFBC9881F /* Pods-HMStatistics_Tests-frameworks.sh */,
+				D692D26538A1D546D1C643A5DD3DC1F4 /* Pods-HMStatistics_Tests-resources.sh */,
+				B98EDEEF7A680823E7E87F1E0ECC99F1 /* Pods-HMStatistics_Tests-umbrella.h */,
+				8C3D34C007050C90C8804C9FB04B8F3E /* Pods-HMStatistics_Tests.debug.xcconfig */,
+				EA696FBE626B8FA6F7FA0D1BAC823D2D /* Pods-HMStatistics_Tests.release.xcconfig */,
+			);
+			name = "Pods-HMStatistics_Tests";
+			path = "Target Support Files/Pods-HMStatistics_Tests";
+			sourceTree = "<group>";
+		};
+		C08E33DED16E38319B4EF98AAED19713 /* Migration */ = {
+			isa = PBXGroup;
+			children = (
+				FDFEADE01AA07AB1E8FC2F8F522880E0 /* HMStatisticAnonymousMigrationStep_2.h */,
+				2940A281B33C07114F25349BE3E81DD3 /* HMStatisticAnonymousMigrationStep_2.m */,
+				D669FB900F7D17E05B834A4D8E935CB1 /* HMStatisticAnonymousMigratior.h */,
+				E6F531F161E2ABAE4BF6F4AD629306CF /* HMStatisticAnonymousMigratior.m */,
+			);
+			name = Migration;
+			path = HMStatistics/AnonymousDataBase/Migration;
+			sourceTree = "<group>";
+		};
+		CDD677C7882BDE984E676B70C99B9E40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6487207C1F20CA5DD4ACEFB69031ADBB /* CTMediator.modulemap */,
+				96B2CE387A0A14B6B1F38C33C1CF381D /* CTMediator.xcconfig */,
+				4D491BC61A4CCB0D4CED5DD4A87B3061 /* CTMediator-dummy.m */,
+				4CFF72789EB6C70F084AC6D743BC5D61 /* CTMediator-prefix.pch */,
+				7B9E4E4A152B43C60A97916BAE0D416E /* CTMediator-umbrella.h */,
+				A0CCF810795FD10800085804D9F81456 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		CEFA9C87CD3B4D8F3287DCFBD47F208F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6773C13B0ECDB705D0806EEBF17AD66D /* HMStatisticsLog+Inner.h */,
+				74176D8086FE531B2F0F54B824CE54A1 /* HMStatisticsLog+Inner.m */,
+				02C9827E35C8695482665127BEC34E6A /* HMStatisticsLog+LogPersistence.h */,
+				1D7A0F5FBF035B753EA97423A1C4400E /* HMStatisticsLog+LogPersistence.m */,
+			);
+			name = Category;
+			path = HMStatistics/Statistics/Category;
+			sourceTree = "<group>";
+		};
+		D5A19A3237E06937D92F582BD2A9D67A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				905A823FD7F58C5089DA3F4EADFE6980 /* HMStatistics */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E1395BA9FC21B34E6FA8FA8BF9EA69C0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				78E1EF62E9F7111214D133B079BD56C3 /* HMStatisticsReachability.h */,
+				5BF8804FC368DFBDA40A3A768A17F033 /* HMStatisticsReachability.m */,
+				89F2922EB9A5E80EB19B57126F590D59 /* HMStatisticsSafeCache.h */,
+				C36100BF7347D0FBC27B0DA734C949FC /* HMStatisticsSafeCache.m */,
+				FC5279BC3EF8C807F116C534686ED909 /* HMStatisticsTimer.h */,
+				83EAEFD86C99B1718F4A33D1771B766A /* HMStatisticsTimer.m */,
+				29D1E7575533374CC1D73644A248A2E0 /* HMStatisticsTools.h */,
+				BD1015E013E54BE175F5853D613DDDC1 /* HMStatisticsTools.m */,
+				32B98079ED6A59158B641EF1404009F6 /* HMStatisticsTools+DeviceInfo.h */,
+				1F1593D6896AF646677230FFC3BB46D4 /* HMStatisticsTools+DeviceInfo.m */,
+				6601C103D54BE97893DC5D4E2EC8A301 /* HMStatisticsTools+Encrypt.h */,
+				3E23A900EF7239BCCE4CE8CD889E810A /* HMStatisticsTools+Encrypt.m */,
+			);
+			name = Tools;
+			path = HMStatistics/Statistics/Tools;
+			sourceTree = "<group>";
+		};
+		E2E35E59BB353725663559D76672AEA9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				7D52E9C82AC492832CDEC131F7066934 /* sqlite3.c */,
+				DFE3EB45D1B8A447229D861DA51552A7 /* sqlite3.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		E6F79F072987E2E1BBC0E1F480659C13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47EDA1C6210AB0AB00AC29B4 /* Security.framework */,
+				47EDA1BE210AB08D00AC29B4 /* CoreTelephony.framework */,
+				47EDA1BF210AB08D00AC29B4 /* Foundation.framework */,
+				47EDA1C1210AB08E00AC29B4 /* SystemConfiguration.framework */,
+				47EDA1C0210AB08E00AC29B4 /* UIKit.framework */,
+				382F82F7F38C3EF3A3CDA84D30929F49 /* CTMediator.framework */,
+				FF93899A6D1AC0BB531566A88999FE10 /* CTPersistance.framework */,
+				BD94A00CAC1E07F1F4BEEB165E82F65F /* SQLCipher.framework */,
+				E8AB95AD0AF40B0E106E4D68E4716210 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AB95AD0AF40B0E106E4D68E4716210 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4AD0ED11E068D6F1C432789E86874 /* CoreTelephony.framework */,
+				70FC0BCF2B32E0EBDDFD19738A25621A /* Foundation.framework */,
+				6B7AF9EC01A2DBA187D144C80FE21CBB /* Security.framework */,
+				AD2EABC545CF0B1EE39FCAC78CCAA3FA /* SystemConfiguration.framework */,
+				A85D2DC545CA96B394D927E9C20D8A1C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E94784F0ABA46423DECB7708B7F6A9B6 /* NamedDataBase */ = {
+			isa = PBXGroup;
+			children = (
+				2D3B532FD85931B7F10A853BE63C5E49 /* HMStatisticsNamedConfig.h */,
+				C7E6BBC41D46DE01AB7BE8B8A62ECFF3 /* HMStatisticsNamedConfig.m */,
+				D8C5533B0A5A5A048D359A718988C475 /* HMStatisticsNamedManager.h */,
+				0064E3751C049C538B01D839F6F9D206 /* HMStatisticsNamedManager.m */,
+				6355D8C971B91C2505AF7B07955BDD58 /* ConfigurationTarget */,
+				6A6C91CB195058AB9022A9D24F159404 /* Migration */,
+				0E65D6297FF8C78F1716C18E0BADC903 /* Record */,
+				0CE416C733C80033CBA7296C982C9059 /* Table */,
+			);
+			name = NamedDataBase;
+			sourceTree = "<group>";
+		};
+		EF8B4D760F9E3AD7C2942FDAC7687055 /* CTPersistance */ = {
+			isa = PBXGroup;
+			children = (
+				4C36C5EF21AAA3B4BE7102D59CF595B8 /* CTPersistance.h */,
+				4BE5AA266024F91E7A7FB31D55244E70 /* CTPersistanceAsyncExecutor.h */,
+				C7A769B943428D0D10C5987BBB13BC1D /* CTPersistanceAsyncExecutor.m */,
+				C3EC272AA5FC60DCB3648A5EC3C89569 /* CTPersistanceConfiguration.h */,
+				291F55E788D06659C414237CD4BDD7EB /* CTPersistanceDataBase.h */,
+				F913D3A005892181C820BD71687565CD /* CTPersistanceDataBase.m */,
+				F3F680CBBDD6CC002560A1828201FB4E /* CTPersistanceDatabasePool.h */,
+				3C0A2BF49E4EBE05EDEEF32D39CEE4F4 /* CTPersistanceDatabasePool.m */,
+				69CDC5723935D5602E0AAA94D7C1557F /* CTPersistanceMarcos.h */,
+				45BB1AC9F43F51C77FD91A48EE8BDF9F /* CTPersistanceMigrator.h */,
+				036DE21C803EEE137A8CD89F28ADD696 /* CTPersistanceMigrator.m */,
+				1F4BA7BEAF92FFD6CE3B44D5C5D86AAB /* CTPersistanceQueryCommand.h */,
+				8EBDB9D513BB0BDCBF4187CCC156256A /* CTPersistanceQueryCommand.m */,
+				8933A65A36C7ADD749E330DA212DE84D /* CTPersistanceQueryCommand+DataManipulations.h */,
+				DC6C365A11978931B612F78E19C3CD0B /* CTPersistanceQueryCommand+DataManipulations.m */,
+				100D1EB80A01E8993EFA8613C801D5CF /* CTPersistanceQueryCommand+SchemaManipulations.h */,
+				28316AA1D02316B3B75F7EEFBE66C0EF /* CTPersistanceQueryCommand+SchemaManipulations.m */,
+				4AD5C1AB853608072FB977F5531C0BA0 /* CTPersistanceQueryCommand+Status.h */,
+				168F1EB3B9C3F393B7B44107092B9D71 /* CTPersistanceQueryCommand+Status.m */,
+				80B3F782840EC9D869232F6CB936AE8A /* CTPersistanceRecord.h */,
+				6F1F86769F91D8C68703A0553DC1E6E6 /* CTPersistanceRecord.m */,
+				1D0F34B38917961ABFF7DC79811F7552 /* CTPersistanceRecordProtocol.h */,
+				8F5EB95751E1648AA52A84B4707F8D6D /* CTPersistanceSqlStatement.h */,
+				D3355F4485B9B4EF21007C71DC2C3409 /* CTPersistanceSqlStatement.m */,
+				AFB084EE1C3B329F34401E641056810E /* CTPersistanceTable.h */,
+				880C872CDC363579EB6C6C8D84690434 /* CTPersistanceTable.m */,
+				40FAB1AE6234A04E17901B5150579505 /* CTPersistanceTable+Delete.h */,
+				B36C69B25C37B0EBF9F00FD72AC08F82 /* CTPersistanceTable+Delete.m */,
+				0337B9F29002403EE43DE6D9BF0C5850 /* CTPersistanceTable+Find.h */,
+				F501525FEB883B024AD5D6E21D3F9BD3 /* CTPersistanceTable+Find.m */,
+				7A1DB0F16E64B55F3AC8EE0F5EB58FDF /* CTPersistanceTable+Insert.h */,
+				DB076582090108D1B382BE7E3894A27F /* CTPersistanceTable+Insert.m */,
+				CBA0B0E77B9507E6AA167645072CB0F1 /* CTPersistanceTable+Schema.h */,
+				844A667A1DECF15FD5D212DCC6479F80 /* CTPersistanceTable+Schema.m */,
+				7F249DAE264EA6C6827B24E57B30598C /* CTPersistanceTable+Update.h */,
+				AED23482B659772AF8DB185EEBF06FE3 /* CTPersistanceTable+Update.m */,
+				39D3CCA152C1A8E59A9BE4A3D872CEFB /* CTPersistanceTable+Upsert.h */,
+				830D0D9D85D91E773D508FE46E500E96 /* CTPersistanceTable+Upsert.m */,
+				59B82C279EFEAE2AB5FC41AA8BCF42E8 /* CTPersistanceTransaction.h */,
+				5F940A90CE3CD0733BF97C7B15D3D45F /* CTPersistanceTransaction.m */,
+				DFB9154AB7C59464ABDC77CB2CEEDB70 /* CTPersistanceVersionRecord.h */,
+				37CD17FF3BB16799CC3830C89D0C404C /* CTPersistanceVersionRecord.m */,
+				C02D4574F8ED284EA433C88C978D7B5F /* CTPersistanceVersionTable.h */,
+				24768322E33C1D4B4011249C3ED0B6C7 /* CTPersistanceVersionTable.m */,
+				848E24A7F79F7C49A38FB6E9C7253E6F /* NSArray+CTPersistanceRecordTransform.h */,
+				68E0FE3CFF9CC42EFA0B7DB8ECCB8EC4 /* NSArray+CTPersistanceRecordTransform.m */,
+				E57A8E1660C16AB7A45E908022088D64 /* NSDictionary+KeyValueBind.h */,
+				860729262DC3CA448959CA651C00253B /* NSDictionary+KeyValueBind.m */,
+				6DBC7863A3FECE272F6BC9F44308E317 /* NSMutableArray+CTPersistanceBindValue.h */,
+				0BDB9A6A1144814A0498F16B376C5086 /* NSMutableArray+CTPersistanceBindValue.m */,
+				E11E1CC812E7CD1DD08B507E57ECE348 /* NSString+Where.h */,
+				739F004F154BE626A083E78B9B065024 /* NSString+Where.m */,
+				B144F0D6194215E49DD8049457C2EE64 /* Support Files */,
+			);
+			path = CTPersistance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D3A800644B3BAE464946F1B2CF3BF6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D9B84569586159B6C98E892E1D8133 /* CTPersistance-umbrella.h in Headers */,
+				C679A0B17100266EA0D2B43DEF4E6D28 /* CTPersistance.h in Headers */,
+				399D72D408DF7EA5242757AD4D2313D2 /* CTPersistanceAsyncExecutor.h in Headers */,
+				8C1DC56721BC09063B65DA288BAD86AB /* CTPersistanceConfiguration.h in Headers */,
+				04BE2488DE42D7E0B97548A554173F06 /* CTPersistanceDataBase.h in Headers */,
+				495824D36D15EB4950AC648BAAF03252 /* CTPersistanceDatabasePool.h in Headers */,
+				C4E350CFAF9D0F84FD5B376475619621 /* CTPersistanceMarcos.h in Headers */,
+				A1C1C5F88C5F0E4D293DF2E192284C4B /* CTPersistanceMigrator.h in Headers */,
+				D83AE38E4A544960A9DD604BA4A04F48 /* CTPersistanceQueryCommand+DataManipulations.h in Headers */,
+				EA34EC6113A0D83B28B9FD51920D0C15 /* CTPersistanceQueryCommand+SchemaManipulations.h in Headers */,
+				D743CC1B6CA06196A1D9557589B171DD /* CTPersistanceQueryCommand+Status.h in Headers */,
+				CC1C8DE62D755A8098C3AA3BB2199D21 /* CTPersistanceQueryCommand.h in Headers */,
+				4F0EB59C43A11AE61E80936A5819A467 /* CTPersistanceRecord.h in Headers */,
+				8872A19F1BE9FFBD9AF9B5EE908B0629 /* CTPersistanceRecordProtocol.h in Headers */,
+				E59670872AA15ED25D3CAA3057B59D3B /* CTPersistanceSqlStatement.h in Headers */,
+				F3D3EADC34C484256CBF87A8D7A53909 /* CTPersistanceTable+Delete.h in Headers */,
+				1CFCB7F78DDCFC2C70AA4DE102DE37F9 /* CTPersistanceTable+Find.h in Headers */,
+				62F66E6B669429E87FE06563F2DD159C /* CTPersistanceTable+Insert.h in Headers */,
+				00BDAA41951F418C68F0AB94DEA5EA30 /* CTPersistanceTable+Schema.h in Headers */,
+				821412FAB986419BAACB26254C7CE940 /* CTPersistanceTable+Update.h in Headers */,
+				B75EEFE31F748B26D097BEC566FE52F2 /* CTPersistanceTable+Upsert.h in Headers */,
+				DAF93ABE632955C742577D544096FC35 /* CTPersistanceTable.h in Headers */,
+				FFBF826F8A7B6DDFD700C793DDE0653B /* CTPersistanceTransaction.h in Headers */,
+				4716B39B8B987B3786729B544DCC2DDB /* CTPersistanceVersionRecord.h in Headers */,
+				9B92E7455DDF475C08FB8A39AF45AC73 /* CTPersistanceVersionTable.h in Headers */,
+				069A906F286CAA61F8AA8F4176AB84A2 /* NSArray+CTPersistanceRecordTransform.h in Headers */,
+				15CB977720E50B1902FFF77FA013BE79 /* NSDictionary+KeyValueBind.h in Headers */,
+				D1373FF8577CC12B3916B3A1CDB58C20 /* NSMutableArray+CTPersistanceBindValue.h in Headers */,
+				3A8B0EC31E8EBDB645118A9DAAEDA8E5 /* NSString+Where.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1E71A10B34DA99C332A0E10801C7B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297C8E5024263D7F7D1A8B415A02FEEB /* SQLCipher-umbrella.h in Headers */,
+				F10C030D359147E98537D80FF4BAB6A9 /* sqlite3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3381ACB394D37EB238330E5D20C927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F3759A1A681DB0398B693FD968B04F /* Pods-HMStatistics_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E2A76D984431A1AE9B018439E06705 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE0EECBDECCD9A08052343A96A30784 /* Pods-HMStatistics_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C7957A9931F7E8A6D781D0065339FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE255BD8FE0E30F2A03C54F9A7234479 /* HMStatisticAnonymousMigrationStep_2.h in Headers */,
+				54CE8BCFBD771795F9291B5166F8AFFC /* HMStatisticAnonymousMigratior.h in Headers */,
+				810E6152DD22B22327C85E92EAE1D8E2 /* HMStatisticNamedMigrationStep_2.h in Headers */,
+				923A7B9666525A1A2C968EDEDC5AADCD /* HMStatisticNamedMigratior.h in Headers */,
+				6CC3E9965A9AC5A818E669DDB4E9E353 /* HMStatistics-umbrella.h in Headers */,
+				449FF54F286819BCA2A0CEF2F7529E9C /* HMStatisticsAnonymousAutoCal.h in Headers */,
+				6B1BE48A2221A2D6731C92E3C02FEC20 /* HMStatisticsAnonymousConfig.h in Headers */,
+				2BD12FD8AF22045019FF9B0BCDB7344C /* HMStatisticsAnonymousContextRecord.h in Headers */,
+				57646E1F2FCE3F760C3CCC512A467183 /* HMStatisticsAnonymousContextTable.h in Headers */,
+				090B4FF893E24372956AF3FDD02FD7E9 /* HMStatisticsAnonymousManager.h in Headers */,
+				D202B18374B76D045144ED55F21834C4 /* HMStatisticsAnonymousRecord.h in Headers */,
+				6F58BB730F7771BE32F00F89D60C1C84 /* HMStatisticsAnonymousTable.h in Headers */,
+				05AA71FEC7AB0ACDF74F3AA004714CAF /* HMStatisticsAnonymousTask.h in Headers */,
+				3B4F2416636980273C4E9CE17676AA43 /* HMStatisticsConfig.h in Headers */,
+				EF5AC77DA2A709573FED47833A7E5F94 /* HMStatisticsDefine.h in Headers */,
+				BB50E6AFE030DCA6AA8442A9513840E6 /* HMStatisticsLog+BothChannel.h in Headers */,
+				6BDEFBAEBDFD97949272A71E5E2790D5 /* HMStatisticsLog+Inner.h in Headers */,
+				3966942C1E97B2B48EC8C558EA517CF6 /* HMStatisticsLog+LogPersistence.h in Headers */,
+				B731440B27A767AF733D72F02D920CE9 /* HMStatisticsLog.h in Headers */,
+				2EB40A126D2900991DB876330D74490D /* HMStatisticsNamedConfig.h in Headers */,
+				B77D4A6A92DF01D0239AEBB34E19BDE4 /* HMStatisticsNamedContextRecord.h in Headers */,
+				457622354F55426F254635CC92013CF7 /* HMStatisticsNamedContextTable.h in Headers */,
+				DF2217D003F89C360CB84E0A71D368B8 /* HMStatisticsNamedManager.h in Headers */,
+				C7A98E1C162B7348D2E689A76E89BF87 /* HMStatisticsNamedRecord.h in Headers */,
+				533362468B22C42B241080930CC1EF3F /* HMStatisticsNamedTable.h in Headers */,
+				00971F50B3EC7AA5880AE258B6347972 /* HMStatisticsNamedTask.h in Headers */,
+				757BB4384182C728D552789A6FDB20E0 /* HMStatisticsPageAutoTracker.h in Headers */,
+				C8008496267E56EDA6DD2175D14C00EC /* HMStatisticsReachability.h in Headers */,
+				289A47310B212AC036586FA294A6972D /* HMStatisticsSafeCache.h in Headers */,
+				59E8A3D96E3564F06447F1C87C8DD85D /* HMStatisticsTimer.h in Headers */,
+				7B3B8378C07EFCA534A974B429878C17 /* HMStatisticsTools+DeviceInfo.h in Headers */,
+				B17D3A8C452F96C2316C954BBB45CB5B /* HMStatisticsTools+Encrypt.h in Headers */,
+				60B7A56BF05BFA275D3BEB3AE84D7C3D /* HMStatisticsTools.h in Headers */,
+				D197B51EB85E86A247C81DB7686EE9AE /* Target_HMStatisticsAnonymousDB.h in Headers */,
+				7D1041B64D4239C41598B5CA855450CA /* Target_HMStatisticsNamedDB.h in Headers */,
+				47CC233E2541AED2AE714B3BD0537BC4 /* UIViewController+HMStatisticsSwizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1240AC29198E8D28BEB68F28B468521C /* Build configuration list for PBXNativeTarget "CTPersistance" */;
+			buildPhases = (
+				2BC158B25372F2E04D7448288834ADD4 /* Sources */,
+				AC0D713671672704B39C1F407FC194AC /* Frameworks */,
+				5D3A800644B3BAE464946F1B2CF3BF6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B0F9278D69B3C303FEDD6B4018174E /* PBXTargetDependency */,
+				14063ADEA5333EC493654C51798FA529 /* PBXTargetDependency */,
+			);
+			name = CTPersistance;
+			productName = CTPersistance;
+			productReference = 8B52C430C70EB1CB338EB72F21860778 /* CTPersistance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15D4619F8A68C1EDF77020620402FCCF /* HMStatistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3668912A5238BDE5C565E10C74A63F /* Build configuration list for PBXNativeTarget "HMStatistics" */;
+			buildPhases = (
+				70E31E2BF5B9341870B80E4A4B5FC22C /* Sources */,
+				8225D5317D42CC77916D6EF141052A31 /* Frameworks */,
+				C8C7957A9931F7E8A6D781D0065339FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD3FF63DAD4C08E9386A0BD0D23B7BD /* PBXTargetDependency */,
+				85C9BBEAAADDFA0909F374086B99F077 /* PBXTargetDependency */,
+				14DDF3441E3281EF30F90C7A41BBBCF7 /* PBXTargetDependency */,
+			);
+			name = HMStatistics;
+			productName = HMStatistics;
+			productReference = B4847EF4AEFAF42608A8E2D1915AABF0 /* HMStatistics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B6288289EB91716F9EBEBD72AD09081 /* Pods-HMStatistics_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07742B167DEFE844BA35A0D2B0E4248 /* Build configuration list for PBXNativeTarget "Pods-HMStatistics_Tests" */;
+			buildPhases = (
+				67682FC830E19B8AB97108E9B6C9C374 /* Sources */,
+				82116CDC12E291D99F405D4F40CD06E3 /* Frameworks */,
+				B3E2A76D984431A1AE9B018439E06705 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2BCFFE2949A53C326A928F22AC52E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-HMStatistics_Tests";
+			productName = "Pods-HMStatistics_Tests";
+			productReference = 58CA69B16A5CF5D9590A71916B60D49D /* Pods_HMStatistics_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6DF1B02C267E2A6F76D003F38D5967 /* Build configuration list for PBXNativeTarget "SQLCipher" */;
+			buildPhases = (
+				86DAF69AE90FAE255293B89C7A512499 /* Sources */,
+				973FE0049137FF11E27520930C450EF9 /* Frameworks */,
+				6B1E71A10B34DA99C332A0E10801C7B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipher;
+			productName = SQLCipher;
+			productReference = EA6F208DD1A8575D334CD028D560C2C0 /* SQLCipher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 8526CBD79131730A3B574F60EBE6F46E /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3D80DD416AF6CED16286B25788AA7D4 /* Pods-HMStatistics_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E58B26F76F74AE589A3AB9FB3657802 /* Build configuration list for PBXNativeTarget "Pods-HMStatistics_Example" */;
+			buildPhases = (
+				A0F7BDE104782CEAF2FDE2466B62274B /* Sources */,
+				88F6AAD80BB1FE0483B19209B695C039 /* Frameworks */,
+				7B3381ACB394D37EB238330E5D20C927 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D95DEB65F332D8AEE36B52B84E390E1 /* PBXTargetDependency */,
+				E1729D0D2D1210D183408FBEA43E2F86 /* PBXTargetDependency */,
+				FE33E02EF04EC0C46B8949F38B4E1C8B /* PBXTargetDependency */,
+				C4A025AC519137FF44B3D6F3AFCB77EC /* PBXTargetDependency */,
+			);
+			name = "Pods-HMStatistics_Example";
+			productName = "Pods-HMStatistics_Example";
+			productReference = BB4D7520993076D040E56A4B30835663 /* Pods_HMStatistics_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 455D1A10D6089F9F62FEB1E5712B4B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */,
+				15D4619F8A68C1EDF77020620402FCCF /* HMStatistics */,
+				B3D80DD416AF6CED16286B25788AA7D4 /* Pods-HMStatistics_Example */,
+				3B6288289EB91716F9EBEBD72AD09081 /* Pods-HMStatistics_Tests */,
+				57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BC158B25372F2E04D7448288834ADD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0F6D7E2F0519A418EF917359BDDA16 /* CTPersistance-dummy.m in Sources */,
+				A23315F6D42CF88E78B689B75D90F5DF /* CTPersistanceAsyncExecutor.m in Sources */,
+				E712C30E6FE3E43B4C2926EA941EDDD7 /* CTPersistanceDataBase.m in Sources */,
+				8CA8F119546DCF47D9CCA81137FEFDFE /* CTPersistanceDatabasePool.m in Sources */,
+				BF9A8BA5EDE1746DDAE0CFE78BA887E7 /* CTPersistanceMigrator.m in Sources */,
+				0CC0772E28B92F54E47BB90E2B1A562F /* CTPersistanceQueryCommand+DataManipulations.m in Sources */,
+				C03139EB1E55D189960CA1A34F211EAC /* CTPersistanceQueryCommand+SchemaManipulations.m in Sources */,
+				E0B9742FCB2F01CA73B7FA4ED6D310FB /* CTPersistanceQueryCommand+Status.m in Sources */,
+				4E113F5D4AA21686DCB09A288ACCC200 /* CTPersistanceQueryCommand.m in Sources */,
+				32A2FEABB7A4D9B95871C60D91E48FC3 /* CTPersistanceRecord.m in Sources */,
+				A0C81674AF67A3A817F8B484566789F5 /* CTPersistanceSqlStatement.m in Sources */,
+				E291C9852FC63553B17736A2B88B01C9 /* CTPersistanceTable+Delete.m in Sources */,
+				09B12E50FC71B3B1C74F1FC5949E6827 /* CTPersistanceTable+Find.m in Sources */,
+				EEB819F3D2CA4D9C680879D00D1911BB /* CTPersistanceTable+Insert.m in Sources */,
+				459A072C6518855EDC7035248076A1E5 /* CTPersistanceTable+Schema.m in Sources */,
+				FFA53197939ABD09422F73308049BB2B /* CTPersistanceTable+Update.m in Sources */,
+				9D7B83435464B9686F10AD94EE8743D3 /* CTPersistanceTable+Upsert.m in Sources */,
+				2D7B585E8660DA0619E90F005CC5F10B /* CTPersistanceTable.m in Sources */,
+				4B6C7CC5B3797C302E2AB701ACF69A3F /* CTPersistanceTransaction.m in Sources */,
+				760DF30C334FBA9808AFCD5A46D47A30 /* CTPersistanceVersionRecord.m in Sources */,
+				5C3A56EEEED6FC3C6A3AB84207B1F618 /* CTPersistanceVersionTable.m in Sources */,
+				A824CE1EA33E1DFD346452BEFFE7DFAA /* NSArray+CTPersistanceRecordTransform.m in Sources */,
+				3A1CA906E1851787B45EC0C9C00D574B /* NSDictionary+KeyValueBind.m in Sources */,
+				6C9109220953C792921260E8A59FB39E /* NSMutableArray+CTPersistanceBindValue.m in Sources */,
+				79A7DE8083CBB474A69B782B00079DC4 /* NSString+Where.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67682FC830E19B8AB97108E9B6C9C374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F82AAD0C699AF0BE072154B022023E /* Pods-HMStatistics_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E31E2BF5B9341870B80E4A4B5FC22C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6F31CA8593762570949F347C369018 /* HMStatisticAnonymousMigrationStep_2.m in Sources */,
+				F3CCFE669913C8A14375CD476C131251 /* HMStatisticAnonymousMigratior.m in Sources */,
+				B2B2172B9727F865184C03238E0EC1F0 /* HMStatisticNamedMigrationStep_2.m in Sources */,
+				5F689F823D3F0C77973EE2A975F49B32 /* HMStatisticNamedMigratior.m in Sources */,
+				97FCF0B6C1880F7179DBA1F6A1E7BC3A /* HMStatistics-dummy.m in Sources */,
+				D89A67FD1EC9763F140848A4F827E400 /* HMStatisticsAnonymousAutoCal.m in Sources */,
+				81DDC03C9947E95A72BA7639E356AD96 /* HMStatisticsAnonymousConfig.m in Sources */,
+				188E7DB587E6968478F15AD7A09082FF /* HMStatisticsAnonymousContextRecord.m in Sources */,
+				3A62FE7364D6C844756DE6F6720AC87C /* HMStatisticsAnonymousContextTable.m in Sources */,
+				6E9AE14AA765CCCE4A734951399E06EC /* HMStatisticsAnonymousManager.m in Sources */,
+				109A62EED20E7CFA86C343D325BCCB30 /* HMStatisticsAnonymousRecord.m in Sources */,
+				9AFD0641E1CD68BC1D4D9B7808CE4E42 /* HMStatisticsAnonymousTable.m in Sources */,
+				17EF5FED4EBC409D5FC866B724144AA7 /* HMStatisticsAnonymousTask.m in Sources */,
+				9AB72BF40952735E07130243C268C771 /* HMStatisticsConfig.m in Sources */,
+				13E71F2DA170F3753BC0AAC3E6D62A08 /* HMStatisticsLog+BothChannel.m in Sources */,
+				6BABFC70BB4A73EC300B4DD43AFEA7B8 /* HMStatisticsLog+Inner.m in Sources */,
+				CE564F837EC5AEA2C089D9FA2D051B07 /* HMStatisticsLog+LogPersistence.m in Sources */,
+				423FBAF70018EEC9908A10A29D8181F6 /* HMStatisticsLog.m in Sources */,
+				531E47553DCF7024D2863E746C85039B /* HMStatisticsNamedConfig.m in Sources */,
+				46FC40E875AFA970A4C674A97A82EC0D /* HMStatisticsNamedContextRecord.m in Sources */,
+				1D7A97B4468E5F8EE5E73469D1A79C6C /* HMStatisticsNamedContextTable.m in Sources */,
+				B24FB290B99598C936F1ECA77F6AE15C /* HMStatisticsNamedManager.m in Sources */,
+				CEE1F794F2D07F327A12B3A50D705275 /* HMStatisticsNamedRecord.m in Sources */,
+				D8B01CDFE7D91289A48D290157F9EB72 /* HMStatisticsNamedTable.m in Sources */,
+				D748C264D67109FF2BC8E130D5FAABFE /* HMStatisticsNamedTask.m in Sources */,
+				78E6E6FCB86B93FBEABDABA78CC95B3C /* HMStatisticsReachability.m in Sources */,
+				472FDBCAC9F38E887E3CE0C97B2595ED /* HMStatisticsSafeCache.m in Sources */,
+				E50E760A191A1801DAC70345C553AAE5 /* HMStatisticsTimer.m in Sources */,
+				2A9B39E8B47D43D382246CBA20326755 /* HMStatisticsTools+DeviceInfo.m in Sources */,
+				1E6EA912198FD93F5D580E1011F2436A /* HMStatisticsTools+Encrypt.m in Sources */,
+				5B5B3F29B521CF2F0289E951210B5A40 /* HMStatisticsTools.m in Sources */,
+				83E3AB2A5937D4BFF23543FCB766356D /* Target_HMStatisticsAnonymousDB.m in Sources */,
+				C119A98762C13D5EE917137BB029BBE4 /* Target_HMStatisticsNamedDB.m in Sources */,
+				C5213B00F7D5A2055FF300F2D0D2D675 /* UIViewController+HMStatisticsSwizzling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86DAF69AE90FAE255293B89C7A512499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E05DC0E5DA23B990BBC7DFDF6020DA /* SQLCipher-dummy.m in Sources */,
+				E5E04C9B734C0CC02E2204899977702A /* sqlite3.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
+				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F7BDE104782CEAF2FDE2466B62274B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2D7F6E5C7C497CF70C256ED1ED2E19 /* Pods-HMStatistics_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14063ADEA5333EC493654C51798FA529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = DD8AA8B424E2895702710DF9E5370454 /* PBXContainerItemProxy */;
+		};
+		14DDF3441E3281EF30F90C7A41BBBCF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = 94DAB1549D58505B6E7D91959FBB8087 /* PBXContainerItemProxy */;
+		};
+		6D95DEB65F332D8AEE36B52B84E390E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 565163A0A389B5B9F9AB1B2D6DB0AB68 /* PBXContainerItemProxy */;
+		};
+		85C9BBEAAADDFA0909F374086B99F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTPersistance;
+			target = 0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */;
+			targetProxy = 469971E1652059384B1DCCC2C42973E1 /* PBXContainerItemProxy */;
+		};
+		8BD3FF63DAD4C08E9386A0BD0D23B7BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 80AF1C808CA1B6EE2C5B61D680FDE6AA /* PBXContainerItemProxy */;
+		};
+		A2BCFFE2949A53C326A928F22AC52E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HMStatistics_Example";
+			target = B3D80DD416AF6CED16286B25788AA7D4 /* Pods-HMStatistics_Example */;
+			targetProxy = 2A60FAE4242ED668686EF63F1A6A3060 /* PBXContainerItemProxy */;
+		};
+		B7B0F9278D69B3C303FEDD6B4018174E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 237D43243B63E20EB6E4180190596C14 /* PBXContainerItemProxy */;
+		};
+		C4A025AC519137FF44B3D6F3AFCB77EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLCipher;
+			target = 57B0FC647D536A778E1EC92BEA985755 /* SQLCipher */;
+			targetProxy = 93EF3252ECC03071B8E868E67C6E8298 /* PBXContainerItemProxy */;
+		};
+		E1729D0D2D1210D183408FBEA43E2F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTPersistance;
+			target = 0D1AAED82C08C27919D9D84D0C6B39BA /* CTPersistance */;
+			targetProxy = 4547EB7EC4806E0ED222B38E5DBE3CCF /* PBXContainerItemProxy */;
+		};
+		FE33E02EF04EC0C46B8949F38B4E1C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HMStatistics;
+			target = 15D4619F8A68C1EDF77020620402FCCF /* HMStatistics */;
+			targetProxy = BB15529A39755F6118CA0D04180EDC04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032413CB849CB1DF6329994BACAA6698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B2CE387A0A14B6B1F38C33C1CF381D /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14B5EC0E805EE157D312FA8BFE28EA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A2461190D52708C43CD309C0C9BCB4 /* Pods-HMStatistics_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMStatistics_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMStatistics_Example/Pods-HMStatistics_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E21E850457745BE131EF6993186548D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659C73BFE63CE1E31C7B17F8646B7222 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		591347726D008DC3910F4CEECB3E0F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7084ED5A870793EAF027E4F57DC4E67 /* HMStatistics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMStatistics/HMStatistics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMStatistics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMStatistics/HMStatistics.modulemap";
+				PRODUCT_MODULE_NAME = HMStatistics;
+				PRODUCT_NAME = HMStatistics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		769B5E0E051423D8FB88E7D8E879A356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B2CE387A0A14B6B1F38C33C1CF381D /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89D3F85A183526EC17F4F07870AC1CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEAE2E8F247D10CB748775FC418672F /* Pods-HMStatistics_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMStatistics_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMStatistics_Example/Pods-HMStatistics_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95C18BAE7FB5BE801ACBFF4CE7F8E77D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316DD11D068DA7BFE63EFD6FF5BF0DFB /* CTPersistance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPersistance/CTPersistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPersistance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPersistance/CTPersistance.modulemap";
+				PRODUCT_MODULE_NAME = CTPersistance;
+				PRODUCT_NAME = CTPersistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1670DCB9F1F545A6C62759B4D413F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659C73BFE63CE1E31C7B17F8646B7222 /* SQLCipher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLCipher/SQLCipher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLCipher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLCipher/SQLCipher.modulemap";
+				PRODUCT_MODULE_NAME = SQLCipher;
+				PRODUCT_NAME = SQLCipher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2C2AACFEA7EB5A3150BFF9106B58976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA696FBE626B8FA6F7FA0D1BAC823D2D /* Pods-HMStatistics_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMStatistics_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMStatistics_Tests/Pods-HMStatistics_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1E819FF5A167D8803B3BB90D7A32F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7084ED5A870793EAF027E4F57DC4E67 /* HMStatistics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMStatistics/HMStatistics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMStatistics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMStatistics/HMStatistics.modulemap";
+				PRODUCT_MODULE_NAME = HMStatistics;
+				PRODUCT_NAME = HMStatistics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D93D08D4D328C8E163D661E466EF8B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3D34C007050C90C8804C9FB04B8F3E /* Pods-HMStatistics_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HMStatistics_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HMStatistics_Tests/Pods-HMStatistics_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3875860F688A81EE76A23919D2553E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316DD11D068DA7BFE63EFD6FF5BF0DFB /* CTPersistance.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTPersistance/CTPersistance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTPersistance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTPersistance/CTPersistance.modulemap";
+				PRODUCT_MODULE_NAME = CTPersistance;
+				PRODUCT_NAME = CTPersistance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1240AC29198E8D28BEB68F28B468521C /* Build configuration list for PBXNativeTarget "CTPersistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3875860F688A81EE76A23919D2553E7 /* Debug */,
+				95C18BAE7FB5BE801ACBFF4CE7F8E77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E58B26F76F74AE589A3AB9FB3657802 /* Build configuration list for PBXNativeTarget "Pods-HMStatistics_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89D3F85A183526EC17F4F07870AC1CEA /* Debug */,
+				14B5EC0E805EE157D312FA8BFE28EA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032413CB849CB1DF6329994BACAA6698 /* Debug */,
+				769B5E0E051423D8FB88E7D8E879A356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6DF1B02C267E2A6F76D003F38D5967 /* Build configuration list for PBXNativeTarget "SQLCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E21E850457745BE131EF6993186548D /* Debug */,
+				C1670DCB9F1F545A6C62759B4D413F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3668912A5238BDE5C565E10C74A63F /* Build configuration list for PBXNativeTarget "HMStatistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591347726D008DC3910F4CEECB3E0F78 /* Debug */,
+				D1E819FF5A167D8803B3BB90D7A32F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07742B167DEFE844BA35A0D2B0E4248 /* Build configuration list for PBXNativeTarget "Pods-HMStatistics_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93D08D4D328C8E163D661E466EF8B16 /* Debug */,
+				C2C2AACFEA7EB5A3150BFF9106B58976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

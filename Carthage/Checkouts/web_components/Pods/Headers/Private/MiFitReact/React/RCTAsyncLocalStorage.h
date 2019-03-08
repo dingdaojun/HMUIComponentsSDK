@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Modules/RCTAsyncLocalStorage.h

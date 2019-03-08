@@ -1,0 +1,34 @@
+{
+  "name": "huamipay",
+  "version": "0.0.1",
+  "summary": "huamipay kit.",
+  "description": "华米支付",
+  "homepage": "https://internal.smartdevices.com.cn:8080/#/admin/projects/apps/ios/libs/huamipay",
+  "license": "MIT",
+  "authors": {
+    "yubiao": "yubiao@huami.com"
+  },
+  "source": {
+    "git": "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/huamipay"
+  },
+  "requires_arc": true,
+  "source_files": "huamipay/**/*",
+  "dependencies": {
+    "CryptoSwift": [
+      "~>0.9.0"
+    ]
+  },
+  "vendored_frameworks": [
+    "vendored_frameworks/AFNetworking.framework",
+    "vendored_frameworks/WalletService.framework",
+    "vendored_frameworks/HMService.framework",
+    "vendored_frameworks/HMNetworkLayer.framework",
+    "vendored_frameworks/HMCategory.framework"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

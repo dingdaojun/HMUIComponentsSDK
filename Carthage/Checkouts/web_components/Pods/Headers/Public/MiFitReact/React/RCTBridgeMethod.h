@@ -1,0 +1,1 @@
+../../../../MiFitReact/React/Base/RCTBridgeMethod.h

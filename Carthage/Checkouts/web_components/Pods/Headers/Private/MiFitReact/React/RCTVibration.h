@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/Vibration/RCTVibration.h

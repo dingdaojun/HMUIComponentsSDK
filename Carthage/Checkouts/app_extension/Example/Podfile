@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'ExtensionKit_Example' do
+  pod 'HMExtensionKit', :path => '../'
+
+  target 'ExtensionKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end

@@ -1,0 +1,6 @@
+framework module HMPayKit {
+  umbrella header "HMPayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

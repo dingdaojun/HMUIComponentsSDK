@@ -1,0 +1,1 @@
+../../../../MiFitReact/Libraries/Settings/RCTSettingsManager.h

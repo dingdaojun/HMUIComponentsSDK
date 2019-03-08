@@ -1,0 +1,854 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4721D3C7210083BC00BA4D56 /* BLEConnectManager+ReConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B0210083BB00BA4D56 /* BLEConnectManager+ReConnect.swift */; };
+		4721D3C8210083BC00BA4D56 /* BLEConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B1210083BB00BA4D56 /* BLEConnectManager.swift */; };
+		4721D3C9210083BC00BA4D56 /* BLEConnectManager+Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B2210083BB00BA4D56 /* BLEConnectManager+Observer.swift */; };
+		4721D3CA210083BC00BA4D56 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B4210083BB00BA4D56 /* DeviceManager.swift */; };
+		4721D3CB210083BC00BA4D56 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B6210083BC00BA4D56 /* SCLAlertView.swift */; };
+		4721D3CC210083BC00BA4D56 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B7210083BC00BA4D56 /* SCLExtensions.swift */; };
+		4721D3CD210083BC00BA4D56 /* ScanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3B9210083BC00BA4D56 /* ScanTableViewController.swift */; };
+		4721D3CE210083BC00BA4D56 /* RealStepInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3BB210083BC00BA4D56 /* RealStepInfomation.swift */; };
+		4721D3CF210083BC00BA4D56 /* ScanHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3BC210083BC00BA4D56 /* ScanHelper.swift */; };
+		4721D3D0210083BC00BA4D56 /* LEProfileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3BD210083BC00BA4D56 /* LEProfileHelper.swift */; };
+		4721D3D1210083BC00BA4D56 /* OperationQueueProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3BE210083BC00BA4D56 /* OperationQueueProfile.swift */; };
+		4721D3D2210083BC00BA4D56 /* OperationQueueManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3BF210083BC00BA4D56 /* OperationQueueManager.swift */; };
+		4721D3D3210083BC00BA4D56 /* BatteryInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C0210083BC00BA4D56 /* BatteryInfomation.swift */; };
+		4721D3D4210083BC00BA4D56 /* String+MacaddressFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C1210083BC00BA4D56 /* String+MacaddressFormat.swift */; };
+		4721D3D5210083BC00BA4D56 /* RealSensorInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C2210083BC00BA4D56 /* RealSensorInfomation.swift */; };
+		4721D3D6210083BC00BA4D56 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C3210083BC00BA4D56 /* ScanResult.swift */; };
+		4721D3D7210083BC00BA4D56 /* HMPeripheralInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C4210083BC00BA4D56 /* HMPeripheralInfomation.swift */; };
+		4721D3D8210083BC00BA4D56 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3C6210083BC00BA4D56 /* ProfileManager.swift */; };
+		4721D3DA210083ED00BA4D56 /* RetriveLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3D9210083ED00BA4D56 /* RetriveLEPeripheral.swift */; };
+		4721D3E02100854900BA4D56 /* ViewController+NFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3DF2100854900BA4D56 /* ViewController+NFC.swift */; };
+		4721D3ED2100874E00BA4D56 /* ViewController+UpdateCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3EB2100874E00BA4D56 /* ViewController+UpdateCity.swift */; };
+		4721D3EE2100874E00BA4D56 /* ViewController+Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3EC2100874E00BA4D56 /* ViewController+Connect.swift */; };
+		4721D3F0210087C800BA4D56 /* ViewController+Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D3EF210087C800BA4D56 /* ViewController+Tips.swift */; };
+		4721D4AC2101C04D00BA4D56 /* AppDelegate+HMServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721D4AB2101C04D00BA4D56 /* AppDelegate+HMServiceAPI.swift */; };
+		47249DDB21070B1B002B4A59 /* HMNFCCardemu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249D6A2106D4FB002B4A59 /* HMNFCCardemu.framework */; };
+		47249DDC21070B1B002B4A59 /* HMNFCCardemu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249D6A2106D4FB002B4A59 /* HMNFCCardemu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0121070D17002B4A59 /* HMCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF621070D15002B4A59 /* HMCategory.framework */; };
+		47249E0221070D17002B4A59 /* HMCategory.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF621070D15002B4A59 /* HMCategory.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0321070D17002B4A59 /* huamipay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF721070D16002B4A59 /* huamipay.framework */; };
+		47249E0421070D17002B4A59 /* huamipay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF721070D16002B4A59 /* huamipay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0521070D17002B4A59 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF821070D16002B4A59 /* AFNetworking.framework */; };
+		47249E0621070D17002B4A59 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF821070D16002B4A59 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0721070D17002B4A59 /* Cache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF921070D16002B4A59 /* Cache.framework */; };
+		47249E0821070D17002B4A59 /* Cache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DF921070D16002B4A59 /* Cache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0921070D17002B4A59 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFA21070D16002B4A59 /* SDWebImage.framework */; };
+		47249E0A21070D17002B4A59 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFA21070D16002B4A59 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0B21070D17002B4A59 /* HMNetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFB21070D16002B4A59 /* HMNetworkLayer.framework */; };
+		47249E0C21070D17002B4A59 /* HMNetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFB21070D16002B4A59 /* HMNetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0D21070D17002B4A59 /* TWTagLengthValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFC21070D16002B4A59 /* TWTagLengthValue.framework */; };
+		47249E0E21070D17002B4A59 /* TWTagLengthValue.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFC21070D16002B4A59 /* TWTagLengthValue.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E0F21070D17002B4A59 /* WalletService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFD21070D16002B4A59 /* WalletService.framework */; };
+		47249E1021070D17002B4A59 /* WalletService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFD21070D16002B4A59 /* WalletService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E1121070D17002B4A59 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFE21070D16002B4A59 /* CryptoSwift.framework */; };
+		47249E1221070D17002B4A59 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFE21070D16002B4A59 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E1321070D17002B4A59 /* HMService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFF21070D17002B4A59 /* HMService.framework */; };
+		47249E1421070D17002B4A59 /* HMService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249DFF21070D17002B4A59 /* HMService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E1521070D17002B4A59 /* ThreePartyService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249E0021070D17002B4A59 /* ThreePartyService.framework */; };
+		47249E1621070D17002B4A59 /* ThreePartyService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249E0021070D17002B4A59 /* ThreePartyService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47249E1821070D5F002B4A59 /* HMBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47249E1721070D5F002B4A59 /* HMBluetoothKit.framework */; };
+		47249E1921070D5F002B4A59 /* HMBluetoothKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47249E1721070D5F002B4A59 /* HMBluetoothKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		47346B4920FEC87800EED587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47346B4820FEC87800EED587 /* AppDelegate.swift */; };
+		47346B4B20FEC87800EED587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47346B4A20FEC87800EED587 /* ViewController.swift */; };
+		47346B4E20FEC87800EED587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47346B4C20FEC87800EED587 /* Main.storyboard */; };
+		47346B5020FEC87900EED587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47346B4F20FEC87900EED587 /* Assets.xcassets */; };
+		47346B5320FEC87900EED587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47346B5120FEC87900EED587 /* LaunchScreen.storyboard */; };
+		47346B5E20FEC87900EED587 /* HMNFCCardemuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47346B5D20FEC87900EED587 /* HMNFCCardemuExampleTests.swift */; };
+		47346B6920FEC87900EED587 /* HMNFCCardemuExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47346B6820FEC87900EED587 /* HMNFCCardemuExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47346B5A20FEC87900EED587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47346B3D20FEC87800EED587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47346B4420FEC87800EED587;
+			remoteInfo = HMNFCCardemuExample;
+		};
+		47346B6520FEC87900EED587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47346B3D20FEC87800EED587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47346B4420FEC87800EED587;
+			remoteInfo = HMNFCCardemuExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47249DDD21070B1B002B4A59 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				47249E1621070D17002B4A59 /* ThreePartyService.framework in Embed Frameworks */,
+				47249E1921070D5F002B4A59 /* HMBluetoothKit.framework in Embed Frameworks */,
+				47249E0C21070D17002B4A59 /* HMNetworkLayer.framework in Embed Frameworks */,
+				47249E0821070D17002B4A59 /* Cache.framework in Embed Frameworks */,
+				47249DDC21070B1B002B4A59 /* HMNFCCardemu.framework in Embed Frameworks */,
+				47249E1221070D17002B4A59 /* CryptoSwift.framework in Embed Frameworks */,
+				47249E0621070D17002B4A59 /* AFNetworking.framework in Embed Frameworks */,
+				47249E0E21070D17002B4A59 /* TWTagLengthValue.framework in Embed Frameworks */,
+				47249E1421070D17002B4A59 /* HMService.framework in Embed Frameworks */,
+				47249E0421070D17002B4A59 /* huamipay.framework in Embed Frameworks */,
+				47249E0A21070D17002B4A59 /* SDWebImage.framework in Embed Frameworks */,
+				47249E0221070D17002B4A59 /* HMCategory.framework in Embed Frameworks */,
+				47249E1021070D17002B4A59 /* WalletService.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4721D3B0210083BB00BA4D56 /* BLEConnectManager+ReConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConnectManager+ReConnect.swift"; sourceTree = "<group>"; };
+		4721D3B1210083BB00BA4D56 /* BLEConnectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEConnectManager.swift; sourceTree = "<group>"; };
+		4721D3B2210083BB00BA4D56 /* BLEConnectManager+Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BLEConnectManager+Observer.swift"; sourceTree = "<group>"; };
+		4721D3B4210083BB00BA4D56 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManager.swift; sourceTree = "<group>"; };
+		4721D3B6210083BC00BA4D56 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		4721D3B7210083BC00BA4D56 /* SCLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLExtensions.swift; sourceTree = "<group>"; };
+		4721D3B9210083BC00BA4D56 /* ScanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanTableViewController.swift; sourceTree = "<group>"; };
+		4721D3BB210083BC00BA4D56 /* RealStepInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealStepInfomation.swift; sourceTree = "<group>"; };
+		4721D3BC210083BC00BA4D56 /* ScanHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanHelper.swift; sourceTree = "<group>"; };
+		4721D3BD210083BC00BA4D56 /* LEProfileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LEProfileHelper.swift; sourceTree = "<group>"; };
+		4721D3BE210083BC00BA4D56 /* OperationQueueProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationQueueProfile.swift; sourceTree = "<group>"; };
+		4721D3BF210083BC00BA4D56 /* OperationQueueManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationQueueManager.swift; sourceTree = "<group>"; };
+		4721D3C0210083BC00BA4D56 /* BatteryInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryInfomation.swift; sourceTree = "<group>"; };
+		4721D3C1210083BC00BA4D56 /* String+MacaddressFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MacaddressFormat.swift"; sourceTree = "<group>"; };
+		4721D3C2210083BC00BA4D56 /* RealSensorInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealSensorInfomation.swift; sourceTree = "<group>"; };
+		4721D3C3210083BC00BA4D56 /* ScanResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		4721D3C4210083BC00BA4D56 /* HMPeripheralInfomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPeripheralInfomation.swift; sourceTree = "<group>"; };
+		4721D3C6210083BC00BA4D56 /* ProfileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		4721D3D9210083ED00BA4D56 /* RetriveLEPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetriveLEPeripheral.swift; sourceTree = "<group>"; };
+		4721D3DF2100854900BA4D56 /* ViewController+NFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+NFC.swift"; sourceTree = "<group>"; };
+		4721D3EB2100874E00BA4D56 /* ViewController+UpdateCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+UpdateCity.swift"; sourceTree = "<group>"; };
+		4721D3EC2100874E00BA4D56 /* ViewController+Connect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Connect.swift"; sourceTree = "<group>"; };
+		4721D3EF210087C800BA4D56 /* ViewController+Tips.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Tips.swift"; sourceTree = "<group>"; };
+		4721D4AB2101C04D00BA4D56 /* AppDelegate+HMServiceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+HMServiceAPI.swift"; sourceTree = "<group>"; };
+		47249D6A2106D4FB002B4A59 /* HMNFCCardemu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HMNFCCardemu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47249DF621070D15002B4A59 /* HMCategory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMCategory.framework; path = ../Carthage/Build/iOS/HMCategory.framework; sourceTree = "<group>"; };
+		47249DF721070D16002B4A59 /* huamipay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = huamipay.framework; path = ../Carthage/Build/iOS/huamipay.framework; sourceTree = "<group>"; };
+		47249DF821070D16002B4A59 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		47249DF921070D16002B4A59 /* Cache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cache.framework; path = ../Carthage/Build/iOS/Cache.framework; sourceTree = "<group>"; };
+		47249DFA21070D16002B4A59 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = ../Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		47249DFB21070D16002B4A59 /* HMNetworkLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMNetworkLayer.framework; path = ../Carthage/Build/iOS/HMNetworkLayer.framework; sourceTree = "<group>"; };
+		47249DFC21070D16002B4A59 /* TWTagLengthValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TWTagLengthValue.framework; path = ../Carthage/Build/iOS/TWTagLengthValue.framework; sourceTree = "<group>"; };
+		47249DFD21070D16002B4A59 /* WalletService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WalletService.framework; path = ../Carthage/Build/iOS/WalletService.framework; sourceTree = "<group>"; };
+		47249DFE21070D16002B4A59 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = ../Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		47249DFF21070D17002B4A59 /* HMService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMService.framework; path = ../Carthage/Build/iOS/HMService.framework; sourceTree = "<group>"; };
+		47249E0021070D17002B4A59 /* ThreePartyService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ThreePartyService.framework; path = ../Carthage/Build/iOS/ThreePartyService.framework; sourceTree = "<group>"; };
+		47249E1721070D5F002B4A59 /* HMBluetoothKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMBluetoothKit.framework; path = ../Carthage/Build/iOS/HMBluetoothKit.framework; sourceTree = "<group>"; };
+		47346B4520FEC87800EED587 /* HMNFCCardemuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMNFCCardemuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47346B4820FEC87800EED587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47346B4A20FEC87800EED587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47346B4D20FEC87800EED587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47346B4F20FEC87900EED587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47346B5220FEC87900EED587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47346B5420FEC87900EED587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47346B5920FEC87900EED587 /* HMNFCCardemuExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMNFCCardemuExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47346B5D20FEC87900EED587 /* HMNFCCardemuExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNFCCardemuExampleTests.swift; sourceTree = "<group>"; };
+		47346B5F20FEC87900EED587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47346B6420FEC87900EED587 /* HMNFCCardemuExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMNFCCardemuExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47346B6820FEC87900EED587 /* HMNFCCardemuExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNFCCardemuExampleUITests.swift; sourceTree = "<group>"; };
+		47346B6A20FEC87900EED587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47346B4220FEC87800EED587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47249E1521070D17002B4A59 /* ThreePartyService.framework in Frameworks */,
+				47249E1821070D5F002B4A59 /* HMBluetoothKit.framework in Frameworks */,
+				47249E0B21070D17002B4A59 /* HMNetworkLayer.framework in Frameworks */,
+				47249E0721070D17002B4A59 /* Cache.framework in Frameworks */,
+				47249DDB21070B1B002B4A59 /* HMNFCCardemu.framework in Frameworks */,
+				47249E1121070D17002B4A59 /* CryptoSwift.framework in Frameworks */,
+				47249E0521070D17002B4A59 /* AFNetworking.framework in Frameworks */,
+				47249E0D21070D17002B4A59 /* TWTagLengthValue.framework in Frameworks */,
+				47249E1321070D17002B4A59 /* HMService.framework in Frameworks */,
+				47249E0321070D17002B4A59 /* huamipay.framework in Frameworks */,
+				47249E0921070D17002B4A59 /* SDWebImage.framework in Frameworks */,
+				47249E0121070D17002B4A59 /* HMCategory.framework in Frameworks */,
+				47249E0F21070D17002B4A59 /* WalletService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B5620FEC87900EED587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B6120FEC87900EED587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4721D3AF210083BB00BA4D56 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3B0210083BB00BA4D56 /* BLEConnectManager+ReConnect.swift */,
+				4721D3B1210083BB00BA4D56 /* BLEConnectManager.swift */,
+				4721D3B2210083BB00BA4D56 /* BLEConnectManager+Observer.swift */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		4721D3B3210083BB00BA4D56 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3B4210083BB00BA4D56 /* DeviceManager.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		4721D3B5210083BC00BA4D56 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3B6210083BC00BA4D56 /* SCLAlertView.swift */,
+				4721D3B7210083BC00BA4D56 /* SCLExtensions.swift */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		4721D3B8210083BC00BA4D56 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3B9210083BC00BA4D56 /* ScanTableViewController.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		4721D3BA210083BC00BA4D56 /* HMBluetoothExt */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3BB210083BC00BA4D56 /* RealStepInfomation.swift */,
+				4721D3BC210083BC00BA4D56 /* ScanHelper.swift */,
+				4721D3BD210083BC00BA4D56 /* LEProfileHelper.swift */,
+				4721D3BE210083BC00BA4D56 /* OperationQueueProfile.swift */,
+				4721D3BF210083BC00BA4D56 /* OperationQueueManager.swift */,
+				4721D3C0210083BC00BA4D56 /* BatteryInfomation.swift */,
+				4721D3C1210083BC00BA4D56 /* String+MacaddressFormat.swift */,
+				4721D3C2210083BC00BA4D56 /* RealSensorInfomation.swift */,
+				4721D3C3210083BC00BA4D56 /* ScanResult.swift */,
+				4721D3C4210083BC00BA4D56 /* HMPeripheralInfomation.swift */,
+			);
+			path = HMBluetoothExt;
+			sourceTree = "<group>";
+		};
+		4721D3C5210083BC00BA4D56 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3C6210083BC00BA4D56 /* ProfileManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		47346B3C20FEC87800EED587 = {
+			isa = PBXGroup;
+			children = (
+				47249E1721070D5F002B4A59 /* HMBluetoothKit.framework */,
+				47249DF821070D16002B4A59 /* AFNetworking.framework */,
+				47249DF921070D16002B4A59 /* Cache.framework */,
+				47249DFE21070D16002B4A59 /* CryptoSwift.framework */,
+				47249DF621070D15002B4A59 /* HMCategory.framework */,
+				47249DFB21070D16002B4A59 /* HMNetworkLayer.framework */,
+				47249DFF21070D17002B4A59 /* HMService.framework */,
+				47249DF721070D16002B4A59 /* huamipay.framework */,
+				47249DFA21070D16002B4A59 /* SDWebImage.framework */,
+				47249E0021070D17002B4A59 /* ThreePartyService.framework */,
+				47249DFC21070D16002B4A59 /* TWTagLengthValue.framework */,
+				47249DFD21070D16002B4A59 /* WalletService.framework */,
+				47346B4720FEC87800EED587 /* HMNFCCardemuExample */,
+				47346B5C20FEC87900EED587 /* HMNFCCardemuExampleTests */,
+				47346B6720FEC87900EED587 /* HMNFCCardemuExampleUITests */,
+				47346B4620FEC87800EED587 /* Products */,
+				47346B8920FED45C00EED587 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47346B4620FEC87800EED587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47346B4520FEC87800EED587 /* HMNFCCardemuExample.app */,
+				47346B5920FEC87900EED587 /* HMNFCCardemuExampleTests.xctest */,
+				47346B6420FEC87900EED587 /* HMNFCCardemuExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47346B4720FEC87800EED587 /* HMNFCCardemuExample */ = {
+			isa = PBXGroup;
+			children = (
+				4721D3AF210083BB00BA4D56 /* Connect */,
+				4721D3B3210083BB00BA4D56 /* Device */,
+				4721D3BA210083BC00BA4D56 /* HMBluetoothExt */,
+				4721D3C5210083BC00BA4D56 /* Profile */,
+				4721D3B8210083BC00BA4D56 /* Scan */,
+				4721D3B5210083BC00BA4D56 /* SCLAlertView */,
+				47346B4820FEC87800EED587 /* AppDelegate.swift */,
+				4721D4AB2101C04D00BA4D56 /* AppDelegate+HMServiceAPI.swift */,
+				4721D3D9210083ED00BA4D56 /* RetriveLEPeripheral.swift */,
+				47346B4A20FEC87800EED587 /* ViewController.swift */,
+				47346B4C20FEC87800EED587 /* Main.storyboard */,
+				47346B4F20FEC87900EED587 /* Assets.xcassets */,
+				47346B5120FEC87900EED587 /* LaunchScreen.storyboard */,
+				47346B5420FEC87900EED587 /* Info.plist */,
+				4721D3DF2100854900BA4D56 /* ViewController+NFC.swift */,
+				4721D3EF210087C800BA4D56 /* ViewController+Tips.swift */,
+				4721D3EC2100874E00BA4D56 /* ViewController+Connect.swift */,
+				4721D3EB2100874E00BA4D56 /* ViewController+UpdateCity.swift */,
+			);
+			path = HMNFCCardemuExample;
+			sourceTree = "<group>";
+		};
+		47346B5C20FEC87900EED587 /* HMNFCCardemuExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				47346B5D20FEC87900EED587 /* HMNFCCardemuExampleTests.swift */,
+				47346B5F20FEC87900EED587 /* Info.plist */,
+			);
+			path = HMNFCCardemuExampleTests;
+			sourceTree = "<group>";
+		};
+		47346B6720FEC87900EED587 /* HMNFCCardemuExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47346B6820FEC87900EED587 /* HMNFCCardemuExampleUITests.swift */,
+				47346B6A20FEC87900EED587 /* Info.plist */,
+			);
+			path = HMNFCCardemuExampleUITests;
+			sourceTree = "<group>";
+		};
+		47346B8920FED45C00EED587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47249D6A2106D4FB002B4A59 /* HMNFCCardemu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47346B4420FEC87800EED587 /* HMNFCCardemuExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47346B6D20FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExample" */;
+			buildPhases = (
+				47346B4120FEC87800EED587 /* Sources */,
+				47346B4220FEC87800EED587 /* Frameworks */,
+				47346B4320FEC87800EED587 /* Resources */,
+				47249DDD21070B1B002B4A59 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMNFCCardemuExample;
+			productName = HMNFCCardemuExample;
+			productReference = 47346B4520FEC87800EED587 /* HMNFCCardemuExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47346B5820FEC87900EED587 /* HMNFCCardemuExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47346B7020FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExampleTests" */;
+			buildPhases = (
+				47346B5520FEC87900EED587 /* Sources */,
+				47346B5620FEC87900EED587 /* Frameworks */,
+				47346B5720FEC87900EED587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47346B5B20FEC87900EED587 /* PBXTargetDependency */,
+			);
+			name = HMNFCCardemuExampleTests;
+			productName = HMNFCCardemuExampleTests;
+			productReference = 47346B5920FEC87900EED587 /* HMNFCCardemuExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47346B6320FEC87900EED587 /* HMNFCCardemuExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47346B7320FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExampleUITests" */;
+			buildPhases = (
+				47346B6020FEC87900EED587 /* Sources */,
+				47346B6120FEC87900EED587 /* Frameworks */,
+				47346B6220FEC87900EED587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47346B6620FEC87900EED587 /* PBXTargetDependency */,
+			);
+			name = HMNFCCardemuExampleUITests;
+			productName = HMNFCCardemuExampleUITests;
+			productReference = 47346B6420FEC87900EED587 /* HMNFCCardemuExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47346B3D20FEC87800EED587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Karsa Wu";
+				TargetAttributes = {
+					47346B4420FEC87800EED587 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					47346B5820FEC87900EED587 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 47346B4420FEC87800EED587;
+					};
+					47346B6320FEC87900EED587 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 47346B4420FEC87800EED587;
+					};
+				};
+			};
+			buildConfigurationList = 47346B4020FEC87800EED587 /* Build configuration list for PBXProject "HMNFCCardemuExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47346B3C20FEC87800EED587;
+			productRefGroup = 47346B4620FEC87800EED587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47346B4420FEC87800EED587 /* HMNFCCardemuExample */,
+				47346B5820FEC87900EED587 /* HMNFCCardemuExampleTests */,
+				47346B6320FEC87900EED587 /* HMNFCCardemuExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47346B4320FEC87800EED587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47346B5320FEC87900EED587 /* LaunchScreen.storyboard in Resources */,
+				47346B5020FEC87900EED587 /* Assets.xcassets in Resources */,
+				47346B4E20FEC87800EED587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B5720FEC87900EED587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B6220FEC87900EED587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47346B4120FEC87800EED587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4721D3CC210083BC00BA4D56 /* SCLExtensions.swift in Sources */,
+				4721D3CE210083BC00BA4D56 /* RealStepInfomation.swift in Sources */,
+				47346B4B20FEC87800EED587 /* ViewController.swift in Sources */,
+				4721D3EE2100874E00BA4D56 /* ViewController+Connect.swift in Sources */,
+				4721D3DA210083ED00BA4D56 /* RetriveLEPeripheral.swift in Sources */,
+				4721D3CA210083BC00BA4D56 /* DeviceManager.swift in Sources */,
+				4721D3F0210087C800BA4D56 /* ViewController+Tips.swift in Sources */,
+				4721D3C7210083BC00BA4D56 /* BLEConnectManager+ReConnect.swift in Sources */,
+				4721D3C8210083BC00BA4D56 /* BLEConnectManager.swift in Sources */,
+				47346B4920FEC87800EED587 /* AppDelegate.swift in Sources */,
+				4721D3E02100854900BA4D56 /* ViewController+NFC.swift in Sources */,
+				4721D3D7210083BC00BA4D56 /* HMPeripheralInfomation.swift in Sources */,
+				4721D3D1210083BC00BA4D56 /* OperationQueueProfile.swift in Sources */,
+				4721D3ED2100874E00BA4D56 /* ViewController+UpdateCity.swift in Sources */,
+				4721D3CB210083BC00BA4D56 /* SCLAlertView.swift in Sources */,
+				4721D3CF210083BC00BA4D56 /* ScanHelper.swift in Sources */,
+				4721D4AC2101C04D00BA4D56 /* AppDelegate+HMServiceAPI.swift in Sources */,
+				4721D3D8210083BC00BA4D56 /* ProfileManager.swift in Sources */,
+				4721D3D4210083BC00BA4D56 /* String+MacaddressFormat.swift in Sources */,
+				4721D3D6210083BC00BA4D56 /* ScanResult.swift in Sources */,
+				4721D3D3210083BC00BA4D56 /* BatteryInfomation.swift in Sources */,
+				4721D3C9210083BC00BA4D56 /* BLEConnectManager+Observer.swift in Sources */,
+				4721D3D2210083BC00BA4D56 /* OperationQueueManager.swift in Sources */,
+				4721D3D5210083BC00BA4D56 /* RealSensorInfomation.swift in Sources */,
+				4721D3D0210083BC00BA4D56 /* LEProfileHelper.swift in Sources */,
+				4721D3CD210083BC00BA4D56 /* ScanTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B5520FEC87900EED587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47346B5E20FEC87900EED587 /* HMNFCCardemuExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47346B6020FEC87900EED587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47346B6920FEC87900EED587 /* HMNFCCardemuExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47346B5B20FEC87900EED587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47346B4420FEC87800EED587 /* HMNFCCardemuExample */;
+			targetProxy = 47346B5A20FEC87900EED587 /* PBXContainerItemProxy */;
+		};
+		47346B6620FEC87900EED587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47346B4420FEC87800EED587 /* HMNFCCardemuExample */;
+			targetProxy = 47346B6520FEC87900EED587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47346B4C20FEC87800EED587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47346B4D20FEC87800EED587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47346B5120FEC87900EED587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47346B5220FEC87900EED587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47346B6B20FEC87900EED587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47346B6C20FEC87900EED587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47346B6E20FEC87900EED587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../Carthage/Build/iOS,
+				);
+				INFOPLIST_FILE = HMNFCCardemuExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47346B6F20FEC87900EED587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58GTYMQJRP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../Carthage/Build/iOS,
+				);
+				INFOPLIST_FILE = HMNFCCardemuExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47346B7120FEC87900EED587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMNFCCardemuExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMNFCCardemuExample.app/HMNFCCardemuExample";
+			};
+			name = Debug;
+		};
+		47346B7220FEC87900EED587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMNFCCardemuExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMNFCCardemuExample.app/HMNFCCardemuExample";
+			};
+			name = Release;
+		};
+		47346B7420FEC87900EED587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMNFCCardemuExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMNFCCardemuExample;
+			};
+			name = Debug;
+		};
+		47346B7520FEC87900EED587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BPBCHD64GW;
+				INFOPLIST_FILE = HMNFCCardemuExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huami.HMNFCCardemu.HMNFCCardemuExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMNFCCardemuExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47346B4020FEC87800EED587 /* Build configuration list for PBXProject "HMNFCCardemuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47346B6B20FEC87900EED587 /* Debug */,
+				47346B6C20FEC87900EED587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47346B6D20FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47346B6E20FEC87900EED587 /* Debug */,
+				47346B6F20FEC87900EED587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47346B7020FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47346B7120FEC87900EED587 /* Debug */,
+				47346B7220FEC87900EED587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47346B7320FEC87900EED587 /* Build configuration list for PBXNativeTarget "HMNFCCardemuExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47346B7420FEC87900EED587 /* Debug */,
+				47346B7520FEC87900EED587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47346B3D20FEC87800EED587 /* Project object */;
+}

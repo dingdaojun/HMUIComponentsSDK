@@ -1,0 +1,1 @@
+../../../../MiFitReact/ReactCommon/cxxreact/JSBundleType.h

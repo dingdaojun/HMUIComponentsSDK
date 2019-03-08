@@ -1,0 +1,140 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - boost-for-react-native (1.63.0)
+  - DDSocial/Core (1.6.1)
+  - DDSocial/MI (1.6.1):
+    - DDSocial/Core
+  - DDSocial/Share (1.6.1):
+    - DDSocial/Core
+  - DDWebService (2.0.4):
+    - AFNetworking
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - HMAccountSDK (2.3.1):
+    - HMAccountSDK/HMAccountCore (= 2.3.1)
+    - HMAccountSDK/HMAccountSDK (= 2.3.1)
+    - HMAccountSDK/HMPhoneEmailSDK (= 2.3.1)
+  - HMAccountSDK/HMAccountCore (2.3.1):
+    - DDWebService (~> 2.0.4)
+    - libPhoneNumber-iOS (~> 0.9.10)
+    - SAMKeychain
+  - HMAccountSDK/HMAccountSDK (2.3.1):
+    - HMAccountSDK/HMAccountCore
+  - HMAccountSDK/HMPhoneEmailSDK (2.3.1):
+    - HMAccountSDK/HMAccountCore
+  - libPhoneNumber-iOS (0.9.13)
+  - MiFitReact/Core (0.5.56):
+    - MiFitReact/yoga
+  - MiFitReact/CxxBridge (0.5.56):
+    - Folly (= 2016.09.26.00)
+    - MiFitReact/Core
+    - MiFitReact/cxxreact
+  - MiFitReact/cxxreact (0.5.56):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - MiFitReact/jschelpers
+    - MiFitReact/jsinspector
+  - MiFitReact/DevSupport (0.5.56):
+    - MiFitReact/Core
+    - MiFitReact/RCTWebSocket
+  - MiFitReact/fishhook (0.5.56)
+  - MiFitReact/jschelpers (0.5.56):
+    - Folly (= 2016.09.26.00)
+    - MiFitReact/PrivateDatabase
+  - MiFitReact/jsinspector (0.5.56)
+  - MiFitReact/PrivateDatabase (0.5.56)
+  - MiFitReact/RCTActionSheet (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTBlob (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTGeolocation (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTImage (0.5.56):
+    - MiFitReact/Core
+    - MiFitReact/RCTNetwork
+  - MiFitReact/RCTLinkingIOS (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTNetwork (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTPushNotification (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTSettings (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTText (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTVibration (0.5.56):
+    - MiFitReact/Core
+  - MiFitReact/RCTWebSocket (0.5.56):
+    - MiFitReact/Core
+    - MiFitReact/fishhook
+    - MiFitReact/RCTBlob
+  - MiFitReact/yoga (0.5.56)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - DDSocial/MI (= 1.6.1)
+  - DDSocial/Share (= 1.6.1)
+  - HMAccountSDK (= 2.3.1)
+  - MiFitReact/Core
+  - MiFitReact/CxxBridge
+  - MiFitReact/DevSupport
+  - MiFitReact/RCTActionSheet
+  - MiFitReact/RCTGeolocation
+  - MiFitReact/RCTImage
+  - MiFitReact/RCTLinkingIOS
+  - MiFitReact/RCTNetwork
+  - MiFitReact/RCTPushNotification
+  - MiFitReact/RCTSettings
+  - MiFitReact/RCTText
+  - MiFitReact/RCTVibration
+  - MiFitReact/RCTWebSocket
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - boost-for-react-native
+    - DDSocial
+    - DDWebService
+    - DoubleConversion
+    - Folly
+    - glog
+    - libPhoneNumber-iOS
+    - SAMKeychain
+  ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS:
+    - HMAccountSDK
+    - MiFitReact
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DDSocial: 3de130f49a11a8f04e34b1d4f2c2085969bbea66
+  DDWebService: 62d16656516a23e481a0adf4edbad5e3a7790e78
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  HMAccountSDK: ba7b45bb726d893d42d8a03ea41b432ae1bb52e0
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  MiFitReact: 7e364629acaefc70c6236d0db59bd9e212f88f6a
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: c4660a01545a9414cf8373a2b80f376003c3d775
+
+COCOAPODS: 1.5.3

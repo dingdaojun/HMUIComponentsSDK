@@ -1,0 +1,7 @@
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/category" "0.4.1"
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/ccb_ble_sdk" "d6d3b82b0d08e65e3c9aedb09d49182d56bed000"
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/network" "2.3.4"
+git "ssh://internal.smartdevices.com.cn:29418/apps/ios/libs/tlv" "8b820b7728f3ea5fc0098c70016fc41e28627f63"
+github "AFNetworking/AFNetworking" "3.2.1"
+github "hyperoslo/Cache" "4.2.0"
+github "krzyzanowskim/CryptoSwift" "0.10.0"

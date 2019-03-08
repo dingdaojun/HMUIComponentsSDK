@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS'
+
+use_frameworks!
+
+target 'HMDBWeather_Example' do
+  pod 'HMDBWeather', :path => '../'
+
+  target 'HMDBWeather_Tests' do
+    inherit! :search_paths
+    pod 'OCMock'
+    
+  end
+end

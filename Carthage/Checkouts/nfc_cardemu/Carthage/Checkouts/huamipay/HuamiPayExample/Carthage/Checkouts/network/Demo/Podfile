@@ -1,0 +1,55 @@
+gerritURL = "ssh://internal.smartdevices.com.cn:29418/apps/Specs-iOS"
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source gerritURL
+
+use_frameworks!
+
+target 'HMNetworkLayerDemo' do
+    pod 'HMCategory', '0.3.6'
+end
+
+target 'HMNetworkLayerDemoTests' do
+    pod 'HMCategory', '0.3.6'
+    pod 'AFNetworking'
+    pod 'objc-geohash'
+    pod 'OCMock', '3.4'
+end
+
+target 'HMNetworkLayer' do
+    pod 'AFNetworking'
+end
+
+target 'HMService' do
+end
+
+target 'MIFitService' do
+    pod 'HMCategory', '0.3.6'
+end
+
+target 'TrainingService' do
+end
+
+target 'WeatherService' do
+end
+
+target 'AmazfitWatchService' do
+    pod 'HMCategory', '0.3.6'
+end
+
+target 'RunService' do
+    pod 'objc-geohash'
+end
+
+target 'SmartAssistantService' do
+end
+
+
+target 'WalletService' do
+end
+
+
+target 'ThreePartyService' do
+    pod 'HMCategory', '0.3.6'
+end

@@ -7,262 +7,407 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EFC6480F73C531D9A568F59D /* libPods-HMUIComponentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */; };
-		F71BDE9B21CA285700493AB8 /* HMUIComponentsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEC421CA28B300493AB8 /* HMDesignTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA221CA28B300493AB8 /* HMDesignTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEC521CA28B300493AB8 /* HMDesignTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEA321CA28B300493AB8 /* HMDesignTools.m */; };
-		F71BDEC621CA28B300493AB8 /* UIImage+HMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */; };
-		F71BDEC721CA28B300493AB8 /* UIImage+HMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEC821CA28B400493AB8 /* NSDictionary+HMAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEC921CA28B400493AB8 /* NSDictionary+HMAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */; };
-		F71BDECA21CA28B400493AB8 /* UIColor+HMCommonColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDECB21CA28B400493AB8 /* UIColor+HMCommonColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */; };
-		F71BDECC21CA28B400493AB8 /* UIView+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEAF21CA28B300493AB8 /* UIView+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDECD21CA28B400493AB8 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */; };
-		F71BDECE21CA28B400493AB8 /* UIView+DesignStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDECF21CA28B400493AB8 /* UIView+Subviews.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */; };
-		F71BDED021CA28B400493AB8 /* UIView+DesignStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */; };
-		F71BDED121CA28B400493AB8 /* UIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDED221CA28B400493AB8 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB521CA28B300493AB8 /* UIView+Size.m */; };
-		F71BDED321CA28B400493AB8 /* UIView+Subviews.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDED421CA28B400493AB8 /* NSString+AZQuantityStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */; };
-		F71BDED521CA28B400493AB8 /* NSString+HMStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDED621CA28B400493AB8 /* NSString+HMStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */; };
-		F71BDED721CA28B400493AB8 /* NSString+AZQuantityStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDED821CA28B400493AB8 /* UIControl+HMTargetAndAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */; };
-		F71BDEDA21CA28B400493AB8 /* NSAttributedString+HMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F71BDEDC21CA28B400493AB8 /* NSAttributedString+HMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */; };
-		F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */; };
+		2FF9278EC717E107A9ECC972 /* libPods-HMUIComponentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B520DE0FE77A1AA50CC69438 /* libPods-HMUIComponentsSDK.a */; };
+		7B4B844A21C7C57800D4B850 /* HMUIComponentsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B844821C7C57800D4B850 /* HMUIComponentsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847321C7C5A400D4B850 /* UIImage+HMGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845221C7C5A400D4B850 /* UIImage+HMGradient.m */; };
+		7B4B847421C7C5A400D4B850 /* UIImage+HMGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B845321C7C5A400D4B850 /* UIImage+HMGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847521C7C5A400D4B850 /* NSDictionary+HMAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B845521C7C5A400D4B850 /* NSDictionary+HMAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847621C7C5A400D4B850 /* NSDictionary+HMAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845621C7C5A400D4B850 /* NSDictionary+HMAttributes.m */; };
+		7B4B847721C7C5A400D4B850 /* UIColor+HMCommonColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B845821C7C5A400D4B850 /* UIColor+HMCommonColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847821C7C5A400D4B850 /* UIColor+HMCommonColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845921C7C5A400D4B850 /* UIColor+HMCommonColors.m */; };
+		7B4B847921C7C5A400D4B850 /* UIView+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B845B21C7C5A400D4B850 /* UIView+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847A21C7C5A400D4B850 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845C21C7C5A400D4B850 /* UIView+Snapshot.m */; };
+		7B4B847B21C7C5A400D4B850 /* UIView+DesignStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B845D21C7C5A400D4B850 /* UIView+DesignStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847C21C7C5A400D4B850 /* UIView+Subviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845E21C7C5A400D4B850 /* UIView+Subviews.m */; };
+		7B4B847D21C7C5A400D4B850 /* UIView+DesignStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B845F21C7C5A400D4B850 /* UIView+DesignStyle.m */; };
+		7B4B847E21C7C5A400D4B850 /* UIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846021C7C5A400D4B850 /* UIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B847F21C7C5A400D4B850 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846121C7C5A400D4B850 /* UIView+Size.m */; };
+		7B4B848021C7C5A400D4B850 /* UIView+Subviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846221C7C5A400D4B850 /* UIView+Subviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848121C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846421C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.m */; };
+		7B4B848221C7C5A400D4B850 /* NSString+HMStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846521C7C5A400D4B850 /* NSString+HMStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848321C7C5A400D4B850 /* NSString+HMStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846621C7C5A400D4B850 /* NSString+HMStringBuilder.m */; };
+		7B4B848421C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846721C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848521C7C5A400D4B850 /* UIControl+HMTargetAndAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846921C7C5A400D4B850 /* UIControl+HMTargetAndAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848621C7C5A400D4B850 /* UIControl+HMTargetAndAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846A21C7C5A400D4B850 /* UIControl+HMTargetAndAction.m */; };
+		7B4B848721C7C5A400D4B850 /* NSAttributedString+HMUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846C21C7C5A400D4B850 /* NSAttributedString+HMUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848821C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B846D21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848921C7C5A400D4B850 /* NSAttributedString+HMUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846E21C7C5A400D4B850 /* NSAttributedString+HMUtility.m */; };
+		7B4B848A21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B846F21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.m */; };
+		7B4B848B21C7C5A400D4B850 /* HMDesignTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4B847121C7C5A400D4B850 /* HMDesignTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B4B848C21C7C5A400D4B850 /* HMDesignTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4B847221C7C5A400D4B850 /* HMDesignTools.m */; };
+		7B8FA6E2223A0811002B0DBB /* HMPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6BD223A0811002B0DBB /* HMPickerViewCell.m */; };
+		7B8FA6E3223A0811002B0DBB /* DjuPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6BE223A0811002B0DBB /* DjuPickerView.m */; };
+		7B8FA6E4223A0811002B0DBB /* HMPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6BF223A0811002B0DBB /* HMPickerView.h */; };
+		7B8FA6E5223A0811002B0DBB /* NSDictionary+HMPickerAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C1223A0811002B0DBB /* NSDictionary+HMPickerAttributes.m */; };
+		7B8FA6E6223A0811002B0DBB /* UIColor+HMPickerDesignColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C2223A0811002B0DBB /* UIColor+HMPickerDesignColors.m */; };
+		7B8FA6E7223A0811002B0DBB /* UIColor+HMPickerDesignColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6C3223A0811002B0DBB /* UIColor+HMPickerDesignColors.h */; };
+		7B8FA6E8223A0811002B0DBB /* NSDictionary+HMPickerAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6C4223A0811002B0DBB /* NSDictionary+HMPickerAttributes.h */; };
+		7B8FA6E9223A0811002B0DBB /* HMActionSheetPickerMultipleColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C6223A0811002B0DBB /* HMActionSheetPickerMultipleColumnView.xib */; };
+		7B8FA6EA223A0811002B0DBB /* HMPickerSingleColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C7223A0811002B0DBB /* HMPickerSingleColumnView.xib */; };
+		7B8FA6EB223A0811002B0DBB /* HMPickerMultipleColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C8223A0811002B0DBB /* HMPickerMultipleColumnView.xib */; };
+		7B8FA6EC223A0811002B0DBB /* HMPickerColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6C9223A0811002B0DBB /* HMPickerColumnView.m */; };
+		7B8FA6ED223A0811002B0DBB /* HMActionSheetPickerSingleColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6CA223A0811002B0DBB /* HMActionSheetPickerSingleColumnView.xib */; };
+		7B8FA6EE223A0811002B0DBB /* HMPickerColumnView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6CB223A0811002B0DBB /* HMPickerColumnView.h */; };
+		7B8FA6EF223A0811002B0DBB /* HMPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6CC223A0811002B0DBB /* HMPickerView.xib */; };
+		7B8FA6F0223A0811002B0DBB /* HMUIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6CD223A0811002B0DBB /* HMUIPickerView.m */; };
+		7B8FA6F1223A0811002B0DBB /* HMUIPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6CE223A0811002B0DBB /* HMUIPickerViewCell.xib */; };
+		7B8FA6F2223A0811002B0DBB /* HMDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6CF223A0811002B0DBB /* HMDatePicker.m */; };
+		7B8FA6F3223A0811002B0DBB /* HMPickerCommonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6D1223A0811002B0DBB /* HMPickerCommonCell.h */; };
+		7B8FA6F6223A0811002B0DBB /* HMPickerCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6D4223A0811002B0DBB /* HMPickerCommonCell.m */; };
+		7B8FA6F8223A0811002B0DBB /* HMPickerSingleComponentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6D6223A0811002B0DBB /* HMPickerSingleComponentCell.xib */; };
+		7B8FA6F9223A0811002B0DBB /* HMPickerViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6D7223A0811002B0DBB /* HMPickerViewCell.h */; };
+		7B8FA6FA223A0811002B0DBB /* HMPickerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA6D8223A0811002B0DBB /* HMPickerViewCell.xib */; };
+		7B8FA6FF223A0811002B0DBB /* HMPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA6DE223A0811002B0DBB /* HMPickerView.m */; };
+		7B8FA700223A0811002B0DBB /* DjuPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6DF223A0811002B0DBB /* DjuPickerView.h */; };
+		7B8FA701223A0811002B0DBB /* HMUIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6E0223A0811002B0DBB /* HMUIPickerView.h */; };
+		7B8FA702223A0811002B0DBB /* HMDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA6E1223A0811002B0DBB /* HMDatePicker.h */; };
+		7B8FA707223A436F002B0DBB /* HMPickerDataSourceController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA703223A436F002B0DBB /* HMPickerDataSourceController.h */; };
+		7B8FA708223A436F002B0DBB /* HMPickerDataSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA704223A436F002B0DBB /* HMPickerDataSourceController.m */; };
+		7B8FA709223A436F002B0DBB /* HMPickerDataSourceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8FA705223A436F002B0DBB /* HMPickerDataSourceModel.h */; };
+		7B8FA70A223A436F002B0DBB /* HMPickerDataSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA706223A436F002B0DBB /* HMPickerDataSourceModel.m */; };
+		7B8FA70D223A5B76002B0DBB /* HMCategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8FA70C223A5B76002B0DBB /* HMCategory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMUIComponentsSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.release.xcconfig"; path = "Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.release.xcconfig"; sourceTree = "<group>"; };
-		BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.debug.xcconfig"; path = "Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMUIComponentsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMUIComponentsSDK.h; sourceTree = "<group>"; };
-		F71BDE9A21CA285700493AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71BDEA221CA28B300493AB8 /* HMDesignTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDesignTools.h; sourceTree = "<group>"; };
-		F71BDEA321CA28B300493AB8 /* HMDesignTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDesignTools.m; sourceTree = "<group>"; };
-		F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HMGradient.m"; sourceTree = "<group>"; };
-		F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HMGradient.h"; sourceTree = "<group>"; };
-		F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HMAttributes.h"; sourceTree = "<group>"; };
-		F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HMAttributes.m"; sourceTree = "<group>"; };
-		F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMCommonColors.h"; sourceTree = "<group>"; };
-		F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMCommonColors.m"; sourceTree = "<group>"; };
-		F71BDEAF21CA28B300493AB8 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
-		F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
-		F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DesignStyle.h"; sourceTree = "<group>"; };
-		F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subviews.m"; sourceTree = "<group>"; };
-		F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DesignStyle.m"; sourceTree = "<group>"; };
-		F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
-		F71BDEB521CA28B300493AB8 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
-		F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Subviews.h"; sourceTree = "<group>"; };
-		F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AZQuantityStringBuilder.m"; sourceTree = "<group>"; };
-		F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMStringBuilder.h"; sourceTree = "<group>"; };
-		F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMStringBuilder.m"; sourceTree = "<group>"; };
-		F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AZQuantityStringBuilder.h"; sourceTree = "<group>"; };
-		F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HMTargetAndAction.h"; sourceTree = "<group>"; };
-		F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HMTargetAndAction.m"; sourceTree = "<group>"; };
-		F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMUtility.h"; sourceTree = "<group>"; };
-		F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMAttributedStringBuilder.h"; sourceTree = "<group>"; };
-		F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMUtility.m"; sourceTree = "<group>"; };
-		F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMAttributedStringBuilder.m"; sourceTree = "<group>"; };
+		35DC5E4938242BD0D286B456 /* Pods-HMUIComponentsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		6CA900148DD3EBE0EA73D9E1 /* Pods-HMUIComponentsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMUIComponentsSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK.release.xcconfig"; sourceTree = "<group>"; };
+		7B4B844521C7C57700D4B850 /* HMUIComponentsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMUIComponentsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B4B844821C7C57800D4B850 /* HMUIComponentsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMUIComponentsSDK.h; sourceTree = "<group>"; };
+		7B4B844921C7C57800D4B850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B4B845221C7C5A400D4B850 /* UIImage+HMGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HMGradient.m"; sourceTree = "<group>"; };
+		7B4B845321C7C5A400D4B850 /* UIImage+HMGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HMGradient.h"; sourceTree = "<group>"; };
+		7B4B845521C7C5A400D4B850 /* NSDictionary+HMAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HMAttributes.h"; sourceTree = "<group>"; };
+		7B4B845621C7C5A400D4B850 /* NSDictionary+HMAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HMAttributes.m"; sourceTree = "<group>"; };
+		7B4B845821C7C5A400D4B850 /* UIColor+HMCommonColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMCommonColors.h"; sourceTree = "<group>"; };
+		7B4B845921C7C5A400D4B850 /* UIColor+HMCommonColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMCommonColors.m"; sourceTree = "<group>"; };
+		7B4B845B21C7C5A400D4B850 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		7B4B845C21C7C5A400D4B850 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		7B4B845D21C7C5A400D4B850 /* UIView+DesignStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DesignStyle.h"; sourceTree = "<group>"; };
+		7B4B845E21C7C5A400D4B850 /* UIView+Subviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Subviews.m"; sourceTree = "<group>"; };
+		7B4B845F21C7C5A400D4B850 /* UIView+DesignStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DesignStyle.m"; sourceTree = "<group>"; };
+		7B4B846021C7C5A400D4B850 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		7B4B846121C7C5A400D4B850 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		7B4B846221C7C5A400D4B850 /* UIView+Subviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Subviews.h"; sourceTree = "<group>"; };
+		7B4B846421C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AZQuantityStringBuilder.m"; sourceTree = "<group>"; };
+		7B4B846521C7C5A400D4B850 /* NSString+HMStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMStringBuilder.h"; sourceTree = "<group>"; };
+		7B4B846621C7C5A400D4B850 /* NSString+HMStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMStringBuilder.m"; sourceTree = "<group>"; };
+		7B4B846721C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AZQuantityStringBuilder.h"; sourceTree = "<group>"; };
+		7B4B846921C7C5A400D4B850 /* UIControl+HMTargetAndAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HMTargetAndAction.h"; sourceTree = "<group>"; };
+		7B4B846A21C7C5A400D4B850 /* UIControl+HMTargetAndAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HMTargetAndAction.m"; sourceTree = "<group>"; };
+		7B4B846C21C7C5A400D4B850 /* NSAttributedString+HMUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMUtility.h"; sourceTree = "<group>"; };
+		7B4B846D21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+HMAttributedStringBuilder.h"; sourceTree = "<group>"; };
+		7B4B846E21C7C5A400D4B850 /* NSAttributedString+HMUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMUtility.m"; sourceTree = "<group>"; };
+		7B4B846F21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+HMAttributedStringBuilder.m"; sourceTree = "<group>"; };
+		7B4B847121C7C5A400D4B850 /* HMDesignTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDesignTools.h; sourceTree = "<group>"; };
+		7B4B847221C7C5A400D4B850 /* HMDesignTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDesignTools.m; sourceTree = "<group>"; };
+		7B8FA6BD223A0811002B0DBB /* HMPickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerViewCell.m; sourceTree = "<group>"; };
+		7B8FA6BE223A0811002B0DBB /* DjuPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DjuPickerView.m; sourceTree = "<group>"; };
+		7B8FA6BF223A0811002B0DBB /* HMPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerView.h; sourceTree = "<group>"; };
+		7B8FA6C1223A0811002B0DBB /* NSDictionary+HMPickerAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HMPickerAttributes.m"; sourceTree = "<group>"; };
+		7B8FA6C2223A0811002B0DBB /* UIColor+HMPickerDesignColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMPickerDesignColors.m"; sourceTree = "<group>"; };
+		7B8FA6C3223A0811002B0DBB /* UIColor+HMPickerDesignColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMPickerDesignColors.h"; sourceTree = "<group>"; };
+		7B8FA6C4223A0811002B0DBB /* NSDictionary+HMPickerAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HMPickerAttributes.h"; sourceTree = "<group>"; };
+		7B8FA6C6223A0811002B0DBB /* HMActionSheetPickerMultipleColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMActionSheetPickerMultipleColumnView.xib; sourceTree = "<group>"; };
+		7B8FA6C7223A0811002B0DBB /* HMPickerSingleColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPickerSingleColumnView.xib; sourceTree = "<group>"; };
+		7B8FA6C8223A0811002B0DBB /* HMPickerMultipleColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPickerMultipleColumnView.xib; sourceTree = "<group>"; };
+		7B8FA6C9223A0811002B0DBB /* HMPickerColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerColumnView.m; sourceTree = "<group>"; };
+		7B8FA6CA223A0811002B0DBB /* HMActionSheetPickerSingleColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMActionSheetPickerSingleColumnView.xib; sourceTree = "<group>"; };
+		7B8FA6CB223A0811002B0DBB /* HMPickerColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerColumnView.h; sourceTree = "<group>"; };
+		7B8FA6CC223A0811002B0DBB /* HMPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPickerView.xib; sourceTree = "<group>"; };
+		7B8FA6CD223A0811002B0DBB /* HMUIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMUIPickerView.m; sourceTree = "<group>"; };
+		7B8FA6CE223A0811002B0DBB /* HMUIPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMUIPickerViewCell.xib; sourceTree = "<group>"; };
+		7B8FA6CF223A0811002B0DBB /* HMDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDatePicker.m; sourceTree = "<group>"; };
+		7B8FA6D1223A0811002B0DBB /* HMPickerCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerCommonCell.h; sourceTree = "<group>"; };
+		7B8FA6D4223A0811002B0DBB /* HMPickerCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerCommonCell.m; sourceTree = "<group>"; };
+		7B8FA6D6223A0811002B0DBB /* HMPickerSingleComponentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPickerSingleComponentCell.xib; sourceTree = "<group>"; };
+		7B8FA6D7223A0811002B0DBB /* HMPickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerViewCell.h; sourceTree = "<group>"; };
+		7B8FA6D8223A0811002B0DBB /* HMPickerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMPickerViewCell.xib; sourceTree = "<group>"; };
+		7B8FA6DE223A0811002B0DBB /* HMPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerView.m; sourceTree = "<group>"; };
+		7B8FA6DF223A0811002B0DBB /* DjuPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DjuPickerView.h; sourceTree = "<group>"; };
+		7B8FA6E0223A0811002B0DBB /* HMUIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUIPickerView.h; sourceTree = "<group>"; };
+		7B8FA6E1223A0811002B0DBB /* HMDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDatePicker.h; sourceTree = "<group>"; };
+		7B8FA703223A436F002B0DBB /* HMPickerDataSourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerDataSourceController.h; sourceTree = "<group>"; };
+		7B8FA704223A436F002B0DBB /* HMPickerDataSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerDataSourceController.m; sourceTree = "<group>"; };
+		7B8FA705223A436F002B0DBB /* HMPickerDataSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPickerDataSourceModel.h; sourceTree = "<group>"; };
+		7B8FA706223A436F002B0DBB /* HMPickerDataSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPickerDataSourceModel.m; sourceTree = "<group>"; };
+		7B8FA70C223A5B76002B0DBB /* HMCategory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HMCategory.framework; path = Carthage/Build/iOS/HMCategory.framework; sourceTree = "<group>"; };
+		B520DE0FE77A1AA50CC69438 /* libPods-HMUIComponentsSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMUIComponentsSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F71BDE9321CA285700493AB8 /* Frameworks */ = {
+		7B4B844221C7C57700D4B850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC6480F73C531D9A568F59D /* libPods-HMUIComponentsSDK.a in Frameworks */,
+				7B8FA70D223A5B76002B0DBB /* HMCategory.framework in Frameworks */,
+				2FF9278EC717E107A9ECC972 /* libPods-HMUIComponentsSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A2504F93E9F3A23DF50214A /* Frameworks */ = {
+		1EE8692A04F9B1C261B78E41 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33AA3D75307F5B046F953A5D /* libPods-HMUIComponentsSDK.a */,
+				35DC5E4938242BD0D286B456 /* Pods-HMUIComponentsSDK.debug.xcconfig */,
+				6CA900148DD3EBE0EA73D9E1 /* Pods-HMUIComponentsSDK.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		112C6E7D3C842973B46BE6A3 /* Pods */ = {
+		7B4B843B21C7C57700D4B850 = {
 			isa = PBXGroup;
 			children = (
-				BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */,
-				70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F71BDE8C21CA285700493AB8 = {
-			isa = PBXGroup;
-			children = (
-				F71BDE9821CA285700493AB8 /* HMUIComponentsSDK */,
-				F71BDE9721CA285700493AB8 /* Products */,
-				112C6E7D3C842973B46BE6A3 /* Pods */,
-				0A2504F93E9F3A23DF50214A /* Frameworks */,
+				7B4B844721C7C57700D4B850 /* HMUIComponentsSDK */,
+				7B4B844621C7C57700D4B850 /* Products */,
+				1EE8692A04F9B1C261B78E41 /* Pods */,
+				BF084D6F7F0FFECFE3E1AA82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F71BDE9721CA285700493AB8 /* Products */ = {
+		7B4B844621C7C57700D4B850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */,
+				7B4B844521C7C57700D4B850 /* HMUIComponentsSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F71BDE9821CA285700493AB8 /* HMUIComponentsSDK */ = {
+		7B4B844721C7C57700D4B850 /* HMUIComponentsSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEA421CA28B300493AB8 /* Category */,
-				F71BDEA121CA28B300493AB8 /* DesignTools */,
-				F71BDE9921CA285700493AB8 /* HMUIComponentsSDK.h */,
-				F71BDE9A21CA285700493AB8 /* Info.plist */,
+				7B8FA6BC223A0811002B0DBB /* HMPickerView */,
+				7B4B845021C7C5A400D4B850 /* Category */,
+				7B4B847021C7C5A400D4B850 /* DesignTools */,
+				7B4B844821C7C57800D4B850 /* HMUIComponentsSDK.h */,
+				7B4B844921C7C57800D4B850 /* Info.plist */,
 			);
 			path = HMUIComponentsSDK;
 			sourceTree = "<group>";
 		};
-		F71BDEA121CA28B300493AB8 /* DesignTools */ = {
+		7B4B845021C7C5A400D4B850 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEA221CA28B300493AB8 /* HMDesignTools.h */,
-				F71BDEA321CA28B300493AB8 /* HMDesignTools.m */,
-			);
-			path = DesignTools;
-			sourceTree = "<group>";
-		};
-		F71BDEA421CA28B300493AB8 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				F71BDEA521CA28B300493AB8 /* UIImage */,
-				F71BDEA821CA28B300493AB8 /* NSDictionary */,
-				F71BDEAB21CA28B300493AB8 /* UIColor */,
-				F71BDEAE21CA28B300493AB8 /* UIView */,
-				F71BDEB721CA28B300493AB8 /* NSString */,
-				F71BDEBC21CA28B300493AB8 /* UIControl */,
-				F71BDEBF21CA28B300493AB8 /* NSAttributedString */,
+				7B4B845121C7C5A400D4B850 /* UIImage */,
+				7B4B845421C7C5A400D4B850 /* NSDictionary */,
+				7B4B845721C7C5A400D4B850 /* UIColor */,
+				7B4B845A21C7C5A400D4B850 /* UIView */,
+				7B4B846321C7C5A400D4B850 /* NSString */,
+				7B4B846821C7C5A400D4B850 /* UIControl */,
+				7B4B846B21C7C5A400D4B850 /* NSAttributedString */,
 			);
 			path = Category;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		F71BDEA521CA28B300493AB8 /* UIImage */ = {
+		7B4B845121C7C5A400D4B850 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEA621CA28B300493AB8 /* UIImage+HMGradient.m */,
-				F71BDEA721CA28B300493AB8 /* UIImage+HMGradient.h */,
+				7B4B845221C7C5A400D4B850 /* UIImage+HMGradient.m */,
+				7B4B845321C7C5A400D4B850 /* UIImage+HMGradient.h */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
 		};
-		F71BDEA821CA28B300493AB8 /* NSDictionary */ = {
+		7B4B845421C7C5A400D4B850 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEA921CA28B300493AB8 /* NSDictionary+HMAttributes.h */,
-				F71BDEAA21CA28B300493AB8 /* NSDictionary+HMAttributes.m */,
+				7B4B845521C7C5A400D4B850 /* NSDictionary+HMAttributes.h */,
+				7B4B845621C7C5A400D4B850 /* NSDictionary+HMAttributes.m */,
 			);
 			path = NSDictionary;
 			sourceTree = "<group>";
 		};
-		F71BDEAB21CA28B300493AB8 /* UIColor */ = {
+		7B4B845721C7C5A400D4B850 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEAC21CA28B300493AB8 /* UIColor+HMCommonColors.h */,
-				F71BDEAD21CA28B300493AB8 /* UIColor+HMCommonColors.m */,
+				7B4B845821C7C5A400D4B850 /* UIColor+HMCommonColors.h */,
+				7B4B845921C7C5A400D4B850 /* UIColor+HMCommonColors.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
 		};
-		F71BDEAE21CA28B300493AB8 /* UIView */ = {
+		7B4B845A21C7C5A400D4B850 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEAF21CA28B300493AB8 /* UIView+Size.h */,
-				F71BDEB021CA28B300493AB8 /* UIView+Snapshot.m */,
-				F71BDEB121CA28B300493AB8 /* UIView+DesignStyle.h */,
-				F71BDEB221CA28B300493AB8 /* UIView+Subviews.m */,
-				F71BDEB321CA28B300493AB8 /* UIView+DesignStyle.m */,
-				F71BDEB421CA28B300493AB8 /* UIView+Snapshot.h */,
-				F71BDEB521CA28B300493AB8 /* UIView+Size.m */,
-				F71BDEB621CA28B300493AB8 /* UIView+Subviews.h */,
+				7B4B845B21C7C5A400D4B850 /* UIView+Size.h */,
+				7B4B845C21C7C5A400D4B850 /* UIView+Snapshot.m */,
+				7B4B845D21C7C5A400D4B850 /* UIView+DesignStyle.h */,
+				7B4B845E21C7C5A400D4B850 /* UIView+Subviews.m */,
+				7B4B845F21C7C5A400D4B850 /* UIView+DesignStyle.m */,
+				7B4B846021C7C5A400D4B850 /* UIView+Snapshot.h */,
+				7B4B846121C7C5A400D4B850 /* UIView+Size.m */,
+				7B4B846221C7C5A400D4B850 /* UIView+Subviews.h */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
 		};
-		F71BDEB721CA28B300493AB8 /* NSString */ = {
+		7B4B846321C7C5A400D4B850 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEB821CA28B300493AB8 /* NSString+AZQuantityStringBuilder.m */,
-				F71BDEB921CA28B300493AB8 /* NSString+HMStringBuilder.h */,
-				F71BDEBA21CA28B300493AB8 /* NSString+HMStringBuilder.m */,
-				F71BDEBB21CA28B300493AB8 /* NSString+AZQuantityStringBuilder.h */,
+				7B4B846421C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.m */,
+				7B4B846521C7C5A400D4B850 /* NSString+HMStringBuilder.h */,
+				7B4B846621C7C5A400D4B850 /* NSString+HMStringBuilder.m */,
+				7B4B846721C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.h */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
 		};
-		F71BDEBC21CA28B300493AB8 /* UIControl */ = {
+		7B4B846821C7C5A400D4B850 /* UIControl */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEBD21CA28B300493AB8 /* UIControl+HMTargetAndAction.h */,
-				F71BDEBE21CA28B300493AB8 /* UIControl+HMTargetAndAction.m */,
+				7B4B846921C7C5A400D4B850 /* UIControl+HMTargetAndAction.h */,
+				7B4B846A21C7C5A400D4B850 /* UIControl+HMTargetAndAction.m */,
 			);
 			path = UIControl;
 			sourceTree = "<group>";
 		};
-		F71BDEBF21CA28B300493AB8 /* NSAttributedString */ = {
+		7B4B846B21C7C5A400D4B850 /* NSAttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				F71BDEC121CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.h */,
-				F71BDEC321CA28B300493AB8 /* NSAttributedString+HMAttributedStringBuilder.m */,
-				F71BDEC021CA28B300493AB8 /* NSAttributedString+HMUtility.h */,
-				F71BDEC221CA28B300493AB8 /* NSAttributedString+HMUtility.m */,
+				7B4B846C21C7C5A400D4B850 /* NSAttributedString+HMUtility.h */,
+				7B4B846D21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.h */,
+				7B4B846E21C7C5A400D4B850 /* NSAttributedString+HMUtility.m */,
+				7B4B846F21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.m */,
 			);
 			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		7B4B847021C7C5A400D4B850 /* DesignTools */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B847121C7C5A400D4B850 /* HMDesignTools.h */,
+				7B4B847221C7C5A400D4B850 /* HMDesignTools.m */,
+			);
+			path = DesignTools;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B8FA6BC223A0811002B0DBB /* HMPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA6C0223A0811002B0DBB /* Category */,
+				7B8FA6D0223A0811002B0DBB /* Cell */,
+				7B8FA6C5223A0811002B0DBB /* ColumnView */,
+				7B8FA6DF223A0811002B0DBB /* DjuPickerView.h */,
+				7B8FA6BE223A0811002B0DBB /* DjuPickerView.m */,
+				7B8FA6E1223A0811002B0DBB /* HMDatePicker.h */,
+				7B8FA6CF223A0811002B0DBB /* HMDatePicker.m */,
+				7B8FA6BF223A0811002B0DBB /* HMPickerView.h */,
+				7B8FA6DE223A0811002B0DBB /* HMPickerView.m */,
+				7B8FA6CC223A0811002B0DBB /* HMPickerView.xib */,
+				7B8FA6D7223A0811002B0DBB /* HMPickerViewCell.h */,
+				7B8FA6BD223A0811002B0DBB /* HMPickerViewCell.m */,
+				7B8FA6D8223A0811002B0DBB /* HMPickerViewCell.xib */,
+				7B8FA6E0223A0811002B0DBB /* HMUIPickerView.h */,
+				7B8FA6CD223A0811002B0DBB /* HMUIPickerView.m */,
+				7B8FA6CE223A0811002B0DBB /* HMUIPickerViewCell.xib */,
+				7B8FA6D9223A0811002B0DBB /* PickerDataSourceController */,
+			);
+			path = HMPickerView;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B8FA6C0223A0811002B0DBB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA6C1223A0811002B0DBB /* NSDictionary+HMPickerAttributes.m */,
+				7B8FA6C2223A0811002B0DBB /* UIColor+HMPickerDesignColors.m */,
+				7B8FA6C3223A0811002B0DBB /* UIColor+HMPickerDesignColors.h */,
+				7B8FA6C4223A0811002B0DBB /* NSDictionary+HMPickerAttributes.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7B8FA6C5223A0811002B0DBB /* ColumnView */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA6C6223A0811002B0DBB /* HMActionSheetPickerMultipleColumnView.xib */,
+				7B8FA6C7223A0811002B0DBB /* HMPickerSingleColumnView.xib */,
+				7B8FA6C8223A0811002B0DBB /* HMPickerMultipleColumnView.xib */,
+				7B8FA6C9223A0811002B0DBB /* HMPickerColumnView.m */,
+				7B8FA6CA223A0811002B0DBB /* HMActionSheetPickerSingleColumnView.xib */,
+				7B8FA6CB223A0811002B0DBB /* HMPickerColumnView.h */,
+			);
+			path = ColumnView;
+			sourceTree = "<group>";
+		};
+		7B8FA6D0223A0811002B0DBB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA6D1223A0811002B0DBB /* HMPickerCommonCell.h */,
+				7B8FA6D4223A0811002B0DBB /* HMPickerCommonCell.m */,
+				7B8FA6D6223A0811002B0DBB /* HMPickerSingleComponentCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7B8FA6D9223A0811002B0DBB /* PickerDataSourceController */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA703223A436F002B0DBB /* HMPickerDataSourceController.h */,
+				7B8FA704223A436F002B0DBB /* HMPickerDataSourceController.m */,
+				7B8FA705223A436F002B0DBB /* HMPickerDataSourceModel.h */,
+				7B8FA706223A436F002B0DBB /* HMPickerDataSourceModel.m */,
+			);
+			path = PickerDataSourceController;
+			sourceTree = "<group>";
+		};
+		BF084D6F7F0FFECFE3E1AA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B8FA70C223A5B76002B0DBB /* HMCategory.framework */,
+				B520DE0FE77A1AA50CC69438 /* libPods-HMUIComponentsSDK.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F71BDE9121CA285700493AB8 /* Headers */ = {
+		7B4B844021C7C57700D4B850 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71BDECC21CA28B400493AB8 /* UIView+Size.h in Headers */,
-				F71BDE9B21CA285700493AB8 /* HMUIComponentsSDK.h in Headers */,
-				F71BDEDB21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */,
-				F71BDECE21CA28B400493AB8 /* UIView+DesignStyle.h in Headers */,
-				F71BDED121CA28B400493AB8 /* UIView+Snapshot.h in Headers */,
-				F71BDEC721CA28B300493AB8 /* UIImage+HMGradient.h in Headers */,
-				F71BDED721CA28B400493AB8 /* NSString+AZQuantityStringBuilder.h in Headers */,
-				F71BDED821CA28B400493AB8 /* UIControl+HMTargetAndAction.h in Headers */,
-				F71BDEC421CA28B300493AB8 /* HMDesignTools.h in Headers */,
-				F71BDED321CA28B400493AB8 /* UIView+Subviews.h in Headers */,
-				F71BDECA21CA28B400493AB8 /* UIColor+HMCommonColors.h in Headers */,
-				F71BDED521CA28B400493AB8 /* NSString+HMStringBuilder.h in Headers */,
-				F71BDEDA21CA28B400493AB8 /* NSAttributedString+HMUtility.h in Headers */,
-				F71BDEC821CA28B400493AB8 /* NSDictionary+HMAttributes.h in Headers */,
+				7B4B844A21C7C57800D4B850 /* HMUIComponentsSDK.h in Headers */,
+				7B4B847921C7C5A400D4B850 /* UIView+Size.h in Headers */,
+				7B4B847421C7C5A400D4B850 /* UIImage+HMGradient.h in Headers */,
+				7B4B848421C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.h in Headers */,
+				7B4B848721C7C5A400D4B850 /* NSAttributedString+HMUtility.h in Headers */,
+				7B4B848821C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.h in Headers */,
+				7B4B848521C7C5A400D4B850 /* UIControl+HMTargetAndAction.h in Headers */,
+				7B4B848221C7C5A400D4B850 /* NSString+HMStringBuilder.h in Headers */,
+				7B4B848021C7C5A400D4B850 /* UIView+Subviews.h in Headers */,
+				7B4B847B21C7C5A400D4B850 /* UIView+DesignStyle.h in Headers */,
+				7B8FA709223A436F002B0DBB /* HMPickerDataSourceModel.h in Headers */,
+				7B4B847E21C7C5A400D4B850 /* UIView+Snapshot.h in Headers */,
+				7B8FA6E4223A0811002B0DBB /* HMPickerView.h in Headers */,
+				7B8FA6E7223A0811002B0DBB /* UIColor+HMPickerDesignColors.h in Headers */,
+				7B8FA6E8223A0811002B0DBB /* NSDictionary+HMPickerAttributes.h in Headers */,
+				7B8FA6EE223A0811002B0DBB /* HMPickerColumnView.h in Headers */,
+				7B8FA6F3223A0811002B0DBB /* HMPickerCommonCell.h in Headers */,
+				7B8FA6F9223A0811002B0DBB /* HMPickerViewCell.h in Headers */,
+				7B8FA700223A0811002B0DBB /* DjuPickerView.h in Headers */,
+				7B8FA701223A0811002B0DBB /* HMUIPickerView.h in Headers */,
+				7B8FA702223A0811002B0DBB /* HMDatePicker.h in Headers */,
+				7B4B847721C7C5A400D4B850 /* UIColor+HMCommonColors.h in Headers */,
+				7B4B847521C7C5A400D4B850 /* NSDictionary+HMAttributes.h in Headers */,
+				7B8FA707223A436F002B0DBB /* HMPickerDataSourceController.h in Headers */,
+				7B4B848B21C7C5A400D4B850 /* HMDesignTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F71BDE9521CA285700493AB8 /* HMUIComponentsSDK */ = {
+		7B4B844421C7C57700D4B850 /* HMUIComponentsSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71BDE9E21CA285700493AB8 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */;
+			buildConfigurationList = 7B4B844D21C7C57800D4B850 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */;
 			buildPhases = (
-				1D4EE4CD7CA750D23D6D6FA4 /* [CP] Check Pods Manifest.lock */,
-				F71BDE9121CA285700493AB8 /* Headers */,
-				F71BDE9221CA285700493AB8 /* Sources */,
-				F71BDE9321CA285700493AB8 /* Frameworks */,
-				F71BDE9421CA285700493AB8 /* Resources */,
-				FABBA0CD593DE31A9FC1D9E9 /* [CP] Copy Pods Resources */,
+				A35633DDD8BB30B4B494359C /* [CP] Check Pods Manifest.lock */,
+				7B4B844021C7C57700D4B850 /* Headers */,
+				7B4B844121C7C57700D4B850 /* Sources */,
+				7B4B844221C7C57700D4B850 /* Frameworks */,
+				7B4B844321C7C57700D4B850 /* Resources */,
+				B92A2CC61A98FD9919D74920 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,65 +415,69 @@
 			);
 			name = HMUIComponentsSDK;
 			productName = HMUIComponentsSDK;
-			productReference = F71BDE9621CA285700493AB8 /* HMUIComponentsSDK.framework */;
+			productReference = 7B4B844521C7C57700D4B850 /* HMUIComponentsSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F71BDE8D21CA285700493AB8 /* Project object */ = {
+		7B4B843C21C7C57700D4B850 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "童星";
+				ORGANIZATIONNAME = dingdaojun;
 				TargetAttributes = {
-					F71BDE9521CA285700493AB8 = {
+					7B4B844421C7C57700D4B850 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = F71BDE9021CA285700493AB8 /* Build configuration list for PBXProject "HMUIComponentsSDK" */;
+			buildConfigurationList = 7B4B843F21C7C57700D4B850 /* Build configuration list for PBXProject "HMUIComponentsSDK" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F71BDE8C21CA285700493AB8;
-			productRefGroup = F71BDE9721CA285700493AB8 /* Products */;
+			mainGroup = 7B4B843B21C7C57700D4B850;
+			productRefGroup = 7B4B844621C7C57700D4B850 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F71BDE9521CA285700493AB8 /* HMUIComponentsSDK */,
+				7B4B844421C7C57700D4B850 /* HMUIComponentsSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F71BDE9421CA285700493AB8 /* Resources */ = {
+		7B4B844321C7C57700D4B850 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8FA6EB223A0811002B0DBB /* HMPickerMultipleColumnView.xib in Resources */,
+				7B8FA6F1223A0811002B0DBB /* HMUIPickerViewCell.xib in Resources */,
+				7B8FA6FA223A0811002B0DBB /* HMPickerViewCell.xib in Resources */,
+				7B8FA6ED223A0811002B0DBB /* HMActionSheetPickerSingleColumnView.xib in Resources */,
+				7B8FA6EF223A0811002B0DBB /* HMPickerView.xib in Resources */,
+				7B8FA6E9223A0811002B0DBB /* HMActionSheetPickerMultipleColumnView.xib in Resources */,
+				7B8FA6F8223A0811002B0DBB /* HMPickerSingleComponentCell.xib in Resources */,
+				7B8FA6EA223A0811002B0DBB /* HMPickerSingleColumnView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D4EE4CD7CA750D23D6D6FA4 /* [CP] Check Pods Manifest.lock */ = {
+		A35633DDD8BB30B4B494359C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-HMUIComponentsSDK-checkManifestLockResult.txt",
 			);
@@ -337,55 +486,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FABBA0CD593DE31A9FC1D9E9 /* [CP] Copy Pods Resources */ = {
+		B92A2CC61A98FD9919D74920 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh",
 				"${PODS_ROOT}/AZQuantity/AZQuantity/resources/AZQuantityConfigurator.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AZQuantityConfigurator.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HMUIComponentsSDK/Pods-HMUIComponentsSDK-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F71BDE9221CA285700493AB8 /* Sources */ = {
+		7B4B844121C7C57700D4B850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71BDECF21CA28B400493AB8 /* UIView+Subviews.m in Sources */,
-				F71BDEC621CA28B300493AB8 /* UIImage+HMGradient.m in Sources */,
-				F71BDEC521CA28B300493AB8 /* HMDesignTools.m in Sources */,
-				F71BDED621CA28B400493AB8 /* NSString+HMStringBuilder.m in Sources */,
-				F71BDECD21CA28B400493AB8 /* UIView+Snapshot.m in Sources */,
-				F71BDEDC21CA28B400493AB8 /* NSAttributedString+HMUtility.m in Sources */,
-				F71BDEC921CA28B400493AB8 /* NSDictionary+HMAttributes.m in Sources */,
-				F71BDED921CA28B400493AB8 /* UIControl+HMTargetAndAction.m in Sources */,
-				F71BDECB21CA28B400493AB8 /* UIColor+HMCommonColors.m in Sources */,
-				F71BDED021CA28B400493AB8 /* UIView+DesignStyle.m in Sources */,
-				F71BDEDD21CA28B400493AB8 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */,
-				F71BDED421CA28B400493AB8 /* NSString+AZQuantityStringBuilder.m in Sources */,
-				F71BDED221CA28B400493AB8 /* UIView+Size.m in Sources */,
+				7B4B848121C7C5A400D4B850 /* NSString+AZQuantityStringBuilder.m in Sources */,
+				7B4B848321C7C5A400D4B850 /* NSString+HMStringBuilder.m in Sources */,
+				7B4B848921C7C5A400D4B850 /* NSAttributedString+HMUtility.m in Sources */,
+				7B8FA70A223A436F002B0DBB /* HMPickerDataSourceModel.m in Sources */,
+				7B4B847F21C7C5A400D4B850 /* UIView+Size.m in Sources */,
+				7B4B848C21C7C5A400D4B850 /* HMDesignTools.m in Sources */,
+				7B8FA6E2223A0811002B0DBB /* HMPickerViewCell.m in Sources */,
+				7B8FA6E3223A0811002B0DBB /* DjuPickerView.m in Sources */,
+				7B8FA6E5223A0811002B0DBB /* NSDictionary+HMPickerAttributes.m in Sources */,
+				7B8FA6E6223A0811002B0DBB /* UIColor+HMPickerDesignColors.m in Sources */,
+				7B8FA6EC223A0811002B0DBB /* HMPickerColumnView.m in Sources */,
+				7B8FA708223A436F002B0DBB /* HMPickerDataSourceController.m in Sources */,
+				7B8FA6F0223A0811002B0DBB /* HMUIPickerView.m in Sources */,
+				7B8FA6F2223A0811002B0DBB /* HMDatePicker.m in Sources */,
+				7B8FA6F6223A0811002B0DBB /* HMPickerCommonCell.m in Sources */,
+				7B8FA6FF223A0811002B0DBB /* HMPickerView.m in Sources */,
+				7B4B848A21C7C5A400D4B850 /* NSAttributedString+HMAttributedStringBuilder.m in Sources */,
+				7B4B847A21C7C5A400D4B850 /* UIView+Snapshot.m in Sources */,
+				7B4B847621C7C5A400D4B850 /* NSDictionary+HMAttributes.m in Sources */,
+				7B4B848621C7C5A400D4B850 /* UIControl+HMTargetAndAction.m in Sources */,
+				7B4B847321C7C5A400D4B850 /* UIImage+HMGradient.m in Sources */,
+				7B4B847C21C7C5A400D4B850 /* UIView+Subviews.m in Sources */,
+				7B4B847D21C7C5A400D4B850 /* UIView+DesignStyle.m in Sources */,
+				7B4B847821C7C5A400D4B850 /* UIColor+HMCommonColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F71BDE9C21CA285700493AB8 /* Debug */ = {
+		7B4B844B21C7C57800D4B850 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +593,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -447,7 +603,7 @@
 			};
 			name = Debug;
 		};
-		F71BDE9D21CA285700493AB8 /* Release */ = {
+		7B4B844C21C7C57800D4B850 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -493,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -503,9 +659,9 @@
 			};
 			name = Release;
 		};
-		F71BDE9F21CA285700493AB8 /* Debug */ = {
+		7B4B844E21C7C57800D4B850 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC686A7B0C05A96578125756 /* Pods-HMUIComponentsSDK.debug.xcconfig */;
+			baseConfigurationReference = 35DC5E4938242BD0D286B456 /* Pods-HMUIComponentsSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,18 +669,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = HMUIComponentsSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.HMUIComponentsSDK;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AZQuantity\"",
+					"-framework",
+					"\"HealthKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HM.HMUIComponentsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,9 +696,9 @@
 			};
 			name = Debug;
 		};
-		F71BDEA021CA285700493AB8 /* Release */ = {
+		7B4B844F21C7C57800D4B850 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70ECC2765229A7CBDC98DEBF /* Pods-HMUIComponentsSDK.release.xcconfig */;
+			baseConfigurationReference = 6CA900148DD3EBE0EA73D9E1 /* Pods-HMUIComponentsSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -542,18 +706,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/iOS";
 				INFOPLIST_FILE = HMUIComponentsSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tongxing.HMUIComponentsSDK;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AZQuantity\"",
+					"-framework",
+					"\"HealthKit\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HM.HMUIComponentsSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -564,25 +736,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F71BDE9021CA285700493AB8 /* Build configuration list for PBXProject "HMUIComponentsSDK" */ = {
+		7B4B843F21C7C57700D4B850 /* Build configuration list for PBXProject "HMUIComponentsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F71BDE9C21CA285700493AB8 /* Debug */,
-				F71BDE9D21CA285700493AB8 /* Release */,
+				7B4B844B21C7C57800D4B850 /* Debug */,
+				7B4B844C21C7C57800D4B850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71BDE9E21CA285700493AB8 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */ = {
+		7B4B844D21C7C57800D4B850 /* Build configuration list for PBXNativeTarget "HMUIComponentsSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F71BDE9F21CA285700493AB8 /* Debug */,
-				F71BDEA021CA285700493AB8 /* Release */,
+				7B4B844E21C7C57800D4B850 /* Debug */,
+				7B4B844F21C7C57800D4B850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F71BDE8D21CA285700493AB8 /* Project object */;
+	rootObject = 7B4B843C21C7C57700D4B850 /* Project object */;
 }

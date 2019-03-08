@@ -1,0 +1,1 @@
+../../../HMAccountSDK/HMAccountSDK/HMAccountCore/HMAccountConfig.h

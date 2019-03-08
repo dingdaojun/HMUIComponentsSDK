@@ -1,0 +1,6 @@
+framework module HMDBFirmwareUpgrade {
+  umbrella header "HMDBFirmwareUpgrade-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+curl -X GET --header 'Accept: application/json' --header 'Authorization: Basic bWlkb25neXVueWluZzo3MjUwYjgyZi1mNzAxLTQ0YzItODg1YS0zMTY5ZmNkMDBiZjc=' 'https://api-analytics-test.huami.com/api/v2/data/loginfo?end_timestamp=1530690079&uid=C4F73E72-FE46-4E8A-9E64-B471BDDE1B6A'
